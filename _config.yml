@@ -1,7 +1,7 @@
 title:             "Accesso unico beta - Regione Umbria"
 description:       "Sito tematico della Regione Umbria"
 baseurl:           "/"
-url:               "https://regione-umbria.github.io/access-unico/"
+url:               "https://regione-umbria.github.io/accesso-unico/"
 author:            "Redazione"
 
 personalizza_css: true
