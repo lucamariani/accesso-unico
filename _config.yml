@@ -1,7 +1,7 @@
-title:             "Agenda digitale dell'Umbria - Regione Umbria"
+title:             "Accesso unico beta - Regione Umbria"
 description:       "Sito tematico della Regione Umbria"
 baseurl:           "/"
-url:               "https://regione-umbria.github.io/adumbria/"
+url:               "https://regione-umbria.github.io/access-unico/"
 author:            "Redazione"
 
 personalizza_css: true
@@ -11,7 +11,7 @@ header_parent_title: Regione Umbria
 header_parent_url: "https://www.regione.umbria.it"
 header_language_selector: false
 header_logo: /assets/images/LogoRegione85x96.svg
-header_title: Agenda digitale dell'Ubria
+header_title: Accesso unico beta
 header_subtitle: Sito tematico della Regione Umbria
 search: true
 search_full_content: false
@@ -19,19 +19,19 @@ mega_menu: true    # if true, require _data/menu.yml
 mega_menu_accedi: false
 
 # Social profiles
-social_block: true
+social_block: false
 social_username: "&commat;AdUmbria"    # short
 medium_username: AdUmbria
 facebook_username: AdUmbria
 twitter_username:  AdUmbria
-youtube_username: AdUmbria
+youtube_username: 
 linkedin_username:
 github_username: Regione-Umbria
 
 # Footer data
 footer_logo: /assets/images/LogoRegioneWhite.png
 footer_title: Regione Umbria
-footer_subtitle: Sito tematico dedicato all'Agenda digitale
+footer_subtitle: Sito tematico dedicato all'Accesso unico
 recapiti1: Recapiti
 recapiti2: Corso Vannucci, 96 
 recapiti3: 06121 Perugia
