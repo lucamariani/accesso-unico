@@ -1,0 +1,50 @@
+---
+layout: page
+title: Posts Archive
+titles_color: white
+background: '/img/bg-post.jpg'
+---
+
+<!-- List of posts -->
+{% for post in paginator.posts %}
+
+  <article class="post-preview">
+    <a class="u-text-h2 u-textClean u-color-black" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+      <h2 class="u-text-h2 u-textClean u-color-black">{{ post.title }}</h2>
+      {% if post.subtitle %}
+        <h3 class="u-text-h3 u-textClean u-color-black">{{ post.subtitle }}</h3>
+      {% else %}
+        <p class="u-text-h5 u-textClean u-color-black">{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
+      {% endif %}
+    </a>
+    <p class="post-meta">Autore:
+      {% if post.author %}
+        {{ post.author }} &nbsp;
+      {% else %}
+        {{ site.author }} &nbsp;
+      {% endif %}
+      Data: {{ post.date | date: '%B %d, %Y' }}</p>
+  </article>
+
+  <hr>
+
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+
+      <div class="Grid-cell u-sizeFull">
+        <br>
+
+        {% if paginator.previous_page %}
+          <a class="Button Button--default u-text-r-xxs" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer<span class="d-none d-md-inline"> Posts</span></a>
+        {% endif %}
+
+        {% if paginator.next_page %}
+          <a class="Button Button--default u-text-r-xxs" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+        {% endif %}
+
+        <br>
+      </div>
+
+{% endif %}

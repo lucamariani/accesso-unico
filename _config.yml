@@ -1,0 +1,91 @@
+title:             "Agenda digitale dell'Umbria - Regione Umbria"
+description:       "Sito tematico della Regione Umbria"
+baseurl:           "/"
+url:               "https://regione-umbria.github.io/adumbria/"
+author:            "Redazione"
+
+personalizza_css: true
+
+# Header data
+header_parent_title: Regione Umbria
+header_parent_url: "https://www.regione.umbria.it"
+header_language_selector: false
+header_logo: /assets/images/LogoRegione85x96.svg
+header_title: Agenda digitale dell'Ubria
+header_subtitle: Sito tematico della Regione Umbria
+search: true
+search_full_content: false
+mega_menu: true    # if true, require _data/menu.yml
+mega_menu_accedi: false
+
+# Social profiles
+social_block: true
+social_username: "&commat;AdUmbria"    # short
+medium_username: AdUmbria
+facebook_username: AdUmbria
+twitter_username:  AdUmbria
+youtube_username: AdUmbria
+linkedin_username:
+github_username: Regione-Umbria
+
+# Footer data
+footer_logo: /assets/images/LogoRegioneWhite.png
+footer_title: Regione Umbria
+footer_subtitle: Sito tematico dedicato all'Agenda digitale
+recapiti1: Recapiti
+recapiti2: Corso Vannucci, 96 
+recapiti3: 06121 Perugia
+recapiti4: Tel. (+39) 075.504.1
+email: infogiunta@regione.umbria.it
+pec: regione.giunta@postacert.umbria.it 
+privacy_url: http://www.regione.umbria.it/privacy-policy
+note_legali_url: http://www.regione.umbria.it/note-legali
+contatti_url: "contatti"
+
+# Home sections
+links_buttons: true
+links_buttons_title:
+posts_list: true
+posts_list_title: Autem reiciendis post
+section_lists: true
+section_lists_title: Dignissimos recusandae landing
+twitter_list: true
+twitter_list_title: Twitter@amministrazione
+links_leads: true
+links_leads_title: A est rerum leads
+
+# Build settings
+# permalink: /:categories/:title/
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"#
+locale: "it-IT"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+defaults:
+# _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      toc: false
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: false
+      comments: false
+      share: true
+      related: false
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single

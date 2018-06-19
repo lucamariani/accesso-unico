@@ -1,0 +1,36 @@
+---
+layout: page
+title: Contatti
+subtitle: Scriveteci per informazioni
+background: '/img/bg-contact.jpg'
+form: true
+---
+
+<p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
+
+<br>
+
+<form class="Form Form--spaced u-padding-all-xl u-background-grey-10 u-text-r-xs u-layout-prose">
+  <div class="Prose Alert Alert--info">
+      <p>Tutti i campi sono richiesti salvo dove espressamente indicato</p>
+  </div>
+
+  <div class="Form-field">
+    <label class="Form-label is-required" for="name">Name</label>
+    <input type="text" class="Form-input" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+  </div>
+  <div class="Form-field">
+      <label class="Form-label" for="email">Email Address</label>
+      <input type="email" class="Form-input" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+  </div>
+  <div class="Form-field Grid-cell u-size4of4">
+    <div class="form-group floating-label-form-group controls">
+      <label class="Form-label" for="message">Message</label>
+      <textarea rows="5" class="Form-input Form-textarea" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+    </div>
+  </div>
+
+  <div class="Form-field Grid-cell u-textRight">
+      <button type="button" class="Button Button--default u-text-xs">Invia</button>
+  </div>
+</form>
