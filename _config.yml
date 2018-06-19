@@ -19,11 +19,11 @@ mega_menu: true    # if true, require _data/menu.yml
 mega_menu_accedi: false
 
 # Social profiles
-social_block: false
-social_username: "&commat;AdUmbria"    # short
-medium_username: AdUmbria
-facebook_username: AdUmbria
-twitter_username:  AdUmbria
+social_block: true
+social_username: "&commat;RegioneUmbria"    # short
+medium_username: 
+facebook_username: RegioneUmbria
+twitter_username:  RegioneUmbria
 youtube_username: 
 linkedin_username:
 github_username: Regione-Umbria
