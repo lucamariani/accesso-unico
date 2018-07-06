@@ -4,7 +4,7 @@ baseurl:           "/"
 url:               "https://regione-umbria.github.io/accesso-unico/"
 author:            "Redazione"
 
-personalizza_css: true
+personalizza_css: false
 
 # Header data
 header_parent_title: Regione Umbria
@@ -21,10 +21,10 @@ mega_menu_accedi: false
 # Social profiles
 social_block: true
 social_username: "&commat;RegioneUmbria"    # short
-medium_username: 
+medium_username:
 facebook_username: RegioneUmbria
 twitter_username:  RegioneUmbria
-youtube_username: 
+youtube_username:
 linkedin_username:
 github_username: Regione-Umbria
 
@@ -33,11 +33,11 @@ footer_logo: /assets/images/LogoRegioneWhite.png
 footer_title: Regione Umbria
 footer_subtitle: Sito tematico dedicato all'Accesso unico
 recapiti1: Recapiti
-recapiti2: Corso Vannucci, 96 
+recapiti2: Corso Vannucci, 96
 recapiti3: 06121 Perugia
 recapiti4: Tel. (+39) 075.504.1
 email: infogiunta@regione.umbria.it
-pec: regione.giunta@postacert.umbria.it 
+pec: regione.giunta@postacert.umbria.it
 privacy_url: http://www.regione.umbria.it/privacy-policy
 note_legali_url: http://www.regione.umbria.it/note-legali
 contatti_url: "contatti"
