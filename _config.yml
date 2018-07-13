@@ -4,7 +4,7 @@ baseurl:           "/"
 url:               "https://lucamariani.github.io/accesso-unico/"
 author:            "Redazione"
 
-personalizza_css: false
+custom_css: true
 
 # Header data
 header_parent_title: Regione Umbria
@@ -43,15 +43,15 @@ note_legali_url: http://www.regione.umbria.it/note-legali
 contatti_url: "contatti"
 
 # Home sections
-links_buttons: true
+links_buttons:
 links_buttons_title:
-posts_list: true
 posts_list_title: Autem reiciendis post
-section_lists: true
+posts_list:
+section_lists:
 section_lists_title: Dignissimos recusandae landing
-twitter_list: true
+twitter_list: 
 twitter_list_title: Twitter@amministrazione
-links_leads: true
+links_leads:
 links_leads_title: A est rerum leads
 
 # Build settings
