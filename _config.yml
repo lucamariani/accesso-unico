@@ -49,7 +49,7 @@ posts_list_title: Autem reiciendis post
 posts_list:
 section_lists:
 section_lists_title: Dignissimos recusandae landing
-twitter_list: 
+twitter_list:
 twitter_list_title: Twitter@amministrazione
 links_leads:
 links_leads_title: A est rerum leads
@@ -63,6 +63,11 @@ locale: "it-IT"
 plugins:
   - jekyll-feed
   - jekyll-paginate
+
+collections:
+   pages:
+     output: true
+     permalink: /:path/
 
 defaults:
 # _pages

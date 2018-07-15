@@ -1,6 +1,8 @@
-- title: "A est rerum"
+- title: "Cittadini e imprese"
   url: /collection-archive/
   dropdown:
+  - title: "TEST ACCORDION"
+    url: accordion
   - title: "AUTEM REICIENDIS"
     url: informazioni
   - title: "BLANDIS SOLUTA EXERCITATIONEM"
