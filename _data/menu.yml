@@ -2,56 +2,56 @@
   url: /collection-archive/
   dropdown:
   - title: "TEST ACCORDION"
-    url: accordion
+    url: /accordion
   - title: "AUTEM REICIENDIS"
-    url: informazioni
+    url: /informazioni
   - title: "BLANDIS SOLUTA EXERCITATIONEM"
-    url: contatti
+    url: /contatti
   - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
-    url: posts
+    url: /posts
     dropdown:
       - title: "Laboriosam porro dolor"
-        url: categories
+        url: /categories
       - title: "Sed et velit"
-        url: tags
+        url: /tags
       - title: Autem quae numquam
-        url: page-archive
+        url: /page-archive
       - title: "Nulla quibusdam necessitatibus"
-        url: other-archive
+        url: /other-archive
 
-- title: "Voluptatibus esse corporis"
-  url: posts
+- title: "Professionisti"
+  url: /posts
   dropdown:
   - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
-    url: posts
+    url: /posts
 
   - title: "AUTEM REICIENDIS MAIORES"
-    url: categories
+    url: /categories
     dropdown:
       - title: Autem quae numquam
-        url: categories
+        url: /categories
       - title: "Sed et velit"
-        url: categories
+        url: /categories
         dropdown:
           - title: "Sub rem similique expedita"
-            url: posts
+            url: /posts
           - title: "Sub autem reciciendis maiores"
-            url: posts
+            url: /posts
       - title: "Laboriosam porro dolor"
-        url: categories
+        url: /categories
 
   - title: "NULLA QUIBUSDAM NECESSITATIBUS"
-    url: tags
+    url: /tags
 
   - title: "VOLUPTATIBUS ESSE CORPORIS"
-    url: tags
+    url: /tags
     dropdown:
       - title: "Rem similique expedita"
-        url: posts
+        url: /posts
       - title: "Autem reciciendis maiores"
-        url: posts
+        url: /posts
       - title: Autem quae numquam
-        url: posts
+        url: /posts
 
-- title: "Reiciendis maiores"
-  url: categories
+- title: "Pubbliche Amministrazioni"
+  url: /categories

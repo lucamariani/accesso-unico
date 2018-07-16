@@ -17,7 +17,7 @@ layout: home
     </div>
 
     <div class="Grid-cell u-sizeFull u-md-size1of2 u-lg-size1of2 u-text-r-s u-padding-r-all">
-      <div class="u-text-r-s u-layout-prose">
+      <!--<div class="u-text-r-s u-layout-prose">
         <p class="u-textSecondary u-lineHeight-l">
           Lo scopo di Accesso Unico è quello di fornire <span class="u-textWeight-700">informazioni e strumenti utili</span> per conoscere e gestire le vostre pratiche.
           È anche un <span class="u-textWeight-700">luogo di confronto diretto</span> con la
@@ -25,16 +25,27 @@ layout: home
           <span class="u-textWeight-700">Siamo in fase Beta</span>, questo vuol dire che, al momento, sono disponibili solo alcune delle sue funzionalità per cittadini e imprese, professionisti intermediari e Pubbliche amministrazioni.
           <br><a href="#" class="u-textWeight-700">Per saperne di più ></a>
         </p>
-      </div>
+      </div>-->
+      {% include search_form_home.html %}
     </div>
 
   </section>
+
+  <div class="u-text-r-s u-layout-wide u-padding-r-bottom">
+    <p class="u-textSecondary u-lineHeight-l">
+      Lo scopo di Accesso Unico è quello di fornire <span class="u-textWeight-700">informazioni e strumenti utili</span> per conoscere e gestire le vostre pratiche.
+      È anche un <span class="u-textWeight-700">luogo di confronto diretto</span> con la
+      <span class="u-textWeight-700">Pubblica Amministrazione umbra</span>, dove la tua opinione e il tuo contributo è importante.
+      <span class="u-textWeight-700">Siamo in fase Beta</span>, questo vuol dire che, al momento, sono disponibili solo alcune delle sue funzionalità per cittadini e imprese, professionisti intermediari e Pubbliche amministrazioni.
+      <br><a href="#" class="u-textWeight-700">Per saperne di più &gt;</a>
+    </p>
+  </div>
 
   <!-- Citizens section-->
   <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
     <h1 class="u-text-h2 u-color-grey-40">Cittadini e imprese</h1>
     <div class="Grid Grid--withGutter">
-      <div class="Grid-cell u-size1of2 u-padding-r-all">
+      <div class="Grid-cell u-size1of2">
         <img src="assets/images/citizen.jpg" class="u-imgResponsive" alt="cittadini" />
       </div>
       <div class="Grid-cell u-size1of2 u-padding-r-all">
@@ -56,6 +67,21 @@ layout: home
   <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
     <h1 class="u-text-h2 u-color-grey-40">Professionisti intermediari</h1>
     <div class="Grid Grid--withGutter">
+      <div class="Grid-cell u-size1of2">
+        <img src="assets/images/professionist.jpg" class="u-imgResponsive" alt="cittadini" />
+      </div>
+      <div class="Grid-cell u-size1of2 u-padding-r-all">
+        <ul class="Linklist Prose u-text-r-xs">
+          <li><a href="#">Cosa devo fare?</a></li>
+          <li><a href="#">Cosa mi serve?</a></li>
+          <li><a href="#">A chi mi devo rivolgere?</a></li>
+        </ul>
+      </div>
+      <div class="Grid-cell u-padding-r-all">
+        <p class="Prose u-padding-r-top u-padding-r-bottom">
+          Breve testo che spiega i Benefit relativi alle sue domande, con link alle sezioni interessate. In questo caso la parte di schede dettagliate, potremmo inserire qui il cerca o i tre link “demo” e parte di feedback
+        </p>
+      </div>
     </div>
   </section>
 
@@ -63,6 +89,20 @@ layout: home
   <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
     <h1 class="u-text-h2 u-color-grey-40">Pubbliche Amministrazioni</h1>
     <div class="Grid Grid--withGutter">
+      <div class="Grid-cell u-size1of2 u-padding-r-all">
+        <ul class="Linklist Prose u-text-r-xs">
+          <li><a href="#">Cosa devo sapere?</a></li>
+          <li><a href="#">Come collaborare?</a></li>
+        </ul>
+      </div>
+      <div class="Grid-cell u-size1of2">
+        <img src="assets/images/pa.jpg" class="u-imgResponsive" alt="cittadini" />
+      </div>
+      <div class="Grid-cell u-padding-r-all">
+        <p class="Prose u-padding-r-top u-padding-r-bottom">
+          Breve testo che spiega i Benefit relativi alle sue domande, con link alle sezioni interessate. In questo caso la parte di documentale e community
+        </p>
+      </div>
     </div>
   </section>
 

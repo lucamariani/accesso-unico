@@ -1,0 +1,26 @@
+<form class="Form Form--spaced u-padding-all-xl u-text-r-xs" id="search-form">
+  <legend class="Form-legend u-textSecondary">Ciao, come posso aiutarti?</legend>
+
+  <div class="Form-field Form-field--withPlaceholder Grid--withGutter u-background-white u-color-grey-30" role="search">
+    <input data-menu-trigger="projects" class="Form-input Grid-cell u-size3of4 u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs " required id="cerca" autocomplete="off" value="" />
+    <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">cerca nel sito...</label>
+
+        <div id="projects" data-menu class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-sizeFull">
+          <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
+          <ul class="Linklist">
+            {% assign projects = site.data.projects | reverse %} {% for project in projects %}
+            <li><a href="{{ project.url | relative_url }}" class="u-padding-r-all u-textLeft"><span lang="{{ active_lang }}">{{
+              project.title }}</span></a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+      <div class="Form-field Grid-cell u-textRight">
+          <button type="button" class="Button Button--default Button--shadow u-text-m u-background-50 u-color-white">Cerca</button>
+      </div>
+
+    <!--<button class="Grid-cell u-size1of4 u-background-50 u-color-white u-padding-all-s u-textWeight-700" title="cerca" aria-label="cerca">
+      cerca
+    </button>-->
+  </div>
+</form>
