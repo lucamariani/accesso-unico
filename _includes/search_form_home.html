@@ -2,10 +2,10 @@
   <legend class="Form-legend u-textSecondary">Ciao, come posso aiutarti?</legend>
 
   <div class="Form-field Form-field--withPlaceholder Grid--withGutter u-background-white u-color-grey-30" role="search">
-    <input data-menu-trigger="projects" class="Form-input Grid-cell u-size3of4 u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs " required id="cerca" autocomplete="off" value="" />
+    <input data-menu-trigger="home-projects" class="Form-input Grid-cell u-size3of4 u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs " required id="home-cerca" autocomplete="off" value="" />
     <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">cerca nel sito...</label>
 
-        <div id="projects" data-menu class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-sizeFull">
+        <div id="home-projects" data-menu class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-sizeFull">
           <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
           <ul class="Linklist">
             {% assign projects = site.data.projects | reverse %} {% for project in projects %}
