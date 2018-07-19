@@ -1,8 +1,8 @@
 - title: "Cittadini e imprese"
   url: /collection-archive/
   dropdown:
-  - title: "TEST ACCORDION"
-    url: /accordion
+  - title: "Apertura B&B"
+    url: /cittadini/bb
   - title: "AUTEM REICIENDIS"
     url: /informazioni
   - title: "BLANDIS SOLUTA EXERCITATIONEM"
