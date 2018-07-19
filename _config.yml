@@ -65,9 +65,11 @@ plugins:
   - jekyll-paginate
 
 collections:
-   pages:
-     output: true
-     permalink: /:path/
+  pages:
+    output: true
+    permalink: /:path/
+  cittadini:
+    output: true
 
 defaults:
 # _pages
