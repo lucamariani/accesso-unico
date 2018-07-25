@@ -10,7 +10,7 @@ custom_css: true
 header_parent_title: Regione Umbria
 header_parent_url: "https://www.regione.umbria.it"
 header_language_selector: false
-header_logo: /assets/images/LogoRegione85x96.svg
+header_logo:  /assets/images/LogoRegione85x96.svg
 header_title: Accesso unico beta
 header_subtitle: Sito tematico della Regione Umbria
 search: true

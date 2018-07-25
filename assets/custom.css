@@ -4,10 +4,13 @@
 /* otherwise will be used the standard color from "italia design" */
 
 /* change menu colors */
-.t-Pac .Megamenu--default{background-color:#fff;}
-.t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important}
+.t-Pac .Megamenu--default{background-color:#efefef;}
+.t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
+/* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
 
+/* modifica entry menu 4 livello */
+.Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}
 .t-Pac .Header-languages{background-color:#333333;}
