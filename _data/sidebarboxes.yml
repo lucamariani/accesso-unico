@@ -1,0 +1,6 @@
+- name: box1
+  url: url1
+- name: box2
+  url: url2
+- name: box3
+  url: url3

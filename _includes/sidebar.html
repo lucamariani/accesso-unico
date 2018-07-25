@@ -1,0 +1,7 @@
+<h2>Ciao {{ include.profile }}</h2>
+{% for box in include.boxes %}
+  {{ box.name }}
+  {% if box.login_age == "new" %}
+    {{ box.name }}
+  {% endif %}
+{% endfor %}
