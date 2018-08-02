@@ -1,9 +1,9 @@
-titolo: {{ page.profile }} {{ page.object }} site.data.{{page.profile}}
+
 <div id="main-accordion" class="u-layout-wide u-layoutCenter u-padding-r-bottom u-margin-r-bottom">
   <!-- test accordion -->
   <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="accordion-1">
 
-    {% for accordion in site.data.{{page.profile}} %}
+    {% for accordion in site.data.[page.profile] %}
       {% if page.object == accordion.object %}
 
         <h2 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-{{ forloop.index }}">
