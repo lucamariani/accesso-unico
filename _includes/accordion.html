@@ -1,0 +1,26 @@
+titolo: {{ page.profile }} {{ page.object }} site.data.{{page.profile}}
+<div id="main-accordion" class="u-layout-wide u-layoutCenter u-padding-r-bottom u-margin-r-bottom">
+  <!-- test accordion -->
+  <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="accordion-1">
+
+    {% for accordion in site.data.{{page.profile}} %}
+      {% if page.object == accordion.object %}
+
+        <h2 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-{{ forloop.index }}">
+          <span class="Accordion-link">{{ accordion.title }}</span>
+        </h2>
+
+        <div id="accordion-panel-{{ forloop.index }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
+          <div class="u-layout-prose u-color-grey-90 u-text-p u-padding-r-all" markdown="1">
+
+            {% capture accordion-content %}{% include {{page.object}}/{{ accordion.description }} %}{% endcapture %}
+            {{ accordion-content | markdownify }}
+
+          </div>
+        </div>
+
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</div>

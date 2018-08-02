@@ -68,7 +68,7 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  cittadini:
+  schede:
     output: true
 
 defaults:
