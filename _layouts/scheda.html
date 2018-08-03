@@ -41,9 +41,9 @@ layout: default
       <!-- Sidebar -->
       <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
 
-        <h4>trying to include sidebar.html boxes=sites.data.sidebarboxes profile='{{ page.profile }}'</h4>
-        {% capture theprofile %}{{ page.profile }}{% endcapture %}
-        {% include sidebar.html profile=theprofile boxes=site.data.sidebarboxes %}
+        <h4>boxes=sites.data.sidebarboxes utenza='{{ page.utenza }}'</h4>
+        {% capture theprofile %}{{ page.utenza }}{% endcapture %}
+        {% include sidebar.html utenza=theprofile boxes=site.data.sidebarboxes %}
 
       </div>
       <!-- / Sidebar -->
