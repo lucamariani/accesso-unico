@@ -12,3 +12,17 @@ background: '/img/bg-about.jpg'
 <h3 class="u-text-h3 u-color-70">voluptatem eligendi laboriosam</h3>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!</p>
+
+{% for scheda in site.schede %}
+  <br>titolo: {{ scheda.title }} | oggetto: {{ scheda.object }} | profilo: {{ scheda.profile }}
+{% endfor %}
+
+{% assign profiles = site.schede | group_by: 'utenza' %}
+{% for profile in profiles %}
+  <h2>{{ profile.name | capitalize }}</h2>
+  <ul>
+  {% for item in profile.items %}
+    <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endfor %}
