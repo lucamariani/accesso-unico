@@ -43,7 +43,8 @@ layout: default
 
         <h4>boxes=sites.data.sidebarboxes utenza='{{ page.utenza }}'</h4>
         {% capture theprofile %}{{ page.utenza }}{% endcapture %}
-        {% include sidebar.html utenza=theprofile boxes=site.data.sidebarboxes %}
+        {% capture theme %}{{ page.tema }}{% endcapture %}
+        {% include sidebar.html utenza=theprofile boxes=site.data.sidebarboxes tema=theme %}
 
       </div>
       <!-- / Sidebar -->

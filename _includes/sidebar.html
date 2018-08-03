@@ -1,4 +1,5 @@
 <h2>Ciao {{ include.utenza }}</h2>
+<h3>Tema {{ include.tema }}</h3>
 {% for box in include.boxes %}
   {{ box.name }}
   {% if box.login_age == "new" %}
