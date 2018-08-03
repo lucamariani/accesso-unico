@@ -20,6 +20,7 @@ background: '/img/bg-about.jpg'
 <hr>
 
 {% assign utenze = site.schede | group_by: 'utenza' %}
+{{ utenze | inspect }}
 {% for utenza in utenze %}
   <h2>{{ utenza.name | capitalize }}</h2>
   <ul>

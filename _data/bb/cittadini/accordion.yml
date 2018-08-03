@@ -1,27 +1,14 @@
 - title: "Classificazione"
   description: "classificazione.md"
-  object: bb
 
 - title: "Sicurezza"
   description: "sicurezza.md"
-  object: bb
 
 - title: "Requisiti"
   description: "requisiti.md"
-  object: bb
-
-- title: "Regime avvio"
-  description: "regime_avvio.md"
-  object: bb
 
 - title: "Guida"
   description: "guida.md"
-  object: bb
 
 - title: "Controlli"
   description: "controlli.md"
-  object: bb
-
-- title: "Normativa"
-  description: "normativa.md"
-  object: bb

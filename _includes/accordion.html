@@ -1,10 +1,11 @@
 
 <div id="main-accordion" class="u-layout-wide u-layoutCenter u-padding-r-bottom u-margin-r-bottom">
-  <!-- test accordion -->
+  <!-- accordions -->
   <div class="Accordion Accordion--default fr-accordion js-fr-accordion" id="accordion-1">
 
-    {% for accordion in site.data.[page.utenza] %}
-      {% if page.object == accordion.object %}
+    {% assign utenza = site.data.[page.object][page.utenza] %}
+
+      {% for accordion in utenza.accordion %}
 
         <h2 class="Accordion-header js-fr-accordion__header fr-accordion__header" id="accordion-header-{{ forloop.index }}">
           <span class="Accordion-link">{{ accordion.title }}</span>
@@ -16,11 +17,10 @@
             {% capture accordion-content %}{% include {{page.object}}/{{ accordion.description }} %}{% endcapture %}
             {{ accordion-content | markdownify }}
 
+
           </div>
         </div>
-
-      {% endif %}
-    {% endfor %}
+      {% endfor %}
 
   </div>
 </div>
