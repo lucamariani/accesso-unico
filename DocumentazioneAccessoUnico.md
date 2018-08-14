@@ -2,13 +2,11 @@
 
 Definiamo una collezione di nome "Schede" creando la cartella ``"_schede"``
 
-Per creare una nuova scheda devo:
+Per creare una nuova scheda:
 
-1. creare una cartella (con un nome rappresentativo della scheda che sto creando ) nella cartella ``"_schede"`` ( `"_schede/scia"` )
+1. creo una cartella (con un nome rappresentativo della scheda che sto creando ) nella cartella ``"_schede"`` ( `"_schede/scia"` ) e all'interno di questa devo creare una sottocartella per ogni utenza ( `"_schede/scia/cittadini", "_schede/scia/imprese", "_schede/scia/intermediari", "_schede/scia/pa"`)
 
-2. all'interno di questa devo creare una sottocartella per ogni utenza ( `"_schede/scia/cittadini", "_schede/scia/imprese", "_schede/scia/intermediari", "_schede/scia/pa"`)
-
-3. in queste sottocartelle creo un file `index.md` all'interno del quale inserisco solo un `Front Matter`:
+2. in queste sottocartelle creo un file `index.md` all'interno del quale inserisco solo un `Front Matter`:
 
   > layout: scheda  
   > object: < *nome cartella scheda* >  
@@ -25,10 +23,8 @@ Per creare una nuova scheda devo:
   > title: Cambio destinazione d'uso  
   > subtitle: SCIA
 
-4. creare una cartella dentro `"_data"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/scia"` )
-
-5. all'interno di questa creo:
-  - 5.1. un file `"accordion.yml"`  
+3. creo una cartella dentro `"_data"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/scia"` ) e all'interno di questa creo:
+  - 3.1. un file `"accordion.yml"`  
    Questo conterra' una lista di accordion che devono apparire nella scheda, specificando:
      - "title": il titolo dell'accordion
      - "description": il nome del file all'interno del quale scriveremo il contenuto dell'accordion stesso
@@ -57,48 +53,53 @@ Per creare una nuova scheda devo:
           - imprese
           - intermediari
       ~~~
-  - 5.2. un file `"sidebarboxes.yml"`  
+  - 3.2. un file `"sidebarboxes.yml"`  
   Questo conterra' una lista di box che devono apparire nella slidebar, specificando:
     - "title": il titolo dell'accordion
     - "description": il nome del file all'interno del quale scriveremo il contenuto dell'accordion stesso
     - "utenza": una lista di profili che devono vedere quell'accordion (non utilizzando la chiave "utenza", l'accordion sara' visibile da tutti i profili)
 
-     Esempio:
+      Esempio:
+       ~~~
+       - title: "A chi mi devo rivolgere"
+         description: "chi.md"
+
+       - title: "PRG"
+         description: "prg.md"
+         utenza:
+           - intermediari
+           - pa
+
+       - title: "Normativa"
+         description: "normativa.md"
+
+       - title: "Guida"
+         description: "guida.md"
+
+       - title: "Controlli"
+         description: "controlli.md"
+       ~~~
+
+4. creare una cartella dentro `"_includes"`, con lo stesso nome della cartella creata al punto 1 ( `"_includes/scia"` ) e all'interno di questa creo due cartelle, `"accordion"` e `"sidebarbox"` ( `"_includes/scia/accordion"`, `"_includes/scia/sidebarbox"` )
+
+  - all'interno della cartella `"accordion"` creo:
+     - un file `description.md` dove scrivo la descrizione della scheda, ossia le scritte tra il sottotitolo e le accordion
+     -  i file contenenti i contenuti degli accordion, come li ho definiti al punto 3.1
+
      ~~~
-     - title: "Classificazione"
-       description: "classificazione.md"
-
-     - title: "Sicurezza"
-       description: "sicurezza.md"
-
-     - title: "Requisiti"
-       description: "requisiti.md"
-
-     - title: "Guida"
-       description: "guida.md"
-
-     - title: "Controlli"
-       description: "controlli.md"
-
-     - title: "Normativa"
-       description: "normativa.md"
-       utenza:
-         - imprese
-         - intermediari
+     _includes/scia/accordion/classificazione.md
+     _includes/scia/accordion/sicurezza.md
+     _includes/scia/accordion/requisiti.md
+     _includes/scia/accordion/guida.md
+     _includes/scia/accordion/controlli.md
+     _includes/scia/accordion/normativa.md
      ~~~
 
-6. creare una cartella dentro `"_includes"`, con lo stesso nome della cartella creata al punto 1 ( `"_includes/scia"` )
+  - all'interno della cartella `"sidebarbox"` creo:
+     - i file contenenti i contenuti dei box della sidebar, come li ho definiti al punto 3.2
 
-7. all'interno di questa cartella creo:
- - un file `description.md` dove scrivo la descrizione della scheda, ossia le scritte tra il sottotitolo e le accordion
- -  i file contenenti i contenuti degli accordion, come li ho definiti al punto 5
-
-  Esempio:
-  ~~~
-  _includes/scia/classificazione.md
-  _includes/scia/sicurezza.md
-  _includes/scia/requisiti.md
-  _includes/scia/guida.md
-  _includes/scia/controlli.md
-  _includes/scia/normativa.md
-  ~~~
+    ~~~
+    _includes/scia/sidebarbox/chi.md
+    _includes/scia/sidebarbox/prg.md
+    _includes/scia/sidebarbox/normativa.md
+    ~~~
