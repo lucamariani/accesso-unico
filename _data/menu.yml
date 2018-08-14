@@ -1,8 +1,8 @@
-- title: "Attività e procedimenti"
+- title: "Pratiche"
   url: #
   dropdown:
   - title: "Temi"
-    url: /cittadini/bb
+    url: "#themes"
     dropdown:
       - title: "Turismo"
         url: /categories
@@ -15,8 +15,8 @@
             url: /categories
           - title: Permesso a costruire
             url: /page-archive
-  - title: "Utenti"
-    url: /informazioni
+  - title: "Profili"
+    url: "#profiles"
     dropdown:
       - title: "Cittadini"
         url: /categories

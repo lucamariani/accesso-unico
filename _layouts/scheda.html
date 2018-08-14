@@ -5,12 +5,7 @@ layout: default
 <div id="main">
 
   <!-- Page Title -->
-  {% if page.background %}
-  <div class="u-sizeFull" style="height: 350px; background-size: cover; background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
-  {% else %}
   <div class="u-sizeFull">
-  {% endif %}
-
     <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
       <section class="Grid">
         <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
@@ -20,26 +15,13 @@ layout: default
           {% endif %}
           </div>
         <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
-          <div class="Share">
-            <div class="Share-reveal js-Share">
-                <a href="#share-options" class="Share-revealText" data-menu-trigger="share-options" data-menu-inline>
-              <span class="Share-revealIcon Icon Icon-share"></span>
-              Condividi
-            </a>
-            </div>
-            <ul id="share-options" class="Dropdown-menu" data-menu>
-                <li><a href="#" title=""><span class="Icon Icon-facebook"></span><span class="u-hiddenVisually">Facebook</span></a></li>
-                <li><a href="#"><span class="Icon Icon-twitter"></span><span class="u-hiddenVisually">Twitter</span></a></li>
-                <li><a href="#"><span class="Icon Icon-youtube"></span><span class="u-hiddenVisually">Youtube</span></a></li>
-                <li><a href="#"><span class="Icon Icon-slideshare"></span><span class="u-hiddenVisually">Slideshare</span></a></li>
-                <li><a href="#"><span class="Icon Icon-whatsapp"></span><span class="u-hiddenVisually">Whatsapp</span></a></li>
-            </ul>
-          </div>
+          {% include share.html %}
         </div>
       <section>
-    </div>
+    </div> <!-- /.u-layout-wide -->
+  </div> <!-- /.u-sizeFull -->
 
-  </div>
+
 
   <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
     <section class="Grid">
@@ -47,20 +29,23 @@ layout: default
 
         <article class="Prose u-layout-prose">
 
-        {{ content }}
+          {% capture scheda-description %}{% include {{page.object}}/accordion/description.md %}{% endcapture %}
+          {{ scheda-description | markdownify }}
+
+          {% include accordion.html %}
 
         </article>
 
       </div>
 
       <!-- Sidebar -->
-      <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
+      <aside class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
 
-        <h4>trying to include sidebar.html boxes=sites.data.sidebarboxes profile='{{ layout.profile }}'</h4>
-        {% capture theprofile %}{{ layout.profile }}{% endcapture %}
-        {% include sidebar.html profile=theprofile boxes=site.data.sidebarboxes %}
+        {% capture theprofile %}{{ page.utenza }}{% endcapture %}
+        {% capture theme %}{{ page.tema }}{% endcapture %}
+        {% include sidebar.html utenza=theprofile tema=theme %}
 
-      </div>
+      </aside>
       <!-- / Sidebar -->
 
     </section>

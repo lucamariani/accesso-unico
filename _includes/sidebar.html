@@ -1,7 +1,30 @@
-<h2>Ciao {{ include.profile }}</h2>
-{% for box in include.boxes %}
-  {{ box.name }}
-  {% if box.login_age == "new" %}
-    {{ box.name }}
+<h2>Ciao {{ include.utenza }}</h2>
+<h3>Tema {{ include.tema }}</h3>
+
+{% capture theprofile %}{{ include.utenza }}{% endcapture %}
+{% assign include_file = site.data.[page.object].sidebarboxes %}
+
+{% for box in include_file %}
+
+  <!-- show boxes conditionally -->
+  {% assign show_box = false %}
+
+  {% if box.utenza %}
+    <!-- show boxes only if utenza key mathces -->
+    {% for utenza_name in box.utenza %}
+      {% if utenza_name == theprofile %}
+        {% assign show_box = true %}
+      {% endif %}
+    {% endfor %}
+  <!-- boxes with not utenza key are visible for all -->
+  {% else %}
+    {% assign show_box = true %}
   {% endif %}
+
+  {% if show_box %}
+    {{ box.title }}
+    {% capture box-content %}{% include {{page.object}}/sidebarbox/{{ box.description }} %}{% endcapture %}
+    {{ box-content | markdownify }}
+  {% endif %}
+
 {% endfor %}

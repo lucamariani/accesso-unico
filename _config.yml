@@ -55,6 +55,10 @@ links_leads:
 links_leads_title: A est rerum leads
 
 # Build settings
+
+# excludes
+exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "DocumentazioneAccessoUnico.md"]
+
 # permalink: /:categories/:title/
 markdown:          kramdown
 paginate:          5
@@ -68,7 +72,7 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  cittadini:
+  schede:
     output: true
 
 defaults:
