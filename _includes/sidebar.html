@@ -2,9 +2,19 @@
 <h3>Tema {{ include.tema }}</h3>
 
 {% capture theprofile %}{{ include.utenza }}{% endcapture %}
-{% for box in include.boxes %}
+{% assign include_file = site.data.[page.object].sidebarboxes %}
 
-  {% if box.utenza == theprofile %}
+{% for box in include_file %}
+  <!-- show boxes conditionally -->
+  {% if box.utenza %}
+    <!-- show boxes only if utenza key mathces -->
+    {% for utenza_name in box.utenza %}
+      {% if utenza_name == theprofile %}
+        {{ box.name }}
+      {% endif %}
+    {% endfor %}
+  <!-- boxes with not utenza key are visible for all -->
+  {% else %}
     {{ box.name }}
   {% endif %}
 

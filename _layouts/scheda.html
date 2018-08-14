@@ -41,10 +41,9 @@ layout: default
       <!-- Sidebar -->
       <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
 
-        <h4>boxes=sites.data.sidebarboxes utenza='{{ page.utenza }}'</h4>
         {% capture theprofile %}{{ page.utenza }}{% endcapture %}
-        {% capture theme %}{{ page.tema }}{% endcapture %}
-        {% include sidebar.html utenza=theprofile boxes=site.data.sidebarboxes tema=theme %}
+        {% capture theme %}{{ page.tema }}{% endcapture %}        
+        {% include sidebar.html utenza=theprofile tema=theme %}
 
       </div>
       <!-- / Sidebar -->

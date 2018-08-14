@@ -1,8 +1,12 @@
+- name: box_all
+  url: url_all
 - name: box1
   utenza: cittadini
   url: url1
 - name: box2
-  utenza: imprese
+  utenza:
+    - imprese
+    - intermediari
   url: url2
 - name: box3
   utenza: intermediari

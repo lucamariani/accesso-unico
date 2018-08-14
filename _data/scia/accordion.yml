@@ -1,0 +1,34 @@
+# A list of accordions
+#
+# Title: the title of the accordion
+# Description: the file name where the content of this accordion is stored
+# Utenza: onditional visibility for profile
+# - entries without "utenza" key are visible for all profiles
+# - entries with "utenza" key are visible only for that profiles
+
+- title: "Classificazione"
+  description: "classificazione.md"
+
+- title: "Sicurezza"
+  description: "sicurezza.md"
+
+- title: "Requisiti"
+  description: "requisiti.md"
+
+- title: "Regime avvio"
+  description: "regime_avvio.md"
+  utenza:
+    - imprese
+    - intermediari
+
+- title: "Guida"
+  description: "guida.md"
+
+- title: "Controlli"
+  description: "controlli.md"
+
+- title: "Normativa"
+  description: "normativa.md"
+  utenza:
+    - imprese
+    - intermediari
