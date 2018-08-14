@@ -1,13 +1,12 @@
-- name: box_all
-  url: url_all
-- name: box1
-  utenza: cittadini
-  url: url1
-- name: box2
+- title: A chi mi devo rivolgere
+  description: chi.md
+- title: prg
+  description: prg.md
+  utenza:
+    - intermediari
+    - pa
+- title: Normativa
+  description: normativa.md
   utenza:
     - imprese
     - intermediari
-  url: url2
-- name: box3
-  utenza: intermediari
-  url: url3
