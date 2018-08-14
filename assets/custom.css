@@ -11,6 +11,18 @@
 
 /* modifica entry menu 4 livello */
 .Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
+
+/* define themes colors */
+.t-Pac .theme-yellow {color:#fec401 !important}
+.t-Pac .theme-green {color:#a9a937 !important}
+.t-Pac .theme-orange {color:#fe9001 !important}
+.t-Pac .theme-lightblue {color:#88c2cf !important}
+.t-Pac .theme-blue {color:#78bbb1 !important}
+.t-Pac .theme-lightpurple {color:#e68cb0 !important}
+.t-Pac .theme-grey {color:#9fa8b0 !important}
+.t-Pac .theme-pink {color:#ef9ea2 !important}
+.t-Pac .theme-purple {color:#d0a0d0 !important}
+
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}
 .t-Pac .Header-languages{background-color:#333333;}

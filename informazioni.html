@@ -56,3 +56,14 @@ background: '/img/bg-about.jpg'
     {% endfor %}
 </ul>
 {% endfor %}
+
+<hr>
+
+{% assign temi = site.schede | group_by: 'tema' %}
+{% for tema in temi %}
+  <h2>{{ tema.name | capitalize }}</h2>
+  <ul>
+    {% assign item = tema.items[0] %}
+    <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
+  </ul>
+{% endfor %}
