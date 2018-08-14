@@ -1,3 +1,5 @@
+- title: "Home"
+  url: /
 - title: "Pratiche"
   url: #
   dropdown:
@@ -25,23 +27,26 @@
       - title: Professionisti
         url: /page-archive
 
-- title: "Imprese"
-  url: /collection-archive/
-  dropdown:
-  - title: "AUTEM REICIENDIS"
-    url: /informazioni
+- title: "Uffici"
+  url: /uffici
 
-- title: "Professionisti"
-  url: /posts
+- title: "Documentazione"
+  url: #
   dropdown:
-  - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
-    url: /posts
+  - title: "Normativa"
+    url: /normativa
 
-  - title: "AUTEM REICIENDIS MAIORES"
-    url: /categories
+  - title: "Regolamenti"
+    url: /regolamenti
+
+  - title: "Pareri e circolari"
+    url: /circolari
+
+  - title: "Strumenti"
+    url: /strumenti
     dropdown:
-      - title: Autem quae numquam
-        url: /categories
+      - title: PRG
+        url: /prg
       - title: "Sed et velit"
         url: /categories
         dropdown:
@@ -51,19 +56,3 @@
             url: /posts
       - title: "Laboriosam porro dolor"
         url: /categories
-
-  - title: "NULLA QUIBUSDAM NECESSITATIBUS"
-    url: /tags
-
-  - title: "VOLUPTATIBUS ESSE CORPORIS"
-    url: /tags
-    dropdown:
-      - title: "Rem similique expedita"
-        url: /posts
-      - title: "Autem reciciendis maiores"
-        url: /posts
-      - title: Autem quae numquam
-        url: /posts
-
-- title: "Pubbliche Amministrazioni"
-  url: /categories
