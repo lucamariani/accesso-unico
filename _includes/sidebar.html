@@ -1,8 +1,11 @@
 <h2>Ciao {{ include.utenza }}</h2>
 <h3>Tema {{ include.tema }}</h3>
+
+{% capture theprofile %}{{ include.utenza }}{% endcapture %}
 {% for box in include.boxes %}
-  {{ box.name }}
-  {% if box.login_age == "new" %}
+
+  {% if box.utenza == theprofile %}
     {{ box.name }}
   {% endif %}
+
 {% endfor %}

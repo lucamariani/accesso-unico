@@ -1,6 +1,9 @@
 - name: box1
+  utenza: cittadini
   url: url1
 - name: box2
+  utenza: imprese
   url: url2
 - name: box3
+  utenza: intermediari
   url: url3
