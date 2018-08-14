@@ -1,23 +1,35 @@
-- title: "Cittadini e imprese"
+- title: "Pratiche"
+  url: #
+  dropdown:
+  - title: "Temi"
+    url: "#themes"
+    dropdown:
+      - title: "Turismo"
+        url: /categories
+      - title: Artigianato
+        url: /page-archive
+      - title: "Edilizia"
+        url: /other-archive
+        dropdown:
+          - title: "SCIA"
+            url: /categories
+          - title: Permesso a costruire
+            url: /page-archive
+  - title: "Profili"
+    url: "#profiles"
+    dropdown:
+      - title: "Cittadini"
+        url: /categories
+      - title: "Imprese"
+        url: /tags
+      - title: Professionisti
+        url: /page-archive
+
+- title: "Imprese"
   url: /collection-archive/
   dropdown:
-  - title: "Apertura B&B"
-    url: /cittadini/bb
   - title: "AUTEM REICIENDIS"
     url: /informazioni
-  - title: "BLANDIS SOLUTA EXERCITATIONEM"
-    url: /contatti
-  - title: "VOLUPTATEM ELIGENDI LABORIOSAM"
-    url: /posts
-    dropdown:
-      - title: "Laboriosam porro dolor"
-        url: /categories
-      - title: "Sed et velit"
-        url: /tags
-      - title: Autem quae numquam
-        url: /page-archive
-      - title: "Nulla quibusdam necessitatibus"
-        url: /other-archive
 
 - title: "Professionisti"
   url: /posts
