@@ -4,7 +4,7 @@
 /* otherwise will be used the standard color from "italia design" */
 
 /* change menu colors */
-.t-Pac .Megamenu--default{background-color:#efefef;}
+.t-Pac .Megamenu--default{background-color:#ffffff;}
 .t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
 /* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
