@@ -1,12 +1,14 @@
 ---
 layout: listings
 ---
-        <div class="Grid-cell u-sizeFull u-sm-size1of4 u-md-size1of8 u-lg-size1of8 u-padding-r-all">
-          Filtri
+        <div class="Grid-cell u-sizeFull u-sm-size1of4 u-md-size1of6 u-lg-size1of6 u-padding-r-all">
+          <h4 class="u-text-h4 u-padding-r-bottom">Affina la tua ricerca</h4>
+          <h4>Tipo schede</h4>
+          <hr>
         </div>
 
         <!-- main content -->
-        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size7of8 u-lg-size7of8 u-margin-r-bottom">
+        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size4of6 u-lg-size4of6 u-padding-r-all">
           <div class="u-sizeFull u-text-r-s u-color-70">
             <h3 class="u-border-bottom-m">
               <p class="u-block u-text-h3 u-textClean u-color-60">
@@ -28,7 +30,7 @@ layout: listings
 
                     <li>
                       <!-- include scheda -->
-                      {% include scheda_listing.html scheda_object=scheda_object %}
+                      {% include scheda_listing.html scheda_theme=scheda_object %}
                     </li>
 
                   {% endfor %}

@@ -61,3 +61,27 @@ $(function() {
     $('#home-projects > ul > li:first').trigger('mouseenter')
   })
 })
+
+/** schede filtering **/
+$(function() {
+
+  // get all theme filters components
+  var theme_filters = $('.filter-theme');
+
+  theme_filters.each(function() {
+    $(this).on('change', function(event) {
+      var checked_number = $('.filter-theme:checked').length;
+      // if no filter is checked show all
+      if ( checked_number == 0 ) $('.scheda-listing').show();
+      else {
+        //console.log('filtering ' + theme_name);
+        $('.scheda-listing').hide();
+        $('.filter-theme:checked').each(function(event) {
+          var theme_name = $(this).attr('theme-name');
+          $('.scheda-listing.' + theme_name).show();
+        });
+      }
+    });
+  });
+
+})

@@ -13,15 +13,18 @@
 .Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
 
 /* define themes colors */
-.t-Pac .theme-yellow {color:#fec401 !important}
-.t-Pac .theme-green {color:#a9a937 !important}
-.t-Pac .theme-orange {color:#fe9001 !important}
-.t-Pac .theme-lightblue {color:#88c2cf !important}
-.t-Pac .theme-blue {color:#78bbb1 !important}
-.t-Pac .theme-lightpurple {color:#e68cb0 !important}
-.t-Pac .theme-grey {color:#9fa8b0 !important}
-.t-Pac .theme-pink {color:#ef9ea2 !important}
-.t-Pac .theme-purple {color:#d0a0d0 !important}
+.t-Pac .theme-yellow, .t-Pac .theme-agricoltura {color:#fec401 !important}
+.t-Pac .theme-green .t-Pac .theme-ambiente {color:#a9a937 !important}
+.t-Pac .theme-orange, .t-Pac .theme-turismo {color:#fe9001 !important}
+.t-Pac .theme-lightblue, .t-Pac .theme-diritti {color:#88c2cf !important}
+.t-Pac .theme-blue, .t-Pac .theme-artigianato {color:#78bbb1 !important}
+.t-Pac .theme-lightpurple, .t-Pac .theme-lavoro {color:#e68cb0 !important}
+.t-Pac .theme-grey, .t-Pac .theme-infrastrutture {color:#9fa8b0 !important}
+.t-Pac .theme-pink, .t-Pac .theme-salute {color:#ef9ea2 !important}
+.t-Pac .theme-purple, .t-Pac .theme-edilizia {color:#d0a0d0 !important}
+
+.t-Pac .scheda-listing {margin: 1.2rem;border: 1px solid gray;border-radius: 5px;}
+.t-Pac .scheda-listing-tag {border:1px solid;padding-left: 0.3rem;padding-right: 0.3rem}
 
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}

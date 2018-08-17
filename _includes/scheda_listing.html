@@ -1,4 +1,5 @@
-<div class="scheda">
+{% if include.scheda_theme %}
+<div class="scheda-listing {{ scheda_object.type }}">
   <div class="u-sizeFull">
     <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
       <section class="Grid">
@@ -18,3 +19,29 @@
     </div>
   </div>
 </div> <!-- / .scheda -->
+{% endif%}
+
+{% if include.scheda_profile %}
+<!-- add theme name class in order to filter scheda hiding them -->
+<div class="scheda-listing {{ scheda_object.tema | lowcase }}">
+  <div class="u-sizeFull">
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size3of4 u-lg-size3of4 u-margin-r-bottom">
+          <h4 class="u-text-h4">
+            <a href="{{site.baseurl}}{{ scheda_object.url }}">{{ scheda_object.title | capitalize }}</a>
+          <h4>
+          <p class="Prose u-layout-prose">{{ scheda_object.subtitle }}</p>
+        </div>
+      </section>
+      <p>
+        <a
+          class="u-textClean u-text-xs u-color-white theme-{{ scheda_object.tema | downcase }} scheda-listing-tag"
+          href="{{site.baseurl}}/temi/{{ scheda_object.tema | downcase }}">
+          {{ scheda_object.tema | upcase }}
+        </a>
+      </p>
+    </div>
+  </div>
+</div> <!-- / .scheda -->
+{% endif%}

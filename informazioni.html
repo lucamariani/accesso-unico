@@ -76,10 +76,10 @@ background: '/img/bg-about.jpg'
     <ul>
       {% assign scheda_objects = tema.items | group_by: 'object' %}
       {% for scheda_object in scheda_objects %}
-        
+
         <li>
           <!-- include scheda -->
-          {% include scheda_listing.html scheda_object=scheda_object %}
+          {% include scheda_listing.html scheda_theme=scheda_object %}
         </li>
 
       {% endfor %}

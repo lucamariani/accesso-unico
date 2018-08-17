@@ -21,11 +21,11 @@
     url: "#profiles"
     dropdown:
       - title: "Cittadini"
-        url: /categories
+        url: /profili/cittadini
       - title: "Imprese"
-        url: /tags
-      - title: Professionisti
-        url: /page-archive
+        url: /profili/imprese
+      - title: Intermediari
+        url: /profili/intermediari
 
 - title: "Uffici"
   url: /uffici

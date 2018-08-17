@@ -1,0 +1,49 @@
+---
+layout: listings
+---
+
+  {% assign profile = page.title | downcase %}
+
+        <div class="Grid-cell u-sizeFull u-sm-size1of4 u-md-size1of6 u-lg-size1of6 u-padding-r-all">
+          <h4 class="u-text-h4 u-padding-r-bottom">Affina la tua ricerca</h4>
+          <h4>Temi</h4>
+          <hr>
+          <ul>
+            {% assign temi = site.schede | group_by: 'tema' %}
+            {% for tema in temi %}
+              <!-- get theme's schede for profile to calculate hier number to show in filters-->
+              {% assign schede_per_utenza = tema.items | where: 'utenza', profile %}
+              <li>
+                <input theme-name="{{ tema.name | lowcase }}" class="filter-theme" type="checkbox">
+                  {{ tema.name | upcase }} [ {{ schede_per_utenza | size }} ]
+                </input>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <!-- main content -->
+        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size4of6 u-lg-size4of6 u-padding-r-all">
+          <div class="u-sizeFull u-text-r-s u-color-70">
+            <h3 class="u-border-bottom-m">
+              <p class="u-block u-text-h3 u-textClean u-color-60">
+                Schede
+              </p>
+            </h3>
+
+            <!-- convert to uppercase to do a case insensitive match -->
+            {% assign schede_profile = site.schede | where: 'utenza', profile %}
+            <ul>
+              {% for scheda_object in schede_profile %}
+                <li>
+                  <!-- include scheda listing -->
+                  {% include scheda_listing.html scheda_profile=scheda_object %}
+                </li>
+
+              {% endfor %}
+            </ul>
+
+          </div>
+
+          </div>
+        </div> <!-- .Grid-cell -->
