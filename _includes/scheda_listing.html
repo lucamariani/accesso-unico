@@ -1,0 +1,20 @@
+<div class="scheda">
+  <div class="u-sizeFull">
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size3of4 u-lg-size3of4 u-margin-r-bottom">
+          <h4 class="u-text-h4">{{ scheda_object.items[0].title | capitalize }}<h4>
+        </div>
+        <div class="Grid-cell u-sizeFull u-sm-size1of4 u-md-size1of4 u-lg-size1of4 u-margin-r-bottom">
+          <ul class="Linklist Prose u-text-r-xs">
+            {% for scheda in scheda_object.items %}
+              <li>
+                <a href="{{site.baseurl}}{{ scheda.url }}">{{ scheda.utenza }} <span class="Icon Icon-chevron-right"></span></a>
+              </li>
+              {% endfor %}
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+</div> <!-- / .scheda -->

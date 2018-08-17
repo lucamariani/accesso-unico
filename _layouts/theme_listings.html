@@ -1,0 +1,44 @@
+---
+layout: listings
+---
+        <div class="Grid-cell u-sizeFull u-sm-size1of4 u-md-size1of8 u-lg-size1of8 u-margin-r-bottom">
+          Filtri
+        </div>
+
+        <!-- main content -->
+        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size7of8 u-lg-size7of8 u-margin-r-bottom">
+          <div class="u-sizeFull u-text-r-s u-color-70">
+            <h3 class="u-border-bottom-m">
+              <p class="u-block u-text-h3 u-textClean u-color-60">
+                Schede
+              </p>
+            </h3>
+
+            {% assign temi = site.schede | group_by: 'tema' %}
+            <!-- cycle on themes until we get the needed one -->
+            {% for tema in temi %}
+              <!-- convert to uppercase to do a case insensitive match -->
+              {% assign theme_name = tema.name | upcase %}
+              {% assign page_theme = page.title | upcase %}
+              {% if theme_name == page_theme %}
+
+                <ul>
+                  {% assign scheda_objects = tema.items | group_by: 'object' %}
+                  {% for scheda_object in scheda_objects %}
+
+                    <li>
+                      <!-- include scheda -->
+                      {% include scheda_listing.html scheda_object=scheda_object %}
+                    </li>
+
+                  {% endfor %}
+                </ul>
+
+                {% break %}
+              {% endif%}
+            {% endfor %}
+
+            </div> <!-- / .scheda -->
+
+          </div>
+        </div> <!-- .Grid-cell -->

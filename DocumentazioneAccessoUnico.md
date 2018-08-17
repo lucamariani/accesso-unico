@@ -1,5 +1,7 @@
 # Documentazione schede Accesso Unico
 
+## Aggiungere una nuova scheda
+
 Definiamo una collezione di nome "Schede" creando la cartella ``"_schede"``
 
 Per creare una nuova scheda:
@@ -103,3 +105,26 @@ Per creare una nuova scheda:
     _includes/scia/sidebarbox/prg.md
     _includes/scia/sidebarbox/normativa.md
     ~~~
+
+
+## Pagina lista schede per tema
+
+Per ogni tema si deve creare un file Markdown nella cartella `_pages/temi` avente come nome il nome del tema stesso.
+
+~~~
+...
+_pages/temi/turismo.md
+_pages/temi/edilizia.md
+...
+~~~
+
+Questo file contiene solo il seguente FrontMatter:
+
+~~~
+---
+layout: theme_listings
+subtitle: "descrizione tema"
+---
+~~~
+
+in `subtitle` possiamo inserire la descrizione del tema.
