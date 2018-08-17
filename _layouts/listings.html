@@ -9,8 +9,8 @@ layout: default
       <section class="Grid">
         <div class="Grid-cell u-sizeFull">
           <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
-          {% if page.subtitle %}
-          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h3>
+          {% if page.description %}
+          <p class="Prose u-layout-prose">{{ page.description }}</p>
           {% endif %}
         </div>
 

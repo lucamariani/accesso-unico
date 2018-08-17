@@ -1,4 +1,4 @@
 ---
 layout: theme_listings
-subtitle: descrizione del tema edilizia
+description: descrizione del tema edilizia
 ---

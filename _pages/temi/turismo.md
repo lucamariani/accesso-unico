@@ -1,4 +1,4 @@
 ---
 layout: theme_listings
-subtitle: descrizione del tema turismo
+description: descrizione del tema turismo
 ---

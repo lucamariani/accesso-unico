@@ -123,8 +123,8 @@ Questo file contiene solo il seguente FrontMatter:
 ~~~
 ---
 layout: theme_listings
-subtitle: "descrizione tema"
+description: "descrizione tema"
 ---
 ~~~
 
-in `subtitle` possiamo inserire la descrizione del tema.
+in `description` possiamo inserire la descrizione del tema.
