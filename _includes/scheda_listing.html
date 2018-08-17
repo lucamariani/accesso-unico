@@ -16,6 +16,15 @@
           </ul>
         </div>
       </section>
+      {% if scheda_object.type %}
+      <p>
+        <a
+          class="u-textClean u-text-xs u-color-white scheda-type-{{ scheda_object.type | downcase }} scheda-listing-tag"
+          href="#">
+          {{ scheda_object.type | upcase }}
+        </a>
+      </p>
+      {% endif %}
     </div>
   </div>
 </div> <!-- / .scheda -->
@@ -29,7 +38,7 @@
       <section class="Grid">
         <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size3of4 u-lg-size3of4 u-margin-r-bottom">
           <h4 class="u-text-h4">
-            <a href="{{site.baseurl}}{{ scheda_object.url }}">{{ scheda_object.title | capitalize }}</a>
+            <a class="u-color-50" href="{{site.baseurl}}{{ scheda_object.url }}">{{ scheda_object.title | capitalize }}</a>
           <h4>
           <p class="Prose u-layout-prose">{{ scheda_object.subtitle }}</p>
         </div>

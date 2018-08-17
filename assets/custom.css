@@ -25,6 +25,7 @@
 
 .t-Pac .scheda-listing {margin: 1.2rem;border: 1px solid gray;border-radius: 5px;}
 .t-Pac .scheda-listing-tag {border:1px solid;padding-left: 0.3rem;padding-right: 0.3rem}
+.t-Pac .scheda-listing a {text-decoration: none;}
 
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}
