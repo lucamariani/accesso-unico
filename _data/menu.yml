@@ -7,11 +7,11 @@
     url: "#themes"
     dropdown:
       - title: "Turismo"
-        url: /categories
+        url: /temi/turismo
       - title: Artigianato
-        url: /page-archive
+        url: /temi/aritigianato
       - title: "Edilizia"
-        url: /other-archive
+        url: /temi/edilizia
         dropdown:
           - title: "SCIA"
             url: /categories

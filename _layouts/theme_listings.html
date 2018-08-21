@@ -19,7 +19,9 @@ layout: listings
             {% assign temi = site.schede | group_by: 'tema' %}
             <!-- cycle on themes until we get the needed one -->
             {% for tema in temi %}
-              <!-- convert to uppercase to do a case insensitive match -->
+              <!--
+                convert to uppercase to do a case insensitive match between the theme's name and the page's name
+              -->
               {% assign theme_name = tema.name | upcase %}
               {% assign page_theme = page.title | upcase %}
               {% if theme_name == page_theme %}

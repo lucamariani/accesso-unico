@@ -128,3 +128,26 @@ description: "descrizione tema"
 ~~~
 
 in `description` possiamo inserire la descrizione del tema.
+
+
+## Pagina lista schede per profilo
+
+Per ogni tema si deve creare un file Markdown nella cartella `_pages/profili` avente come nome il nome del profilo stesso.
+
+~~~
+...
+_pages/profili/cittadini.md
+_pages/profili/imprese.md
+...
+~~~
+
+Questo file contiene solo il seguente FrontMatter:
+
+~~~
+---
+layout: profile_listings
+description: "descrizione profilo"
+---
+~~~
+
+in `description` possiamo inserire la descrizione del tema.
