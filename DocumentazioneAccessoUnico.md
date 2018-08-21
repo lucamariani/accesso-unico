@@ -1,7 +1,5 @@
 # Documentazione schede Accesso Unico
 
-## Aggiungere una nuova scheda
-
 Definiamo una collezione di nome "Schede" creando la cartella ``"_schede"``
 
 Per creare una nuova scheda:
@@ -25,7 +23,7 @@ Per creare una nuova scheda:
   > title: Cambio destinazione d'uso  
   > subtitle: SCIA
 
-3. creo una cartella dentro `"_data"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/scia"` ) e all'interno di questa creo:
+3. creo una cartella dentro `"_data/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/schede/scia"` ) e all'interno di questa creo:
   - 3.1. un file `"accordion.yml"`  
    Questo conterra' una lista di accordion che devono apparire nella scheda, specificando:
      - "title": il titolo dell'accordion
@@ -82,28 +80,28 @@ Per creare una nuova scheda:
          description: "controlli.md"
        ~~~
 
-4. creare una cartella dentro `"_includes"`, con lo stesso nome della cartella creata al punto 1 ( `"_includes/scia"` ) e all'interno di questa creo due cartelle, `"accordion"` e `"sidebarbox"` ( `"_includes/scia/accordion"`, `"_includes/scia/sidebarbox"` )
+4. creare una cartella dentro `"_includes/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_includes/schede/scia"` ) e all'interno di questa creo due cartelle, `"accordion"` e `"sidebarbox"` ( `"_includes/schede/scia/accordion"`, `"_includes/schede/scia/sidebarbox"` )
 
   - all'interno della cartella `"accordion"` creo:
      - un file `description.md` dove scrivo la descrizione della scheda, ossia le scritte tra il sottotitolo e le accordion
      -  i file contenenti i contenuti degli accordion, come li ho definiti al punto 3.1
 
      ~~~
-     _includes/scia/accordion/classificazione.md
-     _includes/scia/accordion/sicurezza.md
-     _includes/scia/accordion/requisiti.md
-     _includes/scia/accordion/guida.md
-     _includes/scia/accordion/controlli.md
-     _includes/scia/accordion/normativa.md
+     _includes/schede/scia/accordion/classificazione.md
+     _includes/schede/scia/accordion/sicurezza.md
+     _includes/schede/scia/accordion/requisiti.md
+     _includes/schede/scia/accordion/guida.md
+     _includes/schede/scia/accordion/controlli.md
+     _includes/schede/scia/accordion/normativa.md
      ~~~
 
   - all'interno della cartella `"sidebarbox"` creo:
      - i file contenenti i contenuti dei box della sidebar, come li ho definiti al punto 3.2
 
     ~~~
-    _includes/scia/sidebarbox/chi.md
-    _includes/scia/sidebarbox/prg.md
-    _includes/scia/sidebarbox/normativa.md
+    _includes/schede/scia/sidebarbox/chi.md
+    _includes/schede/scia/sidebarbox/prg.md
+    _includes/schede/scia/sidebarbox/normativa.md
     ~~~
 
 

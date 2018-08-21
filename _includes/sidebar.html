@@ -2,7 +2,7 @@
 <h3>Tema {{ include.tema }}</h3>
 
 {% capture theprofile %}{{ include.utenza }}{% endcapture %}
-{% assign include_file = site.data.[page.object].sidebarboxes %}
+{% assign include_file = site.data.schede.[page.object].sidebarboxes %}
 
 {% for box in include_file %}
 
@@ -23,7 +23,7 @@
 
   {% if show_box %}
     {{ box.title }}
-    {% capture box-content %}{% include {{page.object}}/sidebarbox/{{ box.description }} %}{% endcapture %}
+    {% capture box-content %}{% include schede/{{page.object}}/sidebarbox/{{ box.description }} %}{% endcapture %}
     {{ box-content | markdownify }}
   {% endif %}
 
