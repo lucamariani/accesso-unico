@@ -149,3 +149,22 @@ description: "descrizione profilo"
 ~~~
 
 in `description` possiamo inserire la descrizione del tema.
+
+# Todos
+
+22/08/2018
+### modifica listing con accesso da Temi
+- va fatto uguale al listing per profili
+
+### modifica a Schede
+- aggiungere foto (600x?)
+
+### Pagina mappa per:
+- sportello
+- PRG
+- regolamenti comunali
+
+iframe mappa: clicco sul comune -> popup con link a pagina dettagli
+sotto la mappa: lista comuni con link alla pagina dettagli
+
+nella pagina dei dettagli degli sportelli c'e' una sezione che mostra la piattaforma informatica utilizzata dal comune in questione (2 piattaforme, PEC). I requisiti della piattaforma sono anche loro schede ma di tipo "strumenti"

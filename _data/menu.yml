@@ -4,7 +4,7 @@
   url: #
   dropdown:
   - title: "Temi"
-    url: "#themes"
+    url: "/#themes"
     dropdown:
       - title: "Turismo"
         url: /temi/turismo
@@ -27,9 +27,6 @@
       - title: Intermediari
         url: /profili/intermediari
 
-- title: "Uffici"
-  url: /uffici
-
 - title: "Documentazione"
   url: #
   dropdown:
@@ -42,17 +39,17 @@
   - title: "Pareri e circolari"
     url: /circolari
 
-  - title: "Strumenti"
-    url: /strumenti
-    dropdown:
-      - title: PRG
-        url: /prg
-      - title: "Sed et velit"
-        url: /categories
-        dropdown:
-          - title: "Sub rem similique expedita"
-            url: /posts
-          - title: "Sub autem reciciendis maiores"
-            url: /posts
-      - title: "Laboriosam porro dolor"
-        url: /categories
+- title: "Utilità"
+  url: /utility
+  dropdown:
+    - title: "Modulistica unificata"
+      url: /modulistica
+    - title: "Cerca lo sportello"
+      url: #
+      dropdown:
+        - title: SUAPE
+          url: /suape
+        - title: URP
+          url: #
+    - title: PRG
+      url: /prg
