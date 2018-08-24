@@ -62,7 +62,7 @@ $(function() {
   })
 })
 
-/** schede filtering **/
+/** theme's schede filtering **/
 $(function() {
 
   // get all theme filters components
@@ -81,6 +81,26 @@ $(function() {
           $('.scheda-listing.' + theme_name).show();
         });
       }
+    });
+  });
+
+})
+
+/** profile's schede filtering **/
+$(function() {
+
+  // get all theme filters components
+  var profile_filters = $('.filter-profile');
+
+  profile_filters.each(function() {
+    $(this).on('change', function(event) {
+
+      $('.scheda-listing').hide();
+      $('.filter-profile:checked').each(function(event) {
+        var profile_name = $(this).attr('profile-name');
+        console.log('filtering ' + profile_name);
+        $('.scheda-listing.' + profile_name).show();
+      });
     });
   });
 

@@ -9,7 +9,7 @@ layout: listings
           <h4>Temi</h4>
           <hr>
           <ul>
-            {% assign temi = site.schede | group_by: 'tema' %}
+            {% assign temi = site.schede | group_by: 'tema' | sort: 'name' %}
             {% for tema in temi %}
               <!-- get theme's schede for profile to calculate hier number to show in filters-->
               {% assign schede_per_utenza = tema.items | where: 'utenza', profile %}
