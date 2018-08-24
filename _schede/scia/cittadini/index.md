@@ -4,5 +4,5 @@ object: scia
 utenza: cittadini
 tema: edilizia
 title: Cambio destinzione d'uso
-subtitle: descrizione scheda
+subtitle: Cambio destinzione d'uso
 ---
