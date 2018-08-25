@@ -1,0 +1,24 @@
+{% assign include_file = site.data.pages.[page.metatitle].sidebarboxes %}
+
+{% for box in include_file %}
+
+  {% capture box-content %}{% include pages/{{ page.metatitle | downcase }}/sidebarbox/{{ box.file }} %}{% endcapture %}
+
+  <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-50 u-background-white u-margin-bottom-xl">
+    <!--<img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />-->
+    <div class="u-text-r-l u-padding-r-all u-layout-prose">
+      <p class="u-text-h6 u-margin-bottom-l">
+        <a class="u-color-50 u-textClean" href="">{{ box.title }}</a>
+      </p>
+      <h3 class="u-text-h4 u-margin-r-bottom">
+        <a class="u-text-r-m u-color-black u-textWeight-400 u-textClean" href="">
+          {{ box.title }}
+        </a>
+      </h3>
+      <p class="u-text-p u-textSecondary">
+        {{ box-content | markdownify }}
+      </p>
+    </div>
+  </div>
+
+{% endfor %}
