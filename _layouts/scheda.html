@@ -32,7 +32,7 @@ layout: default
           {% capture scheda-description %}{% include schede/{{page.object}}/accordion/description.md %}{% endcapture %}
           {{ scheda-description | markdownify }}
 
-          {% include accordion.html %}
+          {% include schede/accordion.html %}
 
         </article>
 
@@ -43,7 +43,7 @@ layout: default
 
         {% capture theprofile %}{{ page.utenza }}{% endcapture %}
         {% capture theme %}{{ page.tema }}{% endcapture %}
-        {% include sidebar.html utenza=theprofile tema=theme %}
+        {% include schede/sidebar.html utenza=theprofile tema=theme %}
 
       </aside>
       <!-- / Sidebar -->
