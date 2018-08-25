@@ -1,12 +1,12 @@
 - title: A chi mi devo rivolgere
-  description: chi.md
+  file: chi.md
 - title: prg
-  description: prg.md
+  file: prg.md
   utenza:
     - intermediari
     - pa
 - title: Normativa
-  description: normativa.md
+  file: normativa.md
   utenza:
     - imprese
     - intermediari
