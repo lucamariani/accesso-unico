@@ -166,7 +166,7 @@ Per creare una nuova pagina:
 
   > layout: page  
   > title: < *titolo pagina* >    
-  > metatitle: < *nome file* >
+  > metatitle: < *nome file (senza estensione)* >
   > subtitle: < *sottotitolo page* >  
   > background: < *absolute path to image* >
 
@@ -176,6 +176,10 @@ Per creare una nuova pagina:
   > metatitle: prova  
   > subtitle: Prova pagina statica  
   > background: '/img/bg-about.jpg'
+
+  poi inserisco il contenuto con la sintassi MD.
+
+  La pgina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://lucamariani.github.io/accesso-unico/prova/
 
 3. creo una cartella dentro `"_data/pages"`, con lo stesso nome del file creata al punto 1 ( `"_data/pages/prova"` ) e all'interno di questa creo:
   <!-- - 3.1. un file `"accordion.yml"`  
