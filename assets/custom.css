@@ -28,8 +28,8 @@
 .t-Pac .scheda-listing a {text-decoration: none;}
 .t-Pac .scheda-listing.imprese, .t-Pac .scheda-listing.intermediari {display: none;}
 
-.t-Pac .page-img-div { max-height:250px; max-width: 100%; margin-top:20px; margin-bottom: 20px}
-.t-Pac .page-img { max-width: 100%; overflow: hidden;}
+.t-Pac .page-img-div { max-height:250px; margin-top:20px; margin-bottom: 20px; overflow: hidden;}
+.t-Pac .page-img { max-width: 100%;}
 
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}
