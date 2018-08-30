@@ -4,5 +4,5 @@ title: Prova
 metatitle: prova
 subtitle: Prova pagina statica
 background:
-img: '/img/bg-about.jpg'
+img:
 ---
