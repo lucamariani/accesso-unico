@@ -255,13 +255,16 @@ Per creare una nuova pagina:
 ### aggiungere tipologia di Schede
 servizio, pratica
 
+### Documentazione
+- aggiungere tema (gli stessi delle schede)
+- categoria: normativa, regolamenti, pareri e circolari
+- maschera ricerca iniziale (anno, numero, categoria, tema)
+- pagina di arrivo dalla ricerca con filtri per tema e categoria
+
 29/08/2018
-### creare file menu.yml con nomi, icone, colori, ...
+### creare file temi.yml con nomi, icone, colori, ...
 
 22/08/2018 ( DONE: 24/08/2018)
-### modifica listing con accesso da Temi
-- va fatto uguale al listing per profili
-
 ### modifica a Schede
 - aggiungere foto (850x250 px)
 
