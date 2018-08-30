@@ -10,6 +10,11 @@ layout: default
       <section class="Grid">
         <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
           <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
+          {% if page.img %}
+          <div class="page-img-div">
+            <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
+          </div>
+          {% endif %}
           {% if page.subtitle %}
           <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h3>
           {% endif %}
