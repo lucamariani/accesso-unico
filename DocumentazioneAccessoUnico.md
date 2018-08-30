@@ -260,6 +260,7 @@ servizio, pratica
 - categoria: normativa, regolamenti, pareri e circolari
 - maschera ricerca iniziale (anno, numero, categoria, tema)
 - pagina di arrivo dalla ricerca con filtri per tema e categoria
+- sono tutti documenti esterni (quelli interni li mettiamo su UmbriaGeo)
 
 29/08/2018
 ### creare file temi.yml con nomi, icone, colori, ...
