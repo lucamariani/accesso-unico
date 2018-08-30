@@ -67,3 +67,21 @@ background: '/img/bg-about.jpg'
     <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
   </ul>
 {% endfor %}
+
+<hr>
+
+{% assign temi = site.schede | group_by: 'tema' %}
+{% for tema in temi %}
+  <h2>{{ tema.name | capitalize }}</h2>
+    <ul>
+      {% assign scheda_objects = tema.items | group_by: 'object' %}
+      {% for scheda_object in scheda_objects %}
+
+        <li>
+          <!-- include scheda -->
+          {% include scheda_listing.html scheda_theme=scheda_object %}
+        </li>
+
+      {% endfor %}
+    </ul>
+{% endfor %}

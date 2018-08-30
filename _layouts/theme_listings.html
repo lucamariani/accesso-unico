@@ -1,0 +1,73 @@
+---
+layout: listings
+---
+
+  <!-- by default show only cittadini's schede -->
+  {% assign act_tema = page.title | downcase %}
+
+        <div class="Grid-cell u-sizeFull u-sm-size1of4 u-md-size1of6 u-lg-size1of6 u-padding-r-all">
+          <h4 class="u-text-h4 u-padding-r-bottom">Affina la tua ricerca</h4>
+          <h4>Profili</h4>
+          <hr>
+          <ul>
+            {% assign profiles = site.schede | group_by: 'utenza' | sort: 'name' %}
+
+            {% for profile in profiles %}
+              <!-- by default show cittadini schede -->
+              {% assign checked = '' %}
+              {% if profile.name == 'cittadini' %}
+                {% assign checked = 'checked' %}
+              {% endif %}
+              <!-- get theme's schede for profile to calculate hier number to show in filters-->
+              {% assign schede_per_tema = profile.items | where: 'tema', act_tema %}
+              <li>
+                <input profile-name="{{ profile.name | downcase }}" class="filter-profile" type="radio" name="profile" {{ checked }}>
+                  {{ profile.name | upcase }} [ {{ schede_per_tema | size }} ]
+                </input>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <!-- main content -->
+        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size4of6 u-lg-size4of6 u-padding-r-all">
+          <div class="u-sizeFull u-text-r-s u-color-70">
+            <h3 class="u-border-bottom-m">
+              <p class="u-block u-text-h3 u-textClean u-color-60">
+                Schede
+              </p>
+            </h3>
+
+            {% assign temi = site.schede | group_by: 'tema' %}
+            <!-- cycle on themes until we get the needed one -->
+            {% for tema in temi %}
+              <!--
+                convert to uppercase to do a case insensitive match between the theme's name and the page's name
+              -->
+              {% assign theme_name = tema.name | upcase %}
+              {% assign page_theme = page.title | upcase %}
+              {% if theme_name == page_theme %}
+
+                <ul>
+                  <!-- get all the schede for all profiles grouped by scheda object -->
+                  {% assign all_schede = tema.items | group_by: 'object' %}
+
+                  {% for scheda_object in all_schede %}
+                    <!-- include one scheda for each profile -->
+                    {% for scheda_for_profile in scheda_object.items %}
+                    <li>
+                      <!-- include scheda -->
+                      {% include scheda_listing.html scheda_theme=scheda_for_profile %}
+                    </li>
+                    {% endfor %}
+                  {% endfor %}
+                </ul>
+
+                {% break %}
+              {% endif%}
+            {% endfor %}
+
+            </div> <!-- / .scheda -->
+
+          </div>
+        </div> <!-- .Grid-cell -->

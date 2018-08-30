@@ -1,0 +1,51 @@
+{% if include.scheda_theme %}
+<!-- by default show only cittadini schede; this is implemented hiding other schede in css  -->
+<div class="scheda-listing {{ include.scheda_theme.utenza | downcase }}">
+  <div class="u-sizeFull">
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size3of4 u-lg-size3of4 u-margin-r-bottom">
+          <h4 class="u-text-h4">
+            <a class="u-color-50" href="{{site.baseurl}}{{ include.scheda_theme.url }}">{{ include.scheda_theme.title | capitalize }}</a>
+          <h4>
+          <p class="Prose u-layout-prose">{{ include.scheda_theme.subtitle }}</p>
+        </div>
+      </section>
+      {% if include.scheda_theme.type %}
+      <p>
+        <a
+          class="u-textClean u-text-xs u-color-white scheda-type-{{ include.scheda_profile.type | downcase }} scheda-listing-tag"
+          href="#">
+          {{ include.scheda_theme.type | upcase }}
+        </a>
+      </p>
+      {% endif %}
+    </div>
+  </div>
+</div> <!-- / .scheda -->
+{% endif%}
+
+{% if include.scheda_profile %}
+<!-- add theme name class in order to filter scheda hiding them -->
+<div class="scheda-listing {{ include.scheda_profile.tema | downcase }}">
+  <div class="u-sizeFull">
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size3of4 u-lg-size3of4 u-margin-r-bottom">
+          <h4 class="u-text-h4">
+            <a class="u-color-50" href="{{site.baseurl}}{{ include.scheda_profile.url }}">{{ include.scheda_profile.title | capitalize }}</a>
+          <h4>
+          <p class="Prose u-layout-prose">{{ include.scheda_profile.subtitle }}</p>
+        </div>
+      </section>
+      <p>
+        <a
+          class="u-textClean u-text-xs u-color-white theme-{{ include.scheda_profile.tema | downcase }} scheda-listing-tag"
+          href="{{site.baseurl}}/temi/{{ include.scheda_profile.tema | downcase }}">
+          {{ include.scheda_profile.tema | upcase }}
+        </a>
+      </p>
+    </div>
+  </div>
+</div> <!-- / .scheda -->
+{% endif%}

@@ -1,17 +1,18 @@
 - title: "Home"
   url: /
-- title: "Pratiche"
+- title: "Pratiche e Servizi"
+  description:  "Cerca il tema di tuo interesse o dimmi chi sei"
   url: #
   dropdown:
   - title: "Temi"
-    url: "#themes"
+    url: "/#themes"
     dropdown:
       - title: "Turismo"
-        url: /categories
+        url: /temi/turismo
       - title: Artigianato
-        url: /page-archive
+        url: /temi/aritigianato
       - title: "Edilizia"
-        url: /other-archive
+        url: /temi/edilizia
         dropdown:
           - title: "SCIA"
             url: /categories
@@ -21,38 +22,26 @@
     url: "#profiles"
     dropdown:
       - title: "Cittadini"
-        url: /categories
+        url: /profili/cittadini
       - title: "Imprese"
-        url: /tags
-      - title: Professionisti
-        url: /page-archive
-
-- title: "Uffici"
-  url: /uffici
+        url: /profili/imprese
+      - title: Intermediari
+        url: /profili/intermediari
 
 - title: "Documentazione"
-  url: #
+  url: /documentazione
+
+- title: "Utilità"
+  url: /utility
   dropdown:
-  - title: "Normativa"
-    url: /normativa
-
-  - title: "Regolamenti"
-    url: /regolamenti
-
-  - title: "Pareri e circolari"
-    url: /circolari
-
-  - title: "Strumenti"
-    url: /strumenti
-    dropdown:
-      - title: PRG
-        url: /prg
-      - title: "Sed et velit"
-        url: /categories
-        dropdown:
-          - title: "Sub rem similique expedita"
-            url: /posts
-          - title: "Sub autem reciciendis maiores"
-            url: /posts
-      - title: "Laboriosam porro dolor"
-        url: /categories
+    - title: "Modulistica unificata"
+      url: /modulistica
+    - title: "Cerca lo sportello"
+      url: #
+      dropdown:
+        - title: SUAPE
+          url: /suape
+        - title: URP
+          url: #
+    - title: PRG
+      url: /prg
