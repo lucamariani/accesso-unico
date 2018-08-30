@@ -3,14 +3,16 @@
   <h1 class="u-text-h2 u-color-grey-40">Temi</h1>
 
   <div class="Grid Grid--withGutter">
-
-    {% for tema in site.data.themes %}
-
+{% assign key = 'edilizia'%}
+    {% for tema in site.data.test.[key] %}
+{{ tema}}
+{% assign singletema = site.data.themes[tema] %}
+{{ singletema }}
       <div class="Grid-cell u-md-size1of3 u-lg-size1of3">
           <div class="Entrypoint-item u-border-all-xxs u-color-50 u-text-r-xs theme-{{ tema.color }}">
               <p class="u-textCenter">
                 <a class="u-textClean u-text-h4 theme-{{ tema.color }}" href="{{ site.baseurl }}{{ tema.url }}">
-                  {{ tema.name | capitalize }}
+                  {{ site.data.themes.[tema].name | capitalize }}
                 </a>
               </p>
           </div>

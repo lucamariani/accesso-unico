@@ -13,6 +13,7 @@ layout: listings
             {% for tema in temi %}
               <!-- get theme's schede for profile to calculate hier number to show in filters-->
               {% assign schede_per_utenza = tema.items | where: 'utenza', profile %}
+              
               <li>
                 <input theme-name="{{ tema.name | lowcase }}" class="filter-theme" type="checkbox">
                   {{ tema.name | upcase }} [ {{ schede_per_utenza | size }} ]
