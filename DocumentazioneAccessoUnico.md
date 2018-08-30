@@ -252,6 +252,8 @@ Per creare una nuova pagina:
 # Todos
 
 30/08/2018
+### prendere spunt per lo stile delle schede qui: https://www.gov.uk/government/publications/overseas-companies-in-the-uk-registration-filing-and-disclosure-obligations
+
 ### aggiornare documentazione con parametro "use_profile_tabs" per scegliere il layout dei profili nell'index
 
 ### aggiungere tipologia di Schede
