@@ -4,9 +4,12 @@
 
 Per configurare il sito sono disponibili i seguenti parametri che si trovano nel file "*_config.yml*":
 
-- use_profile_tabs (true, false)
+- *use_profile_tabs*: (true, false)
+
   configura come mostrare le schede dei profili nella home page
+
   *true*: in forma tabulare
+
   *false*: come una lista
 
 ## Creare nuova scheda
