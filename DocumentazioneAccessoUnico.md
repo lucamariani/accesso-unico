@@ -251,20 +251,34 @@ Per creare una nuova pagina:
 
 # Todos
 
+30/08/2018
+### prendere spunt per lo stile delle schede qui: https://www.gov.uk/government/publications/overseas-companies-in-the-uk-registration-filing-and-disclosure-obligations
+
+### aggiornare documentazione con parametro "use_profile_tabs" per scegliere il layout dei profili nell'index
+
+### aggiungere tipologia di Schede
+servizio, pratica
+
+### Documentazione
+- aggiungere tema (gli stessi delle schede)
+- categoria: normativa, regolamenti, pareri e circolari
+- maschera ricerca iniziale (anno, numero, categoria, tema)
+- pagina di arrivo dalla ricerca con filtri per tema e categoria
+
 29/08/2018
-creare file menu.yml con nomi, icone, colori, ...
+### creare file temi.yml con nomi, icone, colori, ...
 
 22/08/2018 ( DONE: 24/08/2018)
-### modifica listing con accesso da Temi
-- va fatto uguale al listing per profili
-
 ### modifica a Schede
-- aggiungere foto (600x?)
+- aggiungere foto (850x250 px)
 
-### Pagina mappa per:
+### Pagine GIS (mappa) per:
 - sportello
 - PRG
 - regolamenti comunali
+
+#### layout: md1 + mappa + md2 + dropdown + md3
+- gli md (1,2,3) sono opzionali
 
 iframe mappa: clicco sul comune -> popup con link a pagina dettagli
 sotto la mappa: lista comuni con link alla pagina dettagli
