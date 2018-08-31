@@ -11,14 +11,17 @@ layout: listings
           <ul>
             {% assign temi = site.schede | group_by: 'tema' | sort: 'name' %}
             {% for tema in temi %}
-              <!-- get theme's schede for profile to calculate hier number to show in filters-->
+              <!-- get theme's schede for profile to calculate their number to show in filters-->
               {% assign schede_per_utenza = tema.items | where: 'utenza', profile %}
-              
+              <!-- get thema full name from yaml file -->
+              {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == tema.name" %}
+              {% assign tema_item = tema_items[0] %}
               <li>
-                <input theme-name="{{ tema.name | lowcase }}" class="filter-theme" type="checkbox">
-                  {{ tema.name | upcase }} [ {{ schede_per_utenza | size }} ]
+                <input theme-name="{{ tema_item.metaname | lowcase }}" class="filter-theme" type="checkbox">
+                  {{ tema_item.name | upcase }} [ {{ schede_per_utenza | size }} ]
                 </input>
               </li>
+
             {% endfor %}
           </ul>
         </div>

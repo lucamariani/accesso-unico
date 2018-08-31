@@ -26,6 +26,9 @@
 {% endif%}
 
 {% if include.scheda_profile %}
+<!-- get thema full name from yaml file -->
+{% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == include.scheda_profile.tema" %}
+{% assign tema_name = tema_items[0].name %}
 <!-- add theme name class in order to filter scheda hiding them -->
 <div class="scheda-listing {{ include.scheda_profile.tema | downcase }}">
   <div class="u-sizeFull">
@@ -42,7 +45,7 @@
         <a
           class="u-textClean u-text-xs u-color-white theme-{{ include.scheda_profile.tema | downcase }} scheda-listing-tag"
           href="{{site.baseurl}}/temi/{{ include.scheda_profile.tema | downcase }}">
-          {{ include.scheda_profile.tema | upcase }}
+          {{ tema_name | upcase }}
         </a>
       </p>
     </div>

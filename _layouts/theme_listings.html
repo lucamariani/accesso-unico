@@ -1,6 +1,25 @@
 ---
-layout: listings
+layout: default
 ---
+
+<!-- get thema item from yaml file -->
+{% assign page_title_lowcase = page.title | downcase %}
+{% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == page_title_lowcase" %}
+<!-- Define the page title as the thema's name -->
+{% assign main_title = tema_items[0].name %}
+
+<div id="main">
+
+  <div class="u-sizeFull">
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull">
+          <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ tema_items[0].name }}</h1>
+          {% if page.description %}
+          <p class="Prose u-layout-prose">{{ page.description }}</p>
+          {% endif %}
+        </div>
 
   <!-- by default show only cittadini's schede -->
   {% assign act_tema = page.title | downcase %}
@@ -71,3 +90,10 @@ layout: listings
 
           </div>
         </div> <!-- .Grid-cell -->
+
+      </section> <!-- / main grid -->
+    </div>
+
+  </div>
+
+</div>
