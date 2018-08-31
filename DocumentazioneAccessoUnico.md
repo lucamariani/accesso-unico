@@ -1,5 +1,14 @@
 # Documentazione Accesso Unico
 
+## Parametri di configurazione
+
+Per configurare il sito sono disponibili i seguenti parametri che si trovano nel file "*_config.yml*":
+
+- use_profile_tabs (true, false)
+  configura come mostrare le schede dei profili nella home page
+  *true*: in forma tabulare
+  *false*: come una lista
+
 ## Creare nuova scheda
 
 Definiamo una collezione di nome "Schede" creando la cartella ``"_schede"``
@@ -24,6 +33,22 @@ Per creare una nuova scheda:
   > tema: edilizia  
   > title: Cambio destinazione d'uso  
   > subtitle: SCIA
+
+  il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
+  - agricoltura
+  - ambiente
+  - turismo
+  - diritti
+  - artigianato
+  - lavoro
+  - infrastrutture
+  - salute
+  - edilizia
+
+  l' utenza deve essere scelta tra quelli definiti alla chiave "*metadata*" nel file "*_data/profiles.yml*", ossia questi:
+  - cittadini
+  - imprese
+  - imprenditori
 
 3. creo una cartella dentro `"_data/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/schede/scia"` ) e all'interno di questa creo:
   - 3.1. un file `"accordion.yml"`  
@@ -252,9 +277,9 @@ Per creare una nuova pagina:
 # Todos
 
 30/08/2018
-### prendere spunt per lo stile delle schede qui: https://www.gov.uk/government/publications/overseas-companies-in-the-uk-registration-filing-and-disclosure-obligations
+### prendere spunto per lo stile delle schede qui: https://www.gov.uk/licence-finder
 
-### aggiornare documentazione con parametro "use_profile_tabs" per scegliere il layout dei profili nell'index
+### aggiornare documentazione con lista dei parametri di configurazione del file "*_config.yml*"
 
 ### aggiungere tipologia di Schede
 servizio, pratica
