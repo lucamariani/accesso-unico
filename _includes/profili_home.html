@@ -19,7 +19,12 @@
 
 <div class="tab-content" id="myTabContent">
   {% for profile in site.data.profiles %}
-  <div class="tab-pane p-3 fade show active" id="tab{{forloop.index}}" role="tabpanel" aria-labelledby="tab{{forloop.index}}-tab">
+    {% if forloop.first == true %}
+      {% assign div_class = "tab-pane p-3 fade show active" %}
+    {% else %}
+      {% assign div_class = "tab-pane p-3 fade" %}
+    {% endif %}
+  <div class="{{div_class}}" id="tab{{forloop.index}}" role="tabpanel" aria-labelledby="tab{{forloop.index}}-tab">
     <!-- {{profile.name}} section-->
     <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
       <div class="Grid Grid--withGutter">
