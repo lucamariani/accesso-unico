@@ -37,11 +37,14 @@ layout: default
               {% if profile.name == 'cittadini' %}
                 {% assign checked = 'checked' %}
               {% endif %}
-              <!-- get theme's schede for profile to calculate hier number to show in filters-->
+              <!-- get profile's schede for thema to calculate their number to show in filters-->
               {% assign schede_per_tema = profile.items | where: 'tema', act_tema %}
+              <!-- get profile full name from yaml file -->
+              {% assign profile_items = site.data.profiles | where_exp: "item", "item.metaname == profile.name" %}
+              {% assign profile_item_name = profile_items[0].name %}
               <li>
                 <input profile-name="{{ profile.name | downcase }}" class="filter-profile" type="radio" name="profile" {{ checked }}>
-                  {{ profile.name | upcase }} [ {{ schede_per_tema | size }} ]
+                  {{ profile_item_name | capitalize }} [{{ schede_per_tema | size }}]
                 </input>
               </li>
             {% endfor %}

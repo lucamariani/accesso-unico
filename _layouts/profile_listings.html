@@ -1,8 +1,26 @@
 ---
-layout: listings
+layout: default
 ---
 
-  {% assign profile = page.title | downcase %}
+<!-- get profile item from yaml file -->
+{% assign page_title_lowcase = page.title | downcase %}
+{% assign profile_items = site.data.profiles | where_exp: "item", "item.metaname == page_title_lowcase" %}
+<!-- Define the page title as the profile's name -->
+{% assign main_title = profile_items[0].name %}
+
+<div id="main">
+
+  <div class="u-sizeFull">
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull">
+          <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ main_title }}</h1>
+          {% if page.description %}
+          <p class="Prose u-layout-prose">{{ page.description }}</p>
+          {% endif %}
+        </div>
+
+        {% assign profile = page.title | downcase %}
 
         <div class="Grid-cell u-sizeFull u-sm-size1of4 u-md-size1of6 u-lg-size1of6 u-padding-r-all">
           <h4 class="u-text-h4 u-padding-r-bottom">Affina la tua ricerca</h4>
@@ -18,7 +36,7 @@ layout: listings
               {% assign tema_item = tema_items[0] %}
               <li>
                 <input theme-name="{{ tema_item.metaname | lowcase }}" class="filter-theme" type="checkbox">
-                  {{ tema_item.name | upcase }} [ {{ schede_per_utenza | size }} ]
+                  {{ tema_item.name | capitalize }} [{{ schede_per_utenza | size }}]
                 </input>
               </li>
 
@@ -51,3 +69,10 @@ layout: listings
 
           </div>
         </div> <!-- .Grid-cell -->
+
+      </section> <!-- / main grid -->
+    </div>
+
+  </div>
+
+</div>

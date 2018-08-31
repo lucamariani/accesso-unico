@@ -1,29 +1,30 @@
 <!-- profili -->
 {% if site.use_profile_tabs %}
 <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+  {% for profile in site.data.profiles %}
   <li class="nav-item">
-    <a class="nav-link active u-text-h2 u-color-grey-40" id="tab1a-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">
-      Cittadini
+    {% if forloop.first == true %}
+      {% assign link_class = "nav-link active u-text-h2 u-color-grey-40" %}
+    {% else %}
+      {% assign link_class = "nav-link u-text-h2 u-color-grey-40" %}
+    {% endif %}
+    <a class="{{ link_class }}" id="tab{{forloop.index}}-tab" data-toggle="tab" href="#tab{{forloop.index}}" role="tab" aria-controls="tab{{forloop.index}}" aria-selected="true">
+      {{ profile.name | capitalize }}
     </a>
   </li>
-  <li class="nav-item">
-    <a class="nav-link u-text-h2 u-color-grey-40" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">
-      Imprese
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link u-text-h2 u-color-grey-40" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">
-      Intermediari
-    </a>
-  </li>
+  {% endfor %}
+
 </ul>
+
 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane p-3 fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1a-tab">
-    <!-- Citizens section-->
+  {% for profile in site.data.profiles %}
+  <div class="tab-pane p-3 fade show active" id="tab{{forloop.index}}" role="tabpanel" aria-labelledby="tab{{forloop.index}}-tab">
+    <!-- {{profile.name}} section-->
     <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
       <div class="Grid Grid--withGutter">
         <div class="Grid-cell u-size1of2">
-          <img src="assets/images/citizen.jpg" class="u-imgResponsive" alt="cittadini" />
+          <img src="{{ profile.image | prepend: site.baseurl }}" class="u-imgResponsive" alt="{{profile.metaname}}" />
         </div>
         <div class="Grid-cell u-size1of2 u-padding-r-all">
           <ul class="Linklist Prose u-text-r-xs">
@@ -40,8 +41,9 @@
       </div>
     </section>
   </div>
-  <div class="tab-pane p-3 fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
-    <!-- Imprese section-->
+  {% endfor %}
+
+<!--  <div class="tab-pane p-3 fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
     <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
       <div class="Grid Grid--withGutter">
         <div class="Grid-cell u-size1of2 u-padding-r-all">
@@ -62,7 +64,6 @@
     </section>
   </div>
   <div class="tab-pane p-3 fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
-    <!-- Professional section-->
     <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
       <div class="Grid Grid--withGutter">
         <div class="Grid-cell u-size1of2">
@@ -83,16 +84,19 @@
       </div>
     </section>
   </div>
+
+-->
 </div>
 
 {% else %}
 
-<!-- Citizens section-->
+{% for profile in site.data.profiles %}
+<!-- {{profile.name}} section-->
 <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
-  <h1 class="u-text-h2 u-color-grey-40">Cittadini</h1>
+  <h1 class="u-text-h2 u-color-grey-40">{{ profile.name | capitalize }}</h1>
   <div class="Grid Grid--withGutter">
     <div class="Grid-cell u-size1of2">
-      <img src="assets/images/citizen.jpg" class="u-imgResponsive" alt="cittadini" />
+      <img src="{{ profile.image | prepend: site.baseurl }}" class="u-imgResponsive" alt="{{ profile.name }}" />
     </div>
     <div class="Grid-cell u-size1of2 u-padding-r-all">
       <ul class="Linklist Prose u-text-r-xs">
@@ -108,50 +112,6 @@
     </div>
   </div>
 </section>
-
-<!-- Imprese section-->
-<section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
-  <h1 class="u-text-h2 u-color-grey-40">Imprese</h1>
-  <div class="Grid Grid--withGutter">
-    <div class="Grid-cell u-size1of2 u-padding-r-all">
-      <ul class="Linklist Prose u-text-r-xs">
-        <li><a href="#">Cosa devo sapere?</a></li>
-        <li><a href="#">Come collaborare?</a></li>
-      </ul>
-    </div>
-    <div class="Grid-cell u-size1of2">
-      <img src="assets/images/pa.jpg" class="u-imgResponsive" alt="cittadini" />
-    </div>
-    <div class="Grid-cell u-padding-r-all">
-      <p class="Prose u-padding-r-top u-padding-r-bottom">
-        Breve testo che spiega i Benefit relativi alle sue domande, con link alle sezioni interessate. In questo caso la parte di documentale e community
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- Professional section-->
-<section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
-  <h1 class="u-text-h2 u-color-grey-40">Professionisti intermediari</h1>
-  <div class="Grid Grid--withGutter">
-    <div class="Grid-cell u-size1of2">
-      <img src="assets/images/professionist.jpg" class="u-imgResponsive" alt="cittadini" />
-    </div>
-    <div class="Grid-cell u-size1of2 u-padding-r-all">
-      <ul class="Linklist Prose u-text-r-xs">
-        <li><a href="#">Cosa devo fare?</a></li>
-        <li><a href="#">Cosa mi serve?</a></li>
-        <li><a href="#">A chi mi devo rivolgere?</a></li>
-      </ul>
-    </div>
-    <div class="Grid-cell u-padding-r-all">
-      <p class="Prose u-padding-r-top u-padding-r-bottom">
-        Breve testo che spiega i Benefit relativi alle sue domande, con link alle sezioni interessate. In questo caso la parte di schede dettagliate, potremmo inserire qui il cerca o i tre link “demo” e parte di feedback
-      </p>
-    </div>
-  </div>
-</section>
-
-</div>
+{% endfor %}
 
 {% endif %}
