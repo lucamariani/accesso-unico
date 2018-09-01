@@ -277,7 +277,59 @@ Per creare una nuova pagina:
     _includes/pages/prova/sidebarbox/ciao.md
     ~~~
 
-# Todos
+
+## Creare pagina mappa GIS
+
+Per creare una nuova pagina:
+
+1. creo un file MD ( con un nome rappresentativo della pagina che sto creando ) nella cartella ``"_pages/map"`` ( `"_pages/map/piani_regolatori.md"` ).
+
+  Il nome del file creato deve essere inserito nel FrontMatter con la key "metatitle".
+
+2. in questo file inserisco un `Front Matter`:
+
+  > layout: map-page  
+  > title: < *titolo pagina* >    
+  > metatitle: < *nome file (senza estensione)* >
+  > subtitle: < *sottotitolo page* >  
+  > map_title: < *titolo mappa* >
+  > map_url: < *url mappa ( o applicazione) Esri* >
+  > content_files:
+    - < *nome file* >
+    - < *nome file* >
+    - < *nome file* >
+
+  Esempio:
+  > layout: map-page  
+  > title: "SUAPE e Piani regolatori: Dati Comunali"
+  > metatitle: piani_regolatori  
+  > subtitle: Prova pagina GIS
+  > map_title: "SUAPE e Piani regolatori: Dati Comunali"
+  > map_url: "https://www.arcgis.com/apps/SimpleViewer/index.html?appid=af849b23d87f414ebae057f41cde48db"
+  > content_files:
+    - content1.md
+    - content2.md
+    - content3.md
+
+  Dopo il FrontMatter posso aggiungere il content ( x es. per la dropdown dei comuni, realizzata con un l'include di `*comuni_select.html*` )
+
+  La pagina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://lucamariani.github.io/accesso-unico/map/piani_regolatori
+
+3. creare una cartella dentro `"_includes/pages/map"`, con lo stesso nome del file creato al punto 1 ( `"_includes/pages/map-regolatori/piani_regolatori"` ) e all'interno di questa creo la cartella `"content"` ( `"_includes/pages/map-regolatori/piani_regolatori/content"` )
+
+  - all'interno della cartella `"content"` posso creare i file opzionali che ho inserito nella lista `"content_files"` del FrontMatter:
+     - un file `content1.md` dove scrivo il contenuto che deve essere visualizzato sopra la mappa
+     - un file `content2.md` dove scrivo il contenuto che deve essere visualizzato sotto la mappa
+     - un file `content3.md` dove scrivo il contenuto che deve essere visualizzato sotto il content della pagina
+
+     ~~~
+     _includes/pages/map-regolatori/piani_regolatori/content/content1.md
+     _includes/pages/map-regolatori/piani_regolatori/content/content2.md
+     _includes/pages/map-regolatori/piani_regolatori/content/content3.md
+     ~~~
+
+
+# Todo
 
 30/08/2018
 ### prendere spunto per lo stile delle schede qui: https://www.gov.uk/licence-finder

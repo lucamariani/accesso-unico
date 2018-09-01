@@ -30,21 +30,36 @@ layout: default
         <br>
       {% endif %}
 
-      <div class="u-text-r-s u-layout-wide u-padding-r-bottom">
-        <p class="Prose u-padding-r-top u-padding-r-bottom">
-          {% capture file-content-1 %}{% include pages/{{ page.metatitle | downcase }}/content/content1.md %}{% endcapture %}
-          {{ file-content-1 | markdownify }}
-        </p>
-      </div>
+      {% if page.content_files[0] %}
+        <div class="u-text-r-s u-layout-wide u-padding-r-bottom">
+          <p class="Prose u-padding-r-top u-padding-r-bottom">
+            {% capture file-content-1 %}{% include pages/{{ page.metatitle | downcase }}/content/{{page.content_files[0]}} %}{% endcapture %}
+            {{ file-content-1 | markdownify }}
+          </p>
+        </div>
+      {% endif %}
 
       {% include arcgis.html %}
 
-      <div class="u-text-r-s u-layout-wide u-padding-r-bottom">
-        <p class="Prose u-padding-r-top u-padding-r-bottom">
-          {% capture file-content-2 %}{% include pages/{{ page.metatitle | downcase }}/content/content2.md %}{% endcapture %}
-          {{ file-content-2 | markdownify }}
-        </p>
-      </div>
+      {% if page.content_files[1] %}
+        <div class="u-text-r-s u-layout-wide u-padding-r-bottom">
+          <p class="Prose u-padding-r-top u-padding-r-bottom">
+            {% capture file-content-2 %}{% include pages/{{ page.metatitle | downcase }}/content/{{page.content_files[1]}} %}{% endcapture %}
+            {{ file-content-2 | markdownify }}
+          </p>
+        </div>
+      {% endif %}
+
+      {{ content }}
+
+      {% if page.content_files[2] %}
+        <div class="u-text-r-s u-layout-wide u-padding-r-bottom">
+          <p class="Prose u-padding-r-top u-padding-r-bottom">
+            {% capture file-content-3 %}{% include pages/{{ page.metatitle | downcase }}/content/{{page.content_files[2]}} %}{% endcapture %}
+            {{ file-content-3 | markdownify }}
+          </p>
+        </div>
+      {% endif %}
 
   </div>
 </div>

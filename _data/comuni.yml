@@ -1,0 +1,12 @@
+- name: Assisi
+  metaname: assisi
+  url: "http://assisi_url"
+- name: Foligno
+  metaname: foligno
+  url: "http://foligno_url"
+- name: Perugia
+  metaname: perugia
+  url: "http://perugia_url"
+- name: Spello
+  metaname: spello
+  url: "http://spello_url"
