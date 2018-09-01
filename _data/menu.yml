@@ -1,6 +1,7 @@
 - title: "Home"
   url: /
-- title: "Pratiche"
+- title: "Pratiche e Servizi"
+  description:  "Cerca il tema di tuo interesse o dimmi chi sei"
   url: #
   dropdown:
   - title: "Temi"
@@ -28,16 +29,7 @@
         url: /profili/intermediari
 
 - title: "Documentazione"
-  url: #
-  dropdown:
-  - title: "Normativa"
-    url: /normativa
-
-  - title: "Regolamenti"
-    url: /regolamenti
-
-  - title: "Pareri e circolari"
-    url: /circolari
+  url: /documentazione
 
 - title: "Utilità"
   url: /utility

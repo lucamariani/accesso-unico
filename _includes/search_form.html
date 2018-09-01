@@ -6,9 +6,10 @@
         <div id="projects" data-menu class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-sizeFull">
           <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
           <ul class="Linklist">
-            {% assign projects = site.data.projects | reverse %} {% for project in projects %}
+            {% assign schede = site.schede | sort: 'title' | uniq: 'title' %}
+            {% for scheda in schede %}
             <li><a href="{{ project.url | relative_url }}" class="u-padding-r-all u-textLeft"><span lang="{{ active_lang }}">{{
-              project.title }}</span></a></li>
+              scheda.subtitle }}</span></a></li>
             {% endfor %}
           </ul>
         </div>

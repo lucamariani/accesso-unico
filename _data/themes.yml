@@ -1,35 +1,35 @@
 - name: Agricoltura e allevamento
   color: yellow
-  url: /temi/agricoltura
+  metaname: agricoltura
 
 - name: Ambiente e natura
   color: green
-  url: /temi/ambiente
+  metaname: ambiente
 
 - name: Cultura sport e turismo
   color: orange
-  url: /temi/turismo
+  metaname: turismo
 
 - name: Diritti e cittadinanza
   color: lightblue
-  url: /temi/diritti
+  metaname: diritti
 
 - name: Industria e artigianato
   color: blue
-  url: /temi/artigianato
+  metaname: artigianato
 
 - name: Lavoro, scuola e formazione
   color: lightpurple
-  url: /temi/lavoro
+  metaname: lavoro
 
 - name: Mobilità e infrastrutture
   color: grey
-  url: /temi/infrastrutture
+  metaname: infrastrutture
 
 - name: Salute e welfare
   color: pink
-  url: /temi/salute
+  metaname: salute
 
 - name: Territorio e patrimonio culturale
   color: purple
-  url: /temi/edilizia
+  metaname: edilizia

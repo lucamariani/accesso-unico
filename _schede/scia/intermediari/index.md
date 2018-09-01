@@ -3,6 +3,7 @@ layout: scheda
 object: scia
 utenza: intermediari
 tema: edilizia
+tipo: pratica
 title: Cambio destinzione d'uso
-subtitle: descrizione scheda
+subtitle: Cambio destinzione d'uso
 ---

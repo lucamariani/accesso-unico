@@ -26,6 +26,22 @@
 .t-Pac .scheda-listing {margin: 1.2rem;border: 1px solid gray;border-radius: 5px;}
 .t-Pac .scheda-listing-tag {border:1px solid;padding-left: 0.3rem;padding-right: 0.3rem}
 .t-Pac .scheda-listing a {text-decoration: none;}
+.t-Pac .scheda-listing.imprese, .t-Pac .scheda-listing.intermediari {display: none;}
+
+.t-Pac .page-img-div { max-height:250px; margin-top:20px; margin-bottom: 20px; overflow: hidden;}
+.t-Pac .page-img { max-width: 100%;}
+
+/* tabs */
+.t-Pac .nav-tabs .nav-item {
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.t-Pac .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 5px solid #06c;
+    color: #06c;
+    cursor: inherit;
+}
 
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}

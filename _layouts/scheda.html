@@ -10,6 +10,11 @@ layout: default
       <section class="Grid">
         <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
           <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
+          {% if page.img %}
+          <div class="page-img-div">
+            <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
+          </div>
+          {% endif %}
           {% if page.subtitle %}
           <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h3>
           {% endif %}
@@ -32,7 +37,7 @@ layout: default
           {% capture scheda-description %}{% include schede/{{page.object}}/accordion/description.md %}{% endcapture %}
           {{ scheda-description | markdownify }}
 
-          {% include accordion.html %}
+          {% include schede/accordion.html %}
 
         </article>
 
@@ -43,7 +48,7 @@ layout: default
 
         {% capture theprofile %}{{ page.utenza }}{% endcapture %}
         {% capture theme %}{{ page.tema }}{% endcapture %}
-        {% include sidebar.html utenza=theprofile tema=theme %}
+        {% include schede/sidebar.html utenza=theprofile tema=theme %}
 
       </aside>
       <!-- / Sidebar -->
