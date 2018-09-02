@@ -1,5 +1,17 @@
 # Documentazione Accesso Unico
 
+## Parametri di configurazione
+
+Per configurare il sito sono disponibili i seguenti parametri che si trovano nel file "*_config.yml*":
+
+- *use_profile_tabs*: (true, false)
+
+  configura come mostrare le schede dei profili nella home page
+
+  *true*: in forma tabulare
+
+  *false*: come una lista
+
 ## Creare nuova scheda
 
 Definiamo una collezione di nome "Schede" creando la cartella ``"_schede"``
@@ -24,6 +36,22 @@ Per creare una nuova scheda:
   > tema: edilizia  
   > title: Cambio destinazione d'uso  
   > subtitle: SCIA
+
+  il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
+  - agricoltura
+  - ambiente
+  - turismo
+  - diritti
+  - artigianato
+  - lavoro
+  - infrastrutture
+  - salute
+  - edilizia
+
+  l' utenza deve essere scelta tra quelli definiti alla chiave "*metadata*" nel file "*_data/profiles.yml*", ossia questi:
+  - cittadini
+  - imprese
+  - imprenditori
 
 3. creo una cartella dentro `"_data/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/schede/scia"` ) e all'interno di questa creo:
   - 3.1. un file `"accordion.yml"`  
@@ -249,19 +277,78 @@ Per creare una nuova pagina:
     _includes/pages/prova/sidebarbox/ciao.md
     ~~~
 
-# Todos
+
+## Creare pagina mappa GIS
+
+Per creare una nuova pagina:
+
+1. creo un file MD ( con un nome rappresentativo della pagina che sto creando ) nella cartella ``"_pages/map"`` ( `"_pages/map/piani_regolatori.md"` ).
+
+  Il nome del file creato deve essere inserito nel FrontMatter con la key "metatitle".
+
+2. in questo file inserisco un `Front Matter`:
+
+  > layout: map-page  
+  > title: < *titolo pagina* >    
+  > metatitle: < *nome file (senza estensione)* >
+  > subtitle: < *sottotitolo page* >  
+  > map_title: < *titolo mappa* >
+  > map_url: < *url mappa ( o applicazione) Esri* >
+  > content_files:
+    - < *nome file* >
+    - < *nome file* >
+    - < *nome file* >
+
+  Esempio:
+  > layout: map-page  
+  > title: "SUAPE e Piani regolatori: Dati Comunali"
+  > metatitle: piani_regolatori  
+  > subtitle: Prova pagina GIS
+  > map_title: "SUAPE e Piani regolatori: Dati Comunali"
+  > map_url: "https://www.arcgis.com/apps/SimpleViewer/index.html?appid=af849b23d87f414ebae057f41cde48db"
+  > content_files:
+    - content1.md
+    - content2.md
+    - content3.md
+
+  Dopo il FrontMatter posso aggiungere il content ( x es. per la dropdown dei comuni, realizzata con un l'include di `*comuni_select.html*` )
+
+  La pagina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://lucamariani.github.io/accesso-unico/map/piani_regolatori
+
+3. creare una cartella dentro `"_includes/pages/map"`, con lo stesso nome del file creato al punto 1 ( `"_includes/pages/map-regolatori/piani_regolatori"` ) e all'interno di questa creo la cartella `"content"` ( `"_includes/pages/map-regolatori/piani_regolatori/content"` )
+
+  - all'interno della cartella `"content"` posso creare i file opzionali che ho inserito nella lista `"content_files"` del FrontMatter:
+     - un file `content1.md` dove scrivo il contenuto che deve essere visualizzato sopra la mappa
+     - un file `content2.md` dove scrivo il contenuto che deve essere visualizzato sotto la mappa
+     - un file `content3.md` dove scrivo il contenuto che deve essere visualizzato sotto il content della pagina
+
+     ~~~
+     _includes/pages/map-regolatori/piani_regolatori/content/content1.md
+     _includes/pages/map-regolatori/piani_regolatori/content/content2.md
+     _includes/pages/map-regolatori/piani_regolatori/content/content3.md
+     ~~~
+
+
+# Todo
 
 30/08/2018
+### prendere spunto per lo stile delle schede qui: https://www.gov.uk/licence-finder
+
+### aggiornare documentazione con lista dei parametri di configurazione del file "*_config.yml*"
+
 ### aggiungere tipologia di Schede
 servizio, pratica
 
+### Documentazione
+- aggiungere tema (gli stessi delle schede)
+- categoria: normativa, regolamenti, pareri e circolari
+- maschera ricerca iniziale (anno, numero, categoria, tema)
+- pagina di arrivo dalla ricerca con filtri per tema e categoria
+
 29/08/2018
-### creare file menu.yml con nomi, icone, colori, ...
+### creare file temi.yml con nomi, icone, colori, ...
 
 22/08/2018 ( DONE: 24/08/2018)
-### modifica listing con accesso da Temi
-- va fatto uguale al listing per profili
-
 ### modifica a Schede
 - aggiungere foto (850x250 px)
 

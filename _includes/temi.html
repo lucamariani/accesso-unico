@@ -5,11 +5,11 @@
   <div class="Grid Grid--withGutter">
 
     {% for tema in site.data.themes %}
-
+    
       <div class="Grid-cell u-md-size1of3 u-lg-size1of3">
           <div class="Entrypoint-item u-border-all-xxs u-color-50 u-text-r-xs theme-{{ tema.color }}">
               <p class="u-textCenter">
-                <a class="u-textClean u-text-h4 theme-{{ tema.color }}" href="{{ site.baseurl }}{{ tema.url }}">
+                <a class="u-textClean u-text-h4 theme-{{ tema.color }}" href="{{ site.baseurl }}/temi/{{ tema.metaname }}">
                   {{ tema.name | capitalize }}
                 </a>
               </p>
@@ -17,6 +17,22 @@
       </div>
 
     {% endfor %}
+<!--
+    {% assign metadata_themes = site.data.themes | group_by: 'metaname' %}
 
+    {% for metatema in metadata_themes %}
+      {% assign tema = metatema.items[0] %}
+      <div class="Grid-cell u-md-size1of3 u-lg-size1of3">
+          <div class="Entrypoint-item u-border-all-xxs u-color-50 u-text-r-xs theme-{{ tema.color }}">
+              <p class="u-textCenter">
+                <a class="u-textClean u-text-h4 theme-{{ tema.color }}" href="{{ site.baseurl }}/temi/{{ metatema.name }}">
+                  {{ tema.name | capitalize }}
+                </a>
+              </p>
+          </div>
+      </div>
+
+    {% endfor %}
+-->
   </div>
 </section>
