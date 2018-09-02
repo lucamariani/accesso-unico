@@ -1,0 +1,32 @@
+category:
+  - name: Normativa
+    metaname: normativa
+  - name: Regolamenti
+    metaname: regolamenti
+  - name: Pareri e circolari
+    metaname: circolari
+
+docs:
+  - title: Titolo Documento 1
+    metaname: doc1
+    categoria: normativa
+    tema: edilizia
+    url: "https://docs.1"
+    anno: 2012
+    numero: 100
+
+  - title: Il Titolo Documento 2
+    metaname: doc2
+    categoria: regolamenti
+    tema: turismo
+    url: "https://docs.2"
+    anno: 2015
+    numero: 102
+
+  - title: Un Titolo Documento 3
+    metaname: doc3
+    categoria: circolari
+    tema: turismo
+    url: "https://docs.3"
+    anno: 2002
+    numero: 1010
