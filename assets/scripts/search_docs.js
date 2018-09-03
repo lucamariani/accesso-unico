@@ -1,17 +1,60 @@
+/** Create lunr index **/
+var idx = lunr(function () {
+  //this.ref('url');
+  this.field('id');
+  this.field('title', { boost: 10 });
+  this.field('tema');
+  this.field('category');
+  this.field('year');
+  this.field('number');
+  this.field('url');
+
+  for (var key in window.store) { // Add the data to lunr
+    this.add({
+      'id': key,
+      'title': window.store[key].title,
+      'tema': window.store[key].tema,
+      'category': window.store[key].category,
+      'year': window.store[key].year,
+      'number': window.store[key].number,
+      'url': window.store[key].url
+    });
+  }
+});
+
+/** display results **/
+function displaySearchResults(results, store) {
+  console.log(store);
+  var searchResults = $('#docs-results-list');
+
+  if (results.length) { // Are there any results?
+    var appendString = '';
+
+    for (var i = 0; i < results.length; i++) {  // Iterate over the results
+      var key = results[i].ref;
+      console.log('key:' + key);
+      var item = store[key];
+      console.log('item:' + item);
+      appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+      appendString += '<p>Categoria: ' + item.category + '</p>';
+      appendString += '<p>Tema: ' + item.tema + '</p></li>';
+      appendString += '<p>Numero: ' + item.number + '</p>';
+      appendString += '<p>Anno: ' + item.year + '</p></li>';
+    }
+
+    searchResults.html(appendString);
+  } else {
+    searchResults.html('<li>No results found</li>');
+  }
+  // show results' section
+  searchResults.show();
+}
+
 /** Docs search functions **/
 $(function() {
   var $titles = $('#titolo-listing > ul > li').clone()
 
-  $('#docs-search-form').on('submit', function() {
-    var $sel = $('#titolo > ul > li.is-selected')
-    if ($sel.length > 0) {
-      window.location = $sel.find('a').attr('href')
-      return false
-    }
-  })
-
   $('#titolo').on('keydown', function(event) {
-    console.log('down: ');
     if (event.which === 9 && $(this).is(':focus')) {
       $(this).blur()
       return true
@@ -20,7 +63,7 @@ $(function() {
 
   $('#titolo').on('keyup', function(event) {
     var text = event.target.value.toLowerCase()
-    console.log('up: ' + text);
+
     $('#titolo-listing > ul').html($titles.filter(function(index, elem) {
       var title = $(elem).find('span').html().toLowerCase()
 
@@ -36,16 +79,8 @@ $(function() {
 $(function() {
   var $titles = $('#numero-listing > ul > li').clone()
 
-  $('#docs-search-form').on('submit', function() {
-    var $sel = $('#numero > ul > li.is-selected')
-    if ($sel.length > 0) {
-      window.location = $sel.find('a').attr('href')
-      return false
-    }
-  })
-
+  /* number filtering */
   $('#numero').on('keydown', function(event) {
-    console.log('down: ');
     if (event.which === 9 && $(this).is(':focus')) {
       $(this).blur()
       return true
@@ -54,7 +89,6 @@ $(function() {
 
   $('#numero').on('keyup', function(event) {
     var text = event.target.value.toLowerCase()
-    console.log('up: ' + text);
     $('#numero-listing > ul').html($titles.filter(function(index, elem) {
       var title = $(elem).find('span').html().toLowerCase()
 
@@ -64,7 +98,31 @@ $(function() {
     }))
     $('#numero-listing > ul > li:first').trigger('mouseenter')
   })
+
+  /* submit handling */
+  $('#docs-search-btn').click(function(event) {
+    event.preventDefault();
+    var title = $('#titolo').val();
+    var number = $('#numero').val();
+    var year = $('#year option:selected').val();
+    console.log('searching for titolo: ' + title + ', number: ' + number + ',year: ' + year);
+
+    var search_title = '*' + title + '*';
+    var search_number = number + '*';
+    var search_year = year;
+    var search_pattern = '+title:' + search_title + ' +number:' + search_number;
+    if ( search_year.indexOf('---') < 0 )
+      search_pattern += ' +year:' + search_year;
+
+    console.log('searching for ' + search_pattern);
+    var results = idx.search(search_pattern);
+    console.log(results);
+    displaySearchResults(results, window.store);
+  });
+
 })
+
+
 
 /** SCHEDE FILTERING **/
 var all_schede = $('.scheda-listing');

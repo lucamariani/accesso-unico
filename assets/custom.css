@@ -43,6 +43,8 @@
     cursor: inherit;
 }
 
+.t-Pac #docs-results-list {display:none;}
+
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}
 .t-Pac .Header-languages{background-color:#333333;}
