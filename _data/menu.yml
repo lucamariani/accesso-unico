@@ -1,10 +1,10 @@
 - title: "Home"
   url: /
-- title: "Pratiche e Servizi"
+- title: "Cerca il servizio"
   description:  "Cerca il tema di tuo interesse o dimmi chi sei"
   url: #
   dropdown:
-  - title: "Temi"
+  - title: "Cosa cerchi?"
     url: "/#themes"
     dropdown:
       - title: "Turismo"
@@ -18,7 +18,7 @@
             url: /categories
           - title: Permesso a costruire
             url: /page-archive
-  - title: "Profili"
+  - title: "Chi sei?"
     url: "#profiles"
     dropdown:
       - title: "Cittadini"

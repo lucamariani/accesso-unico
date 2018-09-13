@@ -332,6 +332,28 @@ Per creare una nuova pagina:
 # Todo
 
 30/08/2018
+
+### Home - ricerca
+HOME PAGE
+
+Wizard prima sezione:
+
+Chi sei? A cosa sei interessato?
+
+chi sei -> a cosa sei interessato-> risultati
+
+a cosa sei interessato -> chi sei -> risultati
+
+
+SIMULATORE
+prevede serie di domande fino ad arrivare ad una scheda
+
+chi sei -> a cosa sei interessato->  domanda 1 -> ... -> domanda N -> scheda
+
+utilizzare TIMELINE (https://italia.github.io/design-web-toolkit/components/preview/timeline.html) on nod che si aggiungono dinamicamente sulla scelta della risposta precedente
+
+
+
 ### prendere spunto per lo stile delle schede qui: https://www.gov.uk/licence-finder
 
 ### aggiornare documentazione con lista dei parametri di configurazione del file "*_config.yml*"
