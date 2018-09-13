@@ -331,6 +331,13 @@ Per creare una nuova pagina:
 
 # Todo
 
+13/09/2018
+### Pagine
+- cambiare titolo da H1 a H2
+-
+### Pagine Mappe
+- inserire la mappa in contenitore centrale come quello della pagina schede
+
 30/08/2018
 ### prendere spunto per lo stile delle schede qui: https://www.gov.uk/licence-finder
 
