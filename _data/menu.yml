@@ -40,7 +40,7 @@
       url: #
       dropdown:
         - title: SUAPE
-          url: /suape
+          url: /map/sportelli_suape/
         - title: URP
           url: #
     - title: PRG
