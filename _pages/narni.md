@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Narni
-metatitle: 55022
+metatitle: narni
 subtitle: Prova pagina statica Narni
 background:
 img:
