@@ -313,9 +313,9 @@ Per creare una nuova pagina:
 
   Dopo il FrontMatter posso aggiungere il content ( x es. per la dropdown dei comuni, realizzata con un l'include di `*comuni_select.html*` )
 
-  La pagina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://lucamariani.github.io/accesso-unico/map/piani_regolatori
+  La pagina sara' visibile al link: *URL_BASE/map/nome file (senza estensione)* : es. https://lucamariani.github.io/accesso-unico/map/piani_regolatori
 
-3. creare una cartella dentro `"_includes/pages/map"`, con lo stesso nome del file creato al punto 1 ( `"_includes/pages/map-regolatori/piani_regolatori"` ) e all'interno di questa creo la cartella `"content"` ( `"_includes/pages/map-regolatori/piani_regolatori/content"` )
+3. creare una cartella dentro `"_includes/pages/map"`, con lo stesso nome del file creato al punto 1 ( `"_includes/pages/map/piani_regolatori"` ) e all'interno di questa creo la cartella `"content"` ( `"_includes/pages/map/piani_regolatori/content"` )
 
   - all'interno della cartella `"content"` posso creare i file opzionali che ho inserito nella lista `"content_files"` del FrontMatter:
      - un file `content1.md` dove scrivo il contenuto che deve essere visualizzato sopra la mappa
@@ -323,9 +323,9 @@ Per creare una nuova pagina:
      - un file `content3.md` dove scrivo il contenuto che deve essere visualizzato sotto il content della pagina
 
      ~~~
-     _includes/pages/map-regolatori/piani_regolatori/content/content1.md
-     _includes/pages/map-regolatori/piani_regolatori/content/content2.md
-     _includes/pages/map-regolatori/piani_regolatori/content/content3.md
+     _includes/pages/map/piani_regolatori/content/content1.md
+     _includes/pages/map/piani_regolatori/content/content2.md
+     _includes/pages/map/piani_regolatori/content/content3.md
      ~~~
 
 
@@ -339,6 +339,28 @@ Per creare una nuova pagina:
 - inserire la mappa in contenitore centrale come quello della pagina schede
 
 30/08/2018
+
+### Home - ricerca
+HOME PAGE
+
+Wizard prima sezione:
+
+Chi sei? A cosa sei interessato?
+
+chi sei -> a cosa sei interessato-> risultati
+
+a cosa sei interessato -> chi sei -> risultati
+
+
+SIMULATORE
+prevede serie di domande fino ad arrivare ad una scheda
+
+chi sei -> a cosa sei interessato->  domanda 1 -> ... -> domanda N -> scheda
+
+utilizzare TIMELINE (https://italia.github.io/design-web-toolkit/components/preview/timeline.html) on nod che si aggiungono dinamicamente sulla scelta della risposta precedente
+
+
+
 ### prendere spunto per lo stile delle schede qui: https://www.gov.uk/licence-finder
 
 ### aggiornare documentazione con lista dei parametri di configurazione del file "*_config.yml*"
