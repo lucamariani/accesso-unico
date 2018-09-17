@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Comune di Amelia
-metatitle: Amelia
+metatitle: amelia
 subtitle: Sportello Comunale SUAPE - riferimenti informazioni
 background:
 img:
