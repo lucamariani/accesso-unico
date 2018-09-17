@@ -7,15 +7,13 @@ n.r.
 **Recapiti**:
 n.r.
 
-[Regolamento][ff00a605]
-
-  [ff00a605]: http://frontoffice.comune.amelia.tr.it:8080/TIEFO/TIEFO.htm "Vai al sito del Comune"
+**Regolamento**:
 
 **Modalità di presentazione delle istanze:**
 In modalità telematica, con accesso al Portale SUAPE Amelia, effettuando preliminarmente la registrazione e l'identificazione su FED-Umbria
 
 **link alla piattaforma**
-http://frontoffice.comune.amelia.tr.it:8080/TIEFO/TIEFO.htm
+
 
 **Per la presentazione delle istanze nel settore Edilizia**
 
