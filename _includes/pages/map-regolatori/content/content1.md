@@ -1,1 +1,1 @@
-# seleziona il Comune e potrai accedere alle pagine del sito web comunale che riguardano il PRG
+# seleziona il Comune e potrai accedere alle pagine del sito web comunale che riguardano il PRG e scaricare il Regolamento edilizio
