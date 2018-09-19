@@ -26,4 +26,4 @@ Esclusivamente in modalità telematica, con accesso al Portale SUAPE Narni, effe
 
 
 [925ed192]: http://www.comune.narni.tr.it/Pagina.php?id=1115&sezione=0 "vai al sito del Comune"
-[06dead65]: http://www.comune.narni.tr.it/Pagina.php?id=1116&sezione=0 "vai al sito d3el Comune"
+[06dead65]: http://www.comune.narni.tr.it/Pagina.php?id=1116&sezione=0 "vai al sito del Comune"
