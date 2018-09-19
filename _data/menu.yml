@@ -21,11 +21,11 @@
   - title: "Chi sei?"
     url: "#profiles"
     dropdown:
-      - title: "Cittadini"
+      - title: "Cittadino"
         url: /profili/cittadini
-      - title: "Imprese"
+      - title: "Impresa"
         url: /profili/imprese
-      - title: Intermediari
+      - title: Intermediario
         url: /profili/intermediari
 
 - title: "Documentazione"
@@ -44,4 +44,7 @@
         - title: URP
           url: #
     - title: PRG
-      url: /prg
+      url: /map/piani_regolatori/
+
+- title: "Il Progetto"
+  url: https://www.arcgis.com/apps/MapJournal/index.html?appid=bb48af932ee54b289bba49db11affbf6
