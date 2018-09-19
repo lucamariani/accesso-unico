@@ -1,9 +1,8 @@
-Riferimenti |
+-|-
 ---------|----------
 **Sede**| Piazza Priori, 1 05035 Narni (Tr)
 **Responsabile**  | Antonio Zitti
-**Recapiti**  | Telefono: 0744/747238 PEC: suap.comune.narni@postacert.umbria.it Email: antonio.zitti@comune.narni.tr.it
-Regolamento  |n.r.
+**Recapiti**  | Telefono: 0744/747238 <br/>PEC: suap.comune.narni@postacert.umbria.it <br/> Email: antonio.zitti@comune.narni.tr.it
 
 
 
@@ -15,7 +14,6 @@ Regolamento  |n.r.
 
 
 **Modalità di presentazione delle istanze:**
-
 Esclusivamente in modalità telematica, con accesso al Portale SUAPE Narni, effettuando preliminarmente la registrazione e l'identificazione su FED-Umbria
 
 
@@ -23,7 +21,7 @@ Esclusivamente in modalità telematica, con accesso al Portale SUAPE Narni, effe
 ----------------------------------- |---------------------------------
 **Sede**|Via del Campanile, 2 05035 Narni (Tr)| Piazza Priori, 2 05035 Narni (Tr)
 **Telefono**|0744/747290  |0744/747290
- **Orari di apertura**|martedì - giovedì 9:00 - 13:00  mercoledì 15:30-17:30  | dal lunedì al venerdì  9:00-12:00  lunedì e mercoledì 15:30 - 17:30
+ **Orari di apertura**|martedì - giovedì 9:00 - 13:00 <br/> mercoledì 15:30-17:30  | dal lunedì al venerdì  9:00-12:00 <br/>  lunedì e mercoledì 15:30 - 17:30
   |[Istruzioni per la presentazione delle istanze][925ed192] |[Istruzioni per la presentazione delle istanze][06dead65]
 
 
