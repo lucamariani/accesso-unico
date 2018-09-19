@@ -1,4 +1,4 @@
--|-
+||
 ---------|----------
 **Sede**| Piazza Priori, 1 05035 Narni (Tr)
 **Responsabile**  | Antonio Zitti
@@ -22,7 +22,7 @@ Esclusivamente in modalità telematica, con accesso al Portale SUAPE Narni, effe
 **Sede**|Via del Campanile, 2 05035 Narni (Tr)| Piazza Priori, 2 05035 Narni (Tr)
 **Telefono**|0744/747290  |0744/747290
  **Orari di apertura**|martedì - giovedì 9:00 - 13:00 <br/> mercoledì 15:30-17:30  | dal lunedì al venerdì  9:00-12:00 <br/>  lunedì e mercoledì 15:30 - 17:30
-  |[Istruzioni per la presentazione delle istanze][925ed192] |[Istruzioni per la presentazione delle istanze][06dead65]
+**Istruzioni**  |[Come presentare un'istanza][925ed192] |[Come presentare un'istanza][06dead65]
 
 
 [925ed192]: http://www.comune.narni.tr.it/Pagina.php?id=1115&sezione=0 "vai al sito del Comune"
