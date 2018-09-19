@@ -4,7 +4,7 @@ title: "Sportelli comunali SUAPE"
 metatitle: map-sportelli
 map_width: small
 map_title: "Sportelli comunali SUAPE"
-map_url: "https://www.arcgis.com/apps/Embed/index.html?webmap=289dd87bddc44e31b40e082cec8513cc&extent=11.1094,42.4122,13.9796,43.4677&zoom=true&previewImage=true&scale=false&details=true&disable_scroll=true&theme=light"
+map_url: "//www.arcgis.com/apps/Embed/index.html?webmap=88c87422d51f4352837f6c38b1be87be&extent=11.5473,42.4427,13.5757,43.3451&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"
 content_files:
   - content1.md
   - content2.md
