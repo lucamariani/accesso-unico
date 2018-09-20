@@ -3,6 +3,7 @@ In modalità telematica, con accesso al Portale SUAPE Amelia, effettuando prelim
 
 **link alla piattaforma**
 <br/><br/>
+------------------------------
 **Regolamento**
 [Vai al regolamento](http://frontoffice.comune.amelia.tr.it:8080/TIEFO/TIEFO.htm)
 
