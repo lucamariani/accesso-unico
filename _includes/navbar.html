@@ -144,19 +144,35 @@
       <nav>
           <ul class="Linklist Linklist--padded Treeview Treeview--default js-Treeview u-text-r-xs">
               {% for item in site.data.menu %}
+                {% if item.url contains "http" %}
+                <li><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                {% else %}
                 <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                {% endif %}
                   {% if item.dropdown %}
                     <ul>
                       {% for sub_item in item.dropdown %}
+                        {% if sub_item.url contains "http" %}
+                        <li><a target="_blank" href="{{ sub_item.url }}">{{ sub_item.title }}</a>
+                        {% else %}
                         <li><a href="{{ site.baseurl }}{{ sub_item.url }}">{{ sub_item.title }}</a>
+                        {% endif %}
                           {% if sub_item.dropdown %}
                             <ul>
                               {% for sub2_item in sub_item.dropdown %}
+                                {% if sub2_item.url contains "http" %}
+                                <li><a target="_blank" href="{{ sub2_item.url }}">{{ sub2_item.title }}</a>
+                                {% else %}
                                 <li><a href="{{ site.baseurl }}{{ sub2_item.url }}">{{ sub2_item.title }}</a>
+                                {% endif %}
                                   {% if sub2_item.dropdown %}
                                     <ul>
                                       {% for sub3_item in sub2_item.dropdown %}
+                                        {% if sub3_item.url contains "http" %}
+                                        <li><a target="_blank" href="{{ sub3_item.url }}">{{ sub2_item.title }}</a>
+                                        {% else %}
                                         <li><a href="{{ site.baseurl }}{{ sub3_item.url }}">{{ sub3_item.title }}</a>
+                                        {% endif %}
                                         </li>
                                       {% endfor %}
                                     </ul>
