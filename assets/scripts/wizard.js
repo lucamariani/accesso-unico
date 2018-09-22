@@ -1,5 +1,6 @@
 $(function() {
   addWizardTabHandler();
+  loadProfiles(1);
 })
 
 /* add click handler to tabs */
@@ -17,4 +18,19 @@ var addWizardTabHandler = function() {
       }
     });
   })
+}
+
+/* load profiles */
+var loadProfiles = function(whereID) {
+  console.log(window.profiles);
+}
+
+/* load themes */
+var loadThemes = function(whereID) {
+
+}
+
+/* load profiles */
+var loadItems = function(items,whereID) {
+
 }

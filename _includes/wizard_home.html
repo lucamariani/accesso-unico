@@ -17,14 +17,14 @@
     <!-- {{profile.name}} section-->
     <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
       <div class="Grid Grid--withGutter">
-        <div class="Grid-cell u-size1of2">
+        <div class="Grid-cell u-size1of4">
           <img src="{{ site.baseurl }}/assets/images/citizen.jpg" class="u-imgResponsive" alt="profili" />
         </div>
-        <div class="Grid-cell u-size1of2 u-padding-r-all">
+        <div class="Grid-cell u-size3of4 u-padding-r-all">
           <ul class="Linklist Prose u-text-r-xs">
-            <li><a href="#">Cosa devo fare?</a></li>
-            <li><a href="#">Cosa mi serve?</a></li>
-            <li><a href="#">A chi mi devo rivolgere?</a></li>
+            <!--{% for profile in site.data.profiles %}
+            <li><div class="profile-item">{{ profile.name }}</div></li>
+            {% endfor %}-->
           </ul>
         </div>
         <div class="Grid-cell u-padding-r-all">
@@ -39,14 +39,14 @@
   <div class="tab-pane p-3 fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
     <section class="u-layout-wide u-layout-withGutter u-layoutCenter u-padding-r-top">
       <div class="Grid Grid--withGutter">
-        <div class="Grid-cell u-size1of2">
+        <div class="Grid-cell u-size1of4">
           <img src="{{ site.baseurl }}/assets/images/pa.jpg" class="u-imgResponsive" alt="temi" />
         </div>
-        <div class="Grid-cell u-size1of2 u-padding-r-all">
+        <div class="Grid-cell u-size3of4 u-padding-r-all">
           <ul class="Linklist Prose u-text-r-xs">
-            <li><a href="#">Cosa devo fare?</a></li>
-            <li><a href="#">Cosa mi serve?</a></li>
-            <li><a href="#">A chi mi devo rivolgere?</a></li>
+            {% for theme in site.data.themes %}
+            <li><div class="theme-item">{{ theme.name }}</div></li>
+            {% endfor %}
           </ul>
         </div>
         <div class="Grid-cell u-padding-r-all">
@@ -59,3 +59,24 @@
   </div>
 
 </div>
+
+<script>
+  window.profiles = {
+    {% for profile in site.data.profiles %}
+      "{{ profile.metaname }}": {
+        "name": "{{ profile.name | xml_escape }}",
+        "image": "{{ profile.image | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+  window.themes = {
+    {% for theme in site.data.themes %}
+      "{{ theme.metaname }}": {
+        "name": "{{ theme.name | xml_escape }}",
+        "image": "{{ theme.image | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>

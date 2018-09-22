@@ -21,11 +21,11 @@
   - title: "Chi sei?"
     url: "#profiles"
     dropdown:
-      - title: "Cittadini"
+      - title: "Cittadino"
         url: /profili/cittadini
-      - title: "Imprese"
+      - title: "Impresa"
         url: /profili/imprese
-      - title: Intermediari
+      - title: Intermediario
         url: /profili/intermediari
 
 - title: "Documentazione"
