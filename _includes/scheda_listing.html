@@ -37,27 +37,29 @@
         <div class="Grid-cell u-sizeFull u-sm-size3of4 u-md-size3of4 u-lg-size3of4 u-margin-r-bottom">
           <h4 class="u-text-h4">
             <a class="u-color-50" href="{{site.baseurl}}{{ include.scheda_profile.url }}">{{ include.scheda_profile.title | capitalize }}</a>
-          <h4>
+          </h4>
           <p class="Prose u-layout-prose">{{ include.scheda_profile.subtitle }}</p>
         </div>
       </section>
-      <p>
-        <a
-          class="u-textClean u-text-xs u-color-white theme-{{ include.scheda_profile.tema | downcase }} scheda-listing-tag"
-          href="{{site.baseurl}}/temi/{{ include.scheda_profile.tema | downcase }}">
-          {{ tema_name | upcase }}
-        </a>
-      </p>
+      <ul id="label-list">
+        <li>
+          <a
+            class="u-textClean u-text-xs u-color-white theme-{{ include.scheda_profile.tema | downcase }} scheda-listing-tag"
+            href="{{site.baseurl}}/temi/{{ include.scheda_profile.tema | downcase }}">
+            {{ tema_name | upcase }}
+          </a>
+        </li>
 
-      {% if include.scheda_profile.tipo %}
-      <p>
-        <a
-          class="u-textClean u-text-xs scheda-type-{{ include.scheda_profile.tipo | downcase }} scheda-listing-tag"
-          href="{{site.baseurl}}/tipo/{{ include.scheda_profile.tipo | downcase }}">
-          {{ include.scheda_profile.tipo | upcase }}
-        </a>
-      </p>
-      {% endif %}
+        {% if include.scheda_profile.tipo %}
+        <li>
+          <a
+            class="u-textClean u-text-xs scheda-type-{{ include.scheda_profile.tipo | downcase }} scheda-listing-tag"
+            href="{{site.baseurl}}/tipo/{{ include.scheda_profile.tipo | downcase }}">
+            {{ include.scheda_profile.tipo | upcase }}
+          </a>
+        </li>
+        {% endif %}
+      </ul>
     </div>
   </div>
 </div> <!-- / .scheda -->
