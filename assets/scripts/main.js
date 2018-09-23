@@ -83,6 +83,27 @@ var update_theme_profile_numbers = function() {
   */
 }
 
+var applyUrlFilter = function() {
+  if ( $('.filter-theme').length > 0 ) {
+    // filter in profile page
+    // http://127.0.0.1:4000/accesso-unico/profili/cittadini/?turismo
+    var requested_theme = window.location.search.substr(1);
+    console.log('requested_theme: ' + requested_theme);
+    if ( requested_theme ) {
+      $('.filter-theme[theme-name=' + requested_theme + ']').prop('checked', true);
+    }
+  } else {
+    // filter in theme page
+    // http://127.0.0.1:4000/accesso-unico/temi/cittadini/?cittadini
+    var requested_profile = window.location.search.substr(1);
+    console.log('requested_profile: ' + requested_profile);
+    if ( requested_profile ) {
+      $('.filter-profile[profile-name=' + requested_profile + ']').prop('checked', true);
+    }
+  }
+  filter();
+}
+
 var filter = function() {
   var filter_type_checked = $('.filter-type:checked').length;
   if ( $('.filter-theme').length > 0 ) {
@@ -174,4 +195,8 @@ $(function() {
       update_theme_profile_numbers();
     });
   });
+})
+
+$(function() {
+  applyUrlFilter();
 })

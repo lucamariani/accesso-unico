@@ -1,6 +1,7 @@
 $(function() {
   addWizardTabHandler();
-  loadProfiles(1);
+  loadProfiles();
+  //loadThemes();
 })
 
 /* add click handler to tabs */
@@ -14,23 +15,67 @@ var addWizardTabHandler = function() {
     $( this ).click(function() {
       if ( tab_div.is(':hidden') ) {
         $('.tab-pane').hide();
+        // reload items
+        loadProfiles();
+        loadThemes();
+        // show tab content
         tab_div.show();
       }
     });
   })
 }
 
-/* load profiles */
-var loadProfiles = function(whereID) {
-  console.log(window.profiles);
+var loadProfiles = function(where) {
+  //console.log('loading profiles in ' + where);
+  loadItems(window.profiles, 'profile', where);
+
+  $('.wizard-item.profile').each(function(index) {
+    $( this ).click(function() {
+      // store profile
+      window.profile = $( this ).attr('item');
+      if ( where ) {
+        // go to results page
+        console.log('showing results for profile ' + window.profile + ' and theme ' + window.theme);
+        var results_url = window.baseurl + "/temi/" + window.theme + "?" + window.profile;
+        window.location.href = results_url;
+      } else {
+        // load theme items
+        loadThemes('#wizard-profile-list');
+      }
+    });
+  });
 }
 
-/* load themes */
-var loadThemes = function(whereID) {
+var loadThemes = function(where) {
+  //console.log('loading themes in ' + where);
+  loadItems(window.themes, 'theme', where);
 
+  $('.wizard-item.theme').each(function(index) {
+    $( this ).click(function() {
+      // store theme
+      window.theme = $( this ).attr('item');
+      if ( where ) {
+        // go to results page
+        console.log('showing results for theme ' + window.theme + ' and profile ' + window.profile);
+        var results_url = window.baseurl + "/profili/" + window.profile + "?" + window.theme;
+        window.location.href = results_url;
+      } else {
+        // load theme items
+        loadProfiles('#wizard-theme-list');
+      }
+    });
+  });
 }
 
-/* load profiles */
-var loadItems = function(items,whereID) {
-
+/* load items */
+var loadItems = function(items,what,where) {
+  //console.log('loading ' + what);
+  //console.log(items);
+  if ( ! where ) where = $('#wizard-' + what + '-list');
+  var listItemsContent = '';
+  var wizardItemsList = $(where);
+  for (var key in items) {
+    listItemsContent += '<li><div class="wizard-item ' + what + '" item="' + key + '">' + items[key].name + '</div></li>';
+  };
+  wizardItemsList.html(listItemsContent);
 }

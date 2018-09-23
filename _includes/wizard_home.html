@@ -1,6 +1,6 @@
 <ul class="wizard-tab" id="wizardTab">
 
-  <li class="wizard-item">
+  <li class="wizard-tab-item">
     <a class="wizard-link active u-text-h2 u-color-grey-40" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">
       Profili
     </a>
@@ -21,7 +21,7 @@
           <img src="{{ site.baseurl }}/assets/images/citizen.jpg" class="u-imgResponsive" alt="profili" />
         </div>
         <div class="Grid-cell u-size3of4 u-padding-r-all">
-          <ul class="Linklist Prose u-text-r-xs">
+          <ul id="wizard-profile-list" class="Linklist Prose u-text-r-xs">
             <!--{% for profile in site.data.profiles %}
             <li><div class="profile-item">{{ profile.name }}</div></li>
             {% endfor %}-->
@@ -43,10 +43,10 @@
           <img src="{{ site.baseurl }}/assets/images/pa.jpg" class="u-imgResponsive" alt="temi" />
         </div>
         <div class="Grid-cell u-size3of4 u-padding-r-all">
-          <ul class="Linklist Prose u-text-r-xs">
-            {% for theme in site.data.themes %}
+          <ul id="wizard-theme-list" class="Linklist Prose u-text-r-xs">
+            <!--{% for theme in site.data.themes %}
             <li><div class="theme-item">{{ theme.name }}</div></li>
-            {% endfor %}
+            {% endfor %}-->
           </ul>
         </div>
         <div class="Grid-cell u-padding-r-all">
@@ -79,4 +79,7 @@
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
+  window.profile = '';
+  window.theme = '';
+  window.baseurl = '{{ site.baseurl }}';
 </script>
