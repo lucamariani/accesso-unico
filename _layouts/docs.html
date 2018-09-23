@@ -48,7 +48,7 @@ layout: default
 
         <div class="Grid Grid--withGutter u-background-white" role="search">
 
-          <div class="Grid-cell u-size4of4 u-md-size4of4 u-lg-size2of4">
+          <div class="Grid-cell u-size4of4 u-md-size2of4 u-lg-size2of4">
             <div class="Form-field">
               <label class="Form-label" for="titolo">Titolo</label>
               <input data-menu-trigger="titolo-listing" class="Form-input u-text-r-s u-borderRadius-m" id="titolo" name="titolo" autocomplete="off" value="" />
@@ -70,13 +70,13 @@ layout: default
             </div>
           </div>
 
-          <div class="Grid-cell u-size2of4 u-md-size2of4 u-lg-size1of4">
+          <div class="Grid-cell u-size2of4 u-md-size1of4 u-lg-size1of4">
             <div class="Form-field">
               <label class="Form-label is-required" for="number">Numero</label>
               <input data-menu-trigger="numero-listing" class="Form-input u-text-r-s u-borderRadius-m" id="numero" name="numero">
 
               <div id="numero-listing" data-menu
-                class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-size2of4 u-md-size2of4 u-lg-size1of4">
+                class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-size2of4 u-md-size1of4 u-lg-size1of4">
                 <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
                 <ul class="Linklist">
                   {% assign docs_number = site.data.docs.docs | group_by: 'numero' %}
@@ -92,14 +92,43 @@ layout: default
             </div>
           </div>
 
-          <div class="Grid-cell u-size2of4 u-md-size2of4 u-lg-size1of4">
+          <div class="Grid-cell u-size2of4 u-md-size1of4 u-lg-size1of4">
             <div class="Form-field">
               <label class="Form-label is-required" for="year">Anno</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="year" name="anno">
-                <option selected disabled>---</option>
+                <option selected>---</option>
                 {% assign docs_year = site.data.docs.docs | group_by: 'anno' %}
                 {% for docy in docs_year %}
                 <option class="u-color-50" value="{{ docy.name }}">{{ docy.name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <div class="Grid-cell u-size2of4 u-md-size2of4 u-lg-size2of4">
+            <div class="Form-field">
+              <label class="Form-label is-required" for="tema">Tema</label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="tema" name="tema">
+                <option selected>---</option>
+                {% assign docs_theme = site.data.docs.docs | group_by: 'tema' %}
+                {% for doc in docs_theme %}
+                  <!-- get the theme's full name -->
+                  {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == doc.name" %}
+                  {% assign tema_item = tema_items[0] %}
+                  <option class="u-color-50" value="{{ doc.name }}">{{ tema_item.name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <div class="Grid-cell u-size2of4 u-md-size2of4 u-lg-size2of4">
+            <div class="Form-field">
+              <label class="Form-label is-required" for="categoria">Categoria</label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
+                <option selected>---</option>
+                {% assign docs_category = site.data.docs.docs | group_by: 'categoria' %}
+                {% for doc in docs_category %}
+                <option class="u-color-50" value="{{ doc.name }}">{{ doc.name }}</option>
                 {% endfor %}
               </select>
             </div>
@@ -113,66 +142,14 @@ layout: default
     </form>
 
     <!-- Results' list -->
-    <section id="docs-results-list" class="Grid">
+    <section id="result-section" class="u-nbfc u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-r-bottom u-posRelative u-zindex-30">
+      <div class="u-layout-wide u-layoutCenter">
+        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">Risultati ricerca</h2>
+        <div id="docs-results-list" class="Grid Grid--withGutter">
+        </div>
+      </div>
     </section>
     <!-- / Results' list -->
-
-    <!-- Linklist -->
-    <div class="Grid Grid--withGutter">
-
-      <div class="Grid-cell u-sm-size1of2 u-md-size1of2 u-lg-size1of2 u-padding-r-all">
-        <div class="u-border-top-l u-color-50 u-text-r-l u-padding-r-bottom">
-          <h2 class="u-text-h3 u-padding-r-top">Tema</h2>
-          <p class="Prose u-padding-r-top u-padding-r-bottom">
-            Guarda tutta la documentazione per tema
-          </p>
-          <ul class="Linklist Prose u-text-r-xs">
-            {% for tema in site.data.themes %}
-            <li><a href="">{{tema.name}}</a></li>
-            {% endfor %}
-          </ul>
-          <p></p>
-        </div>
-      </div>
-
-      <div class="Grid-cell u-sm-size1of2 u-md-size1of2 u-lg-size1of2 u-padding-r-all">
-        <div class="u-border-top-l u-color-50 u-text-r-l u-padding-r-bottom">
-          <h2 class="u-text-h3 u-padding-r-top">Categoria</h2>
-          <p class="Prose u-padding-r-top u-padding-r-bottom">
-            Guarda tutta la documentazione per categoria
-          </p>
-          <ul class="Linklist Prose u-text-r-xs">
-            {% for category in site.data.docs.category %}
-            <li><a href="">{{category.name}}</a></li>
-            {% endfor %}
-          </ul>
-          <p></p>
-        </div>
-      </div>
-
-  </div>
-    <!-- / Linklist  -->
-
-    <section class="Grid">
-      <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
-
-        <article class="Prose u-layout-prose">
-
-        {% include pages/content.html %}
-
-        </article>
-
-      </div>
-
-      <!-- Sidebar -->
-      <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
-        <!-- add separator -->
-        <div class="u-padding-r-all u-text-r-xxl"></div>
-
-      </div>
-      <!-- / Sidebar -->
-
-    </section>
   </div>
 </div>
 
