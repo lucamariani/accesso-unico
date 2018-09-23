@@ -1,8 +1,16 @@
 $(function() {
   addWizardTabHandler();
+  // load only profiles as theme tab is hidden
   loadProfiles();
   //loadThemes();
 })
+
+var reloadItems = function() {
+  window.themes = window.allthemes;
+  window.profiles = window.allprofiles;
+  loadProfiles();
+  loadThemes();
+}
 
 /* add click handler to tabs */
 var addWizardTabHandler = function() {
@@ -14,10 +22,14 @@ var addWizardTabHandler = function() {
 
     $( this ).click(function() {
       if ( tab_div.is(':hidden') ) {
+        // remove tab active
+        tab_links.removeClass('active');
+        // change tab active
+        $( this ).addClass('active');
+        // change content
         $('.tab-pane').hide();
         // reload items
-        loadProfiles();
-        loadThemes();
+        reloadItems();
         // show tab content
         tab_div.show();
       }
@@ -40,6 +52,7 @@ var loadProfiles = function(where) {
         window.location.href = results_url;
       } else {
         // load theme items
+        window.themes = window.schede[window.profile];
         loadThemes('#wizard-profile-list');
       }
     });
@@ -60,7 +73,8 @@ var loadThemes = function(where) {
         var results_url = window.baseurl + "/profili/" + window.profile + "?" + window.theme;
         window.location.href = results_url;
       } else {
-        // load theme items
+        // load profile items
+        window.profiles = window.schede[window.theme];
         loadProfiles('#wizard-theme-list');
       }
     });
@@ -75,7 +89,7 @@ var loadItems = function(items,what,where) {
   var listItemsContent = '';
   var wizardItemsList = $(where);
   for (var key in items) {
-    listItemsContent += '<li><div class="wizard-item ' + what + '" item="' + key + '">' + items[key].name + '</div></li>';
+    listItemsContent += '<li><div class="wizard-item u-color-grey-40 ' + what + '" item="' + key + '">' + items[key].name + '</div></li>';
   };
   wizardItemsList.html(listItemsContent);
 }

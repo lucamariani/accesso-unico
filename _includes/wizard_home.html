@@ -1,12 +1,14 @@
-<ul class="wizard-tab" id="wizardTab">
+<ul class="wizard-tab" id="wizardTabList">
 
   <li class="wizard-tab-item">
-    <a class="wizard-link active u-text-h2 u-color-grey-40" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">
+    <p class="wizard-link active u-text-h2 u-color-grey-40" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="true">
       Profili
-    </a>
-    <a class="wizard-link u-text-h2 u-color-grey-40" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="true">
+    </p>
+  </li>
+  <li class="wizard-tab-item">
+    <p class="wizard-link u-text-h2 u-color-grey-40" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="true">
       Temi
-    </a>
+    </p>
   </li>
 
 </ul>
@@ -21,11 +23,7 @@
           <img src="{{ site.baseurl }}/assets/images/citizen.jpg" class="u-imgResponsive" alt="profili" />
         </div>
         <div class="Grid-cell u-size3of4 u-padding-r-all">
-          <ul id="wizard-profile-list" class="Linklist Prose u-text-r-xs">
-            <!--{% for profile in site.data.profiles %}
-            <li><div class="profile-item">{{ profile.name }}</div></li>
-            {% endfor %}-->
-          </ul>
+          <ul id="wizard-profile-list" class="Prose u-text-r-xs"></ul>
         </div>
         <div class="Grid-cell u-padding-r-all">
           <p class="Prose u-padding-r-top u-padding-r-bottom">
@@ -43,11 +41,7 @@
           <img src="{{ site.baseurl }}/assets/images/pa.jpg" class="u-imgResponsive" alt="temi" />
         </div>
         <div class="Grid-cell u-size3of4 u-padding-r-all">
-          <ul id="wizard-theme-list" class="Linklist Prose u-text-r-xs">
-            <!--{% for theme in site.data.themes %}
-            <li><div class="theme-item">{{ theme.name }}</div></li>
-            {% endfor %}-->
-          </ul>
+          <ul id="wizard-theme-list" class="Prose u-text-r-xs"></ul>
         </div>
         <div class="Grid-cell u-padding-r-all">
           <p class="Prose u-padding-r-top u-padding-r-bottom">
@@ -61,7 +55,8 @@
 </div>
 
 <script>
-  window.profiles = {
+  /* get all profiles from data file */
+  /*window.allprofiles = {
     {% for profile in site.data.profiles %}
       "{{ profile.metaname }}": {
         "name": "{{ profile.name | xml_escape }}",
@@ -69,8 +64,9 @@
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
-  };
-  window.themes = {
+  };*/
+  /* get all themes from data file */
+  /*window.allthemes = {
     {% for theme in site.data.themes %}
       "{{ theme.metaname }}": {
         "name": "{{ theme.name | xml_escape }}",
@@ -78,8 +74,76 @@
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
+  };*/
+
+  /* get all profiles from schede */
+  window.allprofiles = {
+    {% assign profiles = site.schede | group_by: 'utenza' | sort: 'name' %}
+    {% for profile in profiles %}
+      {% assign profile_items = site.data.profiles | where_exp: "item", "item.metaname == profile.name" %}
+      {% assign user = profile_items[0] %}
+        "{{ user.metaname }}": {
+          "name": "{{ user.name | xml_escape }}",
+          "image": "{{ user.image | xml_escape }}"
+        }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
   };
+  /* get all themes from schede */
+  window.allthemes = {
+    {% assign themes = site.schede | group_by: 'tema' | sort: 'name' %}
+    {% for tema in themes %}
+      {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == tema.name" %}
+      {% assign theme = tema_items[0] %}
+        "{{ theme.metaname }}": {
+          "name": "{{ theme.name | xml_escape }}",
+          "image": "{{ theme.image | xml_escape }}"
+        }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+
+  window.themes = window.allthemes;
+  window.profiles = window.allprofiles;
   window.profile = '';
   window.theme = '';
   window.baseurl = '{{ site.baseurl }}';
+
+  window.schede = {
+    {% assign profiles = site.schede | group_by: 'utenza' | sort: 'name' %}
+    {% for profile in profiles %}
+      "{{ profile.name }}": {
+      {% assign schede_per_tema = profile.items | group_by: 'tema' | sort: 'name' %}
+      {% for tema in schede_per_tema %}
+        {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == tema.name" %}
+        {% assign theme = tema_items[0] %}
+          "{{ theme.metaname }}": {
+            "name": "{{ theme.name | xml_escape }}",
+            "image": "{{ theme.image | xml_escape }}"
+          }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+    ,
+
+    {% assign themes = site.schede | group_by: 'tema' | sort: 'name' %}
+    {% for theme in themes %}
+      "{{ theme.name }}": {
+      {% assign schede_per_profile = theme.items | group_by: 'utenza' | sort: 'name' %}
+      {% for profile in schede_per_profile %}
+        {% assign profile_items = site.data.profiles | where_exp: "item", "item.metaname == profile.name" %}
+        {% assign profilo = profile_items[0] %}
+          "{{ profilo.metaname }}": {
+            "name": "{{ profilo.name | xml_escape }}",
+            "image": "{{ profilo.image | xml_escape }}"
+          }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  }
+
 </script>

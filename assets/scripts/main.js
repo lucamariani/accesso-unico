@@ -83,25 +83,36 @@ var update_theme_profile_numbers = function() {
   */
 }
 
+/**
+ * Get the filter to apply from url.
+ * If a filter is specifid byt there is not scheda for profile,thema return false
+ */
 var applyUrlFilter = function() {
   if ( $('.filter-theme').length > 0 ) {
     // filter in profile page
     // http://127.0.0.1:4000/accesso-unico/profili/cittadini/?turismo
     var requested_theme = window.location.search.substr(1);
     console.log('requested_theme: ' + requested_theme);
+
     if ( requested_theme ) {
-      $('.filter-theme[theme-name=' + requested_theme + ']').prop('checked', true);
+      if ( $('.filter-theme[theme-name=' + requested_theme + ']').size() > 0 )
+        $('.filter-theme[theme-name=' + requested_theme + ']').prop('checked', true);
+      else return false;
     }
   } else {
     // filter in theme page
     // http://127.0.0.1:4000/accesso-unico/temi/cittadini/?cittadini
     var requested_profile = window.location.search.substr(1);
     console.log('requested_profile: ' + requested_profile);
+
     if ( requested_profile ) {
-      $('.filter-profile[profile-name=' + requested_profile + ']').prop('checked', true);
+      if ( $('.filter-profile[profile-name=' + requested_profile + ']').size() > 0 )
+        $('.filter-profile[profile-name=' + requested_profile + ']').prop('checked', true);
+      else return false;
     }
   }
   filter();
+  return true;
 }
 
 var filter = function() {
@@ -198,5 +209,7 @@ $(function() {
 })
 
 $(function() {
-  applyUrlFilter();
+  if ( ! applyUrlFilter() ) {
+    console.log('hiding scheda as there are not scheda for requested profile,thema');
+  }
 })
