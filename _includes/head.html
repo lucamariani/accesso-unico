@@ -9,19 +9,12 @@
   <!-- include HTML5shim per Explorer 8 -->
   <script src="{{ site.baseurl }}{{"/italia_build/vendor/modernizr.js" }}"></script>
 
-  <!-- include bootstrap css for tabs -->
-  <link media="all" rel="stylesheet" href="{{ site.baseurl }}{{"/assets/bootstrap-italia.min.css" }}">
-
   <link media="all" rel="stylesheet" href="{{ site.baseurl }}{{"/italia_build/build.css" }}">
   {% if site.custom_css or page.custom_css %}
   <link media="all" rel="stylesheet" href="{{ site.baseurl }}{{"/assets/custom.css" }}">
   {% endif %}
 
   <script src="{{ site.baseurl }}{{"/italia_build/vendor/jquery.min.js" }}"></script>
-
-  <!-- bootstrap -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha256-98vAGjEDGN79TjHkYWVD4s87rvWkdWLHPs5MC3FvFX4=" crossorigin="anonymous"></script>
-  <script src="{{ site.baseurl }}{{"/assets/scripts/bootstrap-italia.min.js" }}"></script>
 
   <title>
     {% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}
