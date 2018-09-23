@@ -33,9 +33,11 @@
 
 /* tabs */
 .t-Pac #tab2 {display:none;}
+.t-Pac .wizard-link:not(.active) {cursor: pointer;}
 .t-Pac .wizard-link.active {border-bottom: 4px solid #9c2328;}
+.t-Pac .wizard-item {cursor: pointer;}
 .t-Pac #wizardTabList {list-style-type: none; overflow: hidden; float: right;}
-.t-Pac .wizard-tab-item {float:left;margin-right: 10px;}
+.t-Pac .wizard-tab-item {float:left; margin-right: 10px;}
 .t-Pac #wizard-profile-list li {float: left; margin: 10px;}
 .t-Pac #wizard-theme-list li {float: left; margin: 10px;}
 
