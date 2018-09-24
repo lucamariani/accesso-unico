@@ -1,5 +1,5 @@
 ---
-llayout: scheda
+layout: scheda
 object: piani_regolatori
 utenza: imprese
 tema: edilizia
