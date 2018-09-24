@@ -1,6 +1,6 @@
 ---
-layout: scheda
-object: Piani Regolatori Comunali
+llayout: scheda
+object: piani_regolatori
 utenza: imprese
 tema: edilizia
 tipo: servizio
