@@ -144,10 +144,15 @@
       <nav>
           <ul class="Linklist Linklist--padded Treeview Treeview--default js-Treeview u-text-r-xs">
               {% for item in site.data.menu %}
-                {% if item.url contains "http" %}
-                <li><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                {% if item.title contains "Progetto"%}
+                  {% assign li_class = 'data-megamenu-class="Megamenu-item u-flexExpandLeft"'%}
                 {% else %}
-                <li><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                  {% assign li_class = 'data-megamenu-class="Megamenu-item"' %}
+                {% endif %}
+                {% if item.url contains "http" %}
+                <li {{ li_class }}><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                {% else %}
+                <li {{ li_class }}><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
                   {% if item.dropdown %}
                     <ul>
