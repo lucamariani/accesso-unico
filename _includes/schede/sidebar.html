@@ -1,6 +1,3 @@
-<h2>Ciao {{ include.utenza }}</h2>
-<h3>Tema {{ include.tema }}</h3>
-
 {% capture theprofile %}{{ include.utenza }}{% endcapture %}
 {% assign include_file = site.data.schede.[page.object].sidebarboxes %}
 
@@ -45,3 +42,5 @@
   {% endif %}
 
 {% endfor %}
+
+{% include share.html %}
