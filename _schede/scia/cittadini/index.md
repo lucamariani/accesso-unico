@@ -4,6 +4,6 @@ object: scia
 utenza: cittadini
 tema: edilizia
 tipo: pratica
-title: Cambio destinzione d'uso
+title: Cambio destinazione d'uso
 subtitle: Cambio destinzione d'uso per il cittadino
 ---
