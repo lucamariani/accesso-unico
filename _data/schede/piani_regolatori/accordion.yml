@@ -8,9 +8,16 @@
 
 - title: "Che cos'è"
   file: "che_cosa.md"
-
+utenza:
+  - imprese
+  - intermediari
 - title: "Cosa offre"
   file: "cosa_offre.md"
-
+utenza:
+  - imprese
+  - intermediari
 - title: "A chi è rivolto"
   file: "a_chi.md"
+utenza:
+  - imprese
+  - intermediari
