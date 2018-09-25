@@ -5,6 +5,8 @@ url:               "https://lucamariani.github.io/accesso-unico/"
 author:            "Redazione"
 
 custom_css: true
+# define the main black
+main_color: grey-80
 
 # Header data
 header_parent_title: Regione Umbria

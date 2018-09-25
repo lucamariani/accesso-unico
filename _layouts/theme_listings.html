@@ -18,7 +18,7 @@ layout: default
 
       <section class="Grid">
         <div class="Grid-cell u-sizeFull">
-          <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ tema_items[0].name }}</h1>
+          <h1 class="u-text-h1 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ tema_items[0].name }}</h1>
           {% if page.description %}
           <p class="Prose u-layout-prose">{{ page.description }}</p>
           {% endif %}

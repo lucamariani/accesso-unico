@@ -89,7 +89,7 @@ var loadItems = function(items,what,where) {
   var listItemsContent = '';
   var wizardItemsList = $(where);
   for (var key in items) {
-    listItemsContent += '<li><div class="wizard-item u-color-grey-40 ' + what + '" item="' + key + '">' + items[key].name + '</div></li>';
+    listItemsContent += '<li><div class="wizard-item u-text-r-m ' + what + '" item="' + key + '">' + items[key].name + '</div></li>';
   };
   wizardItemsList.html(listItemsContent);
 }
