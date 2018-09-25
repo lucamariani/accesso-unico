@@ -5,5 +5,5 @@ utenza: intermediari
 tema: edilizia
 tipo: servizio
 title: Piani Regolatori Comunali
-subtitle: accesso ai siti web comunali
+subtitle: consulta le risorse dei PRG e scarica il Regolamento Edilizio
 ---
