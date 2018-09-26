@@ -44,3 +44,18 @@
 
   </div>
 </div>
+
+<!-- force accordion opening -->
+<script>
+    var accorionOpen = function() {
+      console.log('opening accordion...');
+      $("h2[id*='accordion']").attr("aria-expanded","true")
+      $("div[id*='accordion-panel']").attr("aria-hidden","false")
+    }
+
+    {% if page.accordion_open %}
+      $(function() {
+        accorionOpen();
+      })
+    {% endif %}
+</script>

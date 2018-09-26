@@ -34,7 +34,7 @@
 /* tabs */
 .t-Pac #tab2 {display:none;}
 .t-Pac .wizard-link:not(.active) {cursor: pointer;}
-.t-Pac .wizard-link.active {border-bottom: 4px solid #9c2328;}
+.t-Pac .wizard-link.active {border-bottom: 4px solid #9c2328; color:#5a6772 !important;}
 .t-Pac .wizard-item {cursor: pointer;}
 .t-Pac #wizardTabList {list-style-type: none; overflow: hidden; float: right;}
 .t-Pac .wizard-tab-item {float:left; margin-right: 10px;}

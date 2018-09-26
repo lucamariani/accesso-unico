@@ -28,6 +28,7 @@ Per creare una nuova scheda:
   > tema: < *tema scheda* >  
   > title: < *titolo scheda* >    
   > subtitle: < *sottotitolo scheda* >  
+  > accordion_open: [ true, false ]
 
   Esempio:
   > layout: scheda  
@@ -36,6 +37,7 @@ Per creare una nuova scheda:
   > tema: edilizia  
   > title: Cambio destinazione d'uso  
   > subtitle: SCIA
+  > accordion_open: true
 
   il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
   - agricoltura
@@ -330,6 +332,9 @@ Per creare una nuova pagina:
 
 
 # Todo
+26/09/2018
+Dcumentazione
+- inserire tag x valori: modulistica, suape, ...
 
 13/09/2018
 ### Pagine

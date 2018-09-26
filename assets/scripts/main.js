@@ -212,4 +212,5 @@ $(function() {
   if ( ! applyUrlFilter() ) {
     console.log('hiding scheda as there are not scheda for requested profile,thema');
   }
+  update_type_numbers();
 })

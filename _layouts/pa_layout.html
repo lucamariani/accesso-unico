@@ -1,0 +1,118 @@
+---
+layout: default
+---
+
+<div id="main">
+
+  <!-- Page Title -->
+  {% if page.background %}
+  <div class="u-sizeFull" style="height: 350px; background-size: cover; background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <div class="u-sizeFull">
+  {% endif %}
+
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-margin-bottom-l u-sizeFull u-md-size2of3 u-lg-size2of3">
+          <!--<h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>-->
+          {% if page.img %}
+          <div class="page-img-div">
+            <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
+          </div>
+          {% endif %}
+          {% if page.author %}
+          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.author }}</h3>
+          {% endif %}
+          {% if page.date %}
+          <br>
+          <span class="meta u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.date | date: '%B %d, %Y' }}</span>
+          <br>
+          {% endif %}
+        </div>
+      <section>
+    </div>
+
+  </div>
+
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+
+    <div class="u-margin-bottom-l">
+      {{ content }}
+    </div>
+
+    <!-- Card list -->
+    <section class="Grid Grid--withGutter Grid--equalHeight u-padding-all-l">
+
+        <div class="Grid-cell u-margin-bottom-l u-md-size1of3 u-lg-size1of3">
+            <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white">
+                <img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />
+                <div class="u-text-r-l u-padding-r-all u-layout-prose">
+                    <p class="u-text-h6 u-margin-bottom-l"><a class="u-color-50 u-textClean" href="">corrupti ut velit</a></p>
+                    <h3 class="u-text-h4 u-margin-r-bottom"><a class="u-text-r-m u-color-black u-textWeight-400 u-textClean" href="">Sit et cum iure illum ducimus dignissimos fuga iste.</a></h3>
+                    <p class="u-text-p u-textSecondary">Facilis et amet rerum omnis facere. Ex illum nobis corrupti consectetur blanditiis voluptate. Quos nam illo dignissimos dolor ipsam quisquam
+                      Facilis et amet rerum omnis facere. Ex illum nobis corrupti consectetur blanditiis voluptate. Quos nam illo dignissimos dolor ipsam quisquam
+                      Facilis et amet rerum omnis facere. Ex illum nobis corrupti consectetur blanditiis voluptate. Quos nam illo dignissimos dolor ipsam quisquam.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="Grid-cell u-margin-bottom-l u-md-size1of3 u-lg-size1of3">
+            <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white">
+                <img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />
+                <div class="u-text-r-l u-padding-r-all u-layout-prose">
+                    <p class="u-text-h6 u-margin-bottom-l"><a class="u-color-50 u-textClean" href="">corrupti ut velit</a></p>
+                    <h3 class="u-text-h4 u-margin-r-bottom"><a class="u-text-r-m u-color-black u-textWeight-400 u-textClean" href="">Sit et cum iure illum ducimus dignissimos fuga iste.</a></h3>
+                    <p class="u-text-p u-textSecondary">Facilis et amet rerum omnis facere. Ex illum nobis corrupti consectetur blanditiis voluptate. Quos nam illo dignissimos dolor ipsam quisquam.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="Grid-cell u-margin-bottom-l u-md-size1of3 u-lg-size1of3">
+            <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white">
+                <img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />
+                <div class="u-text-r-l u-padding-r-all u-layout-prose">
+                    <p class="u-text-h6 u-margin-bottom-l"><a class="u-color-50 u-textClean" href="">corrupti ut velit</a></p>
+                    <h3 class="u-text-h4 u-margin-r-bottom"><a class="u-text-r-m u-color-black u-textWeight-400 u-textClean" href="">Sit et cum iure illum ducimus dignissimos fuga iste.</a></h3>
+                    <p class="u-text-p u-textSecondary">Facilis et amet rerum omnis facere. Ex illum nobis corrupti consectetur blanditiis voluptate. Quos nam illo dignissimos dolor ipsam quisquam.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="Grid-cell u-margin-bottom-l u-md-size1of3 u-lg-size1of3">
+            <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white">
+                <img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />
+                <div class="u-text-r-l u-padding-r-all u-layout-prose">
+                    <p class="u-text-h6 u-margin-bottom-l"><a class="u-color-50 u-textClean" href="">corrupti ut velit</a></p>
+                    <h3 class="u-text-h4 u-margin-r-bottom"><a class="u-text-r-m u-color-black u-textWeight-400 u-textClean" href="">Sit et cum iure illum ducimus dignissimos fuga iste.</a></h3>
+                    <p class="u-text-p u-textSecondary">Facilis et amet rerum omnis facere. Ex illum nobis corrupti consectetur blanditiis voluptate. Quos nam illo dignissimos dolor ipsam quisquam.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="Grid-cell u-margin-bottom-l u-md-size1of3 u-lg-size1of3">
+            <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white">
+                <img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />
+                <div class="u-text-r-l u-padding-r-all u-layout-prose">
+                    <p class="u-text-h6 u-margin-bottom-l"><a class="u-color-50 u-textClean" href="">corrupti ut velit</a></p>
+                    <h3 class="u-text-h4 u-margin-r-bottom"><a class="u-text-r-m u-color-black u-textWeight-400 u-textClean" href="">Sit et cum iure illum ducimus dignissimos fuga iste.</a></h3>
+                    <p class="u-text-p u-textSecondary">Facilis et amet rerum omnis facere. Ex illum nobis corrupti consectetur blanditiis voluptate. Quos nam illo dignissimos dolor ipsam quisquam.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="Grid-cell u-margin-bottom-l u-md-size1of3 u-lg-size1of3">
+            <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-30 u-background-white">
+                <img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />
+                <div class="u-text-r-l u-padding-r-all u-layout-prose">
+                    <p class="u-text-h6 u-margin-bottom-l"><a class="u-color-50 u-textClean" href="">corrupti ut velit</a></p>
+                    <h3 class="u-text-h4 u-margin-r-bottom"><a class="u-text-r-m u-color-black u-textWeight-400 u-textClean" href="">Sit et cum iure illum ducimus dignissimos fuga iste.</a></h3>
+                    <p class="u-text-p u-textSecondary">Facilis et amet rerum omnis facere. Ex illum nobis corrupti consectetur blanditiis voluptate. Quos nam illo dignissimos dolor ipsam quisquam.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- / Results' list -->
+  </div>
+</div>
