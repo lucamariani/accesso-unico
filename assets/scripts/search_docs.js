@@ -41,7 +41,7 @@ function displaySearchResults(results, store) {
       appendString += '<div class="u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill u-padding-r-all"><div class="u-sizeFull u-padding-r-all u-xs-padding-all-none">';
       appendString += '<a href="' + item.url + '" target="_blank"><h3 class="u-color-50">' + item.title + '</h3></a>';
       appendString += '<p>Categoria: ' + item.category + '</p>';
-      appendString += '<p>Tema: ' + item.tema + '</p></li>';
+      appendString += '<p>Argomento: ' + item.tema + '</p></li>';
       appendString += '<p>Numero: ' + item.number + '</p>';
       appendString += '<p>Anno: ' + item.year + '</p>';
       appendString += '</div></div></div></div>';

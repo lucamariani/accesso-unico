@@ -332,6 +332,9 @@ Per creare una nuova pagina:
 
 
 # Todo
+26/09/2018
+Dcumentazione
+- inserire tag x valori: modulistica, suape, ...
 
 13/09/2018
 ### Pagine
