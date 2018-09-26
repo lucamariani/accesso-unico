@@ -1,4 +1,7 @@
 ---
 layout: pa_layout
 ---
-# test
+
+## Perche' partecipare
+## Come posso partecipare
+## Come e' nato il progetto
