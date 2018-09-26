@@ -1,9 +1,14 @@
 tabella modulistica x argomento
 
-|||
-------|----------- |-------
-- | **Sportello Unico per l’Edilizia - SUE** |**Sportello Unico per le Attività Produttive - SUAP**
-**Sede**|Piazza Matteotti, 3<br/> 05022 Amelia (Tr)<br/><br/>|Via Roma, 4<br/> 05022 Amelia (Tr)<br/><br/>
-**Responsabile** |Stefano Ferdinandi<br/>| Sergio Pricano<br/>
-**Recapiti**|<br/>Telefono: 0744/976246<br/>Email: ufficio.ediliziaprivata@comune.amelia.tr.it<br/>PEC: suap.comune.amelia@postacert.umbria.it<br/><br/>|<br/>Telefono: 0744/978265<br/>PEC: suap.comune.amelia@postacert.umbria.it<br/><br/>
-**Orari di apertura** |**Rilascio atti**<br/>Lunedì – Mercoledì - Venerdì  8:45 - 12:30<br/>giovedì 15:00 - 17:00<br/>**Istruttorie atti**<br/>giovedì 8:45 - 12:30|dal lunedì al venerdì  8:45 - 12:30<br/>martedì e giovedì 15:00 - 17:00
+||||
+------------|----------|-------|-----|
+**Identificativo modello abbreviato** |**Denominazione completa modulo**|** Release ** |**scarica il <br/>modello**
+Scheda anagrafica|Scheda anagrafica| 1 |
+Notifica sanitaria |Notifica ai fini della registrazione| 5|
+**_Attivita' commerciali <br/>e assimilate_<br/>**|||
+Acconciatori ed Estetisti|Segnalazione certificata di inizio attivita' per l'esercizio dell'attivita' di acconciatore e/o estetista<br/>|2|
+Agenzie di affari di competenza del Comune |  |  1 |
+Apparecchi automatici|Segnalazione certificata di inizio attivita' per l'esercizio di vendita mediante apparecchi automatici in altri esercizi commerciali gia' abilitati o in altre strutture e/o su area pubblica| 2  |  
+Autorimesse|Segnalazione certificata di inizio attivita' per l'esercizio dell'attivita' di autorimessa| 2  |   
+Commercio all'ingrosso  |Autorizzzione per il commercio all'ingrosso   |1|  
+Esercizio di vicinato e Medie strutture M1  | Segnalazione certificata di inizio attivita' di vicinato e le medie strutture inferiori M1   |  2 |  
