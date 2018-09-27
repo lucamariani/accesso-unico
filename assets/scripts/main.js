@@ -212,5 +212,69 @@ $(function() {
   if ( ! applyUrlFilter() ) {
     console.log('hiding scheda as there are not scheda for requested profile,thema');
   }
+  applyFilters();
   update_type_numbers();
 })
+
+var changeProfile = function(parameters) {
+  var profileName = $('.change-profile:checked').attr('profile-name');
+  var redirectUrl = baseurl + '/profili/' + profileName;
+  console.log('redirectUrl: ' + redirectUrl);
+  window.location = redirectUrl;
+}
+
+// apply filter on profile changes
+var applyFilters = function() {
+    /*if ( profile_filters.theme ) {
+      console.log('applying theme filters...');
+      profile_filters.theme.each(function() {
+        $('.filter-theme[theme-name=' + $(this) + ']').prop('checked', true);
+      });
+    }
+    if ( profile_filters.type ) {
+      console.log('applying type filters...');
+      profile_filters.type.each(function() {
+        $('.filter-type[type-name=' + $(this) + ']').prop('checked', true);
+      });
+    }*/
+
+}
+
+// add profile change handler
+$(function() {
+  var theme_filter_array = [];
+  var type_filter_array = [];
+  var parameters = '';
+
+  $('.change-profile').change(function() {
+
+    if ('.filter-theme:checked') parameters += '?theme='
+    // get theme type_filters
+    $('.filter-theme:checked').each(function() {
+      console.log($(this).attr('theme-name'));
+      //theme_filter_array.push($(this).attr('theme-name'));
+      parameters += $(this).attr('theme-name') + ',';
+    });
+    // remove last comma
+    parameters = parameters.replace(/,\s*$/, "");
+
+    // add theme selected filters
+    //profile_filters['theme'] = theme_filter_array;
+
+    if ( $('.filter-type:checked') ) parameters += '&type='
+    // get type filter
+    $('.filter-type:checked').each(function() {
+      //type_filter_array.push( $(this).attr('type-name') );
+      parameters += $(this).attr('type-name') + ',';
+    });
+    // remove last comma
+    parameters = parameters.replace(/,\s*$/, "");
+
+    // add type selected filters
+    //profile_filters['type'] = type_filter_array;
+
+    console.log(parameters);
+    changeProfile(parameters);
+  });
+
+});

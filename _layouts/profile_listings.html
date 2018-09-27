@@ -68,6 +68,29 @@ layout: default
             </ul>
           </div>
 
+          <div class="filter-div u-margin-r-bottom">
+            <h4>Profili</h4>
+            <hr>
+            <ul>
+              {% assign profiles = site.schede | group_by: 'utenza' | sort: 'name' %}
+              {% for theprofile in profiles %}
+                {% assign profile_items = site.data.profiles | where_exp: "item", "item.metaname == theprofile.name" %}
+                {% assign user = profile_items[0] %}
+
+                {% if user.metaname == profile %}
+                  {% assign checked_tag = "checked" %}
+                {% else %}
+                  {% assign checked_tag = "" %}
+                {% endif %}
+                <li>
+                  <input name="profile" profile-name="{{ user.metaname | lowcase }}" class="change-profile" type="radio" {{checked_tag}}>
+                    {{ user.name | capitalize }}
+                  </input>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+
         </div>
 
         <!-- main content -->
@@ -103,3 +126,8 @@ layout: default
   </div>
 
 </div>
+
+<script>
+   var baseurl="{{ site.baseurl }}";
+   var profile_filters = {};
+</script>
