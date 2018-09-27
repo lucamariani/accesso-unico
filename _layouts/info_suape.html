@@ -117,6 +117,14 @@ layout: default
                       </div>
                     {% endif %}
 
+                    {% if sportello.responsabile %}
+                      {% assign counter = counter | plus: 1 %}
+                      <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
+                            <p class="u-text-r-xs u-textWeight-600 u-textClean">Responsabile</p>
+                            <p class="u-text-r-xs u-textWeight-400 u-textClean">{{ sportello.responsabile }}</p>
+                      </div>
+                    {% endif %}
+
                     {% if sportello.contatti %}
                       {% assign counter = counter | plus: 1 %}
                       <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">

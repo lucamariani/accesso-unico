@@ -17,6 +17,7 @@ info:
 sportelli:
 - nome: "Sportello Edilizia"
   sede: "Via del Campanile, 2 05035 Narni (Tr)"
+  responsabile: Antonio Zitti
   contatti:
     - "Tel: 0744/747290"
     - "E-Mail: test@testme.com"
@@ -30,6 +31,7 @@ sportelli:
 
 - nome: "Ufficio Commercio / Attività Produttive"
   sede: "Piazza Priori, 2 05035 Narni (Tr)"
+  responsabile: Antonio Zitti
   contatti:
     - "Tel: 0744/747290"
   orari:
