@@ -33,3 +33,7 @@
 - name: Territorio e patrimonio culturale
   color: purple
   metaname: edilizia
+
+- name: Cassetta degli attrezzi
+  color: purple
+  metaname: utilita
