@@ -47,39 +47,39 @@ layout: default
 
             <div class="Grid-cell u-margin-bottom-l u-sm-size1of2 u-md-size1of2 u-lg-size1of2">
               <div class="u-sizeFull u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-60 u-background-white">
-                <div class="row-{{counter}} u-text-r-xs u-padding-r-all u-background-grey-10 u-color-40">
-                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600 u-textClean">
+                <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-text-r-xs u-padding-all-xs u-background-grey-10 u-color-40">
+                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600">
                     Sede
                   </p>
                 </div>
                 <div class="row-{{counter}} u-padding-all-xs">
-                  <p class="u-text-r-xs u-textWeight-400 u-textClean">{{ page.info.sede }}</p>
+                  <p class="u-text-r-xs u-textWeight-400">{{ page.info.sede }}</p>
                 </div>
               </div>
             </div>
 
             <div class="Grid-cell u-margin-bottom-l u-sm-size1of2 u-md-size1of2 u-lg-size1of2">
               <div class="u-sizeFull u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-60 u-background-white">
-                <div style="border-bottom: 1px solid lightgrey;" class="u-text-r-xs u-padding-r-all u-background-grey-10 u-color-40">
-                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600 u-textClean">
+                <div style="border-bottom: 1px solid lightgrey;" class="u-text-r-xs u-padding-all-xs u-background-grey-10 u-color-40">
+                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600">
                     Responsabile
                   </p>
                 </div>
                 <div class="u-padding-all-xs">
-                  <p class="u-text-r-xs u-textWeight-400 u-textClean">{{ page.info.responsabile }}</p>
+                  <p class="u-text-r-xs u-textWeight-400">{{ page.info.responsabile }}</p>
                 </div>
               </div>
             </div>
             <div class="Grid-cell u-margin-bottom-l u-sm-size2of2 u-md-size2of2 u-lg-size2of2">
               <div class="u-sizeFull u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-60 u-background-white">
-                <div class="u-text-r-xs u-padding-r-all u-background-grey-10 u-color-40">
-                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600 u-textClean">
+                <div style="border-bottom: 1px solid lightgrey;" class="u-text-r-xs u-padding-all-xs u-background-grey-10 u-color-40">
+                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600">
                     Contatti
                   </p>
                 </div>
                 <div class="u-padding-all-xs">
                   {% for contatto in page.info.contatti %}
-                  <p class="u-text-r-xs u-textWeight-400 u-textClean">{{ contatto }}</p>
+                  <p class="u-text-r-xs u-textWeight-400">{{ contatto }}</p>
                   {% endfor %}
                 </div>
               </div>
@@ -92,7 +92,7 @@ layout: default
         <article class="u-padding-xl">
 
           <div class="u-text-m">
-          {% include pages/content.html %}
+          {{ content }}
           </div>
 
           <!-- add sportelli cards -->
@@ -103,8 +103,8 @@ layout: default
             <div class="Grid-cell u-margin-bottom-l u-sm-size1of2 u-md-size1of2 u-lg-size1of2">
                 <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-60 u-background-white">
 
-                    <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-text-r-xs u-padding-r-all u-layout-prose u-background-grey-10 u-color-40">
-                        <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600 u-textClean">
+                    <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-text-r-xs u-padding-all-xs u-layout-prose u-background-grey-10 u-color-40">
+                        <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600">
                           {{ sportello.nome }}
                         </p>
                     </div>
@@ -112,25 +112,25 @@ layout: default
                     {% if sportello.sede %}
                       {% assign counter = counter | plus: 1 %}
                       <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
-                            <p class="u-text-r-xs u-textWeight-600 u-textClean">Sede</p>
-                            <p class="u-text-r-xs u-textWeight-400 u-textClean">{{ sportello.sede }}</p>
+                            <p class="u-text-r-xs u-textWeight-600">Sede</p>
+                            <p class="u-text-r-xs u-textWeight-400">{{ sportello.sede }}</p>
                       </div>
                     {% endif %}
 
                     {% if sportello.responsabile %}
                       {% assign counter = counter | plus: 1 %}
                       <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
-                            <p class="u-text-r-xs u-textWeight-600 u-textClean">Responsabile</p>
-                            <p class="u-text-r-xs u-textWeight-400 u-textClean">{{ sportello.responsabile }}</p>
+                            <p class="u-text-r-xs u-textWeight-600">Responsabile</p>
+                            <p class="u-text-r-xs u-textWeight-400">{{ sportello.responsabile }}</p>
                       </div>
                     {% endif %}
 
                     {% if sportello.contatti %}
                       {% assign counter = counter | plus: 1 %}
                       <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
-                        <p class="u-text-r-xs u-textWeight-600 u-textClean">Contatti</p>
+                        <p class="u-text-r-xs u-textWeight-600">Contatti</p>
                         {% for contatto in sportello.contatti %}
-                          <p class="u-text-r-xs u-textWeight-400 u-textClean">{{ contatto }}</p>
+                          <p class="u-text-r-xs u-textWeight-400">{{ contatto }}</p>
                         {% endfor %}
                       </div>
                     {% endif %}
@@ -138,9 +138,9 @@ layout: default
                     {% if sportello.orari %}
                       {% assign counter = counter | plus: 1 %}
                       <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
-                        <p class="u-text-r-xs u-textWeight-600 u-textClean">Orari di apertura</p>
+                        <p class="u-text-r-xs u-textWeight-600">Orari di apertura</p>
                         {% for orario in sportello.orari %}
-                          <p class="u-text-r-xs u-textWeight-400 u-textClean">{{ orario }}</p>
+                          <p class="u-text-r-xs u-textWeight-400">{{ orario }}</p>
                         {% endfor %}
                       </div>
                     {% endif %}
@@ -148,8 +148,8 @@ layout: default
                     {% if sportello.web %}
                       {% assign counter = counter | plus: 1 %}
                       <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
-                          <p class="u-text-r-xs u-textWeight-600 u-textClean">Sito web</p>
-                          <p class="u-text-r-xs u-textWeight-400 u-textClean">
+                          <p class="u-text-r-xs u-textWeight-600">Sito web</p>
+                          <p class="u-text-r-xs u-textWeight-400">
                             <a href="{{ sportello.web.link }}" title="{{ sportello.web.title }}">{{ sportello.web.text }}</a>
                           </p>
                       </div>
