@@ -60,6 +60,10 @@
 .t-Pac #result-section {display:none;}
 .t-Pac #result-section a {text-decoration: none;}
 
+/* redfin our content width */
+.t-Pac .u-layout-prose {max-width: 40em !important}
+
+
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}
 .t-Pac .Header-languages{background-color:#333333;}
