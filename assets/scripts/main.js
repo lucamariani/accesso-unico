@@ -115,6 +115,16 @@ var applyUrlFilter = function() {
   return true;
 }
 
+var applyUrlFilters = function() {
+  console.log('applyUrlFilters...');
+  var themeFilters = getAllUrlParams().theme;
+  if(themeFilters) console.log('themeFilters: ' + themeFilters);
+  var typeFilters = getAllUrlParams().type;
+  if(typeFilters) console.log('typeFilters: ' + typeFilters);
+  var profileFilters = getAllUrlParams().profile;
+  if(profileFilters) console.log('profileFilters: ' + profileFilters);
+}
+
 var filter = function() {
   var filter_type_checked = $('.filter-type:checked').length;
   if ( $('.filter-theme').length > 0 ) {
@@ -209,16 +219,16 @@ $(function() {
 })
 
 $(function() {
-  if ( ! applyUrlFilter() ) {
+  /*if ( ! applyUrlFilter() ) {
     console.log('hiding scheda as there are not scheda for requested profile,thema');
-  }
-  applyFilters();
+  }*/
+  applyUrlFilters();
   update_type_numbers();
 })
 
 var changeProfile = function(parameters) {
   var profileName = $('.change-profile:checked').attr('profile-name');
-  var redirectUrl = baseurl + '/profili/' + profileName;
+  var redirectUrl = baseurl + '/profili/' + profileName + parameters;
   console.log('redirectUrl: ' + redirectUrl);
   window.location = redirectUrl;
 }
