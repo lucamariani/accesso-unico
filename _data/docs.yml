@@ -14,6 +14,7 @@ docs:
     url: "https://docs.1"
     anno: 2012
     numero: 100
+    tags: t1,t2
 
   - title: Il Titolo Documento 2
     metaname: doc2
