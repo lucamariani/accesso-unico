@@ -4,8 +4,10 @@ var idx = lunr(function () {
   this.field('id');
   this.field('title', { boost: 10 });
   this.field('tema');
+  this.field('subject');
   this.field('category');
   this.field('year');
+  this.field('ente');
   this.field('number');
   this.field('url');
 
@@ -14,8 +16,10 @@ var idx = lunr(function () {
       'id': key,
       'title': window.store[key].title,
       'tema': window.store[key].tema,
+      'subject': window.store[key].subject,
       'category': window.store[key].category,
       'year': window.store[key].year,
+      'ente': window.store[key].ente,
       'number': window.store[key].number,
       'url': window.store[key].url
     });
@@ -40,10 +44,12 @@ function displaySearchResults(results, store) {
       appendString += '<div class="u-nbfc u-flexWrap u-flex u-color-grey-60 u-xs-padding-all-none u-borderShadow-m u-xs-borderShadow-none u-borderRadius-m u-background-white u-sizeFill">';
       appendString += '<div class="u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill u-padding-r-all"><div class="u-sizeFull u-padding-r-all u-xs-padding-all-none">';
       appendString += '<a href="' + item.url + '" target="_blank"><h3 class="u-color-50">' + item.title + '</h3></a>';
+      appendString += '<p>Oggetto: ' + item.subject + '</p>';
       appendString += '<p>Categoria: ' + item.category + '</p>';
       appendString += '<p>Argomento: ' + item.tema + '</p></li>';
       appendString += '<p>Numero: ' + item.number + '</p>';
       appendString += '<p>Anno: ' + item.year + '</p>';
+      appendString += '<p>Ente: ' + item.ente + '</p>';
       appendString += '</div></div></div></div>';
     }
 
