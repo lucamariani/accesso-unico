@@ -198,5 +198,6 @@ modulistica:
 ---
 
 A partire dal maggio 2017, data in cui il processo di standardizzazione dei moduli per le comunicazioni e istanze alla Pubblica Amministrazione nei settori dell’edilizia e delle attività commerciali, ha preso concretamente avvio, la Conferenza Unificata con successivi accordi ha approvato sia integrazioni e modifiche ai moduli già in uso sia l’adozione di nuovi modelli.
+
 La Regione Umbria, ove necessario e prima di notificare i formati word ai Comuni del proprio territorio, ha inserito i necessari richiami alla normativa specifica di settore.
 I format così prodotti non sono modificabili e devono essere obbligatoriamente usati per ogni adempimento da svolgere presso il SUAPE.
