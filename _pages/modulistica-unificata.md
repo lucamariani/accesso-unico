@@ -2,13 +2,13 @@
 layout: modulistica
 title: Modulistica Unificata
 metatitle: modulistica-unificata
-subtitle: informazioni e notizie
+subtitle: Documenti, informazioni e link
 background:
 img:
 
 # lista moduli
 modulistica:
-  - tipologia: Comuni
+  - tipologia: Moduli comuni
     documenti:
       - nome: Scheda anagrafica
         denominazione: Scheda anagrafica
@@ -197,7 +197,6 @@ modulistica:
 
 ---
 
-In questa pagina si trovano documenti, informazioni e link relativi ai Moduli Unificati standardizzati per comunicazioni e istanze nei settori dell'edilizia e delle attività commerciali e assimilate divenuti di uso obbligatorio in seguito all'accordo nazionale tra Governo, Regioni ed Enti Locali siglato in Conferenza Unificata il 4 maggio 2017.
-A partire dunque dal maggio 2017, data in cui il processo di standardizzazione ha preso concretamente avvio, la Conferenza Unificata con successivi accordi ha approvato sia integrazioni e modifiche ai moduli già in uso sia l’adozione di nuovi modelli.
+A partire dal maggio 2017, data in cui il processo di standardizzazione dei moduli per le comunicazioni e istanze alla Pubblica Amministrazione nei settori dell’edilizia e delle attività commerciali, ha preso concretamente avvio, la Conferenza Unificata con successivi accordi ha approvato sia integrazioni e modifiche ai moduli già in uso sia l’adozione di nuovi modelli.
 La Regione Umbria, ove necessario e prima di notificare i formati word ai Comuni del proprio territorio, ha inserito i necessari richiami alla normativa specifica di settore.
 I format così prodotti non sono modificabili e devono essere obbligatoriamente usati per ogni adempimento da svolgere presso il SUAPE.
