@@ -7,9 +7,9 @@ category:
     metaname: circolari
 
 docs:
-  - title: D.P.R. 6 giugno 2001, n. 380 Testo unico delle disposizioni legislative e regolamentari in materia edilizia
+  - title: D.P.R. 6 giugno 2001, n. 380
     metaname: doc1
-    oggetto:
+    oggetto: Testo unico delle disposizioni legislative e regolamentari in materia edilizia
     categoria: normativa
     tema: edilizia
     url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2001-10-20&atto.codiceRedazionale=001G0429&queryString=%3FmeseProvvedimento%3D6%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D380%26testo%3D%26annoProvvedimento%3D2001%26giornoProvvedimento%3D6&currentPage=1"
@@ -18,9 +18,9 @@ docs:
     numero: 380
     tags: t1,t2
 
-  - title: D.P.R. 7 settembre 2010, n. 160 - Regolamento per la semplificazione ed il riordino della disciplina sullo sportello unico per le attività produttive, ai sensi dell'articolo 38, comma 3, del decreto-legge n. 112 del 2008, convertito, con modificazioni, dalla legge n. 133 del 2008
+  - title: D.P.R. 7 settembre 2010, n. 160
     metaname: doc2
-    oggetto:
+    oggetto: Regolamento per la semplificazione ed il riordino della disciplina sullo sportello unico per le attività produttive, ai sensi dell'articolo 38, comma 3, del decreto-legge n. 112 del 2008, convertito, con modificazioni, dalla legge n. 133 del 2008
     categoria: normativa
     tema: edilizia
     url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2010-09-30&atto.codiceRedazionale=010G0183&queryString=%3FmeseProvvedimento%3D09%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D160%26testo%3D%26annoProvvedimento%3D2010%26giornoProvvedimento%3D07&currentPage=1"
@@ -28,9 +28,9 @@ docs:
     ente:
     numero: 160
 
-  - title: Legge regionale 16/09/2011, n. 8 - Semplificazione normativa e amministrativa dell'ordinamento regionale e degli Enti locali territoriali
+  - title: Legge regionale 16 settembre 2011, n. 8
     metaname: doc3
-    oggetto:
+    oggetto: Semplificazione normativa e amministrativa dell'ordinamento regionale e degli Enti locali territoriali
     categoria: normativa
     tema:
     url: "http://leggi.crumbria.it/mostra_atto.php?id=56743&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20150129"
@@ -38,9 +38,9 @@ docs:
     ente:
     numero: 8
 
-  - title: Legge regionale  4 aprile 2012, n.7 - Disposizioni collegate alla manovra di bilancio 2012 in materia di entrate e di spese - Modificazioni ed integrazioni di leggi regionali.
+  - title: Legge regionale 4 aprile 2012, n.7
     metaname: doc4
-    oggetto:
+    oggetto: Disposizioni collegate alla manovra di bilancio 2012 in materia di entrate e di spese - Modificazioni ed integrazioni di leggi regionali
     categoria: normativa
     tema:
     url: "http://leggi.crumbria.it/mostra_atto.php?id=61977&v=FI,SA,TE,IS,VE,RA,MM&m=5"
@@ -48,9 +48,9 @@ docs:
     ente:
     numero: 7
 
-  - title: Legge regionale 29 aprile 2014, n. 9 - Norme in materia di sviluppo della società dell'informazione e riordino della filiera ICT (Information and Communication Technology) regionale
+  - title: Legge regionale 29 aprile 2014, n. 9
     metaname: doc5
-    oggetto:
+    oggetto: Norme in materia di sviluppo della società dell'informazione e riordino della filiera ICT (Information and Communication Technology) regionale
     categoria: normativa
     tema: Attività produttive - ICT
     url: "http://leggi.crumbria.it/mostra_atto.php?id=74401&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20171230"
@@ -58,9 +58,9 @@ docs:
     ente:
     numero: 9
 
-  - title: Legge regionale 13 febbraio 2013, n. 4 - Testo unico in materia di artigianato
+  - title: Legge regionale 13 febbraio 2013, n. 4
     metaname: doc6
-    oggetto:
+    oggetto: Testo unico in materia di artigianato
     categoria: normativa
     tema: Attività produttive - Artigianato
     url: "http://leggi.crumbria.it/mostra_atto.php?id=66575&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20130411"
@@ -68,9 +68,9 @@ docs:
     ente:
     numero: 4
 
-  - title: Legge regionale 10 luglio 2017, n. 8 - Legislazione turistica regionale
+  - title: Legge regionale 10 luglio 2017, n. 8
     metaname: doc7
-    oggetto:
+    oggetto: Legislazione turistica regionale
     categoria: normativa
     tema: Attività produttive - Turismo
     url: "http://leggi.crumbria.it/mostra_atto.php?id=183168&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20180804"
@@ -78,9 +78,9 @@ docs:
     ente:
     numero: 8
 
-  - title: Legge regionale 13 giugno 2014, n. 10 - Testo unico in materia di commercio
+  - title: Legge regionale 13 giugno 2014, n. 10
     metaname: doc8
-    oggetto:
+    oggetto: Testo unico in materia di commercio
     categoria: normativa
     tema: Attività produttive - Commercio
     url: "http://leggi.crumbria.it/mostra_atto.php?id=73580&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20171230"
@@ -88,9 +88,9 @@ docs:
     ente:
     numero: 10
 
-  - title: Legge regionale 3 novembre 2016, n. 12 - Modificazioni ed integrazioni della legge regionale 13 giugno 2014, n. 10 (Testo unico in materia di commercio)
+  - title: Legge regionale 3 novembre 2016, n. 12
     metaname: doc9
-    oggetto:
+    oggetto: Modificazioni ed integrazioni della legge regionale 13 giugno 2014, n. 10 (Testo unico in materia di commercio)
     categoria: normativa
     tema: Attività produttive - Commercio
     url: "http://leggi.crumbria.it/mostra_atto.php?id=171305&v=FI,SA,TE,IS,VE,RA,MM&m=5"
@@ -98,9 +98,9 @@ docs:
     ente:
     numero: 12
 
-  - title: Legge regionale 21 gennaio 2015, n.1 - Testo unico governo del territorio e materie correlate
+  - title: Legge regionale 21 gennaio 2015, n.1
     metaname: doc10
-    oggetto:
+    oggetto: Testo unico governo del territorio e materie correlate
     categoria: normativa
     tema: edilizia
     url:
@@ -108,18 +108,18 @@ docs:
     ente:
     numero: 1
 
-  - title: Regolamento regionale 18 febbraio 2015, n.2 - Norme regolamentari attuative della legge regionale 21 gennaio 2015, n. 1 (Testo unico Governo del territorio e materie correlate)
+  - title: Regolamento regionale 18 febbraio 2015, n.2
     metaname: doc11
-    oggetto:
+    oggetto: Norme regolamentari attuative della legge regionale 21 gennaio 2015, n. 1 (Testo unico Governo del territorio e materie correlate)
     categoria: regolamenti
     tema: edilizia
     url: "http://leggi.crumbria.it/mostra_atto_stampabile.php?file=reg2015-02.xml"
     anno: 2015
     numero: 2
 
-  - title: Regolamento regionale 5 dicembre 2014,  n.5 -Regolamento di attuazione di cui all' articolo 7 della legge regionale 17 settembre 2013, n. 16 (Norme in materia di prevenzione delle cadute dall'alto) per lo svolgimento delle attività nell'ambito dell'edilizia
+  - title: Regolamento regionale 5 dicembre 2014, n.5
     metaname: doc12
-    oggetto:
+    oggetto: Regolamento di attuazione di cui all' articolo 7 della legge regionale 17 settembre 2013, n. 16 (Norme in materia di prevenzione delle cadute dall'alto) per lo svolgimento delle attività nell'ambito dell'edilizia
     categoria: regolamenti
     tema: edilizia
     url: "http://leggi.crumbria.it/mostra_atto_stampabile.php?file=reg2014-05.xml"
