@@ -30,7 +30,7 @@ modulistica:
         link: http://link.esterno.it
 
       - nome: Agenzie di affari di competenza del Comune
-        denominazione:
+        denominazione: Comunicazione per l'esercizio dell'attività delle agenzie di afffari di competenza del Comune
         release: 1
         link: http://link.esterno.it   
 
@@ -55,12 +55,12 @@ modulistica:
         link: http://link.esterno.it
 
       - nome: Facchinaggio
-        denominazione:
+        denominazione: SCIA per l'esercizio dell'attività di Facchinaggio
         release: 1
         link: http://link.esterno.it  
 
       - nome: Imprese di pulizie
-        denominazione:
+        denominazione: SCIA per l'esercizio dell'attività di pulizie, disinfezione, disinfestazione, di derattizzazione e di sanificazione
         release: 1
         link: http://link.esterno.it
 
