@@ -1,7 +1,7 @@
 ---
 layout: info_suape
-title: Comune di Amelia
-metatitle: amelia
+title: Comune di Gubbio
+metatitle: gubbio
 subtitle: Sportello Comunale SUAPE - riferimenti informazioni
 background:
 img:
