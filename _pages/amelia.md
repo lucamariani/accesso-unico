@@ -6,10 +6,6 @@ subtitle: Sportello Comunale SUAPE - riferimenti informazioni
 background:
 img:
 
-info:
-  sede:
-  responsabile:
-  contatti:
 
 sportelli:
 - nome: "Sportello Unico per l’Edilizia - SUE"
@@ -25,10 +21,7 @@ sportelli:
     - "giovedì: 15:00 - 17:00"
     - "Istruttorie atti"
     - "giovedì: 8:45 - 12:30"
-  web:
-    link:
-    text:
-    title:
+
 
 - nome: "Sportello SUAP"
   sede: "Via Roma, 4 -  05022 Amelia (Tr)"
@@ -39,10 +32,7 @@ sportelli:
   orari:
     - "dal lunedì al venerdì: 8:45 - 12:30"
     - "martedì e giovedì: 15:00 - 17:00"
-  web:
-    link:
-    text:
-    title: 
+
 ---
 
 
