@@ -76,6 +76,29 @@ layout: default
             </ul>
           </div>
 
+          <div class="filter-div u-margin-r-bottom">
+            <h4>Argomenti</h4>
+            <hr>
+            <ul>
+              {% assign themes = site.schede | group_by: 'tema' | sort: 'name' %}
+              {% for thetheme in themes %}
+                {% assign theme_items = site.data.themes | where_exp: "item", "item.metaname == thetheme.name" %}
+                {% assign tema = theme_items[0] %}
+
+                {% if tema.metaname == theme %}
+                  {% assign checked_tag = "checked" %}
+                {% else %}
+                  {% assign checked_tag = "" %}
+                {% endif %}
+                <li>
+                  <input name="theme" theme-name="{{ tema.metaname | lowcase }}" class="change-theme" type="radio" {{checked_tag}}>
+                    {{ tema.name | capitalize }}
+                  </input>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+
         </div>
 
         <!-- main content -->
