@@ -32,11 +32,6 @@ modulistica:
       - nome: Agenzie di affari di competenza del Comune
         denominazione:
         release: 1
-        link: http://link.esterno.it  
-
-      - nome: Agenzie di affari di competenza del Comune
-        denominazione:
-        release: 1
         link: http://link.esterno.it   
 
       - nome: Apparecchi automatici
@@ -85,7 +80,7 @@ modulistica:
         link: http://link.esterno.it
 
       - nome: Somministrazione di alimenti e bevande nelle scuole, negli ospedali, nelle comunità religiose, in stabilimenti militari o nei mezzi di trasporto pubblico
-        denominazione: SCIA per l'esercizio dell'attività di somministrazione di alimenti e bevande nelle scuole, negli ospedali, nelle comunità religiose, in stabilimenti militari o nei mezzi di trasporto pubblicoe
+        denominazione: SCIA per l'esercizio dell'attività di somministrazione di alimenti e bevande nelle scuole, negli ospedali, nelle comunità religiose, in stabilimenti militari o nei mezzi di trasporto pubblico
         release: 3
         link: http://link.esterno.it
 
@@ -100,7 +95,7 @@ modulistica:
         link: http://link.esterno.it
 
       - nome: Somministrazione di alimenti e bevande in esercizi posti nelle aree di servizio e/o nelle stazioni
-        denominazione: SCIA per l'esercizio dell'attività di somministrazione di alimenti e bevande in esercizi posti nelle aree i servizio e/o nelle stazioni
+        denominazione: SCIA per l'esercizio dell'attività di somministrazione di alimenti e bevande in esercizi posti nelle aree di servizio e/o nelle stazioni
         release: 2
         link: http://link.esterno.it
 
@@ -135,7 +130,7 @@ modulistica:
         link: http://link.esterno.it
 
       - nome: Vendita al domicilio dei consumatori
-        denominazione: SCIA per l'esercizio di vendita presso i domicilio dei consumatori
+        denominazione: SCIA per l'esercizio di vendita presso il domicilio dei consumatori
         release: 2
         link: http://link.esterno.it  
 
