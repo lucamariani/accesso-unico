@@ -42,9 +42,9 @@ function displaySearchResults(results, store) {
 
       appendString += '<div class="Grid-cell u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight">';
       appendString += '<div class="u-nbfc u-flexWrap u-flex u-color-grey-60 u-xs-padding-all-none u-borderShadow-m u-xs-borderShadow-none u-borderRadius-m u-background-white u-sizeFill">';
-      appendString += '<div class="u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill u-padding-r-all"><div class="u-sizeFull u-padding-r-all u-xs-padding-all-none">';
+      appendString += '<div class="u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill u-padding-r-all"><div class="u-sizeFull u-padding-r-all u-xs-padding-all-none single-doc">';
       appendString += '<a href="' + item.url + '" target="_blank"><h3 class="u-color-50">' + item.title + '</h3></a>';
-      appendString += '<p>Oggetto: ' + item.subject + '</p>';
+      appendString += '<p class="object"><b>' + item.subject + '</b></p>';
       appendString += '<p>Categoria: ' + item.category + '</p>';
       appendString += '<p>Argomento: ' + item.tema + '</p></li>';
       appendString += '<p>Numero: ' + item.number + '</p>';
