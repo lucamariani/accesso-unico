@@ -38,7 +38,7 @@ docs:
     ente:
     numero: 8
 
-  - title: Legge regionale 4 aprile 2012, n.7
+  - title: Legge regionale 4 aprile 2012, n. 7
     metaname: doc4
     oggetto: Disposizioni collegate alla manovra di bilancio 2012 in materia di entrate e di spese - Modificazioni ed integrazioni di leggi regionali
     categoria: normativa
@@ -98,7 +98,7 @@ docs:
     ente:
     numero: 12
 
-  - title: Legge regionale 21 gennaio 2015, n.1
+  - title: Legge regionale 21 gennaio 2015, n. 1
     metaname: doc10
     oggetto: Testo unico governo del territorio e materie correlate
     categoria: normativa
@@ -108,7 +108,7 @@ docs:
     ente:
     numero: 1
 
-  - title: Regolamento regionale 18 febbraio 2015, n.2
+  - title: Regolamento regionale 18 febbraio 2015, n. 2
     metaname: doc11
     oggetto: Norme regolamentari attuative della legge regionale 21 gennaio 2015, n. 1 (Testo unico Governo del territorio e materie correlate)
     categoria: regolamenti
@@ -117,7 +117,7 @@ docs:
     anno: 2015
     numero: 2
 
-  - title: Regolamento regionale 5 dicembre 2014, n.5
+  - title: Regolamento regionale 5 dicembre 2014, n. 5
     metaname: doc12
     oggetto: Regolamento di attuazione di cui all' articolo 7 della legge regionale 17 settembre 2013, n. 16 (Norme in materia di prevenzione delle cadute dall'alto) per lo svolgimento delle attività nell'ambito dell'edilizia
     categoria: regolamenti
@@ -166,5 +166,3 @@ docs:
     anno: 1998
     ente:
     numero: 252
-
-    
