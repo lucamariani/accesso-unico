@@ -22,6 +22,7 @@
 .t-Pac .theme-grey, .t-Pac .theme-infrastrutture {color:#9fa8b0 !important}
 .t-Pac .theme-pink, .t-Pac .theme-salute {color:#ef9ea2 !important}
 .t-Pac .theme-purple, .t-Pac .theme-edilizia {color:#d0a0d0 !important}
+.t-Pac .theme-pink, .t-Pac .theme-utilita {color:#ef9ea2 !important}
 
 .t-Pac .scheda-listing {margin: 1.2rem;border: 1px solid gray;border-radius: 5px;}
 .t-Pac .scheda-listing-tag {border:1px solid;padding-left: 0.3rem;padding-right: 0.3rem}
@@ -34,7 +35,7 @@
 /* tabs */
 .t-Pac #tab2 {display:none;}
 .t-Pac .wizard-link:not(.active) {cursor: pointer;}
-.t-Pac .wizard-link.active {border-bottom: 4px solid #9c2328;}
+.t-Pac .wizard-link.active {border-bottom: 4px solid #9c2328; color:#5a6772 !important;}
 .t-Pac .wizard-item {cursor: pointer;}
 .t-Pac #wizardTabList {list-style-type: none; overflow: hidden; float: right;}
 .t-Pac .wizard-tab-item {float:left; margin-right: 10px;}
@@ -59,6 +60,10 @@
 /* document search */
 .t-Pac #result-section {display:none;}
 .t-Pac #result-section a {text-decoration: none;}
+.t-Pac .single-doc .object {margin-top: 0.5em;margin-bottom: 0.5em;}
+/* redfin our content width */
+.t-Pac .u-layout-prose {max-width: 40em !important}
+
 
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}

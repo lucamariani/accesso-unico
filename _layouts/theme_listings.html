@@ -18,7 +18,7 @@ layout: default
 
       <section class="Grid">
         <div class="Grid-cell u-sizeFull">
-          <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ tema_items[0].name }}</h1>
+          <h1 class="u-text-h1 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ tema_items[0].name }}</h1>
           {% if page.description %}
           <p class="Prose u-layout-prose">{{ page.description }}</p>
           {% endif %}
@@ -72,6 +72,29 @@ layout: default
                   </input>
                 </li>
 
+              {% endfor %}
+            </ul>
+          </div>
+
+          <div class="filter-div u-margin-r-bottom">
+            <h4>Argomenti</h4>
+            <hr>
+            <ul>
+              {% assign themes = site.schede | group_by: 'tema' | sort: 'name' %}
+              {% for thetheme in themes %}
+                {% assign theme_items = site.data.themes | where_exp: "item", "item.metaname == thetheme.name" %}
+                {% assign tema = theme_items[0] %}
+
+                {% if tema.metaname == theme %}
+                  {% assign checked_tag = "checked" %}
+                {% else %}
+                  {% assign checked_tag = "" %}
+                {% endif %}
+                <li>
+                  <input name="theme" theme-name="{{ tema.metaname | lowcase }}" class="change-theme" type="radio" {{checked_tag}}>
+                    {{ tema.name | capitalize }}
+                  </input>
+                </li>
               {% endfor %}
             </ul>
           </div>

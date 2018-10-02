@@ -1,9 +1,10 @@
 ---
 layout: scheda
-object: piani_regolatori
+object: sportellisuape
 utenza: cittadini
 tema: edilizia
 tipo: servizio
-title: Piani Regolatori Comunali
-subtitle: consulta le risorse dei PRG e scarica il Regolamento Edilizio
+title: Sportelli Suape Comunali
+subtitle: informazioni di contatto e indicazioni sul funzionamento
+accordion_open: true
 ---

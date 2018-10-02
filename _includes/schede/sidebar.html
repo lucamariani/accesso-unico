@@ -1,6 +1,3 @@
-<h2>Ciao {{ include.utenza }}</h2>
-<h3>Tema {{ include.tema }}</h3>
-
 {% capture theprofile %}{{ include.utenza }}{% endcapture %}
 {% assign include_file = site.data.schede.[page.object].sidebarboxes %}
 
@@ -32,7 +29,7 @@
           <a class="u-color-50 u-textClean" href="">{{ box.title }}</a>
         </p>
         <h3 class="u-text-h4 u-margin-r-bottom">
-          <a class="u-text-r-m u-color-black u-textWeight-400 u-textClean" href="">
+          <a class="u-text-r-m u-textWeight-400 u-textClean u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}" href="">
             {{ box.title }}
           </a>
         </h3>
@@ -45,3 +42,5 @@
   {% endif %}
 
 {% endfor %}
+
+{% include share.html %}

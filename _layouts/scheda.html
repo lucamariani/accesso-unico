@@ -9,18 +9,18 @@ layout: default
     <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
       <section class="Grid">
         <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
-          <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
+          <h1 class="u-text-h1 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
           {% if page.img %}
           <div class="page-img-div">
             <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
           </div>
           {% endif %}
           {% if page.subtitle %}
-          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h3>
+          <h4 class="u-text-h4 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h4>
           {% endif %}
           </div>
         <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
-          {% include share.html %}
+          {{ page.utenza }} {{ page.tema }}
         </div>
       <section>
     </div> <!-- /.u-layout-wide -->

@@ -48,7 +48,7 @@ var loadProfiles = function(where) {
       if ( where ) {
         // go to results page
         console.log('showing results for profile ' + window.profile + ' and theme ' + window.theme);
-        var results_url = window.baseurl + "/temi/" + window.theme + "?" + window.profile;
+        var results_url = window.baseurl + "/temi/" + window.theme + "?profile=" + window.profile;
         window.location.href = results_url;
       } else {
         // load theme items
@@ -70,7 +70,7 @@ var loadThemes = function(where) {
       if ( where ) {
         // go to results page
         console.log('showing results for theme ' + window.theme + ' and profile ' + window.profile);
-        var results_url = window.baseurl + "/profili/" + window.profile + "?" + window.theme;
+        var results_url = window.baseurl + "/profili/" + window.profile + "?theme=" + window.theme;
         window.location.href = results_url;
       } else {
         // load profile items
@@ -89,7 +89,7 @@ var loadItems = function(items,what,where) {
   var listItemsContent = '';
   var wizardItemsList = $(where);
   for (var key in items) {
-    listItemsContent += '<li><div class="wizard-item u-color-grey-40 ' + what + '" item="' + key + '">' + items[key].name + '</div></li>';
+    listItemsContent += '<li><div class="wizard-item u-text-r-m ' + what + '" item="' + key + '">' + items[key].name + '</div></li>';
   };
   wizardItemsList.html(listItemsContent);
 }

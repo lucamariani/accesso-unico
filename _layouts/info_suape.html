@@ -1,0 +1,203 @@
+---
+layout: default
+---
+
+<div id="main">
+
+  <!-- Page Title -->
+  {% if page.background %}
+  <div class="u-sizeFull" style="height: 350px; background-size: cover; background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <div class="u-sizeFull">
+  {% endif %}
+
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3">
+          <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
+          {% if page.img %}
+          <div class="page-img-div">
+            <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
+          </div>
+          {% endif %}
+          {% if page.subtitle %}
+          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h3>
+          {% endif %}
+          {% if page.author %}
+          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.author }}</h3>
+          {% endif %}
+          {% if page.date %}
+          <br>
+          <span class="meta u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.date | date: '%B %d, %Y' }}</span>
+          <br>
+          {% endif %}
+        </div>
+      <section>
+    </div>
+
+  </div>
+
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+    <section class="Grid">
+      <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
+
+          <!-- add SUAPE info cards -->
+          {% if page.info %}
+          <section class="Grid Grid--withGutter Grid--equalHeight u-padding-all-xl">
+
+            <div class="Grid-cell u-margin-bottom-l u-sm-size1of2 u-md-size1of2 u-lg-size1of2">
+              <div class="u-sizeFull u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-60 u-background-white">
+                <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-text-r-xs u-padding-all-xs u-background-grey-10 u-color-40">
+                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600">
+                    Sede
+                  </p>
+                </div>
+                <div class="row-{{counter}} u-padding-all-xs">
+                  <p class="u-text-r-xs u-textWeight-400">{{ page.info.sede }}</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="Grid-cell u-margin-bottom-l u-sm-size1of2 u-md-size1of2 u-lg-size1of2">
+              <div class="u-sizeFull u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-60 u-background-white">
+                <div style="border-bottom: 1px solid lightgrey;" class="u-text-r-xs u-padding-all-xs u-background-grey-10 u-color-40">
+                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600">
+                    Responsabile
+                  </p>
+                </div>
+                <div class="u-padding-all-xs">
+                  <p class="u-text-r-xs u-textWeight-400">{{ page.info.responsabile }}</p>
+                </div>
+              </div>
+            </div>
+            <div class="Grid-cell u-margin-bottom-l u-sm-size2of2 u-md-size2of2 u-lg-size2of2">
+              <div class="u-sizeFull u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-60 u-background-white">
+                <div style="border-bottom: 1px solid lightgrey;" class="u-text-r-xs u-padding-all-xs u-background-grey-10 u-color-40">
+                  <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600">
+                    Contatti
+                  </p>
+                </div>
+                <div class="u-padding-all-xs">
+                  {% for contatto in page.info.contatti %}
+                  <p class="u-text-r-xs u-textWeight-400">{{ contatto }}</p>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+
+          </section>
+          {% endif %}
+          <!-- / add SUAPE info cards -->
+
+        <article class="u-padding-xl">
+
+          <div class="u-text-m">
+          {{ content }}
+          </div>
+
+          <!-- add sportelli cards -->
+          <section class="Grid Grid--withGutter u-padding-all-xl">
+
+          {% for sportello in page.sportelli %}
+            {% assign counter = 0 %}
+            <div class="Grid-cell u-margin-bottom-l u-sm-size1of2 u-md-size1of2 u-lg-size1of2">
+                <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-60 u-background-white">
+
+                    <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-text-r-xs u-padding-all-xs u-layout-prose u-background-grey-10 u-color-40">
+                        <p class="u-text-m u-margin-bottom-xs u-margin-top-xs u-textWeight-600">
+                          {{ sportello.nome }}
+                        </p>
+                    </div>
+
+                    {% if sportello.sede %}
+                      {% assign counter = counter | plus: 1 %}
+                      <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
+                            <p class="u-text-r-xs u-textWeight-600">Sede</p>
+                            <p class="u-text-r-xs u-textWeight-400">{{ sportello.sede }}</p>
+                      </div>
+                    {% endif %}
+
+                    {% if sportello.responsabile %}
+                      {% assign counter = counter | plus: 1 %}
+                      <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
+                            <p class="u-text-r-xs u-textWeight-600">Responsabile</p>
+                            <p class="u-text-r-xs u-textWeight-400">{{ sportello.responsabile }}</p>
+                      </div>
+                    {% endif %}
+
+                    {% if sportello.contatti %}
+                      {% assign counter = counter | plus: 1 %}
+                      <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
+                        <p class="u-text-r-xs u-textWeight-600">Contatti</p>
+                        {% for contatto in sportello.contatti %}
+                          <p class="u-text-r-xs u-textWeight-400">{{ contatto }}</p>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+
+                    {% if sportello.orari %}
+                      {% assign counter = counter | plus: 1 %}
+                      <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
+                        <p class="u-text-r-xs u-textWeight-600">Orari di apertura</p>
+                        {% for orario in sportello.orari %}
+                          <p class="u-text-r-xs u-textWeight-400">{{ orario }}</p>
+                        {% endfor %}
+                      </div>
+                    {% endif %}
+
+                    {% if sportello.web %}
+                      {% assign counter = counter | plus: 1 %}
+                      <div style="border-bottom: 1px solid lightgrey;" class="row-{{counter}} u-padding-all-xs u-layout-prose">
+                          <p class="u-text-r-xs u-textWeight-600">Sito web</p>
+                          <p class="u-text-r-xs u-textWeight-400">
+                            <a href="{{ sportello.web.link }}" title="{{ sportello.web.title }}">{{ sportello.web.text }}</a>
+                          </p>
+                      </div>
+                    {% endif %}
+
+                </div>
+
+            </div>
+
+          {% endfor %}
+          </section>
+
+          <script>
+            var sameHeight = function(items) {
+              if ( items ) {
+                var maxHeight = 0;
+                items.each( function( index ) {
+                  //console.log('height: ' + $(this).height());
+                  if ( $(this).height() > maxHeight ) maxHeight = $(this).height();
+                });
+                items.height(maxHeight);
+              }
+            }
+
+            $(function() {
+              // count rows
+              var num_rows = 6;
+              for ( i=0; i<num_rows; i++) {
+                console.log('sizing .row-' + i);
+                sameHeight( $('.row-' + i) );
+              }
+            })
+          </script>
+          <!-- / add sportelli cards -->
+
+        </article>
+
+      </div>
+
+      <!-- Sidebar -->
+      <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
+        {% include share.html %}
+        <!-- add separator -->
+        <div class="u-padding-r-all u-text-r-xxl"></div>
+        {% include pages/sidebar.html %}
+      </div>
+      <!-- / Sidebar -->
+
+    </section>
+  </div>
+</div>
