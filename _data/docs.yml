@@ -16,7 +16,9 @@ docs:
     anno: 2001
     ente:
     numero: 380
-    tags: t1,t2
+    tags:
+      - t1
+      - t2
 
   - title: D.P.R. 7 settembre 2010, n. 160
     metaname: doc2
@@ -27,6 +29,8 @@ docs:
     anno: 2010
     ente:
     numero: 160
+    tags:
+      - t1
 
   - title: Legge regionale 16 settembre 2011, n. 8
     metaname: doc3
@@ -37,6 +41,8 @@ docs:
     anno: 2011
     ente:
     numero: 8
+    tags:
+      - t2
 
   - title: Legge regionale 4 aprile 2012, n. 7
     metaname: doc4
