@@ -126,3 +126,45 @@ docs:
     anno: 2014
     ente:
     numero: 5
+
+  - title: Legge 17 agosto 2005, n. 174
+    metaname: doc13
+    oggetto: Disciplina dell'attività di acconciatore
+    categoria: normativa
+    tema: Attività produttive - Artigianato
+    url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-09-02&atto.codiceRedazionale=005G0186&queryString=%3FmeseProvvedimento%3D08%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D174%26testo%3D%26annoProvvedimento%3D2005%26giornoProvvedimento%3D17&currentPage=1"
+    anno: 2005
+    ente:
+    numero: 174
+
+  - title: Legge regionale 13 febbraio 2013, n. 4
+    metaname: doc14
+    oggetto: Testo unico in materia di artigianato
+    categoria: normativa
+    tema: Attività produttive - Artigianato
+    url: "http://leggi.crumbria.it/mostra_atto.php?id=66575&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20130411"
+    anno: 2013
+    ente:
+    numero: 4
+
+  - title: D.Lgs 6 settembre 2011, n. 159
+    metaname: doc15
+    oggetto: Codice delle leggi antimafia e delle misure di prevenzione, nonché nuove disposizioni in materia di documentazione antimafia, a norma degli articoli 1 e 2 della legge 13 agosto 2010, n. 136
+    categoria: normativa
+    tema:
+    url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-09-02&atto.codiceRedazionale=005G0186&queryString=%3FmeseProvvedimento%3D08%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D174%26testo%3D%26annoProvvedimento%3D2005%26giornoProvvedimento%3D17&currentPage=1"
+    anno: 2011
+    ente:
+    numero: 159
+
+  - title: D.P.R. 3 giugno 1998, n. 252
+    metaname: doc16
+    oggetto: Regolamento recante norme per la semplificazione dei procedimenti relativi al rilascio delle comunicazioni e delle informazioni antimafia
+    categoria: normativa
+    tema:
+    url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-09-02&atto.codiceRedazionale=005G0186&queryString=%3FmeseProvvedimento%3D08%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D174%26testo%3D%26annoProvvedimento%3D2005%26giornoProvvedimento%3D17&currentPage=1"
+    anno: 1998
+    ente:
+    numero: 252
+
+    
