@@ -1,4 +1,4 @@
-allo sportello SUAPE del comune risiede l'attività
+presenta la pratica allo sportello SUAPE del comune sede dell'attività
 
 [vuoi sapere dove andare e come fare? ][7aeb75a5]
 
