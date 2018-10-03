@@ -12,7 +12,7 @@ info:
   contatti:
     - "Telefono: 075/9658211"
     - "Front Office SUAPE 075/9658249 (Attivo solo durante gli orari di apertura al pubblico)"
-    - "PEC: suap.comune.castiglionedellago@postacert.umbria.it "
+    - "PEC: suap.comune.castiglionedellago@postacert.umbria.it"
 
 sportelli:
 - nome: "Area Urbanistica"
@@ -20,7 +20,7 @@ sportelli:
   responsabile: Arch. Mauro Marinelli
   contatti:
     - "Tel: 075/9658224  075/9658224  075/9658223  075/9658248"
-    - "Email: urbanistica@comune.castiglione-del-lago.pg.it "
+    - "Email: urbanistica@comune.castiglione-del-lago.pg.it"
 
   orari:
     - "martedì e giovedì dalle 15.30 alle 18.00"
