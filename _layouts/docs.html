@@ -156,7 +156,7 @@ layout: default
 <script>
   window.store = {
     {% for doc in site.data.docs.docs %}
-      "{{ doc.url | slugify }}": {
+      "{{ doc.metaname | slugify }}": {
         "title": "{{ doc.title | xml_escape }}",
         "tema": "{{ doc.tema | xml_escape }}",
         "subject": "{{ doc.oggetto | xml_escape }}",
