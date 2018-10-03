@@ -4,3 +4,4 @@
 ### [clicca qui ][7aeb75a5]
 
   [7aeb75a5]: https://lucamariani.github.io/accesso-unico/map/sportelli_suape/ "Sportelli comunali SUAPE"
+{% include comuni_select.html %}
