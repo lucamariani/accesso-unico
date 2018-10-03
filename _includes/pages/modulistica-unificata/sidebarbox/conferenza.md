@@ -11,6 +11,7 @@
   [d655e554]: http://www.italiasemplice.gov.it/modulistica/archivio-modulistica-unificata/ "archivio accordi e modulistica approvata"
 
 MODULI PA: STANDARD E SCHEMI DATI XML:
+
 •	[Accordo quadro][19b5a5b3]
 
   [19b5a5b3]: http://www.italiasemplice.gov.it/media/2535/accordo_22febbraio2018_con_allegati.pdf "accordo quadro"
