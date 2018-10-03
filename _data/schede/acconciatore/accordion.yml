@@ -1,0 +1,29 @@
+# A list of accordions
+#
+# Title: the title of the accordion
+# File: the file name where the content of this accordion is stored
+# Utenza: onditional visibility for profile
+# - entries without "utenza" key are visible for all profiles
+# - entries with "utenza" key are visible only for that profiles
+
+
+- title: "Requisiti"
+  file: "requisiti.md"
+
+- title: "Regime avvio"
+  file: "regime_avvio.md"
+  utenza:
+    - imprese
+    - intermediari
+
+- title: "Modulistica"
+  file: "modulistica.md"
+
+- title: "Controlli"
+  file: "controlli.md"
+
+- title: "Normativa"
+  file: "normativa.md"
+  utenza:
+    - imprese
+    - intermediari
