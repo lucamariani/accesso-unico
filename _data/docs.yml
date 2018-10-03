@@ -17,8 +17,8 @@ docs:
     ente:
     numero: 380
     tags:
-      - t1
-      - t2
+      - SUAPE
+      - edilizia
 
   - title: D.P.R. 7 settembre 2010, n. 160
     metaname: doc2
@@ -30,7 +30,7 @@ docs:
     ente:
     numero: 160
     tags:
-      - t1
+      - SUAPE
 
   - title: Legge regionale 16 settembre 2011, n. 8
     metaname: doc3
@@ -42,7 +42,8 @@ docs:
     ente:
     numero: 8
     tags:
-      - t2
+      - Semplificazione
+      - SUAPE
 
   - title: Legge regionale 4 aprile 2012, n. 7
     metaname: doc4
@@ -63,6 +64,8 @@ docs:
     anno: 2014
     ente:
     numero: 9
+    tags:
+      - ICT
 
   - title: Legge regionale 13 febbraio 2013, n. 4
     metaname: doc6
@@ -142,6 +145,8 @@ docs:
     anno: 2005
     ente:
     numero: 174
+    tags:
+      - acconciatore
 
   - title: Legge regionale 13 febbraio 2013, n. 4
     metaname: doc14
@@ -172,3 +177,5 @@ docs:
     anno: 1998
     ente:
     numero: 252
+      tags:
+        - Semplificazione
