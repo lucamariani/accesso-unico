@@ -2,11 +2,6 @@
 
   [4a7d4287]: http://www.unificata.it/home_UNI.asp?CONF=UNI "sito conferenza unificata"
 
-[PER PARTECIPARE][950de1e4]
-
-  [950de1e4]: http://rete.italiasemplice.gov.it/modulistica-standardizzata-e-semplificata-rete-italiasemplice/discussione/area-di-lavoro-sulla "per partecipare"
-
-
 [A CHE PUNTO SONO I LAVORI][1ea5b264]
 
   [1ea5b264]: http://www.italiasemplice.gov.it/documentazione/accordi-sulla-modulistica-e-monitoraggio-dellattuazione/ "a che punto sono i lavori"
