@@ -51,9 +51,11 @@ function displaySearchResults(results, store) {
         appendString += '<p class="pointer" title="Visualizza tutti i documenti della categoria ' + item.category +
           '" onclick="searchFor(\'+category:' + item.category + '\')">Categoria: ' + item.category + '</p>';
 
-      if ( item.tema.length > 0 )
-        appendString += '<p class="pointer" title="Visualizza tutti i documenti del tema ' + item.tema +
-          '" onclick="searchFor(\'+tema:' + item.tema + '\')">Argomento: ' + item.tema + '</p></li>';
+      if ( item.tema.length > 0 ) {
+        var themeName = ( themes[item.tema] ? themes[item.tema].name : item.tema );
+        appendString += '<p class="pointer" title="Visualizza tutti i documenti del tema ' + themeName +
+          '" onclick="searchFor(\'+tema:' + item.tema + '\')">Argomento: ' + themeName + '</p></li>';
+      }
 
       if ( item.number.length > 0 )
         appendString += '<p>Numero: ' + item.number + '</p>';
