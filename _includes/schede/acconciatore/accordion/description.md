@@ -1,5 +1,3 @@
 L'attività di acconciatore comprende tutti i trattamenti e i servizi volti a modificare, migliorare, mantenere e proteggere l'aspetto estetico dei capelli, ivi compresi i trattamenti tricologici complementari, che **non implicano prestazioni di carattere medico, curativo o sanitario**, nonché il taglio e il trattamento estetico della barba e ogni altro servizio inerente o complementare.
-
 Gli acconciatori nell'esercizio della propria attività possono inoltre svolgere **prestazioni semplici** di manicure e pedicure estetico.
-
 **Non è ammesso lo svolgimento dell’attività di acconciatore in forma ambulante o di posteggio.**
