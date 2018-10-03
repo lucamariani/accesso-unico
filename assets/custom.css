@@ -63,7 +63,7 @@
 .t-Pac .single-doc .object {margin-top: 0.5em;margin-bottom: 0.5em;}
 /* redfin our content width */
 .t-Pac .u-layout-prose {max-width: 40em !important}
-
+.t-Pac .pointer {cursor: pointer !important}
 
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}

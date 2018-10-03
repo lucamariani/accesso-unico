@@ -10,6 +10,7 @@ var idx = lunr(function () {
   this.field('ente');
   this.field('number');
   this.field('url');
+  this.field('tags');
 
   for (var key in window.store) { // Add the data to lunr
     this.add({
@@ -21,14 +22,14 @@ var idx = lunr(function () {
       'year': window.store[key].year,
       'ente': window.store[key].ente,
       'number': window.store[key].number,
-      'url': window.store[key].url
+      'url': window.store[key].url,
+      'tags': window.store[key].tags
     });
   }
 });
 
 /** display results **/
 function displaySearchResults(results, store) {
-  console.log(store);
   var searchResults = $('#docs-results-list');
 
   if (results.length) { // Are there any results?
@@ -36,20 +37,45 @@ function displaySearchResults(results, store) {
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
       var key = results[i].ref;
-      console.log('key:' + key);
+      //console.log('key:' + key);
       var item = store[key];
-      console.log('item:' + item);
+      //console.log(item);
 
       appendString += '<div class="Grid-cell u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight">';
       appendString += '<div class="u-nbfc u-flexWrap u-flex u-color-grey-60 u-xs-padding-all-none u-borderShadow-m u-xs-borderShadow-none u-borderRadius-m u-background-white u-sizeFill">';
       appendString += '<div class="u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill u-padding-r-all"><div class="u-sizeFull u-padding-r-all u-xs-padding-all-none single-doc">';
       appendString += '<a href="' + item.url + '" target="_blank"><h3 class="u-color-50">' + item.title + '</h3></a>';
       appendString += '<p class="object"><b>' + item.subject + '</b></p>';
-      appendString += '<p>Categoria: ' + item.category + '</p>';
-      appendString += '<p>Argomento: ' + item.tema + '</p></li>';
-      appendString += '<p>Numero: ' + item.number + '</p>';
-      appendString += '<p>Anno: ' + item.year + '</p>';
-      appendString += '<p>Ente: ' + item.ente + '</p>';
+
+      if ( item.category.length > 0 )
+        appendString += '<p class="pointer" title="Visualizza tutti i documenti della categoria ' + item.category +
+          '" onclick="searchFor(\'+category:' + item.category + '\')">Categoria: ' + item.category + '</p>';
+
+      if ( item.tema.length > 0 )
+        appendString += '<p class="pointer" title="Visualizza tutti i documenti del tema ' + item.tema +
+          '" onclick="searchFor(\'+tema:' + item.tema + '\')">Argomento: ' + item.tema + '</p></li>';
+
+      if ( item.number.length > 0 )
+        appendString += '<p>Numero: ' + item.number + '</p>';
+
+      appendString += '<p class="pointer" title="Visualizza tutti i documenti dell\'anno ' + item.year +
+          '" onclick="searchFor(\'+year:' + item.year + '\')">Anno: ' + item.year + '</p>';
+
+      if ( item.ente.length > 0 )
+        appendString += '<p>Ente: ' + item.ente + '</p>';
+
+      if ( item.tags.length > 0 ) {
+        var docTags = '<p>Tags: ';
+        //appendString += '<p>Tags: ' + item.tags + '</p>';
+        $.each(item.tags, function(key,value) {
+          docTags += '<span class="pointer" title="Visualizza tutti i documenti con tag ' + value +
+            '" onclick="searchFor(\'+tags:' + value + '\')">' + value + '</span>, ';
+        });
+        docTags = docTags.replace(/,\s*$/, "");
+        docTags += '</p>';
+        appendString += docTags;
+      }
+
       appendString += '</div></div></div></div>';
     }
 
@@ -138,3 +164,10 @@ $(function() {
   });
 
 })
+
+var searchFor = function(search_pattern) {
+  console.log('searching for ' + search_pattern);
+  var results = idx.search(search_pattern);
+  console.log(results);
+  displaySearchResults(results, window.store);
+}

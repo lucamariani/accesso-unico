@@ -164,7 +164,13 @@ layout: default
         "year": {{ doc.anno }},
         "ente": "{{ doc.ente | xml_escape }}",
         "number": {{ doc.numero }},
-        "url": "{{ doc.url | xml_escape }}"
+        "url": "{{ doc.url | xml_escape }}",
+        "tags": [
+          {% for tag in doc.tags %}
+            "{{ tag  | xml_escape }}"
+            {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
