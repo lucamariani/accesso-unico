@@ -31,7 +31,8 @@ MODULI PA: STANDARD E SCHEMI DATI XML:
 
   [e96c0b0b]: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/CU_Calendario_sedute_2semestre2018.pdf "calendario delle sedute"
 
-
+  </font>
+  <font size="2">
 [RIFERIMENTI E RECAPITI][e7bcb0a3]
 
   [e7bcb0a3]: http://www.statoregioni.it/contattiConferenza.asp?CONF=UNI "Riferimenti e recapiti"
