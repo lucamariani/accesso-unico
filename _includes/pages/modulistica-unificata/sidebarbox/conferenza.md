@@ -17,7 +17,7 @@
 ######  Moduli PA: standard e schemi dati xml:
 
 
-•	[Accordo quadro][19b5a5b3]
+###### •	[Accordo quadro][19b5a5b3]
 
   [19b5a5b3]: http://www.italiasemplice.gov.it/media/2535/accordo_22febbraio2018_con_allegati.pdf "accordo quadro"
 
