@@ -1,1 +1,1 @@
-Informazioni rigurardati il recapito, il responsabile e gli orari di apertura degli  Sportelli Suape comunali, indicazioni sulle modalità di presentazione delle pratiche ed altro ancora. La selezione del Comune di interesse avviene cliccando su una mappa geografica oppure scegliendolo dalla lista proposta.
+Informazioni rigurardati il recapito, il responsabile e gli orari di apertura degli  Sportelli Suape comunali, indicazioni sulle modalità di presentazione delle pratiche ed altro ancora. La selezione del Comune di interesse avviene scegliendolo dalla lista proposta.
