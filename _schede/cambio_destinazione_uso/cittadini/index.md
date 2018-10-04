@@ -5,5 +5,5 @@ utenza: cittadini
 tema: edilizia
 tipo: pratica
 title: Cambio di destinazione d'uso
-subtitle: mutamento della destinazione di immobili quali appartamenti, uffici, magazzini, negozi, garage, box, depositi etc..
+subtitle: mutamento della destinazione di appartamenti, uffici, magazzini, negozi, garage, box, depositi etc..
 ---
