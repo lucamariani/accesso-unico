@@ -36,4 +36,4 @@ sportelli:
 ---
 
 
-<p><strong>Come presentare un’istanza</strong>: modalità cartacea oppure via Pec <br /><br /></p>
+<p><strong>Come presentare un’istanza</strong>: in modalità cartacea oppure via Pec <br /><br /></p>
