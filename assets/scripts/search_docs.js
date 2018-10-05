@@ -89,8 +89,8 @@ function displaySearchResults(results, store) {
   $('#result-section').show();
 }
 
-/** Docs search functions **/
-$(function() {
+/*var titleSuggestionHandling = function() {
+  console.log("titleSuggestionHandling");
   var $titles = $('#titolo-listing > ul > li').clone()
 
   $('#titolo').on('keydown', function(event) {
@@ -105,6 +105,7 @@ $(function() {
 
     $('#titolo-listing > ul').html($titles.filter(function(index, elem) {
       var title = $(elem).find('span').html().toLowerCase()
+      console.log("title: " + title)
 
       if (title.indexOf(text) >= 0) {
         return elem
@@ -112,13 +113,11 @@ $(function() {
     }))
     $('#titolo-listing > ul > li:first').trigger('mouseenter')
   })
-})
+}
 
+var numberSuggestionHandling = function() {
+  var $numbers = $('#numero-listing > ul > li').clone()
 
-$(function() {
-  var $titles = $('#numero-listing > ul > li').clone()
-
-  /* number filtering */
   $('#numero').on('keydown', function(event) {
     if (event.which === 9 && $(this).is(':focus')) {
       $(this).blur()
@@ -128,15 +127,22 @@ $(function() {
 
   $('#numero').on('keyup', function(event) {
     var text = event.target.value.toLowerCase()
-    $('#numero-listing > ul').html($titles.filter(function(index, elem) {
-      var title = $(elem).find('span').html().toLowerCase()
+    $('#numero-listing > ul').html($numbers.filter(function(index, elem) {
+      var number = $(elem).find('span').html().toLowerCase()
 
-      if (title.indexOf(text) >= 0) {
+      if (number.indexOf(text) >= 0) {
         return elem
       }
     }))
     $('#numero-listing > ul > li:first').trigger('mouseenter')
   })
+}*/
+
+$(function() {
+  //
+  //titleSuggestionHandling();
+  //numberSuggestionHandling();
+  applyUrlFilters();
 
   /* submit handling */
   $('#docs-search-btn').click(function(event) {
@@ -166,6 +172,16 @@ $(function() {
   });
 
 })
+
+var applyUrlFilters = function() {
+  console.log('applyUrlFilters...');
+  // search for theme
+  var themeFilters = getAllUrlParams().theme;
+  if( themeFilters ) {
+    var search_pattern = '+tema:' + themeFilters;
+    searchFor( search_pattern );
+  }
+}
 
 var searchFor = function(search_pattern) {
   console.log('searching for ' + search_pattern);
