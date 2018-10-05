@@ -6,23 +6,23 @@
 # - entries without "utenza" key are visible for all profiles
 # - entries with "utenza" key are visible only for that profiles
 
-- title: "Classificazione"
-  file: "classificazione.md"
+- title: "Interventi subordinati alla SCIA"
+  file: "interventi_scia.md"
 
-- title: "Sicurezza"
-  file: "sicurezza.md"
+- title: "Modulistica"
+  file: "modulistica.md"
 
 - title: "Requisiti"
   file: "requisiti.md"
 
-- title: "Regime avvio"
-  file: "regime_avvio.md"
+- title: "Costi"
+  file: "costi.md"
   utenza:
     - imprese
     - intermediari
 
-- title: "Guida"
-  file: "guida.md"
+- title: "Adempimenti di tecnici professionisti"
+  file: "adempimenti.md"
 
 - title: "Controlli"
   file: "controlli.md"
@@ -32,3 +32,12 @@
   utenza:
     - imprese
     - intermediari
+
+- title: "Istruttoria preliminare"
+  file: "istruttoria.md"
+
+- title: "Documenti da allegare alla presentazione della SCIA"
+  file: "allegati.md"
+
+- title: "Iter amministrativo"
+  file: "iter.md"

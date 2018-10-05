@@ -4,6 +4,6 @@ object: scia
 utenza: imprese
 tema: edilizia
 tipo: pratica
-title: Cambio destinazione d'uso
-subtitle: Cambio destinzione d'uso per le imprese
+title: Segnalazione Certificata di Inizio Attività
+subtitle: SCIA per le imprese
 ---
