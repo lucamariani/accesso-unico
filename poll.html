@@ -12,49 +12,77 @@ scripts:
       <section class="Grid">
         <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3">
           <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
-          {% if page.img %}
-          <div class="page-img-div">
-            <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
-          </div>
-          {% endif %}
           {% if page.subtitle %}
           <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h3>
           {% endif %}
         </div>
-      <section>
-    </div>
 
-    <form class="Form Form--spaced u-padding-r-all u-layout-prose" id="docs-search-form" action="." method="get">
-      <fieldset class="Form-fieldset">
-        <div class="Grid Grid--withGutter u-background-white" role="search">
-
-          <div class="Grid-cell u-size4of4">
-            <div class="Form-field">
-              <label class="Form-label" for="titolo">Nome e Cognome</label>
-              <input data-menu-trigger="titolo-listing" class="Form-input u-text-r-s u-borderRadius-m" id="nome" name="nome" autocomplete="off" aria-required="true" required/>
-            </div>
+        <div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3">
+          <div class="page-img-div">
+            <img class="poll-img" src="">
           </div>
-
-          <div class="Grid-cell u-size4of4">
-            <div class="Form-field">
-              <label class="Form-label is-required" for="number">E-Mail</label>
-              <input data-menu-trigger="numero-listing" class="Form-input u-text-r-s u-borderRadius-m" id="email" name="email" type="email" aria-required="true" required>
-            </div>
-          </div>
-
-          <div class="Form-field Grid-cell u-size4of4">
-           <label class="Form-label" for="cap">Messaggio <small>(opzionale)</small></label>
-           <textarea class="Form-input Form-textarea"></textarea>
-         </div>
-
-          <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
-           <button id="docs-search-btn" type="submit" class="Button Button--default Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">Invia</button>
-          </div>
-
         </div>
-      </fieldset>
-    </form>
 
+      <section>
+
+      <form class="Form Form--spaced u-padding-r-top u-layout-prose" id="docs-search-form" action="." method="get">
+        <fieldset class="Form-fieldset">
+          <div class="Grid Grid--withGutter u-background-white" role="search">
+
+            <div class="Grid-cell u-size4of4">
+              <div class="Form-field">
+                <label class="Form-label" for="nome">Nome e Cognome</label>
+                <input class="Form-input u-text-r-s u-borderRadius-m" id="nome" name="nome" autocomplete="off" aria-required="true" required/>
+              </div>
+            </div>
+
+            <div class="Grid-cell u-size4of4">
+              <div class="Form-field">
+                <label class="Form-label is-required" for="email">E-Mail</label>
+                <input class="Form-input u-text-r-s u-borderRadius-m" id="email" name="email" type="email" aria-required="true" required>
+              </div>
+            </div>
+
+            <div class="Form-field Grid-cell u-size4of4">
+             <label class="Form-label" for="cap">Messaggio <small>(opzionale)</small></label>
+             <textarea id="test-msg" class="Form-input Form-textarea"></textarea>
+           </div>
+
+            <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
+             <button id="send-poll-btn" type="submit" class="Button Button--default Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">Invia</button>
+            </div>
+
+          </div>
+        </fieldset>
+      </form>
+
+    </div>
   </div>
 
 </div>
+
+<script>
+  $(function() {
+    var pollUrl = getAllUrlParams().pollurl;
+    var pollVote = getAllUrlParams().pollvote;
+    //console.log('pollUrl: ' + pollUrl);
+    $('#test-msg').text(pollUrl);
+
+    var img = '';
+    switch( pollVote ) {
+      case "pro":
+        img = "{{ site.baseurl }}/assets/images/sunny.svg";
+        break;
+      case "neu":
+        img = "{{ site.baseurl }}/assets/images/cloudy.svg";
+        break;
+      case "ver":
+        img = "{{ site.baseurl }}/assets/images/rain.svg";
+        break;
+      default:
+        img = '';
+    }
+
+    $('.poll-img').attr('src',img);
+  })
+</script>
