@@ -20,9 +20,6 @@
 
 - title: "Normativa"
   file: "normativa.md"
-  utenza:
-    - imprese
-    - intermediari
 
 - title: "Costi"
   file: "costi.md"
