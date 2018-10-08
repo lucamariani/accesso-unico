@@ -5,5 +5,5 @@ utenza: imprese
 tema: edilizia
 tipo: pratica
 title: Cambio di destinazione d'uso
-subtitle: segnalazione certificata di inizio attività, SCIA
+subtitle: mutamento della destinazione di appartamenti, uffici, magazzini, negozi, garage, box, depositi etc..
 ---

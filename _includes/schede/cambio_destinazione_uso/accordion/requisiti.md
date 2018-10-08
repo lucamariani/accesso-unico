@@ -1,4 +1,4 @@
-Soggetti a cui è riconosciuto il diritto di inoltrare la SCIA per cambio di destinazione d’uso:
+Soggetti a cui è riconosciuto il diritto di inoltrare la richiesta di titolo abilitativo per cambio di destinazione d’uso:
 
 - proprietario
 - comproprietario
