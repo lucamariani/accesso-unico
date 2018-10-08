@@ -9,11 +9,20 @@
 - title: "Interventi subordinati alla SCIA"
   file: "interventi_scia.md"
 
+- title: "Requisiti"
+  file: "requisiti.md"
+
+- title: "Controlli"
+  file: "controlli.md"
+
 - title: "Modulistica"
   file: "modulistica.md"
 
-- title: "Requisiti"
-  file: "requisiti.md"
+- title: "Normativa"
+  file: "normativa.md"
+  utenza:
+    - imprese
+    - intermediari
 
 - title: "Costi"
   file: "costi.md"
@@ -23,15 +32,6 @@
 
 - title: "Adempimenti di tecnici professionisti"
   file: "adempimenti.md"
-
-- title: "Controlli"
-  file: "controlli.md"
-
-- title: "Normativa"
-  file: "normativa.md"
-  utenza:
-    - imprese
-    - intermediari
 
 - title: "Istruttoria preliminare"
   file: "istruttoria.md"
