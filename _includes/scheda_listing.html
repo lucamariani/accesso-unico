@@ -1,4 +1,7 @@
 {% if include.scheda_theme %}
+<!-- get profile full name from yaml file -->
+{% assign profile_items = site.data.profiles | where_exp: "item", "item.metaname == include.scheda_theme.utenza" %}
+{% assign profile_name = profile_items[0].name %}
 <!-- by default show only cittadini schede; this is implemented hiding other schede in css  -->
 <div class="scheda-listing {{ include.scheda_theme.utenza | downcase }} {{ include.scheda_theme.tipo | downcase }}">
   <div class="u-sizeFull">
@@ -11,14 +14,22 @@
           <p class="Prose u-layout-prose">{{ include.scheda_theme.subtitle }}</p>
         </div>
       </section>
-      {% if include.scheda_theme.tipo %}
-      <p>
-        <a
-          class="u-textClean u-text-xs scheda-type-{{ include.scheda_theme.tipo | downcase }} scheda-listing-tag"
-          href="#">
-          {{ include.scheda_theme.tipo | upcase }}
-        </a>
-      </p>
+      <ul id="label-list">
+        <li>
+          <a
+            class="u-textClean u-text-xs u-color-grey-60 theme-{{ include.scheda_profile.profile | downcase }} scheda-listing-tag"
+            href="{{site.baseurl}}/profili/{{ include.scheda_theme.utenza | downcase }}">
+            {{ profile_name | upcase }}
+          </a>
+        </li>
+        {% if include.scheda_theme.tipo %}
+        <li>
+          <a
+            class="u-textClean u-text-xs scheda-type-{{ include.scheda_theme.tipo | downcase }} scheda-listing-tag"
+            href="#">
+            {{ include.scheda_theme.tipo | upcase }}
+          </a>
+        </li>
       {% endif %}
     </div>
   </div>
@@ -44,7 +55,7 @@
       <ul id="label-list">
         <li>
           <a
-            class="u-textClean u-text-xs u-color-white theme-{{ include.scheda_profile.tema | downcase }} scheda-listing-tag"
+            class="u-textClean u-text-xs theme-{{ include.scheda_profile.tema | downcase }} scheda-listing-tag"
             href="{{site.baseurl}}/temi/{{ include.scheda_profile.tema | downcase }}">
             {{ tema_name | upcase }}
           </a>
