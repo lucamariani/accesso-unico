@@ -10,7 +10,7 @@
       - title: "Turismo"
         url: /temi/turismo
       - title: Artigianato
-        url: /temi/aritigianato
+        url: /temi/artigianato
       - title: "Edilizia"
         url: /temi/edilizia
         dropdown:
