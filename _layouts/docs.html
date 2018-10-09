@@ -134,22 +134,29 @@ layout: default
             </div>
           </div>
 
+          <!-- Tags -->
+          {% assign tag_array = "" | split: ',' %}
+          {% assign docs = site.data.docs.docs %}
+          {% for doc in docs %}
+            {% for tag in doc.tags %}
+              <!-- Push tag into array -->
+              {% assign tag_array = tag_array | push: tag %}
+            {% endfor %}
+          {% endfor %}
+
+          {% assign tag_array = tag_array | sort | uniq %}
           <div class="Grid-cell u-size1of3 u-md-size1of3 u-lg-size1of3">
             <div class="Form-field">
-              <label class="Form-label is-required" for="tags">Tags</label>
-              <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
+              <label class="Form-label" for="tags">Tags</label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="tags" name="tags">
                 <option selected>---</option>
-                {% assign docs_tags = site.data.docs.docs | group_by: 'tags' %}
-                {% for tags in docs_tags %}
-                  tags: {{tags.name}}
-                  {% assign tags_splitted = tags | split: "," %}
-                  {% for tag in tags_splitted %}
-                  <option class="u-color-50" value="{{ tag.name }}">{{ tag.name }}</option>
-                  {% endfor %}
+                {% for tag in tag_array %}
+                  <option class="u-color-50" value="{{ tag }}">{{ tag }}</option>
                 {% endfor %}
               </select>
             </div>
           </div>
+          <!-- / Tags -->
 
           <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
            <button id="docs-search-btn" type="submit" class="Button Button--default Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">Cerca</button>

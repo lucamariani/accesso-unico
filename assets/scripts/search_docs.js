@@ -154,7 +154,8 @@ $(function() {
     var year = $('#year option:selected').val();
     var theme = $('#tema option:selected').val();
     var category = $('#categoria option:selected').val();
-    console.log('searching for titolo: ' + title + ', number: ' + number + ',year: ' + year);
+    var tags = $('#tags option:selected').val();
+    console.log('searching for titolo: ' + title + ', number: ' + number + ',year: ' + year + ',tags: ' + tags);
 
     var search_title = '*' + title + '*';
     var search_number = number + '*';
@@ -166,6 +167,8 @@ $(function() {
       search_pattern += ' +tema:' + theme;
     if ( category.indexOf('---') < 0 )
       search_pattern += ' +category:' + category;
+    if ( tags.indexOf('---') < 0 )
+      search_pattern += ' +tags:' + tags;
 
     console.log('searching for ' + search_pattern);
     var results = idx.search(search_pattern);
