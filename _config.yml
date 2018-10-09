@@ -1,4 +1,4 @@
-title:             "Accesso unico beta - Regione Umbria"
+title:             "Umbria facile - Regione Umbria"
 description:       "Sito tematico della Regione Umbria"
 baseurl:           "/accesso-unico"
 url:               "https://lucamariani.github.io/accesso-unico/"
@@ -13,7 +13,7 @@ header_parent_title: Regione Umbria
 header_parent_url: "https://www.regione.umbria.it"
 header_language_selector: false
 header_logo:  /assets/images/LogoRegione85x96.svg
-header_title: Accesso unico beta
+header_title: Umbria facile
 header_subtitle: Sito tematico della Regione Umbria
 search: true
 search_full_content: false

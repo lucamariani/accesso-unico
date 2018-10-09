@@ -105,7 +105,7 @@ layout: default
             </div>
           </div>
 
-          <div class="Grid-cell u-size2of4 u-md-size2of4 u-lg-size2of4">
+          <div class="Grid-cell u-size1of3 u-md-size1of3 u-lg-size1of3">
             <div class="Form-field">
               <label class="Form-label is-required" for="tema">Argomento</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="tema" name="tema">
@@ -121,7 +121,7 @@ layout: default
             </div>
           </div>
 
-          <div class="Grid-cell u-size2of4 u-md-size2of4 u-lg-size2of4">
+          <div class="Grid-cell u-size1of3 u-md-size1of3 u-lg-size1of3">
             <div class="Form-field">
               <label class="Form-label is-required" for="categoria">Categoria</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
@@ -129,6 +129,23 @@ layout: default
                 {% assign docs_category = site.data.docs.docs | group_by: 'categoria' %}
                 {% for doc in docs_category %}
                 <option class="u-color-50" value="{{ doc.name }}">{{ doc.name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <div class="Grid-cell u-size1of3 u-md-size1of3 u-lg-size1of3">
+            <div class="Form-field">
+              <label class="Form-label is-required" for="tags">Tags</label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
+                <option selected>---</option>
+                {% assign docs_tags = site.data.docs.docs | group_by: 'tags' %}
+                {% for tags in docs_tags %}
+                  tags: {{tags.name}}
+                  {% assign tags_splitted = tags | split: "," %}
+                  {% for tag in tags_splitted %}
+                  <option class="u-color-50" value="{{ tag.name }}">{{ tag.name }}</option>
+                  {% endfor %}
                 {% endfor %}
               </select>
             </div>
@@ -144,7 +161,9 @@ layout: default
     <!-- Results' list -->
     <section id="result-section" class="u-nbfc u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-r-bottom u-posRelative u-zindex-30">
       <div class="u-layout-wide u-layoutCenter">
-        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">Risultati ricerca</h2>
+        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
+          <span id="results-size" class="u-text-r-l u-textWeight-300"></span> Documenti trovati
+        </h2>
         <div id="docs-results-list" class="Grid Grid--withGutter">
         </div>
       </div>

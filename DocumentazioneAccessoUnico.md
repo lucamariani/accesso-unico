@@ -398,3 +398,16 @@ iframe mappa: clicco sul comune -> popup con link a pagina dettagli
 sotto la mappa: lista comuni con link alla pagina dettagli
 
 nella pagina dei dettagli degli sportelli c'e' una sezione che mostra la piattaforma informatica utilizzata dal comune in questione (2 piattaforme, PEC). I requisiti della piattaforma sono anche loro schede ma di tipo "strumenti"
+
+### Gestione links
+Utilizzare {{ site.baseurl }} al posto di https://lucamariani.github.io/accesso-unico
+
+> x es: https://lucamariani.github.io/accesso-unico/schede/acconciatore/imprese/index.html
+
+> {{ site.baseurl }}/schede/acconciatore/imprese/index.html
+
+### link icone
+https://www.iconfinder.com/iconsets/spring-23
+
+#### aggiungere
+- listing schede per tema: aggiungere label per profilo

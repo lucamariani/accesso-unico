@@ -30,6 +30,8 @@ var idx = lunr(function () {
 
 /** display results **/
 function displaySearchResults(results, store) {
+  console.log('size: ' + results.length);
+  $('#results-size').text(results.length)
   var searchResults = $('#docs-results-list');
 
   if (results.length) { // Are there any results?
@@ -179,6 +181,12 @@ var applyUrlFilters = function() {
   var themeFilters = getAllUrlParams().theme;
   if( themeFilters ) {
     var search_pattern = '+tema:' + themeFilters;
+    searchFor( search_pattern );
+  }
+  // search for tags
+  var tagFilters = getAllUrlParams().tags;
+  if( tagFilters ) {
+    var search_pattern = '+tags:' + tagFilters;
     searchFor( search_pattern );
   }
 }
