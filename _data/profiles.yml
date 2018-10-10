@@ -9,3 +9,7 @@
 - name: Intermediario
   image: /assets/images/professionist.jpg
   metaname: intermediari
+
+- name: Pubblica Amministrazione
+  image: /assets/images/professionist.jpg
+  metaname: pa

@@ -15,6 +15,7 @@ header_language_selector: false
 header_logo:  /assets/images/LogoRegione85x96.svg
 header_title: UmbriaFacile
 header_subtitle: Sito beta dell'Accesso Unico
+header_slogan: Stiamo progettando un portale di servizi che utilizzerai con facilità
 search: false
 search_full_content: false
 mega_menu: true    # if true, require _data/menu.yml
@@ -24,7 +25,7 @@ mega_menu_accedi: false
 social_block: true
 social_username: "&commat;RegioneUmbria"    # short
 medium_username:
-facebook_username: RegioneUmbria
+facebook_username: Regione.Umbria.official
 twitter_username:  RegioneUmbria
 youtube_username:
 linkedin_username:
@@ -33,7 +34,7 @@ github_username: Regione-Umbria
 # Footer data
 footer_logo: /assets/images/LogoRegioneWhite.png
 footer_title: Regione Umbria
-footer_subtitle: Sito tematico dedicato all'Accesso unico
+footer_subtitle: Agenda Digitale
 recapiti1: Recapiti
 recapiti2: Corso Vannucci, 96
 recapiti3: 06121 Perugia

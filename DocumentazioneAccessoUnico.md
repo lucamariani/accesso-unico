@@ -29,6 +29,7 @@ Per creare una nuova scheda:
   > title: < *titolo scheda* >    
   > subtitle: < *sottotitolo scheda* >  
   > accordion_open: [ true, false ]
+  > meta_description: < *descrizione per SEO* >
 
   Esempio:
   > layout: scheda  
@@ -38,6 +39,7 @@ Per creare una nuova scheda:
   > title: Cambio destinazione d'uso  
   > subtitle: SCIA
   > accordion_open: true
+  > meta_description: Il cambio destinazione d'uso e' questo
 
   il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
   - agricoltura

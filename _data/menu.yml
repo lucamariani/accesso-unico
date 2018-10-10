@@ -31,20 +31,5 @@
 - title: "Documentazione"
   url: /docs_search
 
-- title: "Utilità"
-  url: /utility
-  dropdown:
-    - title: "Modulistica unificata"
-      url: /modulistica-unificata
-    - title: "Cerca lo sportello"
-      url: #
-      dropdown:
-        - title: SUAPE
-          url: /map/sportelli_suape/
-        - title: URP
-          url: #
-    - title: PRG
-      url: /map/piani_regolatori/
-
 - title: "Il Programma"
   url: https://www.arcgis.com/apps/Cascade/index.html?appid=1a91b66d279044b49b1636b287fcb611
