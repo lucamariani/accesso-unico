@@ -76,6 +76,8 @@ docs:
     anno: 2013
     ente:
     numero: 4
+    tags:
+      - Acconciatore
 
   - title: Legge regionale 10 luglio 2017, n. 8
     metaname: doc7
@@ -157,6 +159,8 @@ docs:
     anno: 2011
     ente:
     numero: 159
+    tags:
+      - Acconciatore
 
   - title: D.P.R. 3 giugno 1998, n. 252
     metaname: doc15
@@ -169,6 +173,7 @@ docs:
     numero: 252
     tags:
         - Semplificazione
+        - Acconciatore
 
   - title: Deliberazione della Giunta Regionale 20 giugno 2017, n. 700
     metaname: doc16
