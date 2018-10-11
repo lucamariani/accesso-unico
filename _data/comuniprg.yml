@@ -1,0 +1,27 @@
+- name: Amelia
+  metaname: amelia
+  url: "https://lucamariani.github.io/accesso-unico/amelia/"
+- name: Bastia Umbra
+  metaname: bastiaumbra
+  url: "https://lucamariani.github.io/accesso-unico/bastiaumbra/"
+- name: Castiglione del Lago
+  metaname: castiglionedellago
+  url: "https://lucamariani.github.io/accesso-unico/castiglionedellago/"
+- name: Foligno
+  metaname: foligno
+  url: "https://lucamariani.github.io/accesso-unico/foligno/"
+- name: Gubbio
+  metaname: gubbio
+  url: "https://lucamariani.github.io/accesso-unico/gubbio/"
+- name: Perugia
+  metaname: perugia
+  url: "http://perugia_url"
+- name: Narni
+  metaname: narni
+  url: "https://lucamariani.github.io/accesso-unico/narni/"
+- name: Spello
+  metaname: spello
+  url: "http://spello_url"
+- name: Terni
+  metaname: terni
+  url: "https://lucamariani.github.io/accesso-unico/terni/"

@@ -7,3 +7,8 @@
   utenza:
     - imprese
     - intermediari
+- title: Piano Regolatore Generale
+  file: prg.md
+  utenza:
+    - imprese
+    - intermediari
