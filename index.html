@@ -46,3 +46,19 @@ scripts:
 
 </div>
 <!-- end index.html -->
+<!-- add schede for searching purpose -->
+<script>
+  window.schede = {
+    {% assign all_schede = site.schede | group_by: 'object' %}
+
+    {% for scheda in all_schede %}
+      "{{ scheda.items[0].object | slugify }}": {
+        "title": "{{ scheda.items[0].title | xml_escape }}",
+        "tema": "{{ scheda.items[0].tema | xml_escape }}",
+        "subtitle": "{{ scheda.items[0].subtitle | xml_escape }}",
+        "url": "{{ scheda.items[0].url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+</script>

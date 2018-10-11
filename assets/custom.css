@@ -71,6 +71,9 @@
 /* poll */
 .t-Pac .poll-img {width: 3.5em}
 
+/* increment dialog mask z-index to cover header */
+.t-Pac .fr-dialogmodal--is-ready {z-index: 50}
+
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}
 .t-Pac .Header-languages{background-color:#333333;}
