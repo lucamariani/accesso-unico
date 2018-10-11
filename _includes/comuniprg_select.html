@@ -1,15 +1,15 @@
 <div class="u-text-r-s u-layout-wide u-padding-r-bottom">
-  <div class="u-color-white u-border-top-xxs u-border-bottom-xxs u-border-left-l u-border-right-l">
+  <div class="u-color-white u-border-top-xxs u-border-bottom-xxs">
 
-    <form class="Form Form--spaced u-padding-all-xl u-color-40 u-background-grey-10 u-text-r-xs u-layout-prose">
+    <form class="Form Form--spaced u-padding-all-s u-color-40 u-text-r-xs u-layout-prose">
 
       <fieldset class="Form-fieldset">
 
-        <fieldset class="Form-fieldset">
+        <fieldset class="Form-fieldset" style="margin-bottom: 0px !important;">
           <legend class="Form-legend">Scegli il comune</legend>
 
           <div class="Form-field">
-            <label class="Form-label is-required" for="comune">Comune</label>
+
             <select class="Form-input" id="comune" aria-required="true" required>
               <option disabled selected>seleziona</option>
               {% for comune in site.data.comuniprg %}
@@ -20,8 +20,10 @@
 
         </fieldset>
 
-        <div class="Form-field Grid-cell u-textRight">
-          <a id="gobutton" type="button" href="#" target="_blank" class="Button Button--default u-text-xs">Vai</a>
+        <div class="Form-field Grid-cell u-textRight" style="padding-bottom: 0px !important;">
+          <a id="gobutton" type="button" href="#" target="_blank"
+            class="Button u-text-xs u-background-50 u-color-white u-sizeFull"
+            style="max-width:15em;">Vai</a>
         </div>
       </fieldset>
     </form>
