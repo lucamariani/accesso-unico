@@ -1,5 +1,3 @@
- <br><br/>presenta la pratica allo sportello SUAPE del comune sede dell'attività
-<br><br/>
-
-
+ <br/>vai allo sportello SUAPE del comune sede dell'attività
+<br/>
 {% include comuni_select.html %}
