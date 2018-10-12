@@ -45,9 +45,8 @@ var search_for = '';
 
 var formSubmit = function() {
   search_for = $('#home-cerca').val();
-  console.log('searching for ' + search_for);
   var results = idx.search('*' + search_for + '*');
-  console.log(results);
+  //console.log(results);
   displayResults(results);
 }
 
@@ -69,11 +68,10 @@ var addResultItems = function(label, itemArray, _baseurl) {
 var displayResults = function(results) {
   // reset
   $('#dialog-results-content').html('');
-  var appendString = 'Spiacenti, non ci sono risultati per questa ricerca.';
+  var noResultString = 'Spiacenti, non ci sono risultati per questa ricerca.';
   var schedeResults = [], docsResults = [];
 
-  if (results.length) { // Are there any results?
-    var appendString = '';
+  if (results.length > 0) { // Are there any results?
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
       var key = results[i].ref;
@@ -93,7 +91,11 @@ var displayResults = function(results) {
     addResultItems('Schede', schedeResults, baseurl);
     addResultItems('Documenti', docsResults, '');
 
+  } else {
+    // no results
+    $('#dialog-results-content').html(noResultString);
   }
+
   // open dialog
   $('#open_btn').click();
 }
