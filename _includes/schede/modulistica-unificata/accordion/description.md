@@ -1,4 +1,8 @@
-Per destinazione d’uso di un edificio si intende la sua destinazione urbanistica e non va confusa con le categorie catastali utili per individuare la rendita ai fini fiscali.
-Se si vuole cambiare la destinazione d’uso di un immobile è necessario chiedere al Comune territorialmente competente un titolo abilitativo – Permesso di Costruire, SCIA o CILA a seconda dei casi.
-Il cambio di destinazione è disciplinato dalle norme contenute nel Piano regolatore Generale del Comune che individua per ogni zona le destinazioni compatibili, pertanto deve essere conforme alle leggi e agli strumenti urbanistici vigenti.
-È possibile modificare la categoria dell’immobile o di porzione di esso passando tra le seguenti destinazioni o anche nell’ambito della stessa categoria: residenziale, turistico-ricettiva, produttiva-direzionale, commerciale, rurale.
+A seguito dell'accordo nazionale tra Governo, Regioni ed Enti locali siglato in Conferenza unificata il 4 maggio 2017, ha preso avvio il  processo di standardizzazione dei moduli unificati.
+
+La Conferenza stessa con successivi accordi ha poi approvato sia integrazioni e modifiche ai moduli già in uso sia l’adozione di nuovi modelli.
+
+La Regione Umbria, ove necessario e prima di notificare i formati word ai Comuni del proprio territorio, ha inserito i necessari richiami alla normativa specifica di settore.
+
+
+I format così prodotti non sono modificabili e devono essere obbligatoriamente usati per ogni adempimento da svolgere presso il SUAPE.

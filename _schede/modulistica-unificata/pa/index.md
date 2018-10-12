@@ -2,7 +2,7 @@
 layout: scheda
 object: modulistica-unificata
 utenza: pa
-tema: Semplificazione
+tema: semplificazione
 tipo: servizio
 title: Modulistica Unificata
 subtitle: descrizione breve della scheda per il profilo pa
