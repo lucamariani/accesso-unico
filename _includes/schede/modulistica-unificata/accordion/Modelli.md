@@ -32,7 +32,7 @@ modulistica:
       - nome: Agenzie di affari di competenza del Comune
         denominazione: Comunicazione per l'esercizio dell'attività delle agenzie di afffari di competenza del Comune
         release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/04.pdf  
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/04.pdf
 
       - nome: Apparecchi automatici
         denominazione: SCIA per l'esercizio di vendita mediante apparecchi automatici in altri esercizi commerciali già abilitati o in altre strutture e/o su area pubblica
@@ -42,7 +42,7 @@ modulistica:
       - nome: Autorimesse
         denominazione: SCIA per l'esercizio dell'attività di autorimessa
         release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/06.pdf  
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/06.pdf
 
       - nome: Commercio all'ingrosso
         denominazione: Autorizzazione per il commercio all'ingrosso
@@ -57,7 +57,7 @@ modulistica:
       - nome: Facchinaggio
         denominazione: SCIA per l'esercizio dell'attività di Facchinaggio
         release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/09.pdf  
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/09.pdf
 
       - nome: Imprese di pulizie
         denominazione: SCIA per l'esercizio dell'attività di pulizie, disinfezione, disinfestazione, di derattizzazione e di sanificazione
@@ -132,7 +132,7 @@ modulistica:
       - nome: Vendita al domicilio dei consumatori
         denominazione: SCIA per l'esercizio di vendita presso il domicilio dei consumatori
         release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/24.pdf  
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/24.pdf
 
       - nome: Vendita per corrispondenza
         denominazione: SCIA per l'esercizio di vendita per corrispondenza, televisione e altri sistemi di comunicazione, compreso il commercio on line
