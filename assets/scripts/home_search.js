@@ -1,11 +1,18 @@
 /** Create lunr index **/
 var idx = lunr(function () {
   this.ref('metaname');
-  this.field('metaname');
+  //this.field('metaname');
   this.field('title', { boost: 10 });
   this.field('tema');
   this.field('subtitle');
   this.field('url');
+  this.field('type');
+  this.field('subject');
+  this.field('category');
+  this.field('year');
+  this.field('ente');
+  this.field('number');
+  this.field('tags');
 
   for (var key in window.schede) { // Add the data to lunr
     this.add({
@@ -16,6 +23,22 @@ var idx = lunr(function () {
       'url': window.schede[key].url
     });
   }
+
+  for (var doc_key in window.docs) { // Add the data to lunr
+    this.add({
+      'metaname': doc_key,
+      'title': window.docs[doc_key].title,
+      'tema': window.docs[doc_key].tema,
+      'subject': window.docs[doc_key].subject,
+      'category': window.docs[doc_key].category,
+      'year': window.docs[doc_key].year,
+      'ente': window.docs[doc_key].ente,
+      'number': window.docs[doc_key].number,
+      'url': window.docs[doc_key].url,
+      'tags': window.docs[doc_key].tags
+    });
+  }
+
 });
 
 var search_for = '';
@@ -28,20 +51,47 @@ var formSubmit = function() {
   displayResults(results);
 }
 
+var addResultItems = function(label, itemArray, _baseurl) {
+  var appendString = '';
+  if ( itemArray.length > 0 ) {
+    appendString += '<h3 class="u-cf u-textLeft u-color-50 u-borderHideFocus u-margin-top-xs u-margin-bottom-xs" id="modal-title" tabindex="0">' + label + '</h3>';
+    appendString += '<ul id="' + label + '-result-list">';
+
+    $.each(itemArray, function(key,item) {
+      appendString += '<li class="u-textLeft u-text-xs"><a target="_blank" href="' + _baseurl + item.url + '">' + item.title + '</a></li>';
+    });
+
+    appendString += '</ul><div class="u-background-grey-30 u-margin-top-xs u-padding-top-xxs"></div>';
+  }
+  $('#dialog-results-content').append(appendString);
+}
+
 var displayResults = function(results) {
-  var list = $('#search-result-list');
+  // reset
+  $('#dialog-results-content').html('');
   var appendString = 'Spiacenti, non ci sono risultati per questa ricerca.';
+  var schedeResults = [], docsResults = [];
 
   if (results.length) { // Are there any results?
     var appendString = '';
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
       var key = results[i].ref;
+
       var item = schede[key];
-      appendString += '<li style="text-align:left"><a target="_blank" href="' + baseurl + item.url + '">' + item.title + '</a></li>';
+
+      if (typeof item == 'undefined' ) {
+        item = docs[key];
+        docsResults.push(item);
+      } else {
+        schedeResults.push(item);
+      }
+
+      //appendString += '<li style="text-align:left"><a target="_blank" href="' + baseurl + item.url + '">' + item.title + ' (' + item.type + ') </a></li>';
     }
 
-    list.html(appendString);
+    addResultItems('Schede', schedeResults, baseurl);
+    addResultItems('Documenti', docsResults, '');
 
   }
   // open dialog

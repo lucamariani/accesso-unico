@@ -31,20 +31,25 @@
   Apri
 </button>
 <div class="Dialog js-fr-dialogmodal" id="modal">
-  <div class="
+  <div style="min-width:40%" class="
       Dialog-content
       Dialog-content--centered
       u-background-white
       u-layout-prose
-      u-margin-all-xl
+      u-margin-t-xl
+      u-margin-b-xl
       u-padding-all-xl
       js-fr-dialogmodal-modal
     "
     aria-labelledby="modal-title">
     <div role="document" class="Prose">
-      <h2 class="u-cf u-text-h2 u-borderHideFocus" id="modal-title" tabindex="0">Risultati</h2>
+      <div class="u-background-50 u-padding-top-s"></div>
+      <div id="dialog-results-content"></div>
+      <!--
+      <h3 class="u-cf u-textLeft u-borderHideFocus" id="modal-title" tabindex="0">Risultati</h3>
       <ul id="search-result-list"></ul>
-      <button class="Button Button--danger js-fr-dialogmodal-close u-floatRight">Chiudi</button>
+    -->
+      <button class="Button u-color-white u-margin-top-s u-background-50 js-fr-dialogmodal-close u-floatRight">Chiudi</button>
     </div>
   </div>
 </div>
