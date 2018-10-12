@@ -168,50 +168,79 @@
       <nav>
           <ul class="Linklist Linklist--padded Treeview Treeview--default js-Treeview u-text-r-xs">
               {% for item in site.data.menu %}
+
                 {% if item.title contains "Programma"%}
                   {% assign li_class = 'data-megamenu-class="Megamenu-item u-flexExpandLeft"'%}
                 {% else %}
                   {% assign li_class = 'data-megamenu-class="Megamenu-item"' %}
                 {% endif %}
+
                 {% if item.url contains "http" %}
                 <li {{ li_class }}><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
                 {% else %}
                 <li {{ li_class }}><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
-                  {% if item.dropdown %}
-                    <ul>
-                      {% for sub_item in item.dropdown %}
-                        {% if sub_item.url contains "http" %}
-                        <li><a target="_blank" href="{{ sub_item.url }}">{{ sub_item.title }}</a>
-                        {% else %}
-                        <li><a href="{{ site.baseurl }}{{ sub_item.url }}">{{ sub_item.title }}</a>
-                        {% endif %}
-                          {% if sub_item.dropdown %}
-                            <ul>
-                              {% for sub2_item in sub_item.dropdown %}
-                                {% if sub2_item.url contains "http" %}
-                                <li><a target="_blank" href="{{ sub2_item.url }}">{{ sub2_item.title }}</a>
-                                {% else %}
-                                <li><a href="{{ site.baseurl }}{{ sub2_item.url }}">{{ sub2_item.title }}</a>
-                                {% endif %}
-                                  {% if sub2_item.dropdown %}
-                                    <ul>
-                                      {% for sub3_item in sub2_item.dropdown %}
-                                        {% if sub3_item.url contains "http" %}
-                                        <li><a target="_blank" href="{{ sub3_item.url }}">{{ sub2_item.title }}</a>
-                                        {% else %}
-                                        <li><a href="{{ site.baseurl }}{{ sub3_item.url }}">{{ sub3_item.title }}</a>
-                                        {% endif %}
-                                        </li>
-                                      {% endfor %}
-                                    </ul>
-                                    {% endif %}
-                                </li>
-                              {% endfor %}
-                            </ul>
+
+                {% if item.dropdown %}
+                  <ul>
+                  {% for sub_item in item.dropdown %}
+                    <!-- handle themes showing only the available in scheda -->
+                    {% case sub_item.url %}
+                    {% when "#themes" %}
+                      <li><a href="#">{{sub_item.title}}</a>
+                      <ul>
+                        {% assign schede_themes = site.schede | group_by: 'tema' %}
+                        {% for scheda in schede_themes %}
+                        {% assign theme = site.data.themes | where_exp: "item", "item.metaname == scheda.name" %}
+                        <li><a href="{{ site.baseurl }}/temi/{{ scheda.name }}">{{ theme[0].name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                      </li>
+                    <!-- handle themes showing only the available in scheda -->
+                    {% when "#profiles" %}
+                      <li><a href="#">{{sub_item.title}}</a>
+                      <ul>
+                        {% assign schede_profiles = site.schede | group_by: 'utenza' %}
+                        {% for scheda in schede_profiles %}
+                        {% assign profile = site.data.profiles | where_exp: "item", "item.metaname == scheda.name" %}
+                        <li><a href="{{ site.baseurl }}/temi/{{ scheda.name }}">{{ profile[0].name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                      </li>
+                    {% else %}
+
+                      {% if sub_item.url contains "http" %}
+                      <li><a target="_blank" href="{{ sub_item.url }}">{{ sub_item.title }}</a>
+                      {% else %}
+                      <li><a href="{{ site.baseurl }}{{ sub_item.url }}">{{ sub_item.title }}</a>
+                      {% endif %}
+                      {% if sub_item.dropdown %}
+                      <ul>
+                        {% for sub2_item in sub_item.dropdown %}
+                          {% if sub2_item.url contains "http" %}
+                          <li><a target="_blank" href="{{ sub2_item.url }}">{{ sub2_item.title }}</a>
+                          {% else %}
+                          <li><a href="{{ site.baseurl }}{{ sub2_item.url }}">{{ sub2_item.title }}</a>
                           {% endif %}
-                        </li>
-                      {% endfor %}
+                          {% if sub2_item.dropdown %}
+                          <ul>
+                            {% for sub3_item in sub2_item.dropdown %}
+                              {% if sub3_item.url contains "http" %}
+                              <li><a target="_blank" href="{{ sub3_item.url }}">{{ sub2_item.title }}</a>
+                              {% else %}
+                              <li><a href="{{ site.baseurl }}{{ sub3_item.url }}">{{ sub3_item.title }}</a>
+                              {% endif %}
+                              </li>
+                            {% endfor %}
+                          </ul>
+                          {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                      {% endif %}
+                      </li>
+                      {% endcase %}
+                    {% endfor %}
                     </ul>
                   {% endif %}
                 </li>

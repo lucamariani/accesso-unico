@@ -5,7 +5,7 @@
   url: #
   dropdown:
   - title: "Cosa cerchi?"
-    url: "/#themes"
+    url: "#themes"
     dropdown:
       - title: "Turismo"
         url: /temi/turismo
