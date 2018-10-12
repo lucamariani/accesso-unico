@@ -30,6 +30,8 @@ var idx = lunr(function () {
 
 /** display results **/
 function displaySearchResults(results, store) {
+  console.log('size: ' + results.length);
+  $('#results-size').text(results.length)
   var searchResults = $('#docs-results-list');
 
   if (results.length) { // Are there any results?
@@ -89,8 +91,8 @@ function displaySearchResults(results, store) {
   $('#result-section').show();
 }
 
-/** Docs search functions **/
-$(function() {
+/*var titleSuggestionHandling = function() {
+  console.log("titleSuggestionHandling");
   var $titles = $('#titolo-listing > ul > li').clone()
 
   $('#titolo').on('keydown', function(event) {
@@ -105,6 +107,7 @@ $(function() {
 
     $('#titolo-listing > ul').html($titles.filter(function(index, elem) {
       var title = $(elem).find('span').html().toLowerCase()
+      console.log("title: " + title)
 
       if (title.indexOf(text) >= 0) {
         return elem
@@ -112,13 +115,11 @@ $(function() {
     }))
     $('#titolo-listing > ul > li:first').trigger('mouseenter')
   })
-})
+}
 
+var numberSuggestionHandling = function() {
+  var $numbers = $('#numero-listing > ul > li').clone()
 
-$(function() {
-  var $titles = $('#numero-listing > ul > li').clone()
-
-  /* number filtering */
   $('#numero').on('keydown', function(event) {
     if (event.which === 9 && $(this).is(':focus')) {
       $(this).blur()
@@ -128,15 +129,22 @@ $(function() {
 
   $('#numero').on('keyup', function(event) {
     var text = event.target.value.toLowerCase()
-    $('#numero-listing > ul').html($titles.filter(function(index, elem) {
-      var title = $(elem).find('span').html().toLowerCase()
+    $('#numero-listing > ul').html($numbers.filter(function(index, elem) {
+      var number = $(elem).find('span').html().toLowerCase()
 
-      if (title.indexOf(text) >= 0) {
+      if (number.indexOf(text) >= 0) {
         return elem
       }
     }))
     $('#numero-listing > ul > li:first').trigger('mouseenter')
   })
+}*/
+
+$(function() {
+  //
+  //titleSuggestionHandling();
+  //numberSuggestionHandling();
+  applyUrlFilters();
 
   /* submit handling */
   $('#docs-search-btn').click(function(event) {
@@ -146,7 +154,8 @@ $(function() {
     var year = $('#year option:selected').val();
     var theme = $('#tema option:selected').val();
     var category = $('#categoria option:selected').val();
-    console.log('searching for titolo: ' + title + ', number: ' + number + ',year: ' + year);
+    var tags = $('#tags option:selected').val();
+    console.log('searching for titolo: ' + title + ', number: ' + number + ',year: ' + year + ',tags: ' + tags);
 
     var search_title = '*' + title + '*';
     var search_number = number + '*';
@@ -158,6 +167,8 @@ $(function() {
       search_pattern += ' +tema:' + theme;
     if ( category.indexOf('---') < 0 )
       search_pattern += ' +category:' + category;
+    if ( tags.indexOf('---') < 0 )
+      search_pattern += ' +tags:' + tags;
 
     console.log('searching for ' + search_pattern);
     var results = idx.search(search_pattern);
@@ -166,6 +177,22 @@ $(function() {
   });
 
 })
+
+var applyUrlFilters = function() {
+  console.log('applyUrlFilters...');
+  // search for theme
+  var themeFilters = getAllUrlParams().theme;
+  if( themeFilters ) {
+    var search_pattern = '+tema:' + themeFilters;
+    searchFor( search_pattern );
+  }
+  // search for tags
+  var tagFilters = getAllUrlParams().tags;
+  if( tagFilters ) {
+    var search_pattern = '+tags:' + tagFilters;
+    searchFor( search_pattern );
+  }
+}
 
 var searchFor = function(search_pattern) {
   console.log('searching for ' + search_pattern);

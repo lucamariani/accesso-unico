@@ -1,7 +1,7 @@
 ---
 layout: scheda
 object: piani_regolatori
-utenza: imprese
+utenza: pa
 tema: edilizia
 tipo: servizio
 title: Piani Regolatori Comunali

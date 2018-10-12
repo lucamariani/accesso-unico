@@ -1,0 +1,27 @@
+- name: Amelia
+  metaname: amelia
+  url: "http://www.comune.amelia.tr.it/index.php?option=com_content&view=article&id=925&Itemid=346"
+- name: Bastia Umbra
+  metaname: bastiaumbra
+  url: "http://archivio.comunebastiaumbra.gov.it/urbanistica/home_urbanistica.aspx?p=5&tipo=2"
+- name: Castiglione del Lago
+  metaname: castiglionedellago
+  url: "http://www.comune.castiglione-del-lago.pg.it/il-piano-regolatore"
+- name: Foligno
+  metaname: foligno
+  url: "http://www.comune.foligno.pg.it/pagine/piani-regolatori-generali-000"
+- name: Gubbio
+  metaname: gubbio
+  url: "http://www.comune.gubbio.pg.it/pagine/piano-regolatore"
+- name: Perugia
+  metaname: perugia
+  url: "http://www.comune.perugia.it/pagine/prg-vigente"
+- name: Narni
+  metaname: narni
+  url: "http://www.comune.narni.tr.it/Pagina.php?id=1053"
+- name: Spello
+  metaname: spello
+  url: "http://www.comune.spello.pg.it/pagine/tavole-p-r-g"
+- name: Terni
+  metaname: terni
+  url: "http://www.comune.terni.it/piano-regolatore"

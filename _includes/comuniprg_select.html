@@ -12,7 +12,7 @@
 
             <select class="Form-input" id="comune" aria-required="true" required>
               <option disabled selected>seleziona</option>
-              {% for comune in site.data.comuni %}
+              {% for comune in site.data.comuniprg %}
                 <option value="{{ comune.url }}">{{ comune.name }}</option>
               {% endfor%}
             </select>

@@ -7,8 +7,11 @@
 # - entries with "utenza" key are visible only for that profiles
 
 
-- title: "Requisiti"
-  file: "requisiti.md"
+- title: "Requisiti soggettivi"
+  file: "requisitisogg.md"
+
+- title: "Requisiti oggettivi"
+  file: "requisitiogg.md"
 
 - title: "Regime avvio"
   file: "regime_avvio.md"

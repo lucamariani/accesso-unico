@@ -53,7 +53,7 @@ layout: default
               <label class="Form-label" for="titolo">Titolo</label>
               <input data-menu-trigger="titolo-listing" class="Form-input u-text-r-s u-borderRadius-m" id="titolo" name="titolo" autocomplete="off" value="" />
 
-              <div id="titolo-listing" data-menu
+              <!--<div id="titolo-listing" data-menu
                 class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-size4of4 u-md-size4of4 u-lg-size2of4">
                 <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
                 <ul class="Linklist">
@@ -66,7 +66,7 @@ layout: default
                   </li>
                   {% endfor %}
                 </ul>
-              </div>
+              </div>-->
             </div>
           </div>
 
@@ -75,7 +75,7 @@ layout: default
               <label class="Form-label is-required" for="number">Numero</label>
               <input data-menu-trigger="numero-listing" class="Form-input u-text-r-s u-borderRadius-m" id="numero" name="numero">
 
-              <div id="numero-listing" data-menu
+              <!--<div id="numero-listing" data-menu
                 class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-size2of4 u-md-size1of4 u-lg-size1of4">
                 <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
                 <ul class="Linklist">
@@ -88,7 +88,7 @@ layout: default
                   </li>
                   {% endfor %}
                 </ul>
-              </div>
+              </div>-->
             </div>
           </div>
 
@@ -105,7 +105,7 @@ layout: default
             </div>
           </div>
 
-          <div class="Grid-cell u-size2of4 u-md-size2of4 u-lg-size2of4">
+          <div class="Grid-cell u-size1of3 u-md-size1of3 u-lg-size1of3">
             <div class="Form-field">
               <label class="Form-label is-required" for="tema">Argomento</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="tema" name="tema">
@@ -121,7 +121,7 @@ layout: default
             </div>
           </div>
 
-          <div class="Grid-cell u-size2of4 u-md-size2of4 u-lg-size2of4">
+          <div class="Grid-cell u-size1of3 u-md-size1of3 u-lg-size1of3">
             <div class="Form-field">
               <label class="Form-label is-required" for="categoria">Categoria</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
@@ -134,6 +134,30 @@ layout: default
             </div>
           </div>
 
+          <!-- Tags -->
+          {% assign tag_array = "" | split: ',' %}
+          {% assign docs = site.data.docs.docs %}
+          {% for doc in docs %}
+            {% for tag in doc.tags %}
+              <!-- Push tag into array -->
+              {% assign tag_array = tag_array | push: tag %}
+            {% endfor %}
+          {% endfor %}
+
+          {% assign tag_array = tag_array | sort | uniq %}
+          <div class="Grid-cell u-size1of3 u-md-size1of3 u-lg-size1of3">
+            <div class="Form-field">
+              <label class="Form-label" for="tags">Tags</label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="tags" name="tags">
+                <option selected>---</option>
+                {% for tag in tag_array %}
+                  <option class="u-color-50" value="{{ tag }}">{{ tag }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <!-- / Tags -->
+
           <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
            <button id="docs-search-btn" type="submit" class="Button Button--default Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">Cerca</button>
           </div>
@@ -144,7 +168,9 @@ layout: default
     <!-- Results' list -->
     <section id="result-section" class="u-nbfc u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-r-bottom u-posRelative u-zindex-30">
       <div class="u-layout-wide u-layoutCenter">
-        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">Risultati ricerca</h2>
+        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
+          <span id="results-size" class="u-text-r-l u-textWeight-300"></span> Documenti trovati
+        </h2>
         <div id="docs-results-list" class="Grid Grid--withGutter">
         </div>
       </div>

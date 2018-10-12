@@ -1,3 +1,12 @@
+{% if site.header_red_theme %}
+  {% assign color = 'u-color-white' %}
+  {% assign background = 'u-background-50' %}
+{% else %}
+  {% assign color = 'u-color-50' %}
+  {% assign background = 'u-background-white' %}
+  {% assign background-banner = 'u-background-50' %}
+{% endif %}
+
 <div id="cookie-bar" class="CookieBar js-CookieBar u-background-95 u-padding-r-all" aria-hidden="true">
   <p class="u-color-white u-text-r-xs u-lineHeight-m u-padding-r-bottom">Questo sito utilizza cookie tecnici, analytics e di terze parti.
       <br>Proseguendo nella navigazione accetti l’utilizzo dei cookie.<br>
@@ -16,7 +25,7 @@
 <header class="Header Headroom--fixed js-Headroom u-hiddenPrint">
 
   {% if site.header_parent_title or site.language_selector %}
-  <div class="Header-banner ">
+  <div class="Header-banner {{background-banner}}">
       <div class="Header-owner Headroom-hideme ">
           {% if site.header_parent_title %}
           <a href="{{ site.header_parent_url }}"><span>{{ site.header_parent_title }}</span></a>
@@ -45,7 +54,7 @@
   </div>
   {% endif %}
 
-  <div class="Header-navbar ">
+  <div class="Header-navbar {{ background }}">
       <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
           {% if site.header_logo %}
           <div class="Header-logo Grid-cell" aria-hidden="true">
@@ -57,10 +66,10 @@
 
           <div class="Header-title Grid-cell">
               <h1 class="Header-titleLink">
-                  <a href="{{ site.baseurl }}/">{{ site.header_title }}
+                  <a class="{{color}}" href="{{ site.baseurl }}/">{{ site.header_title }}
                     {% if site.header_subtitle %}
                     <br>
-                    <small>{{ site.header_subtitle}}</small>
+                    <p class="{{color}} u-text-xs u-textWeight-400 u-padding-top-xs">{{ site.header_subtitle}}</p>
                     {% endif %}
                   </a>
               </h1>
@@ -77,7 +86,7 @@
 
           {% if site.social_block %}
           <div class="Header-utils Grid-cell">
-              <div class="Header-social Headroom-hideme">
+              <div class="Header-social Headroom-hideme {{color}}">
                   <p>{% if site.social_username %}Segui {{ site.social_username }}{% else %}Seguici su{% endif %}</p>
                   <ul class="Header-socialIcons">
                       {% if site.medium_username %}
@@ -121,6 +130,21 @@
       </div>
   </div>
   <!-- Header-navbar -->
+
+  {% unless site.header_red_theme %}
+  <!-- grey row -->
+  <div class="u-layout-wide u-layoutCenter Grid u-background-white u-hidden u-sm-hidden u-md-flex u-lg-flex">
+    <div class="Grid-cell u-color-30 u-border-bottom-xxs u-md-sizeFull u-lg-sizeFull u-padding-bottom-xs ">
+      <div class="u-padding-left-xs u-background-white u-color-grey-60">
+        <p style="letter-spacing: 0.02em" class=" u-text-r-xs">{{ site.header_slogan }}</p>
+        <div style="position: absolute;right: 37em;">
+          <img style="position: relative;top: -1.75em;" src="/accesso-unico/assets/images/accessounico_logo_grey.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / grey row -->
+  {% endunless %}
 
   {% if site.mega_menu %}
   <div class="Headroom-hideme u-textCenter u-hidden u-sm-hidden u-md-block u-lg-block">

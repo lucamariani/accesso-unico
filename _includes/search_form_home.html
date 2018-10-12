@@ -1,31 +1,50 @@
-<form class="Form Form--spaced u-padding-all-xl u-text-r-xs" id="home-search-form">
+<form class="Form Form--spaced u-padding-all-xl u-text-r-xs u-layout-prose" id="home-search-form">
   <legend class="Form-legend u-textSecondary">Ciao, come posso aiutarti?</legend>
 
   <div class="Grid Grid--withGutter Grid--equalHeight u-background-white u-color-grey-30" role="search">
     <div class="Form-field Form-field--withPlaceholder Grid-cell u-md-size3of4 u-lg-size3of4">
-      <input data-menu-trigger="home-projects" class="Form-input u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs u-color-50" required id="home-cerca" autocomplete="off" value="" />
+      <input class="Form-input u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs u-color-50" id="home-cerca" autocomplete="off" value="" />
       <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">cerca nel sito...</label>
-
-      <div id="home-projects" data-menu class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-sizeFull">
+      <!--<div id="home-projects" data-menu class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-sizeFull">
         <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
         <ul class="Linklist">
           {% assign projects = site.data.projects | reverse %} {% for project in projects %}
-          <li>
+          <li class="menuitem">
             <a href="{{ project.url | relative_url }}" class="u-padding-r-all u-textLeft" onclick="alert('ciao');">
               <span lang="{{ active_lang }}">{{project.title }}</span>
             </a>
           </li>
           {% endfor %}
         </ul>
-      </div>
+      </div>-->
     </div>
 
     <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
-     <button type="button" class="Button Button--default Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">Cerca</button>
+     <button id="home-search-btn" type="button" class="Button u-text-m u-background-50 u-color-white u-sizeFull">Cerca</button>
     </div>
 
-    <!--<button class="Grid-cell u-size1of4 u-background-50 u-color-white u-padding-all-s u-textWeight-700" title="cerca" aria-label="cerca">
-      cerca
-    </button>-->
   </div>
 </form>
+
+
+<button id="open_btn" class="Button Button--default js-fr-dialogmodal-open u-hidden" aria-controls="modal">
+  Apri
+</button>
+<div class="Dialog js-fr-dialogmodal" id="modal">
+  <div class="
+      Dialog-content
+      Dialog-content--centered
+      u-background-white
+      u-layout-prose
+      u-margin-all-xl
+      u-padding-all-xl
+      js-fr-dialogmodal-modal
+    "
+    aria-labelledby="modal-title">
+    <div role="document" class="Prose">
+      <h2 class="u-cf u-text-h2 u-borderHideFocus" id="modal-title" tabindex="0">Risultati</h2>
+      <ul id="search-result-list"></ul>
+      <button class="Button Button--danger js-fr-dialogmodal-close u-floatRight">Chiudi</button>
+    </div>
+  </div>
+</div>

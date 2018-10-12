@@ -4,13 +4,9 @@
 
 Per configurare il sito sono disponibili i seguenti parametri che si trovano nel file "*_config.yml*":
 
-- *use_profile_tabs*: (true, false)
+- *header_red_theme*: (true, false)
 
-  configura come mostrare le schede dei profili nella home page
-
-  *true*: in forma tabulare
-
-  *false*: come una lista
+  configura lo stile dell'header da utilizzare ( rosso o bianco ). Default FALSE
 
 ## Creare nuova scheda
 
@@ -27,8 +23,9 @@ Per creare una nuova scheda:
   > utenza: < *nome sotto-cartella scheda* >    
   > tema: < *tema scheda* >  
   > title: < *titolo scheda* >    
-  > subtitle: < *sottotitolo scheda* >  
-  > accordion_open: [ true, false ]
+  > subtitle: < *sottotitolo scheda* >    
+  > accordion_open: [ true, false ]    
+  > meta_description: < *descrizione per SEO* >
 
   Esempio:
   > layout: scheda  
@@ -36,8 +33,9 @@ Per creare una nuova scheda:
   > utenza: imprese  
   > tema: edilizia  
   > title: Cambio destinazione d'uso  
-  > subtitle: SCIA
-  > accordion_open: true
+  > subtitle: SCIA    
+  > accordion_open: true    
+  > meta_description: Il cambio destinazione d'uso e' questo
 
   il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
   - agricoltura
@@ -332,30 +330,6 @@ Per creare una nuova pagina:
 
 
 # Todo
-26/09/2018
-Dcumentazione
-- inserire tag x valori: modulistica, suape, ...
-
-13/09/2018
-### Pagine
-- cambiare titolo da H1 a H2
--
-### Pagine Mappe
-- inserire la mappa in contenitore centrale come quello della pagina schede
-
-30/08/2018
-
-### Home - ricerca
-HOME PAGE
-
-Wizard prima sezione:
-
-Chi sei? A cosa sei interessato?
-
-chi sei -> a cosa sei interessato-> risultati
-
-a cosa sei interessato -> chi sei -> risultati
-
 
 SIMULATORE
 prevede serie di domande fino ad arrivare ad una scheda
@@ -364,27 +338,7 @@ chi sei -> a cosa sei interessato->  domanda 1 -> ... -> domanda N -> scheda
 
 utilizzare TIMELINE (https://italia.github.io/design-web-toolkit/components/preview/timeline.html) on nod che si aggiungono dinamicamente sulla scelta della risposta precedente
 
-
-
 ### prendere spunto per lo stile delle schede qui: https://www.gov.uk/licence-finder
-
-### aggiornare documentazione con lista dei parametri di configurazione del file "*_config.yml*"
-
-### aggiungere tipologia di Schede
-servizio, pratica
-
-### Documentazione
-- aggiungere tema (gli stessi delle schede)
-- categoria: normativa, regolamenti, pareri e circolari
-- maschera ricerca iniziale (anno, numero, categoria, tema)
-- pagina di arrivo dalla ricerca con filtri per tema e categoria
-
-29/08/2018
-### creare file temi.yml con nomi, icone, colori, ...
-
-22/08/2018 ( DONE: 24/08/2018)
-### modifica a Schede
-- aggiungere foto (850x250 px)
 
 ### Pagine GIS (mappa) per:
 - sportello
@@ -398,3 +352,40 @@ iframe mappa: clicco sul comune -> popup con link a pagina dettagli
 sotto la mappa: lista comuni con link alla pagina dettagli
 
 nella pagina dei dettagli degli sportelli c'e' una sezione che mostra la piattaforma informatica utilizzata dal comune in questione (2 piattaforme, PEC). I requisiti della piattaforma sono anche loro schede ma di tipo "strumenti"
+
+### Gestione links
+Utilizzare {{ site.baseurl }} al posto di https://lucamariani.github.io/accesso-unico
+
+> x es: https://lucamariani.github.io/accesso-unico/schede/acconciatore/imprese/index.html
+
+> {{ site.baseurl }}/schede/acconciatore/imprese/index.html
+
+### link icone
+https://www.iconfinder.com/iconsets/spring-23
+
+# DONE
+### 09/10/2018
+- listing schede per tema: aggiungere label per profilo
+
+### 26/09/2018
+- Documentazione: inserire tag x valori: modulistica, suape, ...
+- aggiungere tipologia di Schede servizio, pratica
+
+### 21/09/2018
+- Documentazione:
+  - aggiungere tema (gli stessi delle schede)
+  - categoria: normativa, regolamenti, pareri e circolari
+  - maschera ricerca iniziale (anno, numero, categoria, tema)
+  - pagina di arrivo dalla ricerca con filtri per tema e categoria
+
+### 30/08/2018
+ - Home page Wizard    
+ Chi sei? A cosa sei interessato?    
+ chi sei -> a cosa sei interessato-> risultati     
+ a cosa sei interessato -> chi sei -> risultati
+
+### 29/08/2018
+- creare file temi.yml con nomi, icone, colori, ...
+
+### 22/08/2018 ( DONE: 24/08/2018)
+- modifica a Schede: aggiungere foto (850x250 px)

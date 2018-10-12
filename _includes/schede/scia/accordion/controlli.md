@@ -1,2 +1,1 @@
-# Titolo accordion 1
-bla bla bla...
+Il dirigente o il responsabile del competente ufficio comunale esercita, anche secondo le modalità stabilite dallo statuto o dai regolamenti comunali, la vigilanza sull'attività urbanistico-edilizia nel territorio comunale per assicurarne la rispondenza alle norme di legge e di regolamento, alle prescrizioni degli strumenti urbanistici e alle modalità esecutive fissate nei titoli abilitativi.

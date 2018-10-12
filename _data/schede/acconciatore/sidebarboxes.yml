@@ -1,4 +1,4 @@
-- title: dove andare e come fare
+- title: presenta la pratica
   file: presenta-pratica.md
   utenza:
     - cittadini
@@ -7,3 +7,15 @@
   utenza:
     - imprese
     - intermediari
+- title: Piano Regolatore Generale
+  file: prg.md
+  utenza:
+    - imprese
+    - intermediari
+
+- title: Modulistica
+  file: modulistica.md
+  utenza:
+    - imprese
+    - intermediari
+    

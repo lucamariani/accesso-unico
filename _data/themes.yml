@@ -37,3 +37,7 @@
 - name: Cassetta degli attrezzi
   color: purple
   metaname: utilita
+
+- name: Semplificazione
+  color: purple
+  metaname: semplificazione

@@ -9,6 +9,9 @@
 /* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
 
+/* define links' color */
+.t-Pac #main a {color:rgb(48, 55, 61)}
+
 /* modifica entry menu 4 livello */
 .Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
 
@@ -61,9 +64,15 @@
 .t-Pac #result-section {display:none;}
 .t-Pac #result-section a {text-decoration: none;}
 .t-Pac .single-doc .object {margin-top: 0.5em;margin-bottom: 0.5em;}
-/* redfin our content width */
+/* redefine our content width */
 .t-Pac .u-layout-prose {max-width: 40em !important}
 .t-Pac .pointer {cursor: pointer !important}
+
+/* poll */
+.t-Pac .poll-img {width: 3.5em}
+
+/* increment dialog mask z-index to cover header */
+.t-Pac .fr-dialogmodal--is-ready {z-index: 50}
 
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}

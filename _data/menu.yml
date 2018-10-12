@@ -1,7 +1,7 @@
 - title: "Home"
   url: /
 - title: "Cerca il servizio"
-  description:  "Cerca il tema di tuo interesse o dimmi chi sei"
+  description:  "Cerca l'argomento di tuo interesse o dimmi chi sei"
   url: #
   dropdown:
   - title: "Cosa cerchi?"
@@ -10,7 +10,7 @@
       - title: "Turismo"
         url: /temi/turismo
       - title: Artigianato
-        url: /temi/aritigianato
+        url: /temi/artigianato
       - title: "Edilizia"
         url: /temi/edilizia
         dropdown:
@@ -27,24 +27,11 @@
         url: /profili/imprese
       - title: Intermediario
         url: /profili/intermediari
+      - title: Pubblica Amministrazione
+        url: /profili/pa
 
 - title: "Documentazione"
   url: /docs_search
-
-- title: "Utilità"
-  url: /utility
-  dropdown:
-    - title: "Modulistica unificata"
-      url: /modulistica-unificata
-    - title: "Cerca lo sportello"
-      url: #
-      dropdown:
-        - title: SUAPE
-          url: /map/sportelli_suape/
-        - title: URP
-          url: #
-    - title: PRG
-      url: /map/piani_regolatori/
 
 - title: "Il Programma"
   url: https://www.arcgis.com/apps/Cascade/index.html?appid=1a91b66d279044b49b1636b287fcb611
