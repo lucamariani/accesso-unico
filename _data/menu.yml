@@ -1,7 +1,7 @@
 - title: "Home"
   url: /
 - title: "Cerca il servizio"
-  description:  "Cerca il tema di tuo interesse o dimmi chi sei"
+  description:  "Cerca l'argomento di tuo interesse o dimmi chi sei"
   url: #
   dropdown:
   - title: "Cosa cerchi?"
@@ -27,6 +27,8 @@
         url: /profili/imprese
       - title: Intermediario
         url: /profili/intermediari
+      - title: Pubblica Amministrazione
+        url: /profili/pa
 
 - title: "Documentazione"
   url: /docs_search
