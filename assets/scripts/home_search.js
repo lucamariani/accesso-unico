@@ -106,10 +106,6 @@ $(function() {
     event.preventDefault();
     formSubmit();
   });
-  $('#home-search-btn').click(function(event) {
-    event.preventDefault();
-    formSubmit();
-  });
 });
 
 
