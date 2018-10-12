@@ -14,13 +14,13 @@ var idx = lunr(function () {
   this.field('number');
   this.field('tags');
 
-  for (var key in window.schede) { // Add the data to lunr
+  for (var key in window.searchschede) { // Add the data to lunr
     this.add({
       'metaname': key,
-      'title': window.schede[key].title,
-      'tema': window.schede[key].tema,
-      'subtitle': window.schede[key].subtitle,
-      'url': window.schede[key].url
+      'title': window.searchschede[key].title,
+      'tema': window.searchschede[key].tema,
+      'subtitle': window.searchschede[key].subtitle,
+      'url': window.searchschede[key].url
     });
   }
 
@@ -76,7 +76,7 @@ var displayResults = function(results) {
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
       var key = results[i].ref;
 
-      var item = schede[key];
+      var item = searchschede[key];
 
       if (typeof item == 'undefined' ) {
         item = docs[key];

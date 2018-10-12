@@ -48,7 +48,7 @@ scripts:
 <!-- end index.html -->
 <!-- add schede for searching purpose -->
 <script>
-  window.schede = {
+  window.searchschede = {
     {% assign all_schede = site.schede | group_by: 'object' %}
 
     {% for scheda in all_schede %}
