@@ -7,7 +7,7 @@
 # - entries with "utenza" key are visible only for that profiles
 
 - title: "Modelli"
-  file: "modelli.md"
+  file: "Modelli.md"
   utenza:
     - pa
 
