@@ -5,7 +5,7 @@ utenza: pa
 tema: semplificazione
 tipo: servizio
 title: Modulistica Unificata
-subtitle: consulta le risorse e scarica la modellisica che ti interessa
-accordion_open: false
+subtitle: consulta le risorse e scarica la modulistica che ti interessa
+
 
 ---
