@@ -1,34 +1,14 @@
 - title: "Home"
   url: /
+
 - title: "Cerca il servizio"
   description:  "Cerca l'argomento di tuo interesse o dimmi chi sei"
   url: #
   dropdown:
   - title: "Cosa cerchi?"
     url: "#themes"
-    dropdown:
-      - title: "Turismo"
-        url: /temi/turismo
-      - title: Artigianato
-        url: /temi/artigianato
-      - title: "Edilizia"
-        url: /temi/edilizia
-        dropdown:
-          - title: "SCIA"
-            url: /categories
-          - title: Permesso a costruire
-            url: /page-archive
   - title: "Chi sei?"
     url: "#profiles"
-    dropdown:
-      - title: "Cittadino"
-        url: /profili/cittadini
-      - title: "Impresa"
-        url: /profili/imprese
-      - title: Intermediario
-        url: /profili/intermediari
-      - title: Pubblica Amministrazione
-        url: /profili/pa
 
 - title: "Documentazione"
   url: /docs_search
