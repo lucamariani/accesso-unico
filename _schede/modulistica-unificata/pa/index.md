@@ -5,7 +5,7 @@ utenza: pa
 tema: semplificazione
 tipo: servizio
 title: Modulistica Unificata
-subtitle: descrizione breve della scheda per il profilo pa
+subtitle: consulta le risorse e scarica la modellisica che ti interessa
 accordion_open: false
 
 ---
