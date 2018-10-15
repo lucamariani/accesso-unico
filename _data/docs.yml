@@ -88,6 +88,8 @@ docs:
     anno: 2017
     ente:
     numero: 8
+    tags:
+        - bb
 
   - title: Legge regionale 13 giugno 2014, n. 10
     metaname: doc8
@@ -226,15 +228,3 @@ docs:
     tags:
         - Semplificazione
         - SUAPE
-
-  - title: Legge regionale 10 luglio 2017, n. 8
-    metaname: doc20
-    oggetto: Legislazione turistica regionale.
-    categoria: normativa
-    tema: turismo
-    url: "http://leggi.crumbria.it/mostra_atto.php?id=183168&v=FI,SA,TE,IS,VE,RA,MM&m=5"
-    anno: 2017
-    ente: Regione Umbria
-    numero: 8
-    tags:
-        - bb
