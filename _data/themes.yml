@@ -1,20 +1,20 @@
-- name: Agricoltura e allevamento
+- name: Agricoltura
   color: yellow
   metaname: agricoltura
 
-- name: Ambiente e natura
+- name: Ambiente
   color: green
   metaname: ambiente
 
-- name: Cultura sport e turismo
+- name: Turismo
   color: orange
   metaname: turismo
 
-- name: Diritti e cittadinanza
+- name: Industria e Attività Manifatturiere
   color: lightblue
-  metaname: diritti
+  metaname: industria
 
-- name: Industria e artigianato
+- name: Artigianato
   color: blue
   metaname: artigianato
 
@@ -22,15 +22,15 @@
   color: lightpurple
   metaname: lavoro
 
-- name: Mobilità e infrastrutture
+- name: Trasporti
   color: grey
   metaname: infrastrutture
 
-- name: Salute e welfare
+- name: Salute e Igiene
   color: pink
   metaname: salute
 
-- name: Territorio e patrimonio culturale
+- name: Territorio, Edilizia e Urbanistica
   color: purple
   metaname: edilizia
 
