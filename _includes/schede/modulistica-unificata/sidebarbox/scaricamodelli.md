@@ -1,2 +1,2 @@
 
-![Vai ai modelli](../pages/modulistica-unificata.md)
+![Vai ai modelli](../_pages/modulistica-unificata.md)
