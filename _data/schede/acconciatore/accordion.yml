@@ -16,15 +16,15 @@
 - title: "Regime avvio"
   file: "regime_avvio.md"
   utenza:
-    - imprese
-    - intermediari
-
 - title: "Modulistica"
   file: "modulistica.md"
 
 - title: "Controlli"
   file: "controlli.md"
-
+  utenza:
+    - imprese
+    - intermediari
+    
 - title: "Normativa"
   file: "normativa.md"
   utenza:
