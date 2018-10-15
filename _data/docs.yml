@@ -88,6 +88,8 @@ docs:
     anno: 2017
     ente:
     numero: 8
+    tags:
+        - Bed & Breakfast
 
   - title: Legge regionale 13 giugno 2014, n. 10
     metaname: doc8
