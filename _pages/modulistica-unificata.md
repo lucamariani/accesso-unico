@@ -8,22 +8,20 @@ img:
 
 # lista moduli
 modulistica:
-  - tipologia: Moduli comuni
-    documenti:
-      - nome: Scheda anagrafica
-        denominazione: Scheda anagrafica
-        release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/01.pdf
+- tipologia: Moduli comuni
+  documenti:
+    - nome: Scheda anagrafica
+      denominazione: Scheda anagrafica
+      release: 1
+      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/01.pdf
 
-      - nome: Notifica Sanitaria
-        denominazione: Notifica ai fini della registrazione
-        release: 5
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/02.pdf
+    - nome: Notifica Sanitaria
+      denominazione: Notifica ai fini della registrazione
+      release: 5
+      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/02.pdf
 
-
-
-  - tipologia: Attivita' commerciali e Assimilate
-    documenti:
+- tipologia: Attivita' commerciali e Assimilate
+  documenti:
       - nome: Acconciatore ed Estetisti
         denominazione: SCIA per l'esercizio dell'attivita' di acconciatore e/o estetista
         release: 2
