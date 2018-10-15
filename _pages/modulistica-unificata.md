@@ -22,20 +22,20 @@ modulistica:
 
 - tipologia: Attivita' commerciali e Assimilate
   documenti:
-      - nome: Acconciatore ed Estetisti
-        denominazione: SCIA per l'esercizio dell'attivita' di acconciatore e/o estetista
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/03.pdf
+    - nome: Acconciatore ed Estetisti
+      denominazione: SCIA per l'esercizio dell'attivita' di acconciatore e/o estetista
+      release: 2
+      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/03.pdf
 
-      - nome: Agenzie di affari di competenza del Comune
-        denominazione: Comunicazione per l'esercizio dell'attività delle agenzie di afffari di competenza del Comune
-        release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/04.pdf  
+    - nome: Agenzie di affari di competenza del Comune
+      denominazione: Comunicazione per l'esercizio dell'attività delle agenzie di afffari di competenza del Comune
+      release: 1
+      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/04.pdf  
 
-      - nome: Apparecchi automatici
-        denominazione: SCIA per l'esercizio di vendita mediante apparecchi automatici in altri esercizi commerciali già abilitati o in altre strutture e/o su area pubblica
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/05.pdf
+    - nome: Apparecchi automatici
+      denominazione: SCIA per l'esercizio di vendita mediante apparecchi automatici in altri esercizi commerciali già abilitati o in altre strutture e/o su area pubblica
+      release: 2
+      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/05.pdf
 
       - nome: Autorimesse
         denominazione: SCIA per l'esercizio dell'attività di autorimessa
