@@ -1,2 +1,3 @@
+[Vai][8920d6e2]
 
-[Vai ai modelli](_pages\modulistica-unificata.md)
+  [8920d6e2]: https://lucamariani.github.io/accesso-unico/modulistica-unificata/ "vai ai modelli"
