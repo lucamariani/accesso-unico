@@ -1,9 +1,7 @@
-- title: A chi mi devo rivolgere
-  file: chi.md
-- title: prg
-  file: prg.md
+- title: Presenta la Pratica
+  file: presenta-pratica.md
   utenza:
-    - intermediari
+    - cittadini
 - title: Normativa
   file: normativa.md
   utenza:
