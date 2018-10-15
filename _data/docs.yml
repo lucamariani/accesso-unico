@@ -12,7 +12,7 @@ docs:
     oggetto: Testo unico delle disposizioni legislative e regolamentari in materia edilizia
     categoria: normativa
     tema: edilizia
-    url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2001-10-20&atto.codiceRedazionale=001G0429&queryString=%3FmeseProvvedimento%3D6%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D380%26testo%3D%26annoProvvedimento%3D2001%26giornoProvvedimento%3D6&currentPage=1"
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380"
     anno: 2001
     ente:
     numero: 380
@@ -25,7 +25,7 @@ docs:
     oggetto: Regolamento per la semplificazione ed il riordino della disciplina sullo sportello unico per le attività produttive, ai sensi dell'articolo 38, comma 3, del decreto-legge n. 112 del 2008, convertito, con modificazioni, dalla legge n. 133 del 2008
     categoria: normativa
     tema: edilizia
-    url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2010-09-30&atto.codiceRedazionale=010G0183&queryString=%3FmeseProvvedimento%3D09%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D160%26testo%3D%26annoProvvedimento%3D2010%26giornoProvvedimento%3D07&currentPage=1"
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2010-09-07;160"
     anno: 2010
     ente:
     numero: 160
@@ -143,7 +143,7 @@ docs:
     oggetto: Disciplina dell'attivita' di acconciatore
     categoria: normativa
     tema: Attività produttive - Artigianato
-    url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-09-02&atto.codiceRedazionale=005G0186&queryString=%3FmeseProvvedimento%3D08%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D174%26testo%3D%26annoProvvedimento%3D2005%26giornoProvvedimento%3D17&currentPage=1"
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2005-08-17;174"
     anno: 2005
     ente:
     numero: 174
@@ -155,7 +155,7 @@ docs:
     oggetto: Codice delle leggi antimafia e delle misure di prevenzione, nonché nuove disposizioni in materia di documentazione antimafia, a norma degli articoli 1 e 2 della legge 13 agosto 2010, n. 136
     categoria: normativa
     tema:
-    url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-09-02&atto.codiceRedazionale=005G0186&queryString=%3FmeseProvvedimento%3D08%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D174%26testo%3D%26annoProvvedimento%3D2005%26giornoProvvedimento%3D17&currentPage=1"
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-09-06;159"
     anno: 2011
     ente:
     numero: 159
@@ -167,7 +167,7 @@ docs:
     oggetto: Regolamento recante norme per la semplificazione dei procedimenti relativi al rilascio delle comunicazioni e delle informazioni antimafia
     categoria: normativa
     tema:
-    url: "http://www.normattiva.it/atto/caricaDettaglioAtto?atto.dataPubblicazioneGazzetta=2005-09-02&atto.codiceRedazionale=005G0186&queryString=%3FmeseProvvedimento%3D08%26formType%3Dricerca_semplice%26numeroArticolo%3D%26numeroProvvedimento%3D174%26testo%3D%26annoProvvedimento%3D2005%26giornoProvvedimento%3D17&currentPage=1"
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1998-06-03;252"
     anno: 1998
     ente:
     numero: 252
