@@ -83,8 +83,8 @@ var loadThemes = function(where) {
 
 /* load items */
 var loadItems = function(items,what,where) {
-  //console.log('loading ' + what);
-  //console.log(items);
+  console.log('loading ' + what);
+  console.log(items);
   if ( ! where ) where = $('#wizard-' + what + '-list');
   var listItemsContent = '';
   var wizardItemsList = $(where);

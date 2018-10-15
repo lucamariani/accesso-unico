@@ -8,6 +8,9 @@
 .t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
 /* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
+/* home page search */
+.t-Pac #home-search-btn {border:0 !important}
+.t-Pac .js-fr-dialogmodal-close {border:0 !important}
 
 /* define links' color */
 .t-Pac #main a {color:rgb(48, 55, 61)}

@@ -48,7 +48,7 @@ scripts:
 <!-- end index.html -->
 <!-- add schede for searching purpose -->
 <script>
-  window.schede = {
+  window.searchschede = {
     {% assign all_schede = site.schede | group_by: 'object' %}
 
     {% for scheda in all_schede %}
@@ -56,9 +56,33 @@ scripts:
         "title": "{{ scheda.items[0].title | xml_escape }}",
         "tema": "{{ scheda.items[0].tema | xml_escape }}",
         "subtitle": "{{ scheda.items[0].subtitle | xml_escape }}",
-        "url": "{{ scheda.items[0].url | xml_escape }}"
+        "url": "{{ scheda.items[0].url | xml_escape }}",
+        "type": "scheda"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
+
+  window.docs = {
+    {% for doc in site.data.docs.docs %}
+      "{{ doc.metaname | slugify }}": {
+        "title": "{{ doc.title | xml_escape }}",
+        "tema": "{{ doc.tema | xml_escape }}",
+        "subject": "{{ doc.oggetto | xml_escape }}",
+        "category": "{{ doc.categoria | xml_escape }}",
+        "year": {{ doc.anno }},
+        "ente": "{{ doc.ente | xml_escape }}",
+        "number": {{ doc.numero }},
+        "url": "{{ doc.url | xml_escape }}",
+        "type": "document",
+        "tags": [
+          {% for tag in doc.tags %}
+            "{{ tag  | xml_escape }}"
+            {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  }
 </script>
