@@ -1,6 +1,12 @@
-- title: presenta la pratica
+- title: Presenta la Pratica
   file: presenta-pratica.md
   utenza:
+    - cittadini
+- title: Modulistica
+  file: modulistica.md
+  utenza:
+    - imprese
+    - intermediari
     - cittadini
 - title: Normativa
   file: normativa.md
@@ -10,12 +16,4 @@
 - title: Piano Regolatore Generale
   file: prg.md
   utenza:
-    - imprese
     - intermediari
-
-- title: Modulistica
-  file: modulistica.md
-  utenza:
-    - imprese
-    - intermediari
-    
