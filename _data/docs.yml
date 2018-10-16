@@ -3,7 +3,7 @@ category:
     metaname: normativa
   - name: Regolamenti
     metaname: regolamenti
-  - name: Pareri e circolari
+  - name: Pareri, Circolari e Accordi
     metaname: circolari
 
 docs:
@@ -24,7 +24,7 @@ docs:
   - title: D.P.R. 7 settembre 2010, n. 160
     metaname: doc2
     oggetto: Regolamento per la semplificazione ed il riordino della disciplina sullo sportello unico per le attività produttive, ai sensi dell'articolo 38, comma 3, del decreto-legge n. 112 del 2008, convertito, con modificazioni, dalla legge n. 133 del 2008
-    categoria: normativa
+    categoria: regolamenti
     tema: semplificazione
     url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2010-09-07;160"
     anno: 2010
@@ -40,7 +40,7 @@ docs:
     tema: semplificazione
     url: "http://leggi.crumbria.it/mostra_atto.php?id=56743&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20150129"
     anno: 2011
-    ente:
+    ente: Regione Umbria
     numero: 8
     tags:
         - SUAPE
@@ -89,7 +89,7 @@ docs:
     ente: Regione Umbria
     numero: 8
     tags:
-      - Bed & Breakfast
+      - Bed&Breakfast
 
   - title: Legge regionale 13 giugno 2014, n. 10
     metaname: doc8
@@ -173,7 +173,7 @@ docs:
   - title: D.P.R. 3 giugno 1998, n. 252
     metaname: doc15
     oggetto: Regolamento recante norme per la semplificazione dei procedimenti relativi al rilascio delle comunicazioni e delle informazioni antimafia
-    categoria: normativa
+    categoria: regolamenti
     tema: semplificazione
     url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1998-06-03;252"
     anno: 1998
@@ -185,51 +185,51 @@ docs:
   - title: Deliberazione della Giunta Regionale 20 giugno 2017, n. 700
     metaname: doc16
     oggetto: Accordo Conferenza Unificata 4 maggio 2017, n. 46/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata in materia di attività commerciali e assimilate ed edilizia.
-    categoria: normativa
+    categoria: circolari
     tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR700_2017.pdf"
     anno: 2017
     ente: Regione Umbria
     numero: 700
     tags:
-        - Modulistica Unificata
+        - ModulisticaUnificata
         - SUAPE
 
   - title: Deliberazione della Giunta Regionale 28 settembre 2017, n. 1088
     metaname: doc17
     oggetto: Accordo Conferenza unificata 6 luglio 2017, n. 76/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze ed integrazione n. 77/CU (per estendere il modulo “Notifica ai fini della registrazione a tutti gli operatori del settore alimentare (OSA) laddove non sia prescritto il riconoscimento)”.
-    categoria: normativa
+    categoria: circolari
     tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR1088_2017.pdf"
     anno: 2017
     ente: Regione Umbria
     numero: 1088
     tags:
-        - Modulistica Unificata
+        - ModulisticaUnificata
         - SUAPE
 
   - title: Deliberazione della Giunta Regionale 16 ottobre 2017, n. 1188
     metaname: doc18
     oggetto: D.G.R. 28 settembre 2017, n. 1088. Accordo Conferenza unificata 6 luglio 2017, n. 76/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze ed integrazione n. 77/CU (per estendere il modulo “Notifica ai fini della registrazione a tutti gli operatori del settore alimentare (OSA) laddove non sia prescritto il riconoscimento). - Rettifica errore materiale.
-    categoria: normativa
+    categoria: circolari
     tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR1088_2017.pdf"
     anno: 2017
     ente: Regione Umbria
     numero: 1188
     tags:
-        - Modulistica Unificata
+        - ModulisticaUnificata
         - SUAPE
 
   - title: Deliberazione della Giunta Regionale 26 marzo 2018, n. 274
     metaname: doc19
     oggetto: Accordo conferenza unificata del 22 febbraio 2018, n.18/CU. Recepimento ed adeguamento da parte della Regione Umbria di ulteriore modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze in materia di attività commerciali e assimilate.
-    categoria: normativa
+    categoria: circolari
     tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/DGR-274_26-03-2018.zip"
     anno: 2017
     ente: Regione Umbria
     numero: 274
     tags:
-        - Modulistica Unificata
+        - ModulisticaUnificata
         - SUAPE
