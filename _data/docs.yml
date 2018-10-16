@@ -233,3 +233,51 @@ docs:
     tags:
         - ModulisticaUnificata
         - SUAPE
+
+  - title: Decreto del Presidente della Repubblica 13 marzo 2013, n. 59
+    metaname: doc20
+    oggetto: Regolamento recante la disciplina dell'autorizzazione unica ambientale e la semplificazione di adempimenti amministrativi in materia ambientale gravanti sulle piccole e medie imprese e sugli impianti non soggetti ad autorizzazione integrata ambientale, a norma dell'articolo 23 del decreto-legge 9 febbraio 2012, n. 5, convertito, con modificazioni, dalla legge 4 aprile 2012, n. 35.
+    categoria: regolamenti
+    tema: ambiente
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2013-03-13;59"
+    anno: 2013
+    ente:
+    numero: 59
+    tags:
+        - AUA
+
+  - title: Decreto legislativo 3 aprile 2006, n. 152
+    metaname: doc21
+    oggetto: Norme in materia ambientale.
+    categoria: normativa
+    tema: ambiente
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2006-04-03;152"
+    anno: 2006
+    ente:
+    numero: 152
+    tags:
+        - AUA
+
+  - title: Legge 26 ottobre 1995, n. 447
+    metaname: doc22
+    oggetto: Legge quadro sull'inquinamento acustico.
+    categoria: normativa
+    tema: ambiente
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1995-10-26;447"
+    anno: 1995
+    ente:
+    numero: 447
+    tags:
+        - AUA
+
+  - title: Decreto legislativo 27 gennaio 1992, n. 99
+    metaname: doc23
+    oggetto: Attuazione della direttiva n. 86/278/CEE concernente la protezione dell'ambiente, in particolare del suolo, nell'utilizzazione dei fanghi di depurazione in agricoltura.
+    categoria: normativa
+    tema: ambiente
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-01-27;99"
+    anno: 1992
+    ente:
+    numero: 99
+    tags:
+        - AUA        
