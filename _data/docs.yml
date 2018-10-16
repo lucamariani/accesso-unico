@@ -18,13 +18,14 @@ docs:
     numero: 380
     tags:
       - SUAPE
-      - edilizia
+      - Cambio di destinazione d'uso
+      - Segnalazione Certificata di Inizio Attività
 
   - title: D.P.R. 7 settembre 2010, n. 160
     metaname: doc2
     oggetto: Regolamento per la semplificazione ed il riordino della disciplina sullo sportello unico per le attività produttive, ai sensi dell'articolo 38, comma 3, del decreto-legge n. 112 del 2008, convertito, con modificazioni, dalla legge n. 133 del 2008
     categoria: normativa
-    tema: edilizia
+    tema: semplificazione
     url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2010-09-07;160"
     anno: 2010
     ente:
@@ -36,20 +37,19 @@ docs:
     metaname: doc3
     oggetto: Semplificazione normativa e amministrativa dell'ordinamento regionale e degli Enti locali territoriali
     categoria: normativa
-    tema:
+    tema: semplificazione
     url: "http://leggi.crumbria.it/mostra_atto.php?id=56743&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20150129"
     anno: 2011
     ente:
     numero: 8
     tags:
-      - Semplificazione
-      - SUAPE
+        - SUAPE
 
   - title: Legge regionale 4 aprile 2012, n. 7
     metaname: doc4
     oggetto: Disposizioni collegate alla manovra di bilancio 2012 in materia di entrate e di spese - Modificazioni ed integrazioni di leggi regionali
     categoria: normativa
-    tema:
+    tema: edilizia
     url: "http://leggi.crumbria.it/mostra_atto.php?id=61977&v=FI,SA,TE,IS,VE,RA,MM&m=5"
     anno: 2012
     ente:
@@ -59,22 +59,22 @@ docs:
     metaname: doc5
     oggetto: Norme in materia di sviluppo della società dell'informazione e riordino della filiera ICT (Information and Communication Technology) regionale
     categoria: normativa
-    tema: Attività produttive - ICT
+    tema: semplificazione
     url: "http://leggi.crumbria.it/mostra_atto.php?id=74401&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20171230"
     anno: 2014
     ente:
     numero: 9
     tags:
-      - ICT
+      - SUAPE
 
   - title: Legge regionale 13 febbraio 2013, n. 4
     metaname: doc6
     oggetto: Testo unico in materia di artigianato
     categoria: normativa
-    tema: Attività produttive - Artigianato
+    tema: artigianato
     url: "http://leggi.crumbria.it/mostra_atto.php?id=66575&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20130411"
     anno: 2013
-    ente:
+    ente: Regione Umbria
     numero: 4
     tags:
       - Acconciatore
@@ -83,10 +83,10 @@ docs:
     metaname: doc7
     oggetto: Legislazione turistica regionale
     categoria: normativa
-    tema: Attività produttive - Turismo
+    tema: turismo
     url: "http://leggi.crumbria.it/mostra_atto.php?id=183168&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20180804"
     anno: 2017
-    ente:
+    ente: Regione Umbria
     numero: 8
     tags:
       - Bed & Breakfast
@@ -95,22 +95,25 @@ docs:
     metaname: doc8
     oggetto: Testo unico in materia di commercio
     categoria: normativa
-    tema: Attività produttive - Commercio
+    tema: commercio
     url: "http://leggi.crumbria.it/mostra_atto.php?id=73580&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20171230"
     anno: 2014
-    ente:
+    ente: Regione Umbria
     numero: 10
+    tags:
+      - SUAPE
 
   - title: Legge regionale 3 novembre 2016, n. 12
     metaname: doc9
     oggetto: Modificazioni ed integrazioni della legge regionale 13 giugno 2014, n. 10 (Testo unico in materia di commercio)
     categoria: normativa
-    tema: Attività produttive - Commercio
+    tema: commercio
     url: "http://leggi.crumbria.it/mostra_atto.php?id=171305&v=FI,SA,TE,IS,VE,RA,MM&m=5"
     anno: 2016
-    ente:
+    ente: Regione Umbria
     numero: 12
-
+    tags:
+        - SUAPE
   - title: Legge regionale 21 gennaio 2015, n. 1
     metaname: doc10
     oggetto: Testo unico governo del territorio e materie correlate
@@ -118,8 +121,10 @@ docs:
     tema: edilizia
     url:
     anno: 2015
-    ente:
+    ente: Regione Umbria
     numero: 1
+    tags:
+        - SUAPE
 
   - title: Regolamento regionale 18 febbraio 2015, n. 2
     metaname: doc11
@@ -128,6 +133,7 @@ docs:
     tema: edilizia
     url: "http://leggi.crumbria.it/mostra_atto_stampabile.php?file=reg2015-02.xml"
     anno: 2015
+    ente: Regione Umbria
     numero: 2
 
   - title: Regolamento regionale 5 dicembre 2014, n. 5
@@ -137,14 +143,14 @@ docs:
     tema: edilizia
     url: "http://leggi.crumbria.it/mostra_atto_stampabile.php?file=reg2014-05.xml"
     anno: 2014
-    ente:
+    ente: Regione Umbria
     numero: 5
 
   - title: Legge 17 agosto 2005, n. 174
     metaname: doc13
     oggetto: Disciplina dell'attivita' di acconciatore
     categoria: normativa
-    tema: Attività produttive - Artigianato
+    tema: artigianato
     url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2005-08-17;174"
     anno: 2005
     ente:
@@ -156,7 +162,7 @@ docs:
     metaname: doc14
     oggetto: Codice delle leggi antimafia e delle misure di prevenzione, nonché nuove disposizioni in materia di documentazione antimafia, a norma degli articoli 1 e 2 della legge 13 agosto 2010, n. 136
     categoria: normativa
-    tema:
+    tema: semplificazione
     url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-09-06;159"
     anno: 2011
     ente:
@@ -168,63 +174,62 @@ docs:
     metaname: doc15
     oggetto: Regolamento recante norme per la semplificazione dei procedimenti relativi al rilascio delle comunicazioni e delle informazioni antimafia
     categoria: normativa
-    tema:
+    tema: semplificazione
     url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:1998-06-03;252"
     anno: 1998
     ente:
     numero: 252
     tags:
-        - Semplificazione
         - Acconciatore
 
   - title: Deliberazione della Giunta Regionale 20 giugno 2017, n. 700
     metaname: doc16
     oggetto: Accordo Conferenza Unificata 4 maggio 2017, n. 46/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata in materia di attività commerciali e assimilate ed edilizia.
     categoria: normativa
-    tema: modulistica unificata
+    tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR700_2017.pdf"
     anno: 2017
     ente: Regione Umbria
     numero: 700
     tags:
-        - Semplificazione
+        - Modulistica Unificata
         - SUAPE
 
   - title: Deliberazione della Giunta Regionale 28 settembre 2017, n. 1088
     metaname: doc17
     oggetto: Accordo Conferenza unificata 6 luglio 2017, n. 76/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze ed integrazione n. 77/CU (per estendere il modulo “Notifica ai fini della registrazione a tutti gli operatori del settore alimentare (OSA) laddove non sia prescritto il riconoscimento)”.
     categoria: normativa
-    tema: modulistica unificata
+    tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR1088_2017.pdf"
     anno: 2017
     ente: Regione Umbria
     numero: 1088
     tags:
-        - Semplificazione
+        - Modulistica Unificata
         - SUAPE
 
   - title: Deliberazione della Giunta Regionale 16 ottobre 2017, n. 1188
     metaname: doc18
     oggetto: D.G.R. 28 settembre 2017, n. 1088. Accordo Conferenza unificata 6 luglio 2017, n. 76/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze ed integrazione n. 77/CU (per estendere il modulo “Notifica ai fini della registrazione a tutti gli operatori del settore alimentare (OSA) laddove non sia prescritto il riconoscimento). - Rettifica errore materiale.
     categoria: normativa
-    tema: modulistica unificata
+    tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR1088_2017.pdf"
     anno: 2017
     ente: Regione Umbria
     numero: 1188
     tags:
-        - Semplificazione
+        - Modulistica Unificata
         - SUAPE
 
   - title: Deliberazione della Giunta Regionale 26 marzo 2018, n. 274
     metaname: doc19
     oggetto: Accordo conferenza unificata del 22 febbraio 2018, n.18/CU. Recepimento ed adeguamento da parte della Regione Umbria di ulteriore modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze in materia di attività commerciali e assimilate.
     categoria: normativa
-    tema: modulistica unificata
+    tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/DGR-274_26-03-2018.zip"
     anno: 2017
     ente: Regione Umbria
     numero: 274
     tags:
-        - Semplificazione
+        - Modulistica Unificata
         - SUAPE
