@@ -1,10 +1,10 @@
 ---
 layout: scheda
 object: sportellisuape
-utenza: cittadini
+utenza: pa
 tema: semplificazione
 tipo: servizio
 title: Sportelli Suape Comunali
-subtitle: informazioni di contatto e indicazioni sul funzionamento
+subtitle: dati di riferimento per lo Sportello Comunale a titolarità
 accordion_open: true
 ---

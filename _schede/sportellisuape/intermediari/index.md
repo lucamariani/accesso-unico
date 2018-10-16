@@ -2,7 +2,7 @@
 layout: scheda
 object: sportellisuape
 utenza: intermediari
-tema: edilizia
+tema: semplificazione
 tipo: servizio
 title: Sportelli Suape Comunali
 subtitle: informazioni di contatto e indicazioni sul funzionamento
