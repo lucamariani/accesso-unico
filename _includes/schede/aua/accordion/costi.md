@@ -1,0 +1,1 @@
+Ai fini del rilascio dell’AUA, il soggetto richiedente è tenuto, in sede di presentazione dell’istanza, al versamento delle spese istruttorie e diritti complessivamente previsti, nelle misure già stabilite dalle disposizioni vigenti, per ciascun titolo abilitante sostituito dall’AUA. ( vedi DGR….. )
