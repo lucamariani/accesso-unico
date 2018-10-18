@@ -1,8 +1,25 @@
-Il Decreto del Ministero dell'Interno 7 gennaio 2013 - Modalità per la comunicazione, alla Questura competente per territorio, mediante strumenti informatici, delle generalità delle persone alloggiate, prevede che le generalità delle persone alloggiate presso le strutture ricettive di cui all'art. 109 del Testo Unico delle leggi di Pubblica Sicurezza (R.D.18 giugno 1931, n. 773, e successive modificazioni) vengano trasmesse, a cura dei gestori delle stesse strutture, entro 24 ore successive all'arrivo delle persone alloggiate, e comunque all'arrivo stesso per soggiorni inferiori alle 24 ore, alle questure territorialmente competenti, secondo le modalità previste dal decreto del Ministero dell'Interno 7 gennaio 2013.
-La normativa prevede l’esclusivo utilizzo di un portale web per gli adempimenti del predetto articolo 109, fatti salvi i casi espressamente previsti dalla normativa stessa.
-L’invio telematico delle schedine alloggiati sostituisce la precedente comunicazione cartacea.
-Gli operatori ricettivi devono pertanto chiedere l'accreditamento all'apposito sito web alla Questura competente per territorio.
+##### 1. Quale struttura hanno i moduli unificati?
 
-Con la Circolare 29 luglio 2005, n.557 "Applicazione dell'articolo 109 T.U.L.P.S. - Comunicazione delle persone alloggiate il MINISTERO DELL'INTERNO" sottolinea come l'obbligo di comunicazione alla autorità locale di P.S. delle generalità delle persone alloggiate sussista anche per coloro che esercitano saltuariamente il servizio di alloggio e prima colazione (c.d. «Bed and breakfast»), in virtù dell'espresso riferimento, recato nella disposizione sopra riportata, agli «esercizi non convenzionali».
+La modulistica unificata ha una struttura modulare e componibile a seconda delle esigenze del singolo procedimento.
+Il modello di DICHIARAZIONE AUTOCERTIFICATIVA UNICA è necessario per ogni genere di pratica (istanze / SCIA / comunicazioni / ecc.) , per attività nuove o esistenti, e deve essere utilizzato  per la pratiche di natura edilizia, per quelle relative all’esercizio dell’attività imprenditoriale, e per ogni adempimento accessorio da svolgere presso il SUAPE.
 
-Utilizzando il servizio telematico WEBTUR - Osservatorio regionale turismo-  i gestori del strutture turistiche adempiono in modalità unicamente telematica all'obbligo di comunicare giornalmente le generalità delle persone alloggiate, secondo i modelli di rilevazione Istat, consentendo il monitoraggio delle presenze turistiche italiane e straniere, grazie all’aggiornamento dei dati delle schede di rilevazione statistica.
+
+##### 2. I moduli già in esercizio sono definitivi?
+
+La modulistica SUAPE viene aggiornata costantemente, al fine di adeguarne i contenuti alle disposizioni normative sopravvenute, di migliorarne la funzionalità e di comprendere casi e particolarità precedentemente non previsti.
+Si suggerisce dunque ai Comuni di verificare periodicamente che il modello in uso sia aggiornato.
+
+
+##### 3. Come e con quale frequenza accertare se i moduli sono stati modificati?
+
+La Regione provvede, a seguito di ogni modifica apportata ai moduli dalla Conferenza Unificata, ad assumere una deliberazione di adozione, che poi notifica ai Comuni. Inoltre nella pagina dedicata alla Modulistica Unificata è presente la Tabella dei moduli vigenti aggiornata all’ultima variazione. La periodicità dei controlli dovrebbe essere calibrata sulle scadenze delle Conferenza Unificata che per i rimanenti mesi dell'anno 2018 sono:
+
+- 8 novembre 2018
+- 22 novembre 2018
+- 13 dicembre 2018
+- 20 dicembre 2018
+
+
+##### 4. E’ possibile modificare i moduli?
+
+E’ vietato, a pena di inammissibilità della pratica, modificare le parti fisse della modulistica.
