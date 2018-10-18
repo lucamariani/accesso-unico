@@ -4,10 +4,12 @@ La modulistica unificata ha una struttura modulare e componibile a seconda delle
 Il modello di DICHIARAZIONE AUTOCERTIFICATIVA UNICA è necessario per ogni genere di pratica (istanze / SCIA / comunicazioni / ecc.) , per attività nuove o esistenti, e deve essere utilizzato  per la pratiche di natura edilizia, per quelle relative all’esercizio dell’attività imprenditoriale, e per ogni adempimento accessorio da svolgere presso il SUAPE.
 
 
+
 ##### 2. I moduli già in esercizio sono definitivi?
 
 La modulistica SUAPE viene aggiornata costantemente, al fine di adeguarne i contenuti alle disposizioni normative sopravvenute, di migliorarne la funzionalità e di comprendere casi e particolarità precedentemente non previsti.
 Si suggerisce dunque ai Comuni di verificare periodicamente che il modello in uso sia aggiornato.
+
 
 
 ##### 3. Come e con quale frequenza accertare se i moduli sono stati modificati?
@@ -18,6 +20,7 @@ La Regione provvede, a seguito di ogni modifica apportata ai moduli dalla Confer
 - 22 novembre 2018
 - 13 dicembre 2018
 - 20 dicembre 2018
+
 
 
 ##### 4. E’ possibile modificare i moduli?
