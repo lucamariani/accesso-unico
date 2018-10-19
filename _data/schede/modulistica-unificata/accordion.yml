@@ -9,7 +9,10 @@
   file: "Obblighi.md"
   utenza:
     - pa
-
+- title: "Risorse in rete"
+  file: "risorse_rete.md"
+  utenza:
+    - pa
 - title: "Faq"
   file: "Faq.md"
   utenza:
