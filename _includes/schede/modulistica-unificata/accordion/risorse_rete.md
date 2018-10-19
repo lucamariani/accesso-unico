@@ -1,6 +1,5 @@
 
-
-**Conferenza Unificata**:
+**- Conferenza Unificata**:
 
   •  [Vai al sito web][4a7d4287]
 
@@ -14,14 +13,15 @@
   •  [Riferimenti e recapiti][e7bcb0a3]
 
   [e7bcb0a3]: http://www.statoregioni.it/contattiConferenza.asp?CONF=UNI "Riferimenti e recapiti"
+  <br>
 
-**dal sito ItaliaSemplice**
+**- dal sito ItaliaSemplice**
 
   •  [A che punto sono i lavori][1ea5b264]
 
   [1ea5b264]: http://www.italiasemplice.gov.it/documentazione/accordi-sulla-modulistica-e-monitoraggio-dellattuazione/ "a che punto sono i lavori"
 
-**Moduli PA: accordi, standard e schemi dati XML approvati**
+  •  **Moduli PA: accordi, standard e schemi dati XML approvati**
 
   •   •   [Archivio accordi e modulistica approvata][d655e554]
 
