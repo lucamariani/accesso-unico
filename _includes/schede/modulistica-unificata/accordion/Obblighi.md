@@ -6,4 +6,4 @@ Le amministrazioni comunali, alle quali sono rivolte domande, segnalazioni e com
 
 Questo obbligo può essere assolto anche attraverso una delle seguenti modalità:
 - Rinvio (link) alla piattaforma telematica di riferimento;
-- Rinvio (link) alla modulistica adottata dalla Regione, successivamente all'accordo e pubblicata sul sito istituzionale della Regione stessa.
+- [ ] Rinvio (link) alla modulistica adottata dalla Regione, successivamente all'accordo e pubblicata sul sito istituzionale della Regione stessa.
