@@ -5,8 +5,10 @@
 # Utenza: onditional visibility for profile
 # - entries without "utenza" key are visible for all profiles
 # - entries with "utenza" key are visible only for that profiles
-
-
+- title: "Obblighi"
+  file: "Obblighi.md"
+  utenza:
+    - pa
 
 - title: "Faq"
   file: "Faq.md"
