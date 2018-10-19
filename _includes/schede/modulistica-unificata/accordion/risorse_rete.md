@@ -15,18 +15,18 @@
   [e7bcb0a3]: http://www.statoregioni.it/contattiConferenza.asp?CONF=UNI "Riferimenti e recapiti"
   <br>
 
-**- dal sito ItaliaSemplice**
+**- ItaliaSemplice**
 
-  •  [A che punto sono i lavori][1ea5b264]
+  * [A che punto sono i lavori][1ea5b264]
 
   [1ea5b264]: http://www.italiasemplice.gov.it/documentazione/accordi-sulla-modulistica-e-monitoraggio-dellattuazione/ "a che punto sono i lavori"
 
-  •  **Moduli PA: accordi, standard e schemi dati XML approvati**
+  *  **Moduli PA: accordi, standard e schemi dati XML approvati**
 
-  •   •   [Archivio accordi e modulistica approvata][d655e554]
+     [Archivio accordi e modulistica approvata][d655e554]
 
   [d655e554]: http://www.italiasemplice.gov.it/modulistica/archivio-modulistica-unificata/ "archivio accordi e modulistica approvata"
 
-  •   • [Repository Github][846a2ea0]
+  [Repository Github][846a2ea0]
 
   [846a2ea0]: https://github.com/italia/moduli-pa/tree/v1.0.0 "repository Github"
