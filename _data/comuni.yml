@@ -7,6 +7,9 @@
 - name: Castiglione del Lago
   metaname: castiglionedellago
   url: "/castiglionedellago/"
+- name: Città di Castello
+  metaname: cittadicastello
+  url: "/cittadicastello/"
 - name: Foligno
   metaname: foligno
   url: "/foligno/"
