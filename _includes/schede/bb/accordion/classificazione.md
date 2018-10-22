@@ -1,1 +1,1 @@
-La classificazione e la riclassificazione della struttura ricettiva è determinata in base ad autocertificazione dell'interessato rispettivamente all'atto della presentazione della SCIA ai sensi del comma 3 dell’art. 35 della L.R. n. 8/2017 e all'atto della comunicazione quinquennale al SUAPE del Comune competente per territorio.
+
