@@ -21,8 +21,5 @@
     - imprese
     - intermediari
 
-- title: "Guida"
-  file: "guida.md"
-
 - title: "Controlli"
   file: "controlli.md"
