@@ -7,7 +7,7 @@
 - name: Castiglione del Lago
   metaname: castiglionedellago
   url: "/castiglionedellago/"
-- name: Città di Castello
+- name: Citta di Castello
   metaname: cittadicastello
   url: "/cittadicastello/"
 - name: Foligno
@@ -18,13 +18,13 @@
   url: "/gubbio/"
 - name: Perugia
   metaname: perugia
-  url: "http://perugia_url"
+  url: "/perugia/"
 - name: Narni
   metaname: narni
   url: "/narni/"
 - name: Spello
   metaname: spello
-  url: "http://spello_url"
+  url: "/spello/"
 - name: Terni
   metaname: terni
   url: "/terni/"
