@@ -22,9 +22,9 @@
 - name: Narni
   metaname: narni
   url: "/narni/"
-- name: Spello
-  metaname: spello
-  url: "/spello/"
+- name: San Giustino
+  metaname: sangiustino
+  url: "/sangiustino/"
 - name: Terni
   metaname: terni
   url: "/terni/"
