@@ -29,7 +29,7 @@
 
 
 
-   - Moduli PA: accordi, standard e schemi dati XML approvati**
+     Moduli PA: accordi, standard e schemi dati XML approvati**
 
    - [Archivio accordi e modulistica approvata][7ada739b]-
 
