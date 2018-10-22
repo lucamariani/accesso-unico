@@ -24,9 +24,3 @@
   utenza:
     - imprese
     - intermediari
-    
-- title: "Normativa"
-  file: "normativa.md"
-  utenza:
-    - imprese
-    - intermediari
