@@ -26,9 +26,3 @@
 
 - title: "Controlli"
   file: "controlli.md"
-
-- title: "Normativa"
-  file: "normativa.md"
-  utenza:
-    - imprese
-    - intermediari
