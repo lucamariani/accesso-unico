@@ -1,5 +1,5 @@
 
-##### Conferenza Unificata
+#### Conferenza Unificata
 <br>
   •  [Vai al sito web][4a7d4287]
 
@@ -15,7 +15,7 @@
   [e7bcb0a3]: http://www.statoregioni.it/contattiConferenza.asp?CONF=UNI "Riferimenti e recapiti"
   <br>
 
-##### ItaliaSemplice
+#### ItaliaSemplice
 <br>
    - [A che punto sono i lavori][39fcc4d4]
 
@@ -29,7 +29,7 @@
 
 
 
-     Moduli PA: accordi, standard e schemi dati XML approvati**
+   Moduli PA: accordi, standard e schemi dati XML approvati**
 
    - [Archivio accordi e modulistica approvata][7ada739b]-
 
