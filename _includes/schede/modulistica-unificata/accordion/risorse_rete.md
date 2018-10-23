@@ -17,12 +17,12 @@
 
 #### ItaliaSemplice
 <br>
-   - [A che punto sono i lavori][39fcc4d4]
+  * [A che punto sono i lavori][39fcc4d4]
 
   [39fcc4d4]: http://www.italiasemplice.gov.it/documentazione/accordi-sulla-modulistica-e-monitoraggio-dellattuazione/ "A che punto sono i lavori"
 
 
-   - [Per partecipare][66276256]
+  * [Per partecipare][66276256]
 
   [66276256]: http://rete.italiasemplice.gov.it/modulistica-standardizzata-e-semplificata-rete-italiasemplice/discussione/area-di-lavoro-sulla "Per partecipare"
 
@@ -31,12 +31,12 @@
 
    Moduli PA: accordi, standard e schemi dati XML approvati**
 
-   - [Archivio accordi e modulistica approvata][7ada739b]-
+  * [Archivio accordi e modulistica approvata][7ada739b]-
 
 
   [7ada739b]: http://www.italiasemplice.gov.it/modulistica/archivio-modulistica-unificata/ "Archivio accordi e modulistica approvata"
 
 
-- [Repository Github][d64b9e87]
+  * [Repository Github][d64b9e87]
 
   [d64b9e87]: https://github.com/italia/moduli-pa/tree/v1.0.0 "Repository Github"
