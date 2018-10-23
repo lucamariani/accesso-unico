@@ -2,7 +2,7 @@
 layout: modulistica
 title: Modulistica Unificata
 metatitle: modulistica-unificata
-subtitle: Documenti, informazioni e link
+subtitle: Informazioni e link
 background:
 img:
 
@@ -196,4 +196,4 @@ modulistica:
 
 
 ---
-Nella tabella sotto riportata l’elenco dei Moduli Unificati vigenti in Umbria
+Seguendo il link è possibile aprire i modelli in formato pdf
