@@ -31,7 +31,7 @@
    Moduli PA: accordi, standard e schemi dati XML approvati
 
 
- * [Archivio accordi e modulistica approvata][7ada739b]-
+ * [Archivio accordi e modulistica approvata][7ada739b]
 
 
   [7ada739b]: http://www.italiasemplice.gov.it/modulistica/archivio-modulistica-unificata/ "Archivio accordi e modulistica approvata"
