@@ -1,13 +1,9 @@
 
-- title: Modelli
+- title: Moduli unificati vigenti in Umbria
   file: vaimodelli.md
   utenza:
     - pa
 - title: Atti regionali di adozione della Modulistica
   file: normativa.md
-  utenza:
-    - pa
-- title: Prova Modelli
-  file: provamodelli.md
   utenza:
     - pa
