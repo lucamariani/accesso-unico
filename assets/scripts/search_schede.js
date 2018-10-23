@@ -102,6 +102,8 @@ $(function() {
     $('#tema').prop('selectedIndex',0)
     // reset type
     $('#tipologia').prop('selectedIndex',0)
+    // empty results
+    $('#result-section').hide();
   })
 
   /* submit handling */
