@@ -66,17 +66,17 @@ function displaySearchResults(results) {
 
       if ( item.tema.length > 0 ) {
         var themeName = ( themes[item.tema] ? themes[item.tema].name : item.tema );
-        appendString += '<p class="pointer" title="Visualizza tutti i documenti del tema ' + themeName +
-          '" onclick="searchFor(\'+tema:' + item.tema + '\')">Argomento: ' + themeName + '</p></li>';
+        appendString += '<p class="pointer" title="Visualizza tutti le schede del tema ' + themeName +
+          '" onclick="themaTagClick(\'' + item.tema + '\')">Argomento: ' + themeName + '</p></li>';
       }
 
-      appendString += '<p class="pointer" title="Visualizza tutti i documenti del profilo ' + item.utenza +
-          '" onclick="searchFor(\'+utenza:*' + item.utenza + '*\')">Utenza: ' + item.utenza + '</p>';
+      /* appendString += '<p class="pointer" title="Visualizza tutti le schede del profilo ' + item.utenza +
+          '" onclick="searchFor(\'+utenza:*' + item.utenza + '*\')">Utenza: ' + item.utenza + '</p>'; */
 
       if ( item.tipo.length > 0 ) {
         var tipoName = ( types[item.tipo] ? types[item.tipo].name : item.tipo );
-        appendString += '<p class="pointer" title="Visualizza tutti i documenti del tema ' + tipoName +
-          '" onclick="searchFor(\'+tema:' + item.tema + '\')">Argomento: ' + tipoName + '</p></li>';
+        appendString += '<p class="pointer" title="Visualizza tutti le schede del tema ' + tipoName +
+          '" onclick="typeTagClick(\'' + item.tipo + '\')">Tipologia: ' + tipoName + '</p></li>';
       }
 
       appendString += '</div></div></div></div>';
@@ -90,20 +90,24 @@ function displaySearchResults(results) {
   $('#result-section').show();
 }
 
+var resetForm = function() {
+  // empty freesearch
+  $('#freesearch').val('');
+  // reset theme
+  $('#tema').prop('selectedIndex',0)
+  // reset type
+  $('#tipologia').prop('selectedIndex',0)
+  // empty results
+  $('#result-section').hide();
+}
+
 $(function() {
-  //applyUrlFilters();
+  applyUrlFilters();
 
   /* reset handling */
   $('#schede-reset-btn').click(function(event) {
     event.preventDefault();
-    // empty freesearch
-    $('#freesearch').val('');
-    // reset theme
-    $('#tema').prop('selectedIndex',0)
-    // reset type
-    $('#tipologia').prop('selectedIndex',0)
-    // empty results
-    $('#result-section').hide();
+    resetForm();
   })
 
   /* submit handling */
@@ -134,23 +138,43 @@ $(function() {
 
 var applyUrlFilters = function() {
   console.log('applyUrlFilters...');
+  var search_pattern = '';
   // search for theme
   var themeFilters = getAllUrlParams().theme;
   if( themeFilters ) {
-    var search_pattern = '+tema:' + themeFilters;
-    searchFor( search_pattern );
+    search_pattern += '+tema:' + themeFilters + ' ';
+    $('#tema').val(themeFilters);
   }
   // search for tags
-  var tagFilters = getAllUrlParams().tags;
-  if( tagFilters ) {
-    var search_pattern = '+tags:' + tagFilters;
-    searchFor( search_pattern );
+  var profileFilters = getAllUrlParams().profile;
+  if( profileFilters ) {
+    search_pattern += '+utenza:*' + profileFilters + '* ';
+    $('#utenza').val(profileFilters);
   }
+
+  if (search_pattern.length > 0) searchFor( search_pattern );
 }
 
+/**
+ *
+ */
 var searchFor = function(search_pattern) {
+  // utenza is required
+  var utenza = $('#utenza option:selected').val();
+  search_pattern += ' +utenza:*' + utenza + '*';
   console.log('searching for ' + search_pattern);
+  resetForm();
   var results = idx.search(search_pattern);
   console.log(results);
   displaySearchResults(results);
+}
+
+var themaTagClick = function(theme) {
+  searchFor('+tema:' + theme);
+  $('#tema').val(theme);
+}
+
+var typeTagClick = function(type) {
+  searchFor('+tipo:' + type);
+  $('#tipologia').val(type);
 }
