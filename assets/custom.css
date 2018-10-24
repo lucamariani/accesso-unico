@@ -9,7 +9,7 @@
 /* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
 /* home page search */
-.t-Pac #home-search-btn {border:0 !important}
+.t-Pac #home-search-btn, .t-Pac #schede-search-btn, .t-Pac #schede-reset-btn {border:0 !important}
 .t-Pac .js-fr-dialogmodal-close {border:0 !important}
 
 /* define links' color */
