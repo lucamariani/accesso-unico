@@ -6,12 +6,12 @@
       <fieldset class="Form-fieldset">
 
         <fieldset class="Form-fieldset" style="margin-bottom: 0px !important;">
-          <legend class="Form-legend">Scegli il comune SUAPE</legend>
+          <legend class="Form-legend">Scegli il comune</legend>
 
           <div class="Form-field">
 
             <select class="Form-input" id="comune" aria-required="true" required>
-              <option disabled selected>seleziona il comune:</option>
+              <option disabled selected>seleziona</option>
               {% for comune in site.data.comuni %}
                 <option value="{{ site.baseurl }}{{ comune.url }}">{{ comune.name }}</option>
               {% endfor%}
