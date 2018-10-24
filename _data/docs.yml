@@ -293,3 +293,53 @@ docs:
     numero: 1656
     tags:
         - AUA
+
+  - title: Legge 25 agosto 1991, n. 287
+    metaname: doc25
+    oggetto: Aggiornamento della normativa sull'insediamento e sull'attività dei pubblici esercizi.
+    categoria: normativa
+    tema: commercio
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1991-08-25;287!vig="
+    anno: 1991
+    ente:
+    numero: 287
+    tags:
+        - pubbliciesercizi
+
+  - title: Decreto Legislativo 31 marzo 1998, n. 114
+    metaname: doc26
+    oggetto: Riforma della disciplina relativa al settore del commercio, a norma dell'articolo 4, comma 4, della legge 15 marzo 1997, n. 59.
+    categoria: normativa
+    tema: commercio
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-03-31;114!vig="
+    anno: 1998
+    ente:
+    numero: 114
+    tags:
+        - pubbliciesercizi
+
+  - title: Decreto Legislativo 26 marzo 2010, n. 59
+    metaname: doc27
+    oggetto: Attuazione della direttiva 2006/123/CE relativa ai servizi nel mercato interno.
+    categoria: normativa
+    tema: commercio
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-26;59!vig="
+    anno: 2010
+    ente:
+    numero: 59
+    tags:
+        - pubbliciesercizi
+
+  - title: Deliberazione della Giunta Regionale 26 luglio 2011, n. 847
+    metaname: doc28
+    oggetto: Art. 5 bis, comma 3 L.R. n. 24/1999 - Indirizzi e criteri qualitativi per l'insediamento di esercizi di somministrazione di alimenti e bevande.
+    categoria: circolari
+    tema: commercio
+    url: "http://www.regione.umbria.it/documents/18/1156212/dgr+847_2011.PDF/648bd27d-f815-48c9-b12c-02e7ebba4eea"
+    anno: 2011
+    ente:
+    numero: 847
+    tags:
+        - pubbliciesercizi
+
+        
