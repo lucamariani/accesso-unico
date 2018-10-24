@@ -1,6 +1,6 @@
-- title: Vai al Servizio
-  file: vai.md
-- title: Aggiornamento dei dati
+- title: Aggiornamento Dati
   file: aggiorna.md
   utenza:
     - pa
+- title: Vai al Servizio
+  file: vai.md
