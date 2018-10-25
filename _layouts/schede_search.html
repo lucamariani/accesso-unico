@@ -59,7 +59,7 @@ layout: default
             <div class="Form-field">
               <label class="Form-label is-required" for="tema">Argomento</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="tema" name="tema">
-                <option selected>---</option>
+                <option>---</option>
                 {% assign schede_theme = site.schede | group_by: 'tema' %}
                 {% for scheda in schede_theme %}
                   <!-- get the theme's full name -->

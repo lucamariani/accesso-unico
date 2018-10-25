@@ -1,5 +1,4 @@
 $(function() {
-  addWizardTabHandler();
   // load only profiles as theme tab is hidden
   loadProfiles();
   //loadThemes();
@@ -12,32 +11,17 @@ var reloadItems = function() {
   loadThemes();
 }
 
-/* add click handler to tabs */
-var addWizardTabHandler = function() {
-  var tab_links = $('.wizard-link');
-
-  tab_links.each(function(index){
-    var tab_div_id = $( this ).attr('href');
-    var tab_div = $(tab_div_id);
-
-    $( this ).click(function() {
-      if ( tab_div.is(':hidden') ) {
-        // remove tab active
-        tab_links.removeClass('active');
-        // change tab active
-        $( this ).addClass('active');
-        // change content
-        $('.tab-pane').hide();
-        // reload items
-        reloadItems();
-        // show tab content
-        tab_div.show();
-      }
-    });
-  })
+var loadProfileContent = function() {
+  $('#tab-content-title').text('scegli il profilo in cui ti riconosci >> ');
+  $('#tab-content-subtitle').text('ti verrà restituito un elenco di argomenti filtrato in base ai tuoi bisogni ');
+}
+var loadThemeContent = function() {
+  $('#tab-content-title').text('seleziona l’argomento di tuo interesse >> ');
+  $('#tab-content-subtitle').text('ogni servizio scelto tra quelli che ti verranno proposti fornisce informazioni adeguate alle tue carateristiche ');
 }
 
 var loadProfiles = function(where) {
+  loadProfileContent();
   //console.log('loading profiles in ' + where);
   loadItems(window.profiles, 'profile', where);
 
@@ -60,6 +44,7 @@ var loadProfiles = function(where) {
 }
 
 var loadThemes = function(where) {
+  loadThemeContent();
   //console.log('loading themes in ' + where);
   loadItems(window.themes, 'theme', where);
 
@@ -70,7 +55,7 @@ var loadThemes = function(where) {
       if ( where ) {
         // go to results page
         console.log('showing results for theme ' + window.theme + ' and profile ' + window.profile);
-        var results_url = window.baseurl + "/profili/" + window.profile + "?theme=" + window.theme;
+        var results_url = window.baseurl + "/schede_search?profile=" + window.profile + "&theme=" + window.theme;
         window.location.href = results_url;
       } else {
         // load profile items
@@ -89,7 +74,8 @@ var loadItems = function(items,what,where) {
   var listItemsContent = '';
   var wizardItemsList = $(where);
   for (var key in items) {
-    listItemsContent += '<li><div class="wizard-item u-text-r-m ' + what + '" item="' + key + '">' + items[key].name + '</div></li>';
+    listItemsContent += '<div class="Grid-cell u-size1of2 u-md-size1of4 u-lg-size1of4"><div class="wizard-item u-textCenter u-text-r-xs ' + what + '" item="' + key + '">';
+    listItemsContent += '<img src="' + baseurl + items[key].image + '"><br>' + items[key].name + '</div></div>';
   };
   wizardItemsList.html(listItemsContent);
 }
