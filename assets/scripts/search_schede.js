@@ -102,7 +102,6 @@ var resetForm = function() {
 }
 
 $(function() {
-  applyUrlFilters();
 
   /* reset handling */
   $('#schede-reset-btn').click(function(event) {
@@ -134,22 +133,26 @@ $(function() {
     displaySearchResults(results);
   });
 
+  applyUrlFilters();
+
 })
 
 var applyUrlFilters = function() {
   console.log('applyUrlFilters...');
   var search_pattern = '';
-  // search for theme
-  var themeFilters = getAllUrlParams().theme;
-  if( themeFilters ) {
-    search_pattern += '+tema:' + themeFilters + ' ';
-    $('#tema').val(themeFilters);
-  }
+
   // search for tags
   var profileFilters = getAllUrlParams().profile;
   if( profileFilters ) {
     search_pattern += '+utenza:*' + profileFilters + '* ';
     $('#utenza').val(profileFilters);
+  }
+
+  // search for theme
+  var themeFilters = getAllUrlParams().theme;
+  if( themeFilters ) {
+    search_pattern += '+tema:' + themeFilters + ' ';
+    $('#tema').val(themeFilters);
   }
 
   if (search_pattern.length > 0) searchFor( search_pattern );
