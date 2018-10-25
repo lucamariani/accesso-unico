@@ -20,7 +20,7 @@ search: false
 search_full_content: false
 mega_menu: true    # if true, require _data/menu.yml
 mega_menu_accedi: false
-header_red_theme: false
+header_red_theme: true
 
 # Social profiles
 social_block: true
