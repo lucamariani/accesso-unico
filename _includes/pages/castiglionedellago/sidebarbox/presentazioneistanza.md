@@ -8,4 +8,4 @@ in modalità telematica
 
 [![vai allo Sportello][vai allo Sportello]][e42269d2]
 
-[vai allo Sportello]: http://www.umbriageo.regione.umbria.it/statistiche/vaiallosportello.jpg
+<div align="center">[vai allo Sportello]: http://www.umbriageo.regione.umbria.it/statistiche/vaiallosportello.jpg </div>
