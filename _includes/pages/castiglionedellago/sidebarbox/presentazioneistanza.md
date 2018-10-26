@@ -8,4 +8,4 @@ in modalità telematica
 
 [![vai allo Sportello][vai allo Sportello]][e42269d2]
 
-[vai allo Sportello]: (/images/2018/10/vaiallosportello.JPG)
+[vai allo Sportello]: http://www.google.com/images/logo.gif
