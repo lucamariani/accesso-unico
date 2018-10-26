@@ -37,5 +37,3 @@ sportelli:
 
 
 ---
-
-<p><strong>Come presentare un’istanza</strong>: utilizzando esclusivamente la piattafaroma digitale <br /><br /></p>

@@ -34,6 +34,3 @@ sportelli:
     - "martedì e giovedì: 15:00 - 17:00"
 
 ---
-
-
-<p><strong>Come presentare un’istanza</strong>: in modalità cartacea oppure via Pec <br /><br /></p>

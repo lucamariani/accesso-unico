@@ -36,8 +36,6 @@ sportelli:
     - "Martedì: 10.00 – 13.00"
     - "Giovedì: 10.00 – 13.00"
 
-                                 
+
 
 ---
-
-<p><strong>Come presentare un’istanza</strong>: utilizzando esclusivamente la piattafaroma digitale <br /><br /></p>

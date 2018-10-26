@@ -28,5 +28,3 @@ sportelli:
     - "U.O. Servizi alle imprese anche mercoledì 15.30 - 17.00"
 
 ---
-
-<p><strong>Come presentare un’istanza</strong>: modalità cartacea oppure via Pec <br /><br /></p>
