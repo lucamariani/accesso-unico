@@ -95,6 +95,8 @@ var resetForm = function() {
   $('#freesearch').val('');
   // reset theme
   $('#tema').prop('selectedIndex',0)
+  // reset profile
+  $('#utenza').prop('selectedIndex',0)
   // reset type
   $('#tipologia').prop('selectedIndex',0)
   // empty results
@@ -163,10 +165,11 @@ var applyUrlFilters = function() {
  */
 var searchFor = function(search_pattern) {
   // utenza is required
-  var utenza = $('#utenza option:selected').val();
-  search_pattern += ' +utenza:*' + utenza + '*';
+  if ( search_pattern.indexOf('utenza') == -1 ) {
+    var utenza = $('#utenza option:selected').val();
+    search_pattern += ' +utenza:*' + utenza + '*';
+  }
   console.log('searching for ' + search_pattern);
-  resetForm();
   var results = idx.search(search_pattern);
   console.log(results);
   displaySearchResults(results);
@@ -174,10 +177,12 @@ var searchFor = function(search_pattern) {
 
 var themaTagClick = function(theme) {
   searchFor('+tema:' + theme);
+  resetForm();
   $('#tema').val(theme);
 }
 
 var typeTagClick = function(type) {
   searchFor('+tipo:' + type);
+  resetForm();
   $('#tipologia').val(type);
 }
