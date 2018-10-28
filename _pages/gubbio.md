@@ -38,5 +38,3 @@ sportelli:
     - "giovedì 10.00 - 13.00"
 
 ---
-
-<p><strong>Come presentare un’istanza</strong>: Utilizzando esclusivamente la piattaforma digitale<br /><br /></p>

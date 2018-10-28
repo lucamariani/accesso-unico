@@ -34,6 +34,3 @@ sportelli:
 
 
 ---
-
-
-<p><strong>Come presentare un’istanza</strong>: <br /><br /></p>

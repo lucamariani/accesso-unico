@@ -18,6 +18,9 @@
 /* modifica entry menu 4 livello */
 .Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
 
+/* wizard */
+.t-Pac .profile, .t-Pac .theme {max-width:140px}
+
 /* define themes colors */
 .t-Pac .theme-yellow, .t-Pac .theme-agricoltura {color:#fec401 !important}
 .t-Pac .theme-green .t-Pac .theme-ambiente {color:#a9a937 !important}
