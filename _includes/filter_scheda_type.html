@@ -1,0 +1,18 @@
+<h4>Tipologia</h4>
+<hr>
+<ul>
+  {% assign temi = site.schede | group_by: 'tema' | sort: 'name' %}
+  {% for tema in temi %}
+    <!-- get theme's schede for profile to calculate their number to show in filters-->
+    {% assign schede_per_utenza = tema.items | where: 'utenza', profile %}
+    <!-- get type full name from yaml file -->
+    {% assign type_items = site.data.schede | where_exp: "item", "item.metaname == scheda.name" %}
+    {% assign type_item = type_items[0] %}
+    <li>
+      <input theme-name="{{ tema_item.metaname | lowcase }}" class="filter-theme" type="checkbox">
+        {{ type_item.name | capitalize }} [{{ schede_per_utenza | size }}]
+      </input>
+    </li>
+
+  {% endfor %}
+</ul>

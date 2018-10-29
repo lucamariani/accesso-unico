@@ -1,0 +1,14 @@
+# A list of accordions
+#
+# Title: the title of the accordion
+# File: the file name where the content of this accordion is stored
+# Utenza: conditional visibility for profile
+# - entries without "utenza" key are visible for all profiles
+# - entries with "utenza" key are visible only for that profiles
+
+
+- title: "Cosa offre"
+  file: "cosa_offre.md"
+
+- title: "A chi è rivolto"
+  file: "a_chi.md"

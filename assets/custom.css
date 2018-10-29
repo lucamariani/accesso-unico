@@ -1,0 +1,114 @@
+/* personalizzazione di colori e stili  */
+
+/* set "personalizza_css: true" to activate the use of this css file */
+/* otherwise will be used the standard color from "italia design" */
+
+/* change menu colors */
+.t-Pac .Megamenu--default{background-color:#ffffff;}
+.t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
+/* home page pictures*/
+.t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
+/* home page search */
+.t-Pac #home-search-btn, .t-Pac #schede-search-btn, .t-Pac #schede-reset-btn {border:0 !important}
+.t-Pac .js-fr-dialogmodal-close {border:0 !important}
+
+/* define links' color */
+.t-Pac #main a {color:rgb(48, 55, 61)}
+
+/* modifica entry menu 4 livello */
+.Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
+
+/* wizard */
+.t-Pac .profile, .t-Pac .theme {max-width:140px}
+
+/* define themes colors */
+.t-Pac .theme-yellow, .t-Pac .theme-agricoltura {color:#fec401 !important}
+.t-Pac .theme-green .t-Pac .theme-ambiente {color:#a9a937 !important}
+.t-Pac .theme-orange, .t-Pac .theme-turismo {color:#fe9001 !important}
+.t-Pac .theme-lightblue, .t-Pac .theme-diritti {color:#88c2cf !important}
+.t-Pac .theme-blue, .t-Pac .theme-artigianato {color:#78bbb1 !important}
+.t-Pac .theme-lightpurple, .t-Pac .theme-lavoro {color:#e68cb0 !important}
+.t-Pac .theme-grey, .t-Pac .theme-infrastrutture {color:#9fa8b0 !important}
+.t-Pac .theme-pink, .t-Pac .theme-salute {color:#ef9ea2 !important}
+.t-Pac .theme-purple, .t-Pac .theme-edilizia {color:#d0a0d0 !important}
+.t-Pac .theme-pink, .t-Pac .theme-utilita {color:#ef9ea2 !important}
+
+.t-Pac .scheda-listing {margin: 1.2rem;border: 1px solid gray;border-radius: 5px;}
+.t-Pac .scheda-listing-tag {border:1px solid;padding-left: 0.3rem;padding-right: 0.3rem}
+.t-Pac .scheda-listing a {text-decoration: none;}
+.t-Pac .scheda-listing.imprese, .t-Pac .scheda-listing.intermediari {display: none;}
+
+.t-Pac .page-img-div { max-height:250px; margin-top:20px; margin-bottom: 20px; overflow: hidden;}
+.t-Pac .page-img { max-width: 100%;}
+
+/* tabs */
+.t-Pac #tab2 {display:none;}
+.t-Pac .wizard-link:not(.active) {cursor: pointer;}
+.t-Pac .wizard-link.active {border-bottom: 4px solid #9c2328; color:#5a6772 !important;}
+.t-Pac .wizard-item {cursor: pointer;}
+.t-Pac #wizardTabList {list-style-type: none; overflow: hidden; float: right;}
+.t-Pac .wizard-tab-item {float:left; margin-right: 10px;}
+.t-Pac #wizard-profile-list li {float: left; margin: 10px;}
+.t-Pac #wizard-theme-list li {float: left; margin: 10px;}
+
+.t-Pac .nav-tabs .nav-item {
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.t-Pac .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 5px solid #06c;
+    color: #06c;
+    cursor: inherit;
+}
+
+/* schede listing */
+.t-Pac #label-list {height: 20px;}
+.t-Pac #label-list li {float: left; margin-right: 5px;}
+
+/* document search */
+.t-Pac #result-section {display:none;}
+.t-Pac #result-section a {text-decoration: none;}
+.t-Pac .single-doc .object {margin-top: 0.5em;margin-bottom: 0.5em;}
+/* redefine our content width */
+.t-Pac .u-layout-prose {max-width: 40em !important}
+.t-Pac .pointer {cursor: pointer !important}
+
+/* poll */
+.t-Pac .poll-img {width: 3.5em}
+
+/* increment dialog mask z-index to cover header */
+.t-Pac .fr-dialogmodal--is-ready {z-index: 50}
+
+/* grigio scuro
+.t-Pac .Header-banner{background-color:#333333;}
+.t-Pac .Header-languages{background-color:#333333;}
+.t-Pac .ScrollTop{background-color:#333333!important;}
+.t-Pac .is-focus{color:#333333!important;}
+/* rosso mattone
+.t-Pac .Header-navbar{background-color:#B3292E;}
+.t-Pac .Header-searchTrigger button{background-color:#B3292E;}
+
+.t-Pac .Entrypoint-item{background-color:#B3292E!important;}
+.t-Pac .Header-socialIcons [class*=" Icon-"]{color:#B3292E;}
+.t-Pac .u-color-50{color:#B3292E!important;}
+.t-Pac .u-color-70{color:#B3292E!important;}
+.t-Pac .u-background-50{background-color:#B3292E!important;}
+/* grigio medio
+.t-Pac .u-background-70{background-color:#666666!important;}
+.t-Pac .u-background-95{background-color:#666666!important;}
+/* grigio chiaro
+.t-Pac .Offcanvas-toggleContainer{background-color:#A8A8A8;}
+
+/* azzurro
+.t-Pac .Footer-socialIcons [class*=" Icon-"]{background-color:#65dcdf;color:#666666;}
+
+/* blue link
+.t-Pac h3 .u-color-black{color:#06c!important;}
+.t-Pac .LinkList a{color:#06c!important;}
+.t-Pac .Leads-link.u-color-black{color:#06c!important;}
+
+/* altro
+.t-Pac .Header-titleLink a{font-size:2.6rem!important;}
+.t-Pac .Footer-logo{padding-right:0px!important;}
+*/

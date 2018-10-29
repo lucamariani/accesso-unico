@@ -12,3 +12,76 @@ background: '/img/bg-about.jpg'
 <h3 class="u-text-h3 u-color-70">voluptatem eligendi laboriosam</h3>
 
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam inventore aspernatur repellendus incidunt adipisci modi voluptates recusandae iste eligendi, repudiandae corporis quod aut, optio! Explicabo quaerat unde voluptatem! Itaque, eum!</p>
+
+{% for scheda in site.schede %}
+  <br>titolo: {{ scheda.title }} | oggetto: {{ scheda.object }} | profilo: {{ scheda.utenza }}
+{% endfor %}
+
+<hr>
+
+{% assign utenze = site.schede | group_by: 'utenza' %}
+{{ utenze | inspect }}
+{% for utenza in utenze %}
+  <h2>{{ utenza.name | capitalize }}</h2>
+  <ul>
+  {% for item in utenza.items %}
+    <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<hr>
+
+{% assign schede = site.schede | group_by: 'title' %}
+{% for scheda in schede %}
+  <h2>{{ scheda.name | capitalize }}</h2>
+  <ul>
+  {% for item in scheda.items %}
+    <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.utenza }}</a></li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<hr>
+
+{% assign temi = site.schede | group_by: 'tema' %}
+{% for tema in temi %}
+  <h2>{{ tema.name | capitalize }}</h2>
+  <ul>
+    {% for item in tema.items %}
+      <!-- limit to one utenza -->
+      {% if item.utenza == "cittadini" %}
+        <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+</ul>
+{% endfor %}
+
+<hr>
+
+{% assign temi = site.schede | group_by: 'tema' %}
+{% for tema in temi %}
+  <h2>{{ tema.name | capitalize }}</h2>
+  <ul>
+    {% assign item = tema.items[0] %}
+    <li><a href="{{site.baseurl}}{{ item.url }}">{{ item.title }}</a></li>
+  </ul>
+{% endfor %}
+
+<hr>
+
+{% assign temi = site.schede | group_by: 'tema' %}
+{% for tema in temi %}
+  <h2>{{ tema.name | capitalize }}</h2>
+    <ul>
+      {% assign scheda_objects = tema.items | group_by: 'object' %}
+      {% for scheda_object in scheda_objects %}
+
+        <li>
+          <!-- include scheda -->
+          {% include scheda_listing.html scheda_theme=scheda_object %}
+        </li>
+
+      {% endfor %}
+    </ul>
+{% endfor %}

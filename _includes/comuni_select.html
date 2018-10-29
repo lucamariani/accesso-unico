@@ -1,0 +1,40 @@
+<div class="u-text-r-s u-layout-wide u-padding-r-bottom">
+  <div class="u-color-white u-border-top-xxs u-border-bottom-xxs">
+
+    <form class="Form Form--spaced u-padding-all-s u-color-40 u-text-r-xs u-layout-prose">
+
+      <fieldset class="Form-fieldset">
+
+        <fieldset class="Form-fieldset" style="margin-bottom: 0px !important;">
+          <legend class="Form-legend">Scegli il comune</legend>
+
+          <div class="Form-field">
+
+            <select class="Form-input" id="comune" aria-required="true" required>
+              <option disabled selected>seleziona</option>
+              {% for comune in site.data.comuni %}
+                <option value="{{ site.baseurl }}{{ comune.url }}">{{ comune.name }}</option>
+              {% endfor%}
+            </select>
+          </div>
+
+        </fieldset>
+
+        <div class="Form-field Grid-cell u-textRight" style="padding-bottom: 0px !important;">
+          <a id="gobutton" type="button" href="#" target="_blank"
+            class="Button u-text-xs u-background-50 u-color-white u-sizeFull"
+            style="max-width:15em;">Vai</a>
+        </div>
+      </fieldset>
+    </form>
+
+
+  </div>
+</div>
+
+<script>
+  $('#comune').on('change', function(event) {
+    console.log( 'selected ' + $(this).val() );
+    $('#gobutton').attr( 'href', $(this).val() );
+  });
+</script>

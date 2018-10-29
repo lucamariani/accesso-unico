@@ -1,3 +1,12 @@
+{% if site.header_red_theme %}
+  {% assign color = 'u-color-white' %}
+  {% assign background = 'u-background-50' %}
+{% else %}
+  {% assign color = 'u-color-50' %}
+  {% assign background = 'u-background-white' %}
+  {% assign background-banner = 'u-background-50' %}
+{% endif %}
+
 <div id="cookie-bar" class="CookieBar js-CookieBar u-background-95 u-padding-r-all" aria-hidden="true">
   <p class="u-color-white u-text-r-xs u-lineHeight-m u-padding-r-bottom">Questo sito utilizza cookie tecnici, analytics e di terze parti.
       <br>Proseguendo nella navigazione accetti l’utilizzo dei cookie.<br>
@@ -16,7 +25,7 @@
 <header class="Header Headroom--fixed js-Headroom u-hiddenPrint">
 
   {% if site.header_parent_title or site.language_selector %}
-  <div class="Header-banner ">
+  <div class="Header-banner {{background-banner}}">
       <div class="Header-owner Headroom-hideme ">
           {% if site.header_parent_title %}
           <a href="{{ site.header_parent_url }}"><span>{{ site.header_parent_title }}</span></a>
@@ -45,11 +54,11 @@
   </div>
   {% endif %}
 
-  <div class="Header-navbar ">
+  <div class="Header-navbar {{ background }}">
       <div class="u-layout-wide Grid Grid--alignMiddle u-layoutCenter">
           {% if site.header_logo %}
           <div class="Header-logo Grid-cell" aria-hidden="true">
-              <a href="/" tabindex="-1">
+              <a href="{{ site.baseurl }}/" tabindex="-1">
                 <img src="{{ site.header_logo | relative_url }}" alt="Logo">
               </a>
           </div>
@@ -57,10 +66,10 @@
 
           <div class="Header-title Grid-cell">
               <h1 class="Header-titleLink">
-                  <a href="{{ site.url }}">{{ site.header_title }}
+                  <a class="{{color}}" href="{{ site.baseurl }}/">{{ site.header_title }}
                     {% if site.header_subtitle %}
                     <br>
-                    <small>{{ site.header_subtitle}}</small>
+                    <p class="{{color}} u-text-xs u-textWeight-400 u-padding-top-xs">{{ site.header_subtitle}}</p>
                     {% endif %}
                   </a>
               </h1>
@@ -77,7 +86,7 @@
 
           {% if site.social_block %}
           <div class="Header-utils Grid-cell">
-              <div class="Header-social Headroom-hideme">
+              <div class="Header-social Headroom-hideme {{color}}">
                   <p>{% if site.social_username %}Segui {{ site.social_username }}{% else %}Seguici su{% endif %}</p>
                   <ul class="Header-socialIcons">
                       {% if site.medium_username %}
@@ -104,14 +113,7 @@
 
               {% if site.search %}
               <div class="Header-search" id="header-search">
-                  <form class="Form">
-                      <div class="Form-field Form-field--withPlaceholder Grid u-background-white u-color-grey-30 u-borderRadius-s" role="search">
-                          <input class="Form-input Form-input--ultraLean Grid-cell u-sizeFill u-text-r-s u-color-black u-text-r-xs u-borderRadius-s" required id="cerca">
-                          <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">cerca nel sito</label>
-                          <button class="Grid-cell u-sizeFit Icon-search Icon--rotated u-color-grey-50 u-padding-all-s u-textWeight-700" title="Avvia la ricerca" aria-label="Avvia la ricerca">
-                          </button>
-                      </div>
-                  </form>
+                {% include search_form.html %}
               </div>
               {% endif %}
           </div>
@@ -128,6 +130,21 @@
       </div>
   </div>
   <!-- Header-navbar -->
+
+  {% unless site.header_red_theme %}
+  <!-- grey row -->
+  <div class="u-layout-wide u-layoutCenter Grid u-background-white u-hidden u-sm-hidden u-md-flex u-lg-flex">
+    <div class="Grid-cell u-color-30 u-border-bottom-xxs u-md-sizeFull u-lg-sizeFull u-padding-bottom-xs ">
+      <div class="u-padding-left-xs u-background-white u-color-grey-60">
+        <p style="letter-spacing: 0.02em" class=" u-text-r-xs">{{ site.header_slogan }}</p>
+        <div style="position: absolute;right: 37em;">
+          <img style="position: relative;top: -1.75em;" src="/accesso-unico/assets/images/accessounico_logo_grey.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- / grey row -->
+  {% endunless %}
 
   {% if site.mega_menu %}
   <div class="Headroom-hideme u-textCenter u-hidden u-sm-hidden u-md-block u-lg-block">
@@ -151,29 +168,79 @@
       <nav>
           <ul class="Linklist Linklist--padded Treeview Treeview--default js-Treeview u-text-r-xs">
               {% for item in site.data.menu %}
-                <li><a href="{{ item.url }}">{{ item.title }}</a>
-                  {% if item.dropdown %}
-                    <ul>
-                      {% for sub_item in item.dropdown %}
-                        <li><a href="{{ sub_item.url }}">{{ sub_item.title }}</a>
-                          {% if sub_item.dropdown %}
-                            <ul>
-                              {% for sub2_item in sub_item.dropdown %}
-                                <li><a href="{{ sub2_item.url }}">{{ sub2_item.title }}</a>
-                                  {% if sub2_item.dropdown %}
-                                    <ul>
-                                      {% for sub3_item in sub2_item.dropdown %}
-                                        <li><a href="{{ sub3_item.url }}">{{ sub3_item.title }}</a>
-                                        </li>
-                                      {% endfor %}
-                                    </ul>
-                                    {% endif %}
-                                </li>
-                              {% endfor %}
-                            </ul>
+
+                {% if item.title contains "Programma"%}
+                  {% assign li_class = 'data-megamenu-class="Megamenu-item u-flexExpandLeft"'%}
+                {% else %}
+                  {% assign li_class = 'data-megamenu-class="Megamenu-item"' %}
+                {% endif %}
+
+                {% if item.url contains "http" %}
+                <li {{ li_class }}><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                {% else %}
+                <li {{ li_class }}><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                {% endif %}
+
+                {% if item.dropdown %}
+                  <ul>
+                  {% for sub_item in item.dropdown %}
+                    <!-- handle themes showing only the available in scheda -->
+                    {% case sub_item.url %}
+                    {% when "#themes" %}
+                      <li><a href="#">{{sub_item.title}}</a>
+                      <ul>
+                        {% assign schede_themes = site.schede | group_by: 'tema' %}
+                        {% for scheda in schede_themes %}
+                        {% assign theme = site.data.themes | where_exp: "item", "item.metaname == scheda.name" %}
+                        <li><a href="{{ site.baseurl }}/temi/{{ scheda.name }}">{{ theme[0].name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                      </li>
+                    <!-- handle themes showing only the available in scheda -->
+                    {% when "#profiles" %}
+                      <li><a href="#">{{sub_item.title}}</a>
+                      <ul>
+                        {% assign schede_profiles = site.schede | group_by: 'utenza' %}
+                        {% for scheda in schede_profiles %}
+                        {% assign profile = site.data.profiles | where_exp: "item", "item.metaname == scheda.name" %}
+                        <li><a href="{{ site.baseurl }}/profili/{{ scheda.name }}">{{ profile[0].name }}</a></li>
+                        {% endfor %}
+                      </ul>
+                      </li>
+                    {% else %}
+
+                      {% if sub_item.url contains "http" %}
+                      <li><a target="_blank" href="{{ sub_item.url }}">{{ sub_item.title }}</a>
+                      {% else %}
+                      <li><a href="{{ site.baseurl }}{{ sub_item.url }}">{{ sub_item.title }}</a>
+                      {% endif %}
+                      {% if sub_item.dropdown %}
+                      <ul>
+                        {% for sub2_item in sub_item.dropdown %}
+                          {% if sub2_item.url contains "http" %}
+                          <li><a target="_blank" href="{{ sub2_item.url }}">{{ sub2_item.title }}</a>
+                          {% else %}
+                          <li><a href="{{ site.baseurl }}{{ sub2_item.url }}">{{ sub2_item.title }}</a>
                           {% endif %}
-                        </li>
-                      {% endfor %}
+                          {% if sub2_item.dropdown %}
+                          <ul>
+                            {% for sub3_item in sub2_item.dropdown %}
+                              {% if sub3_item.url contains "http" %}
+                              <li><a target="_blank" href="{{ sub3_item.url }}">{{ sub2_item.title }}</a>
+                              {% else %}
+                              <li><a href="{{ site.baseurl }}{{ sub3_item.url }}">{{ sub3_item.title }}</a>
+                              {% endif %}
+                              </li>
+                            {% endfor %}
+                          </ul>
+                          {% endif %}
+                          </li>
+                        {% endfor %}
+                      </ul>
+                      {% endif %}
+                      </li>
+                      {% endcase %}
+                    {% endfor %}
                     </ul>
                   {% endif %}
                 </li>

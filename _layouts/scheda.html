@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<div id="main">
+
+  <!-- Page Title -->
+  <div class="u-sizeFull">
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
+          <h1 class="u-text-h1 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
+          {% if page.img %}
+          <div class="page-img-div">
+            <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
+          </div>
+          {% endif %}
+          {% if page.subtitle %}
+          <h4 class="u-text-h4 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h4>
+          {% endif %}
+          </div>
+        <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
+          <img src="{{ site.baseurl}}/assets/images/bc-ico-{{ page.utenza }}.png">
+          <img src="{{ site.baseurl}}/assets/images/rc-ico-{{ page.tema }}.png">
+        </div>
+      <section>
+    </div> <!-- /.u-layout-wide -->
+  </div> <!-- /.u-sizeFull -->
+
+
+
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+    <section class="Grid">
+      <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
+
+        <article class="Prose u-layout-prose">
+
+          {% capture scheda-description %}{% include schede/{{page.object}}/accordion/description.md %}{% endcapture %}
+          {{ scheda-description | markdownify }}
+
+          {% include schede/accordion.html %}
+
+        </article>
+
+      </div>
+
+      <!-- Sidebar -->
+      <aside class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
+
+        {% capture theprofile %}{{ page.utenza }}{% endcapture %}
+        {% capture theme %}{{ page.tema }}{% endcapture %}
+        {% include schede/sidebar.html utenza=theprofile tema=theme %}
+
+      </aside>
+      <!-- / Sidebar -->
+
+    </section>
+  </div>
+</div>
