@@ -24,7 +24,7 @@ header_red_theme: true
 
 # Social profiles
 social_block: true
-social_username: "&commat;RegioneUmbria"    # short
+social_username: #"&commat;RegioneUmbria"    # short
 medium_username:
 facebook_username: Regione.Umbria.official
 twitter_username:  RegioneUmbria
