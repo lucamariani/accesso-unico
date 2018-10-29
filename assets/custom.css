@@ -11,6 +11,9 @@
 /* home page search */
 .t-Pac #home-search-btn, .t-Pac #schede-search-btn, .t-Pac #schede-reset-btn {border:0 !important}
 .t-Pac .js-fr-dialogmodal-close {border:0 !important}
+.t-Pac .search-listing {max-height:450px;overflow-y:auto;}
+.t-Pac #results-div {display:none}
+.t-Pac #no-results-div {display:none}
 
 /* define links' color */
 .t-Pac #main a {color:rgb(48, 55, 61)}
