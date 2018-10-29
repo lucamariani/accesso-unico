@@ -88,8 +88,8 @@ var displayResults = function(results) {
       //appendString += '<li style="text-align:left"><a target="_blank" href="' + baseurl + item.url + '">' + item.title + ' (' + item.type + ') </a></li>';
     }
 
-    addResultItems('Schede', schedeResults, baseurl);
-    addResultItems('Documenti', docsResults, '');
+    addResultItems('Servizi', schedeResults, baseurl);
+    addResultItems('Documentazione', docsResults, '');
 
   } else {
     // no results

@@ -3,8 +3,9 @@
 
   <div class="Grid Grid--equalHeight u-background-white u-color-grey-30" role="search">
     <div class="Form-field Form-field--withPlaceholder Grid-cell u-md-size3of4 u-lg-size3of4">
-      <input class="Form-input u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs u-color-50" id="home-cerca" autocomplete="off" value="" required />
-      <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">cerca nel sito...</label>
+      <input class="Form-input u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs u-color-50"
+      placeholder="cerca nel sito..." id="home-cerca" autocomplete="off" value="" required />
+      <!-- <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">cerca nel sito...</label> -->
     </div>
 
     <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
@@ -13,6 +14,40 @@
 
   </div>
 </form>
+
+<div id="results-div" class="u-margin-all-xl u-padding-all-xl">
+  <div class="Grid Grid--fit Grid--withGutter">
+    <div class="Grid-cell u-sizeFull u-margin-r-bottom">
+        <div class="u-sizeFull u-text-r-s u-color-70">
+            <h3 class="u-border-bottom-m">
+                <a href="#" class="u-block u-text-h4 u-textClean u-color-60">Servizi
+                </a></h3>
+            <ul id="schede-result-list" class="Linklist Prose u-text-r-xs">
+                <li><a href="">sample text</a></li>
+                <li><a href="">sample text</a></li>
+                <li><a href="">sample text</a></li>
+                <li><a href="">sample text</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="Grid-cell u-sizeFull u-margin-r-bottom">
+        <div class="u-sizeFull u-text-r-s u-color-70">
+            <h3 class="u-border-bottom-m">
+                <a href="#" class="u-block u-text-h4 u-textClean u-color-60">Documentazione
+            </a></h3>
+            <ul id="docs-result-list" class="Linklist Prose u-text-r-xs">
+                <li><a href="">sample text</a></li>
+                <li><a href="">sample text</a></li>
+                <li><a href="">sample text</a></li>
+                <li><a href="">sample text</a></li>
+            </ul>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 
 <button id="open_btn" class="Button Button--default js-fr-dialogmodal-open u-hidden" aria-controls="modal">

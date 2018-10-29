@@ -17,7 +17,7 @@ var loadProfileContent = function() {
 }
 var loadThemeContent = function() {
   $('#tab-content-title').text('seleziona l’argomento di tuo interesse >> ');
-  $('#tab-content-subtitle').text('ogni servizio scelto tra quelli che ti verranno proposti fornisce informazioni adeguate alle tue carateristiche ');
+  $('#tab-content-subtitle').text('ogni servizio scelto tra quelli che ti verranno proposti fornisce informazioni adeguate alle tue caratteristiche ');
 }
 
 var loadProfiles = function(where) {

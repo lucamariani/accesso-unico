@@ -15,6 +15,9 @@
 /* define links' color */
 .t-Pac #main a {color:rgb(48, 55, 61)}
 
+/* header */
+.t-Pac .beta-label {font-size: 12px;position: relative;top: -10px;left: -3px;}
+
 /* modifica entry menu 4 livello */
 .Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
 
