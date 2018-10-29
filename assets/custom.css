@@ -21,6 +21,10 @@
 /* header */
 .t-Pac .beta-label {font-size: 12px;position: relative;top: -10px;left: -3px;}
 
+/* footer */
+.t-Pac .Footer-socialIcons [class*=" Icon-"]{color:#30373d}
+.t-Pac .ScrollTop {background-color:#30373d !important}
+
 /* modifica entry menu 4 livello */
 .Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
 
