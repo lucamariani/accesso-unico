@@ -28,19 +28,40 @@ var formSubmit = function() {
   displayResults(results);
 }
 
-var addResultItems = function(label, itemArray, _baseurl) {
+var getResultBox = function(item) {
   var appendString = '';
-  if ( itemArray.length > 0 ) {
-    appendString += '<h3 class="u-cf u-textLeft u-color-50 u-borderHideFocus u-margin-top-xs u-margin-bottom-xs" id="modal-title" tabindex="0">' + label + '</h3>';
-    appendString += '<ul id="' + label + '-result-list">';
 
-    $.each(itemArray, function(key,item) {
-      appendString += '<li class="u-textLeft u-text-xs"><a target="_blank" href="' + _baseurl + item.url + '">' + item.title + '</a></li>';
-    });
+  var profileIcon = '<img onclick="themaTagClick(\'' + item.utenza + '\')" title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + '/assets/images/ico-'+item.utenza+'.png">';
 
-    appendString += '</ul><div class="u-background-grey-30 u-margin-top-xs u-padding-top-xxs"></div>';
+  if ( item.tema.length > 0 ) {
+    var themeName = ( themes[item.tema] ? themes[item.tema].name : item.tema );
+    var themeIcon = '<img onclick="themaTagClick(\'' + item.tema + '\')" title="' + themeName + '" class="servizio-icon" src="' + baseurl + '/assets/images/ico-'+item.tema+'.png">';
   }
-  $('#dialog-results-content').append(appendString);
+
+  appendString += '<div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight u-padding-r-all servizio-box">';
+  appendString += '<div class="u-nbfc u-borderRadius-m u-color-grey-30 u-background-white servizio-btn-container">';
+  appendString += '<section class="u-text-r-l u-padding-r-all u-layout-prose">';
+  appendString += '<div class="u-text-p u-padding-r-bottom"><p class="u-color-50 u-text-r-s u-textWeight-600">' +
+                    item.title + '</p><p class="u-textSecondary u-text-r-xxs">' + item.date + '</p></div>';
+  appendString += '<h3 class="u-text-p u-textWeight-400 u-color-grey-80 u-margin-r-bottom">' + item.description + '</h3>';
+
+  appendString += '<div class="servizio-icons">' + profileIcon + themeIcon + '</div>';
+
+  appendString += '<a href="' + baseurl + item.url + '" target="_blank">' +
+                    '<button class="Button u-text-m u-background-50 u-color-white u-sizeFull go-servizio-btn">Vai al servizio</button></a>';
+
+  appendString += '</section></div></div>';
+
+  /*
+
+  if ( item.tipo.length > 0 ) {
+    var tipoName = ( types[item.tipo] ? types[item.tipo].name : item.tipo );
+    appendString += '<p class="pointer" title="Visualizza tutti le schede del tema ' + tipoName +
+      '" onclick="typeTagClick(\'' + item.tipo + '\')">Tipologia: ' + tipoName + '</p></li>';
+  }*/
+
+
+  return appendString;
 }
 
 function displaySearchResults(results) {
@@ -58,28 +79,7 @@ function displaySearchResults(results) {
       var item = store[key];
       //console.log(item);
 
-      appendString += '<div class="Grid-cell u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight">';
-      appendString += '<div class="u-nbfc u-flexWrap u-flex u-color-grey-60 u-xs-padding-all-none u-borderShadow-m u-xs-borderShadow-none u-borderRadius-m u-background-white u-sizeFill">';
-      appendString += '<div class="u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill u-padding-r-all"><div class="u-sizeFull u-padding-r-all u-xs-padding-all-none single-doc">';
-      appendString += '<a href="' + baseurl + item.url + '" target="_blank"><h3 class="u-color-50">' + item.title + '</h3></a>';
-      appendString += '<p class="object"><b>' + item.subtitle + '</b></p>';
-
-      if ( item.tema.length > 0 ) {
-        var themeName = ( themes[item.tema] ? themes[item.tema].name : item.tema );
-        appendString += '<p class="pointer" title="Visualizza tutti le schede del tema ' + themeName +
-          '" onclick="themaTagClick(\'' + item.tema + '\')">Argomento: ' + themeName + '</p></li>';
-      }
-
-      /* appendString += '<p class="pointer" title="Visualizza tutti le schede del profilo ' + item.utenza +
-          '" onclick="searchFor(\'+utenza:*' + item.utenza + '*\')">Utenza: ' + item.utenza + '</p>'; */
-
-      if ( item.tipo.length > 0 ) {
-        var tipoName = ( types[item.tipo] ? types[item.tipo].name : item.tipo );
-        appendString += '<p class="pointer" title="Visualizza tutti le schede del tema ' + tipoName +
-          '" onclick="typeTagClick(\'' + item.tipo + '\')">Tipologia: ' + tipoName + '</p></li>';
-      }
-
-      appendString += '</div></div></div></div>';
+      appendString += getResultBox(item);
     }
 
     searchResults.html(appendString);
@@ -87,7 +87,7 @@ function displaySearchResults(results) {
     searchResults.html('<p>La ricerca non ha prodotto alcun risultato</p>');
   }
   // show results' section
-  $('#result-section').show();
+  $('#results-div').show();
 }
 
 var resetForm = function() {
@@ -100,7 +100,7 @@ var resetForm = function() {
   // reset type
   $('#tipologia').prop('selectedIndex',0)
   // empty results
-  $('#result-section').hide();
+  $('#results-div').hide();
 }
 
 $(function() {

@@ -113,20 +113,28 @@ layout: default
           <div class="Form-field Grid-cell u-md-size1of4 u-lg-size3of4"></div>
 
         </div>
-    </fieldset>
+      </fieldset>
     </form>
 
-    <!-- Results' list -->
-    <section id="result-section" class="u-nbfc u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-r-bottom u-posRelative u-zindex-30">
-      <div class="u-layout-wide u-layoutCenter">
-        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
-          <span id="results-size" class="u-text-r-l u-textWeight-300"></span> servizi trovati
-        </h2>
-        <div id="schede-results-list" class="Grid Grid--withGutter">
+    <!-- Results -->
+    <div id="results-div" class="u-layout-centerContent u-background-grey-15 u-padding-r-all">
+      <section class="u-layout-medium">
+        <div class="Grid">
+          <div class="Grid-cell u-layout-centerLeft">
+            <h2 class="u-text-r-l u-textWeight-300 u-color-50">
+              <span id="results-size" class="u-text-r-l u-textWeight-300"></span> servizi trovati
+            </h2>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- / Results' list -->
+
+        <div class="u-text-r-xxl u-padding-r-top">
+          <div id="schede-results-list" class="Grid Grid--withGutter">
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- / Results -->
+
   </div>
 </div>
 
@@ -136,13 +144,16 @@ layout: default
 
     {% for scheda in site.schede %}
       {% assign utenza = scheda.utenza %}
+      {% capture scheda-description %}{% include schede/{{scheda.object}}/description/{{utenza}}.md %}{% endcapture %}
       "{{ scheda.object | append: utenza | slugify }}": {
         "title": "{{ scheda.title | xml_escape }}",
         "tema": "{{ scheda.tema | xml_escape }}",
         "tipo": "{{ scheda.tipo | xml_escape }}",
         "subtitle": "{{ scheda.subtitle | xml_escape }}",
         "url": "{{ scheda.url | xml_escape }}",
-        "utenza": "{{ scheda.utenza | xml_escape }}"
+        "utenza": "{{ scheda.utenza | xml_escape }}",
+        "description": "{{ scheda-description | markdownify  | truncate: 155 | strip_newlines }}",
+        "date": "{{ scheda.data | date: '%d %b %Y' }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}

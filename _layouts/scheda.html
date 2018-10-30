@@ -35,7 +35,7 @@ layout: default
 
         <article class="Prose u-layout-prose">
 
-          {% capture scheda-description %}{% include schede/{{page.object}}/accordion/description.md %}{% endcapture %}
+          {% capture scheda-description %}{% include schede/{{page.object}}/description/{{page.utenza}}.md %}{% endcapture %}
           {{ scheda-description | markdownify }}
 
           {% include schede/accordion.html %}
