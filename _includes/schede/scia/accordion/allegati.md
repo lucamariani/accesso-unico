@@ -10,7 +10,7 @@
     - alle norme di sicurezza e igienico-sanitarie o riportare il parere della ASL nei casi in cui non possa essere sostituito dalla certificazione;
 
     - alle norme concernenti l’abbattimento delle barriere architettoniche;
-    
+
     - alla sussistenza delle opere di urbanizzazione primaria.
 
 •	Elaborati progettuali richiesti dal regolamento per l’attività edilizia o da altri documenti previsti dalla vigente normativa.
