@@ -1,15 +1,15 @@
 - name: Cittadino
-  image: /assets/images/ico-cittadini.png
+  image: /assets/images/icons/cittadini.png
   metaname: cittadini
 
 - name: Impresa
-  image: /assets/images/ico-imprese.png
+  image: /assets/images/icons/imprese.png
   metaname: imprese
 
 - name: Intermediario
-  image: /assets/images/ico-intermediari.png
+  image: /assets/images/icons/intermediari.png
   metaname: intermediari
 
 - name: Pubblica Amministrazione
-  image: /assets/images/ico-pa.png
+  image: /assets/images/icons/pa.png
   metaname: pa
