@@ -1,4 +1,4 @@
-Sulla base delle loro competenze riconosciute dall’iscrizione ai relativi albi professionali, il tecnico, incaricato dal proprietario o da chi abbia i requisiti per ottenere un titolo abilitativo:
+Sulla base delle proprie competenze riconosciute dall’iscrizione ai relativi albi professionali, il tecnico, incaricato dal proprietario o da chi abbia i requisiti per ottenere un titolo abilitativo:
 
 •	compila la dichiarazione di conformità sulla base del modello unificato approvato con DGR n. 700/2017;
 

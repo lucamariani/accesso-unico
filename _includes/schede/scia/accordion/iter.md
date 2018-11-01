@@ -6,9 +6,10 @@
 
 •	Verifica la completezza formale della segnalazione e dei relativi allegati, rilascia la ricevuta e la copia degli elaborati vistati. Esito positivo. L’attività edilizia può essere iniziata dalla data di presentazione della SCIA.
 
-•	Comunica il nominativo del responsabile del procedimento e la data di presentazione della segnalazione entro 10 gg. dal rilascio della ricevuta.
+•	Comunica il nominativo del responsabile del procedimento entro 10 gg. dal rilascio della ricevuta.
 
 •	In caso di esito non favorevole degli eventuali assensi e provvedimenti necessari, il SUAPE effettua comunicazione all’interessato entro cinque giorni dalla data in cui sono stati acquisiti agli atti, con le indicazioni che la segnalazione è priva di effetti.
+
 
 **Differimento di eventuale inizio attività edilizia**
 
@@ -17,7 +18,7 @@ Qualora l'immobile oggetto dell'intervento sia sottoposto a un vincolo, l’atti
 
 **Provvedimento di divieto di prosecuzione dell’attività**
 
-L’intervento oggetto della SCIA – avvenuto al momento della presentazione della segnalazione – può essere negato da un provvedimento di divieto di prosecuzione dell’attività  emanato entro il termine di trenta giorni dal ricevimento della segnalazione.
+L’intervento oggetto della SCIA – avvenuto al momento della presentazione della segnalazione – può essere negato da un provvedimento di divieto di prosecuzione dell’attività emanato entro il termine di trenta giorni dal ricevimento della segnalazione.
 Decorso il termine di trenta giorni, il comune può disporre la cessazione dell’intervento solo in presenza del pericolo di un danno per il patrimonio artistico e culturale, per l’ambiente, per la salute, per la sicurezza pubblica o la difesa nazionale.
 
 

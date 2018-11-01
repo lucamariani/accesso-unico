@@ -4,6 +4,6 @@ object: scia
 utenza: imprese
 tema: edilizia
 tipo: pratica
-title: Segnalazione Certificata di Inizio Attività
-subtitle: SCIA per le imprese
+title: SCIA edilizia
+subtitle: segnalazione certificata di inizio attività, titolo abilitativo, pratica edilizia
 ---
