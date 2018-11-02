@@ -36,17 +36,26 @@ layout: default
 
   </div>
 
-  <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
 
-    <p class="Prose u-padding-r-top u-padding-r-bottom">
-      Scegli il profilo in cui ti riconosci, seleziona l'argomento di tuo interesse, filtra i servizi per tipologia:
-    </p>
+    <div class="Grid u-margin-r-bottom">
+      <div class="Grid-cell u-sm-size1of3 u-md-size1of4 u-lg-size1of6">
+        <button id="new-search-btn" class="Button Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">
+          Nuova ricerca
+        </button>
+      </div>
+    </div>
 
     <form class="Form Form--spaced u-padding-r-all" id="docs-search-form" action="." method="get">
+      <p class="Prose u-padding-r-bottom">
+        Scegli il profilo in cui ti riconosci, seleziona l'argomento di tuo interesse, filtra i servizi per tipologia:
+      </p>
+
       <fieldset class="Form-fieldset">
 
         <div class="Grid Grid--withGutter u-background-white" role="search">
 
+          <!--
           <div class="Grid-cell u-md-size3of4 u-lg-size3of4">
             <div class="Form-field">
               <label class="Form-label" for="freesearch">Cerca</label>
@@ -54,6 +63,7 @@ layout: default
             </div>
           </div>
           <div class="Grid-cell u-md-size1of4 u-lg-size1of4"></div>
+          -->
 
           <div class="Grid-cell u-md-size1of3 u-lg-size1of4">
             <div class="Form-field">
