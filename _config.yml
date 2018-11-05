@@ -1,5 +1,5 @@
 title:             "UmbriaFacile - Regione Umbria"
-description:       "Portale beta dell'Accesso Unico"
+description:       "Portale beta dell'Accesso unico ai servizi della PA dell'Umbria"
 baseurl:           "/accesso-unico"
 url:               "https://lucamariani.github.io/accesso-unico/"
 author:            "Redazione"
@@ -14,7 +14,7 @@ header_parent_url: "https://www.regione.umbria.it"
 header_language_selector: false
 header_logo:  /assets/images/LogoRegione85x96.svg
 header_title: UmbriaFacile
-header_subtitle: Portale beta dell'Accesso Unico
+header_subtitle: Portale beta dell'Accesso unico ai servizi della P.A. dell'Umbria
 header_slogan: Costruiamo insieme il portale dei servizi della P.A. dell'Umbria
 search: false
 search_full_content: false
