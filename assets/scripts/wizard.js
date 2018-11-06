@@ -13,11 +13,11 @@ var reloadItems = function() {
 
 var loadProfileContent = function() {
   $('#tab-content-title').text('scegli il profilo in cui ti riconosci >> ');
-  $('#tab-content-subtitle').text('ti verrà restituito un elenco di argomenti filtrato in base ai tuoi bisogni ');
+  $('#tab-content-subtitle').text(' ');
 }
 var loadThemeContent = function() {
-  $('#tab-content-title').text('seleziona l’argomento di tuo interesse >> ');
-  $('#tab-content-subtitle').text('ogni servizio scelto tra quelli che ti verranno proposti fornisce informazioni adeguate alle tue caratteristiche ');
+  $('#tab-content-title').text('seleziona l’argomento di tuo interesse per accedere ai servizi di cui hai bisogno>> ');
+  $('#tab-content-subtitle').text(' ');
 }
 
 var loadProfiles = function(where) {
