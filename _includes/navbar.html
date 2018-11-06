@@ -50,6 +50,10 @@
               </div>
           </div>
           {% endif %}
+
+          {% if site.login %}
+          <div class="Header-login u-floatRight {{color}}">accedi</div>
+          {% endif %}
       </div>
   </div>
   {% endif %}
@@ -117,7 +121,15 @@
                 {% include search_form.html %}
               </div>
               {% endif %}
+
+              {% if site.login %}
+              <div class="Header-login Headroom-showme {{color}} u-hidden">accedi</div>
+              {% endif %}
           </div>
+
+          {% if site.login %}
+          <div class="Header-login Headroom-showme {{color}} u-sm-hidden u-md-hidden u-lg-hidden">accedi</div>
+          {% endif %}
 
           {% if site.mega_menu %}
           <div class="Header-toggle Grid-cell">
