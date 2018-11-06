@@ -20,9 +20,8 @@ header_slogan: Costruiamo insieme il portale dei servizi della P.A. dell'Umbria
 search: false
 search_full_content: false
 mega_menu: true    # if true, require _data/menu.yml
-mega_menu_accedi: false
+mega_menu_accedi: true
 header_red_theme: true
-login: true
 
 # Social profiles
 social_block: true
