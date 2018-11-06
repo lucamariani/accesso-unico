@@ -16,10 +16,12 @@
 - title: "Le mie pratiche"
   url: /docs_search
   popup: true
+  visibility: user
 
 - title: "Avvisi e preferiti"
   url: /docs_search
   popup: true
+  visibility: user
 
 - title: "Il Programma"
   url: https://www.arcgis.com/apps/Cascade/index.html?appid=1a91b66d279044b49b1636b287fcb611

@@ -51,7 +51,7 @@
           </div>
           {% endif %}
 
-          {% if site.login %}
+          {% if site.mega_menu_accedi %}
           <div class="Header-login u-floatRight {{color}}">accedi</div>
           {% endif %}
       </div>
@@ -122,14 +122,10 @@
               </div>
               {% endif %}
 
-              {% if site.login %}
+              {% if site.mega_menu_accedi %}
               <div class="Header-login Headroom-showme {{color}} u-hidden">accedi</div>
               {% endif %}
           </div>
-
-          {% if site.login %}
-          <div class="Header-login Headroom-showme {{color}} u-sm-hidden u-md-hidden u-lg-hidden">accedi</div>
-          {% endif %}
 
           {% if site.mega_menu %}
           <div class="Header-toggle Grid-cell">
@@ -181,17 +177,26 @@
       <nav>
           <ul class="Linklist Linklist--padded Treeview Treeview--default js-Treeview u-text-r-xs">
               {% for item in site.data.menu %}
+                {% assign data-megamenu-class = "Megamenu-item" %}
+                {% assign megamenu-alignRight-class = " u-flexExpandLeft" %}
+                {% assign megamenu-user-class = " u-hidden" %}
 
                 {% if item.align == "right"%}
-                  {% assign li_class = 'data-megamenu-class="Megamenu-item u-flexExpandLeft"'%}
-                {% else %}
-                  {% assign li_class = 'data-megamenu-class="Megamenu-item"' %}
+                  {% capture data-megamenu-class %}
+                    {{ data-megamenu-class }} {{ megamenu-alignRight-class }}
+                  {% endcapture %}
+                {% endif %}
+
+                {% if item.visibility == "user"%}
+                  {% capture data-megamenu-class %}
+                    {{ data-megamenu-class }} {{ megamenu-user-class }}
+                  {% endcapture %}
                 {% endif %}
 
                 {% if item.url contains "http" %}
-                <li {{ li_class }}><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                <li data-megamenu-class="{{ data-megamenu-class }}"><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
                 {% else %}
-                <li {{ li_class }}><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <li data-megamenu-class="{{ data-megamenu-class }}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
 
                 {% if item.dropdown %}
