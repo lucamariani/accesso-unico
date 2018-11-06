@@ -28,8 +28,12 @@
 
 /* header */
 .t-Pac .beta-label {font-size: 12px;position: relative;top: -10px;left: -3px;}
+/* handle login mask*/
 .t-Pac .Headroom--fixed.Headroom--not-top .Headroom-showme {max-height: 5em}
 .t-Pac .Headroom-showme {max-height:0; overflow-y:hidden;}
+.t-Pac .Header-login {cursor: pointer;}
+/* handle login menu entries */
+.t-Pac .Megamenu-item.u-hidden {display: none !important}
 
 /* footer */
 .t-Pac .Footer-socialIcons [class*=" Icon-"]{color:#30373d}

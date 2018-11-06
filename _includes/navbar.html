@@ -52,7 +52,7 @@
           {% endif %}
 
           {% if site.mega_menu_accedi %}
-          <div class="Header-login u-floatRight {{color}}">accedi</div>
+            {% include signin-mask.html class="Header-login u-floatRight" %}
           {% endif %}
       </div>
   </div>
@@ -123,7 +123,7 @@
               {% endif %}
 
               {% if site.mega_menu_accedi %}
-              <div class="Header-login Headroom-showme {{color}} u-hidden">accedi</div>
+                {% include signin-mask.html class="Header-login Headroom-showme u-hidden" %}
               {% endif %}
           </div>
 
