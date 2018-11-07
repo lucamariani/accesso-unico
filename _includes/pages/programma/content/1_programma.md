@@ -40,34 +40,24 @@ Cuore del portale è il **catalogo dei servizi dell’Accesso Unico** alimentato
 Grazie al Portale il catalogo dei servizi unifica su scala regionale il **livello informativo, documentale e la modulistica**, indirizzando verso la presentazione/compilazione della singola pratica di interesse attraverso **“link intelligenti”**, in coerenza con i risultati conseguiti dal Piano regionale di semplificazione.
 
 L’architettura del Portale si implementa in modo che i motori di ricerca (ed altri canali possibili) trovino facilmente informazioni chiare e condivise su scala regionale.
-I servizi gestiti dall’Accesso Unico e pubblicati nel portale saranno fruibili da cellulare,  **tramite "App"** o da **altri canali** (omnicanalità) oltre che via web.I professionisti possono beneficiare di **servizi geografici** basati su informazioni e dati **certificati**.
-
+I servizi gestiti dall’Accesso Unico e pubblicati nel portale saranno fruibili da cellulare,  **tramite "App"** o da **altri canali** (omnicanalità) oltre che via web.
+I professionisti possono beneficiare di **servizi geografici** basati su informazioni e dati certificati.
 Tramite l’**interoperabilità** il Portale offre **servizi interattivi** dialogando con i diversi sistemi utilizzati in fase istruttoria dai singoli uffici, con obiettivo ultimo di realizzare servizi “pro-attivi”, ovvero **personalizzati**, attingendo informazioni dalla storia dell’utente e offrendo avvisi, scadenze, suggerimenti, ecc.
-
-
-
-
+-   -----------------------------------------
 **FARE RETE TRA ENTI PER CREARE CONOSCENZA:
 COSTRUIAMO INSIEME L’ACCESSO UNICO**
 
-
 Digitalizzare un servizio pubblico significa ridisegnare il suo processo per sfruttare le logiche digitali, coordinare gli enti partecipanti ed integrare i diversi sistemi.
+Per questo il Programma Accesso Unico richiede il **ruolo attivo di tutte le PA dell’Umbria** definito e regolato da uno specifico **Accordo attuativo** nell’ambito della Convenzione generale della CN-Umbria di cui alla Legge Regionale n.9/2014.
 
+La realizzazione dell’Accesso unico è un **percorso impegnativo** accompagnato dalla  definizione di obiettivi e azioni condivise poi elaborate dalle Comunità Tematiche.
+All’interno delle **Comunità Tematiche** gli operatori della Regione e degli EE.LL. aderenti collaboreranno per costruire insieme la base di conoscenza comune che permette il popolamento progressivo del catalogo dei servizi dell'Accesso Unico.
 
-Per questo il Programma Accesso Unico richiede il ruolo attivo di tutte le PA dell’Umbria definito e regolato da uno specifico Accordo attuativo nell’ambito della Convenzione generale della CN-Umbria di cui alla l.r. n.9/2014.
-
-
-La realizzazione dell’Accesso unico è un percorso impegnativo accompagnato dalla  definizione di obiettivi e azioni condivise poi elaborate dalle Comunità Tematiche.
-
-
-All’interno delle Comunità Tematiche gli operatori della Regione e degli EE.LL. aderenti collaboreranno per costruire insieme la base di conoscenza comune che sottende il popolamento progressivo del catalogo dei servizi.
-
-
-Le Comunità tematiche si avvalgono del confronto tra esperti attraverso gli strumenti della comunicazione e partecipazione quali ad es. forum e repository GitHub, utilizzando i metodi di “service design”, definendo regole, vocabolari e processi condivisi.
+Le Comunità tematiche **si avvalgono** del confronto tra esperti attraverso gli strumenti della **comunicazione e partecipazione** quali ad es. forum e repository GitHub, utilizzando i metodi di “service design”, definendo regole, vocabolari e processi condivisi.
 
 
 
-Sei un professionista della Pubblica Amministrazione?  Partecipa!
+***Sei un professionista della Pubblica Amministrazione?  Partecipa!***
 
 - Le persone delle PA  che operano nei diversi settori (commercio, edilizia, ecc) saranno coinvolti all’interno delle Comunità tematiche;
 
