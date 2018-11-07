@@ -1,17 +1,13 @@
 **COSA È**
 
-Un programma di interventi per semplificare e rendere trasparente il rapporto con la Pubblica Amministrazione che Regione Umbria ha finanziato con i fondi comunitari del POR FESR.
-Si pone l’obiettivo di garantire il diritto alla cittadinanza digitale e di ridisegnare i servizi pubblici intorno ai bisogni dell’utente.
-
+Un programma di interventi per **semplificare e rendere trasparente** il rapporto con la Pubblica Amministrazione che Regione Umbria ha finanziato con i fondi comunitari del POR FESR perseguendo l’obiettivo di garantire il diritto alla cittadinanza digitale e ridisegnare i servizi pubblici **intorno ai bisogni dell’utente**.
 Il Programma “Accesso unico” fornisce un unico punto di riferimento a cittadini, imprese, intermediari e pubbliche amministrazioni per:
-
 - semplificare l’accesso ai servizi della Pubblica Amministrazione;
 - ridurre la loro complessità;
 - aumentare l’interoperabilità degli enti;
 - costruire una base di conoscenza utile per tutti i canali di accesso ai servizi sia fisici che on line.
 
 Raccogliendo informazioni provenienti da più Enti, in maniera univoca e certificata, “Accesso unico” permette di:
-
 - orientarsi nella fase di presentazione di un’istanza, con informazioni certe;
 - raggiungere facilmente i vari sistemi di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
 - rimanere sempre informati sullo stato della pratica, sulle scadenze, ricevere avvisi.
@@ -26,7 +22,7 @@ L’Accesso unico ruoterà attorno a tre elementi principali:
 
 
 
-![Presidio Organizzativo](../../../../../images/2018/11/presidioorganizzativo.jpg)
+![Presidio Organizzativo](../../../../accesso-unico/images/2018/11/presidioorganizzativo.jpg)
 ![Presidio Organizzativo](\images/2018/11/presidioorganizzativo.jpg)
 
 Il presidio organizzativo su **scala regionale** viene gestito da Regione Umbria: una **struttura stabile** che coordina il funzionamento dell’Accesso Unico come punto di riferimento per cittadini, imprese, intermediari e tutti gli operatori della Pubblica Amministrazione chiamati a seguire le istruttorie ed approvare i provvedimenti necessari.
