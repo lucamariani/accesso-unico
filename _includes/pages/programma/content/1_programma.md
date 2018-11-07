@@ -1,5 +1,5 @@
-<a name="primo">**COSA È ACCESSO UNICO**</a>
 
+**COSA È ACCESSO UNICO**
 Con il POR FESR, la Regione Umbria ha finanziato un programma di interventi per semplificare il rapporto con la Pubblica Amministrazione e garantire il diritto alla cittadinanza digitale.
 
 Il Programma si chiama “Accesso unico” e fornirà un unico punto di riferimento a cittadini, imprese, intermediari e pubbliche amministrazioni.
@@ -17,7 +17,7 @@ L’Accesso unico ruoterà attorno a tre elementi principali:
 1.	il presidio organizzativo;
 2.	lo scambio dei dati in interoperabilità.
 3.	il portale internet “UmbriaSemplice”.
-
+<a name="terzo">il portale internet “UmbriaSemplice”</a>
 
 **1. PRESIDIO ORGANIZZATIVO**
 
