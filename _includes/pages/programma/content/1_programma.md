@@ -1,55 +1,38 @@
 **COSA È ACCESSO UNICO**
 
-
 Un programma di interventi per semplificare e rendere trasparente il rapporto con la Pubblica Amministrazione che Regione Umbria ha finanziato con i fondi comunitari del POR FESR.
-
 
 Si pone l’obiettivo di garantire il diritto alla cittadinanza digitale e di ridisegnare i servizi pubblici intorno ai bisogni dell’utente.
 
-
 Il Programma “Accesso unico” fornisce un unico punto di riferimento a cittadini, imprese, intermediari e pubbliche amministrazioni per:
 
-•semplificare l’accesso ai servizi della Pubblica Amministrazione;
-
-•ridurre la loro complessità
-
-•aumentare l’interoperabilità degli enti
-
-•costruire una base di conoscenza utile per tutti i canali di accesso ai servizi sia fisici che on line.
+- semplificare l’accesso ai servizi della Pubblica Amministrazione;
+- ridurre la loro complessità;
+- aumentare l’interoperabilità degli enti;
+- costruire una base di conoscenza utile per tutti i canali di accesso ai servizi sia fisici che on line.
 
 Raccogliendo informazioni provenienti da più Enti, in maniera univoca e certificata, “Accesso unico” permette di:
 
-•orientarsi nella fase di presentazione di un’istanza, con informazioni certe;
-
-•raggiungere facilmente i vari sistemi di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
-
-•rimanere sempre informati sullo stato della pratica, sulle scadenze, ricevere avvisi.
-
-<a name="secondo">Rimanere sempre informato sullo stato della pratica, sulle scadenze, ricevere avvisi</a>
+- orientarsi nella fase di presentazione di un’istanza, con informazioni certe;
+- raggiungere facilmente i vari sistemi di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
+- rimanere sempre informati sullo stato della pratica, sulle scadenze, ricevere avvisi.
 
 **COME SI ARTICOLA “ACCESSO UNICO”?**
 
-
 L’Accesso unico ruoterà attorno a tre elementi principali:
 
-1.il presidio organizzativo;
+1. il presidio organizzativo;
+2. lo scambio dei dati in interoperabilità;
+3. il portale internet “UmbriaSemplice”.
 
-2.lo scambio dei dati in interoperabilità.
-
-3.il portale internet “UmbriaSemplice”
-
-<a name="terzo">il portale internet “UmbriaSemplice”</a>
 
 **1. PRESIDIO ORGANIZZATIVO**
-
 
 Il presidio organizzativo su scala regionale viene gestito da Regione Umbria: una struttura stabile che coordina il funzionamento dell’Accesso Unico come punto di riferimento per cittadini, imprese, intermediari, e tutti gli operatori della Pubblica amministrazione chiamati a seguire le istruttorie e approvare i provvedimenti necessari.
 
 Attraverso la costituzione di comunità tematiche, quali luoghi di condivisione e confronto su temi comuni e progetti specifici, viene assicurata la partecipazione attiva delle PA umbre alla costruzione di un sistema pubblico “unico” che progressivamente arricchisce il catalogo dei servizi dell’Accesso Unico.
 
 Un’azione amministrativa coordinata e condivisa consente al cittadino, impresa e intermediario di interagire con un unico sistema, evitando così di rivolgersi a più enti che, a vario titolo, erogano un pubblico servizio.
-
-<a name="quarto">erogano un pubblico servizio</a>
 
 **2. INTEROPERABILITÀ**
 
@@ -64,11 +47,7 @@ Sono messe a disposizione di professionisti e intermediari interfacce programmab
 
 Quanto già realizzato sulle piattaforme regionali (LoginUmbria, PagoUmbria, ecc) e sulle infrastrutture digitali (data center e cloud) può essere utilizzato pienamente dai servizi pubblici.
 
-
-<a name="quinto"> può essere utilizzato pienamente dai servizi pubblici</a>
-
 **3. PORTALE**
-
 
 Cuore del Portale è il catalogo dei servizi dell’Accesso Unico, alimentato progressivamente dalle comunità tematiche secondo precisi criteri di qualità e di funzionalità, processi di miglioramento continuo e metodologie ben definite.
 
@@ -111,8 +90,6 @@ Sei un professionista della Pubblica Amministrazione?  Partecipa!
 
 - Le persone delle PA  che operano nei diversi settori (commercio, edilizia, ecc) saranno coinvolti all’interno delle Comunità tematiche;
 
-
 - Il personale ITC delle PA  sarà coinvolto sui temi dell’interoperabilità e dell’integrazione tra i sistemi;
-
 
 - Sindaci, Assessori, ecc saranno coinvolti nella governance dell’Accesso unico e nell’attivazione del Presidio.
