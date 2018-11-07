@@ -1,7 +1,6 @@
-**COSA È ACCESSO UNICO**
+**COSA È**
 
 Un programma di interventi per semplificare e rendere trasparente il rapporto con la Pubblica Amministrazione che Regione Umbria ha finanziato con i fondi comunitari del POR FESR.
-
 Si pone l’obiettivo di garantire il diritto alla cittadinanza digitale e di ridisegnare i servizi pubblici intorno ai bisogni dell’utente.
 
 Il Programma “Accesso unico” fornisce un unico punto di riferimento a cittadini, imprese, intermediari e pubbliche amministrazioni per:
@@ -17,19 +16,16 @@ Raccogliendo informazioni provenienti da più Enti, in maniera univoca e certifi
 - raggiungere facilmente i vari sistemi di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
 - rimanere sempre informati sullo stato della pratica, sulle scadenze, ricevere avvisi.
 
-**COME SI ARTICOLA “ACCESSO UNICO”?**
+**COME SI ARTICOLA**
 
 L’Accesso unico ruoterà attorno a tre elementi principali:
 
-1. il presidio organizzativo;
-2. lo scambio dei dati in interoperabilità;
-3. il portale internet “UmbriaSemplice”.
+1. il presidio organizzativo
+2. lo scambio dei dati in interoperabilità
+3. il portale internet “UmbriaFacile”
 
 
-![](images/2018/11/presidioOrganizzativo.png)
-
-
-**1. PRESIDIO ORGANIZZATIVO**
+![](/images/2018/11/presidioOrganizzativo.png)
 
 Il presidio organizzativo su scala regionale viene gestito da Regione Umbria: una struttura stabile che coordina il funzionamento dell’Accesso Unico come punto di riferimento per cittadini, imprese, intermediari, e tutti gli operatori della Pubblica amministrazione chiamati a seguire le istruttorie e approvare i provvedimenti necessari.
 
@@ -39,11 +35,7 @@ Un’azione amministrativa coordinata e condivisa consente al cittadino, impresa
 
 ![](/images/2018/11/interoperabilita.png)
 
-**2. INTEROPERABILITÀ**
-
-
 L’ Accesso Unico si realizza attraverso lo scambio automatico di dati tra i sistemi delle PA tramite la cosiddetta “interoperabilità” che rende i processi integrati.
-
 Grazie all’interoperabilità il cittadino fornisce le informazioni un’unica volta, l’Accesso Unico le raccoglie e le banche dati lavorano insieme automaticamente.
 
 L’interoperabilità permette di usufruire delle varie funzionalità a prescindere dal software di “back-end” utilizzato per l'istruttoria da ogni singolo ente pubblico partecipante e il cittadino può sapere in ogni momento a che punto è la pratica e ricevere avvisi tempestivi.
@@ -52,9 +44,7 @@ Sono messe a disposizione di professionisti e intermediari interfacce programmab
 
 Quanto già realizzato sulle piattaforme regionali (LoginUmbria, PagoUmbria, ecc) e sulle infrastrutture digitali (data center e cloud) può essere utilizzato pienamente dai servizi pubblici.
 
-![](images/2018/11/portale.png)
-
-**3. PORTALE**
+![](/images/2018/11/portale.png)
 
 Cuore del Portale è il catalogo dei servizi dell’Accesso Unico, alimentato progressivamente dalle comunità tematiche secondo precisi criteri di qualità e di funzionalità, processi di miglioramento continuo e metodologie ben definite.
 
