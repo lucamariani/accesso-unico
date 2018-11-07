@@ -23,7 +23,7 @@ L’Accesso unico ruoterà attorno a tre elementi principali:
 
 
 ![Presidio Organizzativo](../../../../accesso-unico/images/2018/11/presidioorganizzativo.jpg)
-![Presidio Organizzativo](\images/2018/11/presidioorganizzativo.jpg)
+
 
 Il presidio organizzativo su **scala regionale** viene gestito da Regione Umbria: una **struttura stabile** che coordina il funzionamento dell’Accesso Unico come punto di riferimento per cittadini, imprese, intermediari e tutti gli operatori della Pubblica Amministrazione chiamati a seguire le istruttorie ed approvare i provvedimenti necessari.
 
@@ -31,7 +31,7 @@ Attraverso la costituzione di **comunità tematiche**, quali luoghi di condivisi
 
 Un’azione amministrativa **coordinata e condivisa** consente al cittadino, impresa e intermediario di interagire con un unico sistema, **evitando di rivolgersi a più enti** che, a vario titolo, erogano un pubblico servizio.
 
-![interoperabilità](\images/2018/11/interoperabilita.jpg)
+![interoperabilità](../../../../accesso-unico/images/2018/11/interoperabilita.jpg)
 
 L’ Accesso Unico si realizza attraverso lo **scambio automatico** di dati tra i **sistemi** delle PA tramite la cosiddetta “interoperabilità” che rende i processi integrati.
 Grazie all’interoperabilità il cittadino **fornisce le informazioni un’unica volta**, l’Accesso Unico le raccoglie e le banche dati lavorano insieme automaticamente.
@@ -42,7 +42,7 @@ Sono messe a disposizione di professionisti e intermediari interfacce programmab
 
 Quanto già realizzato sulle piattaforme regionali (LoginUmbria, PagoUmbria, ecc) e sulle infrastrutture digitali (data center e cloud) può essere utilizzato pienamente dai servizi pubblici.
 
-![portale](\images\2018\11\portale.jpg)
+![portale](../../../../accesso-unico/images/2018/11/portale.png)
 
 Il **portale "UmbriaFacile"** facilita la scelta e l'utilizzo dei servizi di cui gli utenti hanno bisogno.
 Cuore del portale è il **catalogo dei servizi dell’Accesso Unico** alimentato progressivamente dalle comunità tematiche secondo precisi criteri di qualità e di funzionalità, processi di miglioramento continuo e metodologie ben definite.
