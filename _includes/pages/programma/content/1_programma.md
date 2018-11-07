@@ -1,6 +1,6 @@
 
 
-![Cosa e'](../../../../../accesso-unico/images/2018/11/cosa-e.png)
+![Cosa e'](../../../../../accesso-unico/images/2018/11/cosae.png)
 
 Un programma di interventi per **semplificare e rendere trasparente** il rapporto con la Pubblica Amministrazione che Regione Umbria ha finanziato con i fondi comunitari del POR FESR con l’obiettivo di garantire il **diritto alla cittadinanza digitale** e ridisegnare i servizi pubblici **intorno ai bisogni dell’utente**.
 <br>Il Programma “Accesso unico” fornisce un unico punto di riferimento a **cittadini, imprese, intermediari e pubbliche amministrazioni** per:
