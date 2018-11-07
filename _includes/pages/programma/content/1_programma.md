@@ -51,16 +51,16 @@ Digitalizzare un servizio pubblico significa ridisegnare il suo processo per sfr
 Per questo il Programma Accesso Unico richiede il **ruolo attivo di tutte le PA dell’Umbria** definito e regolato da uno specifico **Accordo attuativo** nell’ambito della Convenzione generale della CN-Umbria di cui alla Legge Regionale n.9/2014.
 
 La realizzazione dell’Accesso unico è un **percorso impegnativo** accompagnato dalla  definizione di obiettivi e azioni condivise poi elaborate dalle Comunità Tematiche.
-All’interno delle **Comunità Tematiche** gli operatori della Regione e degli EE.LL. aderenti collaboreranno per costruire insieme la base di conoscenza comune che permette il popolamento progressivo del catalogo dei servizi dell'Accesso Unico.
+All’interno delle **Comunità Tematiche** gli operatori della Regione e degli EE.LL. aderenti collaboreranno per costruire insieme la **base di conoscenza comune** che permette il popolamento progressivo del **catalogo dei servizi dell'Accesso Unico**.
 
 Le Comunità tematiche **si avvalgono** del confronto tra esperti attraverso gli strumenti della **comunicazione e partecipazione** quali ad es. forum e repository GitHub, utilizzando i metodi di “service design”, definendo regole, vocabolari e processi condivisi.
 
+- ------------------------------
+
+***Sei un professionista della Pubblica Amministrazione?
+  Partecipa!***
 
 
-***Sei un professionista della Pubblica Amministrazione?  Partecipa!***
-
-- Le persone delle PA  che operano nei diversi settori (commercio, edilizia, ecc) saranno coinvolti all’interno delle Comunità tematiche;
-
-- Il personale ITC delle PA  sarà coinvolto sui temi dell’interoperabilità e dell’integrazione tra i sistemi;
-
-- Sindaci, Assessori, ecc saranno coinvolti nella governance dell’Accesso unico e nell’attivazione del Presidio.
+- Se ti occupi di ITC  Sarai coinvolto in tema di interoperabilità e di integrazione tra i sistemi
+- Se sei un esperto di dominio darai il tuo contributo all’interno delle Comunità Tematiche
+- Se sei un amministratore sarai coinvolto nella governance dell’Accesso Unico
