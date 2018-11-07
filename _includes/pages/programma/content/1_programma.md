@@ -1,4 +1,4 @@
-**COS’È ACCESSO UNICO**
+**COSA È ACCESSO UNICO**
 
 Con il POR FESR, la Regione Umbria ha finanziato un programma di interventi per semplificare il rapporto con la Pubblica Amministrazione e garantire il diritto alla cittadinanza digitale.
 
@@ -27,7 +27,7 @@ Come stabilito dall’art.14, comma 2-bis, del CAD, “le regioni promuovono sul
 
 Attraverso le Comunità tematiche, gli enti umbri parteciperanno attivamente alla costruzione di un’azione amministrativa coordinata e condivisa che permetta di offrire una sistema pubblico “unico”, ovvero che mostra al cittadino un’unica versione di ogni servizio pubblico, senza far ricadere su di lui la complessità di tutti gli enti che devono intervenire nell’erogazione dello stesso a vario titolo.
 
-**2. INTEROPERABILITA’**
+**2. INTEROPERABILITÀ**
 
 La logica di Accesso unico richiede lo scambio automatico di dati tra i sistemi delle PA tramite la cosiddetta “interoperabilità”, per avere processi integrati.
 Il cittadino fornisce le informazioni un’unica volta, l’Accesso unico le raccoglie e le banche dati lavorano insieme automaticamente. Grazie all’interoperabilità il cittadino potrà sapere in ogni momento a che punto è la pratica e ricevere avvisi tempestivi.
