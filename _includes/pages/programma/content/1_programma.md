@@ -1,5 +1,6 @@
-
+<a name="primo"></a>
 **COSA È ACCESSO UNICO**
+
 Con il POR FESR, la Regione Umbria ha finanziato un programma di interventi per semplificare il rapporto con la Pubblica Amministrazione e garantire il diritto alla cittadinanza digitale.
 
 Il Programma si chiama “Accesso unico” e fornirà un unico punto di riferimento a cittadini, imprese, intermediari e pubbliche amministrazioni.
@@ -10,7 +11,7 @@ Raccogliendo informazioni provenienti da più enti, in maniera univoca e certifi
 -	Orientarsi nella fase di presentazione di un’istanza, con informazioni certe;
 -	Raggiungere facilmente i vari sistemi di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
 -	Rimanere sempre informato sullo stato della pratica, sulle scadenze, ricevere avvisi.
-
+<a name="secondo">Rimanere sempre informato sullo stato della pratica, sulle scadenze, ricevere avvisi</a>
 **COME FUNZIONERÀ “ACCESSO UNICO”?**
 
 L’Accesso unico ruoterà attorno a tre elementi principali:
@@ -26,7 +27,7 @@ Regione Umbria si occuperà del presidio organizzativo su scala regionale. Una s
 Come stabilito dall’art.14, comma 2-bis, del CAD, “le regioni promuovono sul territorio azioni tese a realizzare un processo di digitalizzazione dell’azione amministrativa coordinato e condiviso tra le autonomie locali”. Tale ruolo è specificato anche nelle l.r. n.8/2011, n.9/2014, n.1/2015 (come riassunto nella D.G.R. n.36/2018 sull’Accesso unico).
 
 Attraverso le Comunità tematiche, gli enti umbri parteciperanno attivamente alla costruzione di un’azione amministrativa coordinata e condivisa che permetta di offrire una sistema pubblico “unico”, ovvero che mostra al cittadino un’unica versione di ogni servizio pubblico, senza far ricadere su di lui la complessità di tutti gli enti che devono intervenire nell’erogazione dello stesso a vario titolo.
-
+<a name="quarto">la complessità di tutti gli enti che devono intervenire nell’erogazione dello stesso a vario titolo</a>
 **2. INTEROPERABILITÀ**
 
 La logica di Accesso unico richiede lo scambio automatico di dati tra i sistemi delle PA tramite la cosiddetta “interoperabilità”, per avere processi integrati.
@@ -36,8 +37,8 @@ Con l’interoperabilità, tutto funzionerà a prescindere dal software di “ba
 Saranno messe a disposizione anche interfacce programmabili (API store regionale) per abilitare nuovi servizi sussidiari da parte di professionisti e intermediari.
 
 In questa logica, i servizi pubblici potranno utilizzare pienamente quanto già realizzato con gli investimenti fatti dalla Regione sulle piattaforme regionali (LoginUmbria, PagoUmbria, ecc) e sulle infrastrutture digitali (data center e cloud).
-
-**3. PORTALE UMBRIASEMPLICE**
+<a name="quinto">infrastrutture digitali (data center e cloud)</a>
+**3. IL PORTALE**
 
 Il Portale renderà fruibili in maniera intuitiva i servizi pubblici della Regione e dei Comuni, sia da sito web, sia da cellulare tramite “App" o da altri canali (omnicanalità). Questo concretizzerà anche il lavoro già svolto attraverso il Piano regionale di semplificazione.
 
