@@ -25,7 +25,8 @@ L’Accesso unico ruoterà attorno a tre elementi principali:
 2. lo scambio dei dati in interoperabilità;
 3. il portale internet “UmbriaSemplice”.
 
-![Presidio organizzativo](/images/2018/11/presidioOrganizzativo.png)
+![](/images/2018/11/presidioOrganizzativo.png)
+
 **1. PRESIDIO ORGANIZZATIVO**
 
 Il presidio organizzativo su scala regionale viene gestito da Regione Umbria: una struttura stabile che coordina il funzionamento dell’Accesso Unico come punto di riferimento per cittadini, imprese, intermediari, e tutti gli operatori della Pubblica amministrazione chiamati a seguire le istruttorie e approvare i provvedimenti necessari.
@@ -33,6 +34,8 @@ Il presidio organizzativo su scala regionale viene gestito da Regione Umbria: un
 Attraverso la costituzione di comunità tematiche, quali luoghi di condivisione e confronto su temi comuni e progetti specifici, viene assicurata la partecipazione attiva delle PA umbre alla costruzione di un sistema pubblico “unico” che progressivamente arricchisce il catalogo dei servizi dell’Accesso Unico.
 
 Un’azione amministrativa coordinata e condivisa consente al cittadino, impresa e intermediario di interagire con un unico sistema, evitando così di rivolgersi a più enti che, a vario titolo, erogano un pubblico servizio.
+
+![](/images/2018/11/interoperabilita.png)
 
 **2. INTEROPERABILITÀ**
 
@@ -46,6 +49,8 @@ L’interoperabilità permette di usufruire delle varie funzionalità a prescind
 Sono messe a disposizione di professionisti e intermediari interfacce programmabili (API store regionale) per abilitare nuovi servizi sussidiari.
 
 Quanto già realizzato sulle piattaforme regionali (LoginUmbria, PagoUmbria, ecc) e sulle infrastrutture digitali (data center e cloud) può essere utilizzato pienamente dai servizi pubblici.
+
+![](/images/2018/11/portale.png)
 
 **3. PORTALE**
 
