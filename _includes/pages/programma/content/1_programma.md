@@ -46,20 +46,17 @@ Quanto già realizzato sulle piattaforme regionali (LoginUmbria, PagoUmbria, ecc
 
 ![](/images/2018/11/portale.png)
 
-Cuore del Portale è il catalogo dei servizi dell’Accesso Unico, alimentato progressivamente dalle comunità tematiche secondo precisi criteri di qualità e di funzionalità, processi di miglioramento continuo e metodologie ben definite.
+Il **portale "UmbriaFacile"** facilita la scelta e l'utilizzo dei servizi di cui gli utenti hanno bisogno.
+Cuore del portale è il **catalogo dei servizi dell’Accesso Unico** alimentato progressivamente dalle comunità tematiche secondo precisi criteri di qualità e di funzionalità, processi di miglioramento continuo e metodologie ben definite.
 
-All’interno del portale il catalogo dei servizi unifica su scala regionale il livello informativo, documentale e la modulistica, indirizzando verso la presentazione/compilazione della singola pratica di interesse attraverso “link intelligenti”, in linea con i risultati conseguiti dal Piano regionale di semplificazione.
+Grazie al Portale il catalogo dei servizi unifica su scala regionale il **livello informativo, documentale e la modulistica**, indirizzando verso la presentazione/compilazione della singola pratica di interesse attraverso **“link intelligenti”**, in coerenza con i risultati conseguiti dal Piano regionale di semplificazione.
 
 L’architettura del Portale si implementa in modo che i motori di ricerca (ed altri canali possibili) trovino facilmente informazioni chiare e condivise su scala regionale.
+I servizi gestiti dall’Accesso Unico e pubblicati nel portale saranno fruibili da cellulare,  **tramite "App"** o da **altri canali** (omnicanalità) oltre che via web.
 
-I servizi pubblici gestiti dall’Accesso Unico e pubblicati nel portale saranno fruibili sia da cellulare tramite “App" o da altri canali (omnicanalità) oltre che via web.
+Tramite l’**interoperabilità** il Portale offre **servizi interattivi** dialogando con i diversi sistemi utilizzati in fase istruttoria dai singoli uffici, con obiettivo ultimo di realizzare servizi “pro-attivi”, ovvero personalizzati, attingendo informazioni dalla storia dell’utente e offrendo avvisi, scadenze, suggerimenti, ecc.
 
-Grazie all’interoperabilità il Portale offre servizi interattivi dialogando con i diversi sistemi utilizzati in fase istruttoria dai singoli uffici.
-
-
-L’obiettivo ultimo è realizzare servizi “pro-attivi”, ovvero personalizzati, attingendo informazioni dalla storia dell’utente e offrendo avvisi, scadenze, suggerimenti, ecc.
-
-I professionisti possono beneficiare di servizi geografici basati su informazioni e dati certificati.
+I professionisti possono beneficiare di **servizi geografici** basati su informazioni e dati **certificati**.
 
 
 
