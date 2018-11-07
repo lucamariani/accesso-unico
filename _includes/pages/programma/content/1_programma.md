@@ -25,7 +25,9 @@ L’Accesso unico ruoterà attorno a tre elementi principali:
 2. lo scambio dei dati in interoperabilità;
 3. il portale internet “UmbriaSemplice”.
 
-![](/images/2018/11/presidioOrganizzativo.png)
+
+![](images/2018/11/presidioOrganizzativo.png)
+
 
 **1. PRESIDIO ORGANIZZATIVO**
 
@@ -50,7 +52,7 @@ Sono messe a disposizione di professionisti e intermediari interfacce programmab
 
 Quanto già realizzato sulle piattaforme regionali (LoginUmbria, PagoUmbria, ecc) e sulle infrastrutture digitali (data center e cloud) può essere utilizzato pienamente dai servizi pubblici.
 
-![](/images/2018/11/portale.png)
+![](images/2018/11/portale.png)
 
 **3. PORTALE**
 
