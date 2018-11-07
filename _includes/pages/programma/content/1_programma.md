@@ -1,6 +1,3 @@
-* * * * *
-<a name="primo">* * * * </a>
-
 **COSA È ACCESSO UNICO**
 
 Con il POR FESR, la Regione Umbria ha finanziato un programma di interventi per semplificare il rapporto con la Pubblica Amministrazione e garantire il diritto alla cittadinanza digitale.
