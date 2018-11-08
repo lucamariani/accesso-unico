@@ -44,7 +44,6 @@ I servizi gestiti dall’Accesso Unico e pubblicati nel portale saranno fruibili
 I professionisti possono beneficiare di **servizi geografici** basati su informazioni e dati certificati.
 Tramite l’**interoperabilità** il Portale offre **servizi interattivi** dialogando con i diversi sistemi utilizzati in fase istruttoria dai singoli uffici, con obiettivo ultimo di realizzare servizi “pro-attivi”, ovvero **personalizzati**, attingendo informazioni dalla storia dell’utente e offrendo avvisi, scadenze, suggerimenti, ecc.
 -   -----------------------------------------
-![fare rete fra enti](../../../../accesso-unico/images/fare-rete.png)
 
 **FARE RETE TRA ENTI PER CREARE CONOSCENZA:
 COSTRUIAMO INSIEME L’ACCESSO UNICO**
