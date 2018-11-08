@@ -1,7 +1,7 @@
 ![Cosa e'](../../../../../accesso-unico/images/2018/11/cosae.png)
 
-Un programma di interventi per **semplificare e rendere trasparente** il rapporto con la Pubblica Amministrazione che Regione Umbria ha finanziato con i fondi del POR FESR con l’obiettivo di garantire il **diritto alla cittadinanza digitale** e ridisegnare i servizi pubblici **intorno ai bisogni dell’utente**.
-<br>Il Programma “Accesso unico” fornisce un unico punto di riferimento a **cittadini, imprese, intermediari e pubbliche amministrazioni** con l'intento di:
+Un programma di interventi per **semplificare e rendere trasparente** il rapporto con la Pubblica Amministrazione - un unico punto di riferimento a **cittadini, imprese, intermediari e pubbliche amministrazioni** - che Regione Umbria ha finanziato con i fondi del POR FESR con l’intento di garantire il **diritto alla cittadinanza digitale** e ridisegnare i servizi pubblici **intorno ai bisogni dell’utente**.
+<br>Gli obiettivi:
 - semplificare l’accesso ai servizi della Pubblica Amministrazione;
 - ridurre la loro complessità;
 - aumentare l’interoperabilità degli enti;
@@ -12,7 +12,7 @@ Raccogliendo **informazioni provenienti da più Enti**, in maniera univoca e cer
  - raggiungere facilmente i **vari sistemi** di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
 - rimanere sempre informati sullo **stato della pratica**, sulle scadenze, ricevere avvisi.
 
-L’Accesso Unico ruota attorno a **tre elementi principali**:
+Il programma ruota attorno a **tre elementi principali**:
 
 1. il presidio organizzativo
 2. lo scambio dei dati in interoperabilità
