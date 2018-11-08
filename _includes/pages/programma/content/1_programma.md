@@ -8,9 +8,9 @@ Un programma di interventi per **semplificare e rendere trasparente** il rapport
 - costruire una base di conoscenza utile per tutti i canali di accesso ai servizi.
 
 Raccogliendo **informazioni provenienti da più Enti**, in maniera univoca e certificata, “Accesso unico” permette di:
- - orientarsi nella fase di presentazione di un’istanza, con informazioni certe;
- - raggiungere facilmente i vari sistemi di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
-- rimanere sempre informati sullo stato della pratica, sulle scadenze, ricevere avvisi.
+ - orientarsi nella fase di presentazione di un’istanza, con **informazioni certe**;
+ - raggiungere facilmente i **vari sistemi** di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
+- rimanere sempre informati sullo **stato della pratica**, sulle scadenze, ricevere avvisi.
 
 L’Accesso Unico ruota attorno a **tre elementi principali**:
 
