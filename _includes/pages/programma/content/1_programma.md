@@ -11,6 +11,7 @@ Raccogliendo **informazioni provenienti da più Enti**, in maniera univoca e cer
  - orientarsi nella fase di presentazione di un’istanza, con informazioni certe;
  - raggiungere facilmente i vari sistemi di compilazione e presentazione delle pratiche, effettuare i relativi pagamenti;
 - rimanere sempre informati sullo stato della pratica, sulle scadenze, ricevere avvisi.
+
 L’Accesso Unico ruota attorno a **tre elementi principali**:
 
 1. il presidio organizzativo
