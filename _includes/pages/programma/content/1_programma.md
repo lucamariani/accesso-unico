@@ -42,6 +42,7 @@ Grazie al Portale il catalogo dei servizi unifica su scala regionale il **livell
 L’architettura del Portale si implementa in modo che i motori di ricerca (ed altri canali possibili) trovino facilmente informazioni chiare e condivise su scala regionale.
 I servizi gestiti dall’Accesso Unico e pubblicati nel portale saranno fruibili da cellulare,  **tramite "App"** o da **altri canali** (omnicanalità) oltre che via web.
 I professionisti possono beneficiare di **servizi geografici** basati su informazioni e dati certificati.
+
 Tramite l’**interoperabilità** il Portale offre **servizi interattivi** dialogando con i diversi sistemi utilizzati in fase istruttoria dai singoli uffici, con obiettivo ultimo di realizzare servizi “pro-attivi”, ovvero **personalizzati**, attingendo informazioni dalla storia dell’utente e offrendo avvisi, scadenze, suggerimenti, ecc.
 -   -----------------------------------------
 
