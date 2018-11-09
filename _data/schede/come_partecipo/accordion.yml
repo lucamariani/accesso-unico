@@ -9,8 +9,9 @@
   file: "pa.md"
   utenza:
     - pa
+    - cittadini
 - title: "Sei un cittadino"
   file: "cittadino.md"
   utenza:
     - cittadini
-    
+    - pa
