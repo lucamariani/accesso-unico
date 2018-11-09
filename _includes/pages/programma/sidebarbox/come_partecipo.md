@@ -1,1 +1,1 @@
-La tua opinione e il tuo contributo sono importanti
+La tua opinione e il tuo contributo sono importanti!
