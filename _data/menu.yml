@@ -13,5 +13,16 @@
 - title: "Documentazione"
   url: /docs_search
 
+- title: "Le mie pratiche"
+  url: /docs_search
+  popup: true
+  visibility: user
+
+- title: "Avvisi e preferiti"
+  url: /docs_search
+  popup: true
+  visibility: user
+
 - title: "Accesso Unico"
   url: /programma
+  align: right

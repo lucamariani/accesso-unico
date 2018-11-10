@@ -19,6 +19,8 @@
 
   <script src="{{ '/italia_build/IWT.min.js' | relative_url }}"></script>
 
+  <script src="{{ site.baseurl }}{{"/assets/scripts/user.menu.js" }}"></script>
+
   {% for script in page.scripts %}
     {% capture scriptFullPath %}{{ script | relative_url }}{% endcapture %}
     <script src="{{ scriptFullPath }}"></script>

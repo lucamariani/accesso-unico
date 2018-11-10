@@ -1,6 +1,7 @@
 title:             "UmbriaFacile - Regione Umbria"
-description:       "Portale dell'Accesso Unico ai servizi della P.A. dell'Umbria"
+description:       "Costruiamo insieme il portale dei servizi della P.A. dell'Umbria"
 baseurl:           "/accesso-unico"
+iconsurl:          "/assets/images/icons/"
 url:               "https://lucamariani.github.io/accesso-unico/"
 author:            "Redazione"
 
@@ -19,7 +20,7 @@ header_slogan: Costruiamo insieme il portale dei servizi della P.A. dell'Umbria
 search: false
 search_full_content: false
 mega_menu: true    # if true, require _data/menu.yml
-mega_menu_accedi: false
+mega_menu_accedi: true
 header_red_theme: true
 
 # Social profiles

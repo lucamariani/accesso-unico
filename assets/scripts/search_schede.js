@@ -31,11 +31,13 @@ var formSubmit = function() {
 var getResultBox = function(item) {
   var appendString = '';
 
-  var profileIcon = '<img onclick="themaTagClick(\'' + item.utenza + '\')" title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + '/assets/images/ico-'+item.utenza+'.png">';
+  //var profileIcon = '<img onclick="profileTagClick(\'' + item.utenza + '\')" title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + item.utenza+'.png">';
+  var profileIcon = '<img title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + item.utenza+'.png">';
 
   if ( item.tema.length > 0 ) {
     var themeName = ( themes[item.tema] ? themes[item.tema].name : item.tema );
-    var themeIcon = '<img onclick="themaTagClick(\'' + item.tema + '\')" title="' + themeName + '" class="servizio-icon" src="' + baseurl + '/assets/images/ico-'+item.tema+'.png">';
+    //var themeIcon = '<img onclick="themaTagClick(\'' + item.tema + '\')" title="' + themeName + '" class="servizio-icon" src="' + baseurl + iconsurl + item.tema+'.png">';
+    var themeIcon = '<img title="' + themeName + '" class="servizio-icon" src="' + baseurl + iconsurl + item.tema+'.png">';
   }
 
   appendString += '<div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight u-padding-r-all servizio-box">';
@@ -103,6 +105,21 @@ var resetForm = function() {
   $('#results-div').hide();
 }
 
+/*
+ * Hide search mask and show new search button
+ */
+var hideSearchMask = function() {
+  $( "#docs-search-form" ).toggle();
+  $( "#new-search-btn" ).toggle();
+
+  $( "#new-search-btn" ).click(function() {
+    $( "#docs-search-form" ).show( "blind", function() {
+      // Animation complete.
+    });
+    $( "#new-search-btn" ).hide();
+  });
+}
+
 $(function() {
 
   /* reset handling */
@@ -132,6 +149,8 @@ $(function() {
     console.log('searching for ' + search_pattern);
     var results = idx.search(search_pattern);
     console.log(results);
+    //hide search mask and show new search Button
+    hideSearchMask();
     displaySearchResults(results);
   });
 
@@ -157,7 +176,11 @@ var applyUrlFilters = function() {
     $('#tema').val(themeFilters);
   }
 
-  if (search_pattern.length > 0) searchFor( search_pattern );
+  if (search_pattern.length > 0) {
+    //hide search mask
+    hideSearchMask();
+    searchFor( search_pattern );
+  }
 }
 
 /**
@@ -173,6 +196,12 @@ var searchFor = function(search_pattern) {
   var results = idx.search(search_pattern);
   console.log(results);
   displaySearchResults(results);
+}
+
+var profileTagClick = function(profile) {
+  searchFor('+utenza:*' + profile +'*');
+  resetForm();
+  $('#utenza').val(profile);
 }
 
 var themaTagClick = function(theme) {
