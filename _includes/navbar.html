@@ -179,17 +179,17 @@
               {% for item in site.data.menu %}
                 {% assign data-megamenu-class = "Megamenu-item" %}
                 {% assign megamenu-alignRight-class = " u-flexExpandLeft" %}
-                {% assign megamenu-user-class = " u-hidden" %}
-
-                {% if item.align == "right"%}
-                  {% capture data-megamenu-class %}
-                    {{ data-megamenu-class }} {{ megamenu-alignRight-class }}
-                  {% endcapture %}
-                {% endif %}
+                {% assign megamenu-user-class = " u-hidden only-loggedin" %}
 
                 {% if item.visibility == "user"%}
                   {% capture data-megamenu-class %}
                     {{ data-megamenu-class }} {{ megamenu-user-class }}
+                  {% endcapture %}
+                {% endif %}
+
+                {% if item.align == "right"%}
+                  {% capture data-megamenu-class %}
+                    {{ data-megamenu-class }} {{ megamenu-alignRight-class }}
                   {% endcapture %}
                 {% endif %}
 
