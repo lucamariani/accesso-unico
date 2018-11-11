@@ -23,6 +23,8 @@
 .t-Pac .servizio-btn-container {position:relative;}
 .t-Pac .servizio-box {min-height:350px}
 
+.t-Pac .scheda-icona {max-width: 75px}
+
 /* define links' color */
 .t-Pac #main a {color:rgb(48, 55, 61)}
 
@@ -32,6 +34,9 @@
 .t-Pac .Headroom--fixed.Headroom--not-top .Headroom-showme {max-height: 5em}
 .t-Pac .Headroom-showme {max-height:0; overflow-y:hidden;}
 .t-Pac .Header-login, .t-Pac .Header-logout {cursor: pointer;}
+.t-Pac #login-mask, .t-Pac #logout-mask {display: none}
+.t-Pac #users-list {  background-color: #30373d;padding: 10px;border-radius: 10px;}
+.t-Pac #users-list li {padding-bottom: 5px;}
 /* handle login menu entries */
 
 /* footer */
@@ -43,6 +48,7 @@
 
 /* wizard */
 .t-Pac .profile, .t-Pac .theme {max-width:140px}
+.t-Pac .wizard-item img {max-width: 75px}
 
 /* define themes colors */
 .t-Pac .theme-yellow, .t-Pac .theme-agricoltura {color:#fec401 !important}

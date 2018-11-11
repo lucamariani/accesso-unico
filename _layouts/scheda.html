@@ -20,8 +20,8 @@ layout: default
           {% endif %}
           </div>
         <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
-          <img src="{{ site.baseurl}}/assets/images/bc-ico-{{ page.utenza }}.png">
-          <img src="{{ site.baseurl}}/assets/images/rc-ico-{{ page.tema }}.png">
+          <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_grigio_{{ page.utenza }}.png">
+          <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_rosso_{{ page.tema }}.png">
           <div id="handle-favorite" scheda_title="{{ page.object }}-{{ page.utenza }}" scheda_url="{{ page.url }}">
             <span id="add-scheda-to-favorites-btn"
               class="u-color-50 u-text-r-l Icon Icon-favorite" title="Aggiungi ai preferiti"></span>

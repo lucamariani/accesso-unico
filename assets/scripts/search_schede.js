@@ -32,12 +32,12 @@ var getResultBox = function(item) {
   var appendString = '';
 
   //var profileIcon = '<img onclick="profileTagClick(\'' + item.utenza + '\')" title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + item.utenza+'.png">';
-  var profileIcon = '<img title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + item.utenza+'.png">';
+  var profileIcon = '<img title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + 'rosso_' + item.utenza+'.png">';
 
   if ( item.tema.length > 0 ) {
     var themeName = ( themes[item.tema] ? themes[item.tema].name : item.tema );
     //var themeIcon = '<img onclick="themaTagClick(\'' + item.tema + '\')" title="' + themeName + '" class="servizio-icon" src="' + baseurl + iconsurl + item.tema+'.png">';
-    var themeIcon = '<img title="' + themeName + '" class="servizio-icon" src="' + baseurl + iconsurl + item.tema+'.png">';
+    var themeIcon = '<img title="' + themeName + '" class="servizio-icon" src="' + baseurl + iconsurl + 'rosso_' + item.tema+'.png">';
   }
 
   appendString += '<div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight u-padding-r-all servizio-box">';

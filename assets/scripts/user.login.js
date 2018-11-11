@@ -47,9 +47,13 @@ var startVisibility = function() {
   console.log('userLogged status: ' + userLogged)
   if ( userLogged == 1) {
     switchLoginClass()
+    setLogoutContentMask()
     showUserMenu()
   }
-  else hideUserMenu()
+  else {
+    setLoginContentMask()
+    hideUserMenu()
+  }
 }
 
 var switchLoginClass = function() {
@@ -63,11 +67,16 @@ var switchLogoutClass = function() {
 }
 
 var setLoginContentMask = function() {
-    // TODO: add content
+    // hide logout mask
+    $('#logout-mask').hide()
+    $('#login-mask').show()
 }
 
 var setLogoutContentMask = function() {
-  // TODO: add content
+  // hide login mask
+  console.log('hiding logout...');
+  $('#login-mask').hide()
+  $('#logout-mask').show()
 }
 
 
