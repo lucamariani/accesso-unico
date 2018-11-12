@@ -24,7 +24,7 @@
 .t-Pac .servizio-box {min-height:350px}
 
 .t-Pac .scheda-icona {max-width: 55px}
-.t-Pac .Callout--example {border-top-color: #9c2328}
+.t-Pac .Callout--example {background: #eee;border-top-color: #9c2328}
 .t-Pac .Callout {padding-bottom: 8px;}
 .t-Pac .Callout {padding-left: 0;}
 .t-Pac .Callout {padding-right: 0;}

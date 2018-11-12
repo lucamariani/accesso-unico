@@ -4,6 +4,7 @@ baseurl:           "/accesso-unico"
 iconsurl:          "/assets/images/icons/"
 url:               "https://lucamariani.github.io/accesso-unico/"
 author:            "Redazione"
+accesso_unico_mail: "accessounico@regione.umbria.it"
 
 custom_css: true
 # define the main black

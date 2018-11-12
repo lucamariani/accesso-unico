@@ -24,8 +24,8 @@
 
     <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-50 u-background-white u-margin-bottom-xl">
       <!--<img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />-->
-      <div class="u-text-r-l u-padding-r-all u-layout-prose">
-        <p class="u-text-h6 u-margin-bottom-l">
+      <div class="u-text-r-l u-textCenter u-padding-r-all u-layout-prose">
+        <p class="u-text-h6 u-textLeft u-margin-bottom-l">
           <span class="u-color-50" href="">{{ box.title }}</span>
         </p>
         <!--<h3 class="u-text-h4 u-margin-r-bottom">
@@ -48,15 +48,20 @@
   <!--<img src="//placehold.it/400x220" class="u-sizeFull" alt="consequatur cumque et" />-->
   <div class="u-text-r-l u-padding-r-all u-layout-prose">
     <p class="u-text-h6 u-margin-bottom-l">
-      <a class="u-color-50 u-textClean" href="">Aiutaci a migliorare</a>
+      <a class="u-color-50 u-textClean" href="#">
+        Partecipa
+        <div style="position:relative;">
+          <img style="position:absolute; width:75px;top: -70px;right: -10px;" src="{{ site.baseurl }}{{ site.iconsurl }}accesso_unico_rosso.png">
+        </div>
+      </a>
     </p>
     <h3 class="u-text-h4 u-margin-r-bottom">
-      <a class="u-text-r-m u-textWeight-400 u-textClean u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}" href="">
-        Questa pagina e' stata utile?
+      <a class="u-text-r-xs u-textWeight-400 u-textClean u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}" href="">
+        Il tuo contributo è importante, <a href="mailto:{{site.accesso_unico_mail}}?subject=Accesso Unico - {{page.title}}">scrivi una mail</a>
       </a>
     </h3>
     <div class="u-textCenter">
-      <ul>
+      <!-- <ul>
         <li class="u-inlineBlock u-padding-right-xs">
           <a href="{{ site.baseurl }}/poll?pollurl={{ page.url }}&pollvote=PRO">
             <img class="poll-img" src="{{ site.baseurl }}/assets/images/sunny.svg">
@@ -72,7 +77,7 @@
             <img class="poll-img" src="{{ site.baseurl }}/assets/images/rain.svg">
           </a>
         </li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </div>
