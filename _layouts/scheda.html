@@ -16,7 +16,7 @@ layout: default
           </div>
           {% endif %}
           {% if page.subtitle %}
-          <h4 class="u-text-h4 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h4>
+          <h6 class="u-text-h6 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h4>
           {% endif %}
           </div>
 
@@ -43,7 +43,7 @@ layout: default
 
 
 
-  <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
     <section class="Grid">
       <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
 
@@ -76,7 +76,7 @@ layout: default
         {% capture theme %}{{ page.tema }}{% endcapture %}
         {% include schede/sidebar.html utenza=theprofile tema=theme %}
 
-        <div id="tue-scelte" role="note" class="Callout Callout--example u-textCenter u-text-r-s">
+        <div id="tue-scelte" role="note" class="Callout Callout--example u-textCenter u-text-r-s u-margin-bottom-xl">
           <p class="u-color-50 u-textWeight-700 u-text-xs" style="margin-bottom: 0px !important;">La tua scelta</p>
           <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}rosso_{{ page.utenza }}.png">
           <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}grigio_{{ page.tema }}.png">
@@ -87,6 +87,8 @@ layout: default
             </a>
           </div>
         </div>
+
+        {% include share.html %}
 
       </aside>
       <!-- / Sidebar -->
