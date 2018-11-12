@@ -13,15 +13,25 @@
 - title: "Documentazione"
   url: /docs_search
 
-- title: "Le mie pratiche"
+- title: "Le mie pratiche (demo)"
   url: /docs_search
   popup: true
-  visibility: user
+  user: private
 
-- title: "Avvisi e preferiti"
+- title: "Avvisi e preferiti (demo)"
   url: /docs_search
   popup: true
-  visibility: user
+  user: private
+
+- title: "Forum (demo)"
+  url: /docs_search
+  popup: true
+  user: pa
+
+- title: "Aggiornamento dati (demo)"
+  url: /docs_search
+  popup: true
+  user: pa
 
 - title: "Accesso Unico"
   url: /programma
