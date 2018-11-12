@@ -1,14 +1,16 @@
 - title: "Home"
   url: /
-
-- title: "Cerca il servizio"
-  description:  "Cerca l'argomento di tuo interesse o dimmi chi sei"
-  url: #
-  dropdown:
-  - title: "Cosa cerchi?"
+#
+#- title: "Cerca il servizio"
+#  description:  "Cerca l'argomento di tuo interesse o dimmi chi sei"
+#  url: #
+#  dropdown:
+#  - title: "Cosa cerchi?"
     url: "#themes"
-  - title: "Chi sei?"
-    url: "#profiles"
+#  - title: "Chi sei?"
+#    url: "#profiles"
+- title: "Servizi"
+  url: /schede_search
 
 - title: "Documentazione"
   url: /docs_search
