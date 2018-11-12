@@ -46,7 +46,7 @@ layout: default
       </div>
     </div>
 
-    <form class="Form Form--spaced u-padding-r-all" id="docs-search-form" action="." method="get">
+    <form class="Form Form--spaced" id="docs-search-form" action="." method="get">
       <p class="Prose u-padding-r-bottom">
         Scegli il profilo in cui ti riconosci, seleziona l'argomento di tuo interesse, filtra i servizi per tipologia:
       </p>
@@ -67,6 +67,21 @@ layout: default
 
           <div class="Grid-cell u-md-size1of3 u-lg-size1of4">
             <div class="Form-field">
+              <label class="Form-label is-required" for="tema">Profilo <span class="u-color-50">*</span></label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="utenza" name="utenza" required>
+                {% assign schede_utenza = site.schede | group_by: 'utenza' %}
+                {% for utenza in schede_utenza %}
+                  <!-- get the theme's full name -->
+                  {% assign utenza_items = site.data.profiles | where_exp: "item", "item.metaname == utenza.name" %}
+                  {% assign utenza_item = utenza_items[0] %}
+                  <option class="u-color-50" value="{{ utenza.name }}">{{ utenza_item.name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <div class="Grid-cell u-md-size1of3 u-lg-size1of4">
+            <div class="Form-field">
               <label class="Form-label is-required" for="tema">Argomento</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="tema" name="tema">
                 <option>---</option>
@@ -76,21 +91,6 @@ layout: default
                   {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == scheda.name" %}
                   {% assign tema_item = tema_items[0] %}
                   <option class="u-color-50" value="{{ scheda.name }}">{{ tema_item.name }}</option>
-                {% endfor %}
-              </select>
-            </div>
-          </div>
-
-          <div class="Grid-cell u-md-size1of3 u-lg-size1of4">
-            <div class="Form-field">
-              <label class="Form-label is-required" for="tema">Profilo</label>
-              <select class="Form-input u-text-r-s u-borderRadius-m" id="utenza" name="utenza" required>
-                {% assign schede_utenza = site.schede | group_by: 'utenza' %}
-                {% for utenza in schede_utenza %}
-                  <!-- get the theme's full name -->
-                  {% assign utenza_items = site.data.profiles | where_exp: "item", "item.metaname == utenza.name" %}
-                  {% assign utenza_item = utenza_items[0] %}
-                  <option class="u-color-50" value="{{ utenza.name }}">{{ utenza_item.name }}</option>
                 {% endfor %}
               </select>
             </div>
