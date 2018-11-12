@@ -11,7 +11,7 @@ main_color: grey-80
 
 # Header data
 header_parent_title: Regione Umbria
-header_parent_url: "https://www.regione.umbria.it"
+header_parent_url: "http://www.regione.umbria.it"
 header_language_selector: false
 header_logo:  /assets/images/LogoRegione85x96.svg
 header_title: UmbriaFacile
