@@ -1,3 +1,4 @@
+<div id="page-content">
 {% assign include_file = site.data.pages.[page.metatitle].content %}
 
 {% for content in include_file %}
@@ -7,3 +8,4 @@
   {{ file-content | markdownify }}
 
 {% endfor %}
+</div>

@@ -75,6 +75,7 @@
 
 .t-Pac .page-img-div { max-height:250px; margin-top:20px; margin-bottom: 20px; overflow: hidden;}
 .t-Pac .page-img { max-width: 100%;}
+.t-Pac #page-content img {max-width: 100%;}
 
 /* tabs */
 .t-Pac #tab2 {display:none;}
