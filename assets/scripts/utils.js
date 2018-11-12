@@ -64,5 +64,6 @@ function getAllUrlParams(url) {
  * Show hover label in mobile with :active
  */
 var hoverForMobile = function(selector, label) {
-  // $(selector)
+  const activeSelector = selector + ':active'
+  $(selector).css(activeSelector,'red')
 }
