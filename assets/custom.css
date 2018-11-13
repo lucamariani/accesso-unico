@@ -56,6 +56,7 @@
 .t-Pac #users-list li {padding-bottom: 5px;}
 .t-Pac #users-list li:hover {color: #9c2328;}
 /* handle login menu entries */
+.t-Pac .Linklist li[data-megamenu-class~="only-loggedin"] {display: none !important} /* display again with removing only-loggedin attibute */
 
 /* footer */
 .t-Pac .Footer-socialIcons [class*=" Icon-"]{color:#30373d}
