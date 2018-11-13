@@ -1,6 +1,13 @@
 ---
 layout: onboard
 ---
+<script>
+$(function() {
+  var where = window.location.search.substr(1);
+  if ( where ) $('h2').append(' per il comune di ' + where);
+  $('#open_btn').click();
+})
+</script>
 <button id="open_btn" class="Button Button--default js-fr-dialogmodal-open u-hidden" aria-controls="modal">
   Apri
 </button>
