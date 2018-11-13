@@ -1,24 +1,21 @@
-<div class="u-text-r-s u-layout-wide u-padding-r-bottom">
+<div class="u-text-r-s u-layout-wide">
   <div class="u-color-white u-border-top-xxs u-border-bottom-xxs">
 
-    <form class="Form Form--spaced u-padding-all-s u-color-40 u-text-r-xs u-layout-prose">
+    <form class="Form Form--spaced u-color-40 u-text-r-xs u-layout-prose">
 
       <fieldset class="Form-fieldset">
+        <legend class="Form-legend">Scegli il comune</legend>
 
-        <fieldset class="Form-fieldset" style="margin-bottom: 0px !important;">
-          <legend class="Form-legend">Scegli il comune</legend>
+        <div class="Form-field" style="padding-bottom:0 !important">
+          <select class="Form-input" id="comune" aria-required="true" required>
+            <option disabled selected>seleziona</option>
+            {% for comune in site.data.comuni %}
+              <option value="{{ site.baseurl }}{{ comune.url }}">{{ comune.name }}</option>
+            {% endfor%}
+          </select>
+        </div>
 
-          <div class="Form-field">
-
-            <select class="Form-input" id="comune" aria-required="true" required>
-              <option disabled selected>seleziona</option>
-              {% for comune in site.data.comuni %}
-                <option value="{{ site.baseurl }}{{ comune.url }}">{{ comune.name }}</option>
-              {% endfor%}
-            </select>
-          </div>
-
-        </fieldset>
+      </fieldset>
 <!--
         <div class="Form-field Grid-cell u-textLeft" style="padding-bottom: 0px !important;">
           <a id="gobutton" type="button" href="#" target="_blank"
@@ -27,7 +24,6 @@
         </div>
 
 -->
-      </fieldset>
     </form>
 
 
