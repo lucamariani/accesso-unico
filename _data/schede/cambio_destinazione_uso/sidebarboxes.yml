@@ -10,17 +10,17 @@
     - imprese
     - intermediari
 
-- title: Procedimenti collegati:
+- title: Procedimenti collegati
   file: procedimenti_cittadino.md
   utenza:
     - cittadini
 
-- title: Procedimenti collegati:
+- title: Procedimenti collegati
   file: procedimenti_impresa.md
   utenza:
     - imprese
 
-- title: Procedimenti collegati:
+- title: Procedimenti collegati
   file: procedimenti_intermediario.md
   utenza:
     - intermediari
