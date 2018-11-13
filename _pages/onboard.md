@@ -3,8 +3,7 @@ layout: onboard
 ---
 <script>
 $(function() {
-  var where = window.location.search.substr(1);
-  if ( where ) $('h2').append(' per il comune di ' + where);
+  
   $('#open_btn').click();
 })
 </script>
