@@ -6,33 +6,35 @@ scripts:
 ---
 
 <!-- main point (manual) -->
-<div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
+<div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
 <!-- <section>
   cerca
 </section> -->
-  <section class="Grid">
-    <div class="Grid-cell u-sizeFull u-md-sizeFull u-lg-sizeFull u-text-r-s u-padding-r-all u-textCenter">
-      {% include search_form_home.html %}
-    </div>
 
-  </section>
-
-  <div class="u-layout-prose u-text-r-xl u-padding-r-bottom">
+  <div class="u-layout-prose u-text-r-xl">
     <p class="u-text-r-l  u-textSecondary u-lineHeight-l u-textCenter">
       Accesso Unico: <span class="u-color-70">semplifichiamo l’accesso ai servizi</span> della Pubblica Amministrazione in Umbria
     </p>
   </div>
 
-  <!-- <div class="Grid u-text-r-l u-layout-wide u-padding-r-bottom"> -->
+  <section class="Grid">
+    <div class="Grid-cell u-sizeFull u-md-sizeFull u-lg-sizeFull u-text-r-s u-padding-r-all u-textCenter">
+      {% include search_form_home.html %}
+    </div>
+  </section>
 
+  <div class="u-text-r-l u-layout-wide u-padding-r-bottom">
+
+    <!-- <div class="Prose u-background-50"
+      style="background:url(/accesso-unico/img/banner_6.png);background-size:contain;background-repeat:no-repeat;background-position-x:right;background-position-y:center"> -->
     <div id="banner-div" class="u-sizeFull Prose u-background-50">
       <p id="banner-text" class="u-padding-all-l u-textWeight-700 u-color-white">Questo portale sviluppato da Regione Umbria in versione Beta è un
       luogo di confronto e di dialogo per costruire insieme i nuovi servizi dell'Accesso Unico.
       </p>
-      <img class="u-sm-hidden u-md-hidden u-lg-hidden u-sizeFull" src="{{ site.baseurl }}/img/banner_5ta.png">
+      <img class="u-sm-hidden u-md-hidden u-lg-hidden u-sizeFull" src="{{ site.baseurl }}/img/banner_6a.png">
     </div>
 
-  <div class="u-padding-r-top u-padding-r-bottom"></div>
+  </div>
 
   <!-- wizard section -->
   {% include wizard_home.html %}
@@ -82,7 +84,7 @@ scripts:
 
   // set banner background image
   $(function() {
-    const img_src = baseurl + '/img/banner_5.png'
+    const img_src = baseurl + '/img/banner_6.png'
     console.log('setting bkg img ' + img_src);
     $('#banner-div').css( 'background-image','url(' + img_src + ')' )
   })

@@ -16,9 +16,15 @@
 .t-Pac #no-results-div {display:none}
 .t-Pac .servizio-icon {cursor:pointer; max-height:35px}
 
-/* */
+/* title, subtitle */
 .t-Pac h1.u-text-h1, .t-Pac h4.u-text-h4 {margin-bottom: 0 !important}
 
+/* home banner */
+.t-Pac #banner-text {font-size:1.3em !important}
+@media(min-width: 768px) {
+  .t-Pac #banner-div {min-height:250px;background:background-size:contain;background-repeat:no-repeat;background-position-x:right;background-position-y:center}
+  .t-Pac #banner-text {max-width:65%;font-size:1.5em !important}
+}
 /* search schede */
 .t-Pac #new-search-btn {border:0 !important; display: none}
 .t-Pac .go-servizio-btn {border:0 !important; position:absolute; bottom:0; left:0}
