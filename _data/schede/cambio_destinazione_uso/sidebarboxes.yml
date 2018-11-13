@@ -1,9 +1,5 @@
-- title: Presenta la Pratica
-  file: presenta-pratica.md
+
 - title: Normativa
-  utenza:
-    - intermediari
-    - cittadini
   file: normativa.md
   utenza:
     - imprese
@@ -12,4 +8,19 @@
   file: prg.md
   utenza:
     - imprese
+    - intermediari
+
+- title: Procedimenti collegati:
+  file: procedimenti_cittadino.md
+  utenza:
+    - cittadini
+
+- title: Procedimenti collegati:
+  file: procedimenti_impresa.md
+  utenza:
+    - imprese
+
+- title: Procedimenti collegati:
+  file: procedimenti_intermediario.md
+  utenza:
     - intermediari
