@@ -4,6 +4,7 @@ baseurl:           "/accesso-unico"
 iconsurl:          "/assets/images/icons/"
 url:               "https://lucamariani.github.io/accesso-unico/"
 author:            "Redazione"
+accesso_unico_mail: "accessounico@regione.umbria.it"
 
 custom_css: true
 # define the main black
@@ -11,12 +12,12 @@ main_color: grey-80
 
 # Header data
 header_parent_title: Regione Umbria
-header_parent_url: "https://www.regione.umbria.it"
+header_parent_url: "http://www.regione.umbria.it"
 header_language_selector: false
 header_logo:  /assets/images/LogoRegione85x96.svg
 header_title: UmbriaFacile
-header_subtitle: Portale dell'Accesso Unico ai servizi della P.A. dell'Umbria
-header_slogan: Costruiamo insieme il portale dei servizi della P.A. dell'Umbria
+header_subtitle: Portale dell'Accesso Unico ai servizi delle PA dell'Umbria
+header_slogan: Costruiamo insieme il portale dei servizi delle PA dell'Umbria
 search: false
 search_full_content: false
 mega_menu: true    # if true, require _data/menu.yml

@@ -52,7 +52,7 @@
           {% endif %}
 
           {% if site.mega_menu_accedi %}
-            {% include signin-mask.html class="Header-login u-floatRight" %}
+            {% include signin-mask.html class="Headroom-hideme" %}
           {% endif %}
       </div>
   </div>
@@ -122,8 +122,8 @@
               </div>
               {% endif %}
 
-              {% if site.mega_menu_accedi %}
-                {% include signin-mask.html class="Header-login Headroom-showme u-hidden" %}
+              {% if site.XXXmega_menu_accedi %}
+                {% include signin-mask.html class="Headroom-showme u-hidden" %}
               {% endif %}
           </div>
 
@@ -179,11 +179,18 @@
               {% for item in site.data.menu %}
                 {% assign data-megamenu-class = "Megamenu-item" %}
                 {% assign megamenu-alignRight-class = " u-flexExpandLeft" %}
-                {% assign megamenu-user-class = " u-hidden only-loggedin" %}
+                {% assign megamenu-user-private-class = " u-hidden only-loggedin user-private-entry" %}
+                {% assign megamenu-user-pa-class = " u-hidden only-loggedin user-pa-entry" %}
 
-                {% if item.visibility == "user"%}
+                {% if item.user == "private"%}
                   {% capture data-megamenu-class %}
-                    {{ data-megamenu-class }} {{ megamenu-user-class }}
+                    {{ data-megamenu-class }} {{ megamenu-user-private-class }}
+                  {% endcapture %}
+                {% endif %}
+
+                {% if item.user == "pa"%}
+                  {% capture data-megamenu-class %}
+                    {{ data-megamenu-class }} {{ megamenu-user-pa-class }}
                   {% endcapture %}
                 {% endif %}
 

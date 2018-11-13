@@ -9,19 +9,38 @@
 /* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
 /* home page search */
-.t-Pac #home-search-btn, .t-Pac #schede-search-btn, .t-Pac #schede-reset-btn {border:0 !important}
+.t-Pac #home-search-btn, .t-Pac #schede-search-btn, .t-Pac #schede-reset-btn, .t-Pac #research {border:0 !important}
 .t-Pac .js-fr-dialogmodal-close {border:0 !important}
 .t-Pac .search-listing {max-height:450px;overflow-y:auto;}
 .t-Pac #results-div {display:none}
 .t-Pac #no-results-div {display:none}
 .t-Pac .servizio-icon {cursor:pointer; max-height:35px}
 
+/* title, subtitle */
+.t-Pac h1.u-text-h1, .t-Pac h4.u-text-h4 {margin-bottom: 0 !important}
+
+/* home banner */
+.t-Pac #banner-text {font-size:1.3em !important}
+@media(min-width: 768px) {
+  .t-Pac #banner-div {min-height:250px;background:background-size:contain;background-repeat:no-repeat;background-position-x:right;background-position-y:center}
+  .t-Pac #banner-text {max-width:65%;font-size:1.5em !important}
+}
 /* search schede */
 .t-Pac #new-search-btn {border:0 !important; display: none}
 .t-Pac .go-servizio-btn {border:0 !important; position:absolute; bottom:0; left:0}
 .t-Pac .servizio-icons {position:absolute; bottom:50px}
 .t-Pac .servizio-btn-container {position:relative;}
 .t-Pac .servizio-box {min-height:350px}
+
+.t-Pac .scheda-icona {max-width: 45px;margin-right: 10px;}
+/*.t-Pac .Callout--example {background: #eee;border-top-color: #9c2328}*/
+.t-Pac .Callout--example {background: #ffffff;border-top-color: #9c2328}
+.t-Pac .Callout {padding-bottom: 8px;}
+.t-Pac .Callout {padding-left: 0;}
+.t-Pac .Callout {padding-right: 0;}
+.t-Pac .Callout {padding-top: 5px;}
+/* .t-Pac #tue-scelte {margin-bottom: 100px} */
+/* .t-Pac #scheda-icons-div  */
 
 /* define links' color */
 .t-Pac #main a {color:rgb(48, 55, 61)}
@@ -31,7 +50,11 @@
 /* handle login mask*/
 .t-Pac .Headroom--fixed.Headroom--not-top .Headroom-showme {max-height: 5em}
 .t-Pac .Headroom-showme {max-height:0; overflow-y:hidden;}
-.t-Pac .Header-login, .t-Pac .Header-logout {cursor: pointer;}
+.t-Pac .Header-login, .t-Pac #logout-icon {cursor: pointer;}
+.t-Pac .login-mask, .t-Pac .logout-mask {display: none}
+.t-Pac #users-list {display: none;  background-color: #30373d;padding: 10px;border-radius: 10px;}
+.t-Pac #users-list li {padding-bottom: 5px;}
+.t-Pac #users-list li:hover {color: #9c2328;}
 /* handle login menu entries */
 
 /* footer */
@@ -43,6 +66,7 @@
 
 /* wizard */
 .t-Pac .profile, .t-Pac .theme {max-width:140px}
+.t-Pac .wizard-item img {max-width: 75px}
 
 /* define themes colors */
 .t-Pac .theme-yellow, .t-Pac .theme-agricoltura {color:#fec401 !important}
@@ -63,6 +87,7 @@
 
 .t-Pac .page-img-div { max-height:250px; margin-top:20px; margin-bottom: 20px; overflow: hidden;}
 .t-Pac .page-img { max-width: 100%;}
+.t-Pac #page-content img {max-width: 100%;}
 
 /* tabs */
 .t-Pac #tab2 {display:none;}

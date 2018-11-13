@@ -6,7 +6,7 @@ scripts:
 ---
 
 <!-- main point (manual) -->
-<div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+<div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
 <!-- <section>
   cerca
 </section> -->
@@ -23,12 +23,16 @@ scripts:
     </p>
   </div>
 
-  <div class="u-text-r-l u-layout-wide u-padding-r-bottom">
-    <p class="Prose u-padding-r-top u-padding-r-bottom">
-      Questo portale sviluppato da Regione Umbria in <span class="u-textWeight-700">versione Beta</span> è un <span class="u-textWeight-700">luogo di confronto e di dialogo</span> per costruire insieme i nuovi servizi dell'Accesso Unico.<br>
-      L'opinione e il contributo di cittadini e operatori della P.A. è importante.
-    </p>
-  </div>
+  <!-- <div class="Grid u-text-r-l u-layout-wide u-padding-r-bottom"> -->
+
+    <div id="banner-div" class="u-sizeFull Prose u-background-50">
+      <p id="banner-text" class="u-padding-all-l u-textWeight-700 u-color-white">Questo portale sviluppato da Regione Umbria in versione Beta è un
+      luogo di confronto e di dialogo per costruire insieme i nuovi servizi dell'Accesso Unico.
+      </p>
+      <img class="u-sm-hidden u-md-hidden u-lg-hidden u-sizeFull" src="{{ site.baseurl }}/img/banner_5ta.png">
+    </div>
+
+  <div class="u-padding-r-top u-padding-r-bottom"></div>
 
   <!-- wizard section -->
   {% include wizard_home.html %}
@@ -75,4 +79,11 @@ scripts:
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   }
+
+  // set banner background image
+  $(function() {
+    const img_src = baseurl + '/img/banner_5.png'
+    console.log('setting bkg img ' + img_src);
+    $('#banner-div').css( 'background-image','url(' + img_src + ')' )
+  })
 </script>

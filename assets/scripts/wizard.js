@@ -75,7 +75,7 @@ var loadItems = function(items,what,where) {
   var wizardItemsList = $(where);
   for (var key in items) {
     listItemsContent += '<div class="Grid-cell u-size1of2 u-md-size1of4 u-lg-size1of4"><div class="wizard-item u-textCenter u-text-r-xs ' + what + '" item="' + key + '">';
-    listItemsContent += '<img src="' + baseurl + iconsurl + key + '.png"><br>' + items[key].name + '</div></div>';
+    listItemsContent += '<img src="' + baseurl + iconsurl + 'rosso_' + key + '.png"><br>' + items[key].name + '</div></div>';
   };
   wizardItemsList.html(listItemsContent);
 }

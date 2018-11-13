@@ -59,3 +59,10 @@ function getAllUrlParams(url) {
 
   return obj;
 }
+
+/**
+ * Show hover label in mobile with :active
+ */
+var hoverForMobile = function(selector, label) {
+  // $(selector)
+}

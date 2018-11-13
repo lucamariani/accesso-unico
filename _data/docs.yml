@@ -327,7 +327,20 @@ docs:
     tema: commercio
     url: "http://www.regione.umbria.it/documents/18/1156212/dgr+847_2011.PDF/648bd27d-f815-48c9-b12c-02e7ebba4eea"
     anno: 2011
-    ente:
+    ente: Regione Umbria
     numero: 847
     tags:
         - pubbliciesercizi
+
+  - title: Deliberazione della Giunta Regionale 19 settembre 2018, n. 1024
+    metaname: doc28
+    oggetto: Direttiva tecnica regionale per la disciplina degli scarichi delle acque reflue - approvazione.
+    categoria: circolari
+    tema: ambiente
+    url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/docs/DGR_1024_19_09_2018_Bur.pdf"
+    anno: 2018
+    ente: Regione Umbria
+    numero: 1024
+    tags:
+        - direttivascarichi
+        - AUA
