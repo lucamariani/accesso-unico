@@ -1,6 +1,9 @@
 ---
 layout: onboard
 ---
+<button id="open_btn" class="Button Button--default js-fr-dialogmodal-open u-hidden" aria-controls="modal">
+  Apri
+</button>
 <div class="Dialog js-fr-dialogmodal" id="modal">
     <div class="
       Dialog-content
