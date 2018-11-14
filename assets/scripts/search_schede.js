@@ -29,16 +29,22 @@ var formSubmit = function() {
 }
 
 var getResultBox = function(item) {
+  console.log(item)
   var appendString = '';
 
   //var profileIcon = '<img onclick="profileTagClick(\'' + item.utenza + '\')" title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + item.utenza+'.png">';
   var profileName = ( profiles[item.utenza] ? profiles[item.utenza].name : item.utenza );
-  var profileIcon = '<img title="' + profileName + '" class="servizio-icon" src="' + baseurl + iconsurl + 'rosso_' + item.utenza+'.png">';
+  var profileIcon = '<img title="' + profileName + '" class="servizio-icon" src="' + baseurl + iconsurl + 'grigio_' + item.utenza+'.png">';
 
   if ( item.tema.length > 0 ) {
     var themeName = ( themes[item.tema] ? themes[item.tema].name : item.tema );
     //var themeIcon = '<img onclick="themaTagClick(\'' + item.tema + '\')" title="' + themeName + '" class="servizio-icon" src="' + baseurl + iconsurl + item.tema+'.png">';
     var themeIcon = '<img title="' + themeName + '" class="servizio-icon" src="' + baseurl + iconsurl + 'rosso_' + item.tema+'.png">';
+  }
+
+  if ( item.tipo.length > 0 ) {
+    var tipoName = ( types[item.tipo] ? types[item.tipo].name : item.tipo );
+    var tipoIcon = '<img title="' + tipoName + '" class="servizio-icon" src="' + baseurl + iconsurl + item.tipo + '_rosso.png">';
   }
 
   appendString += '<div class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight u-padding-r-all servizio-box">';
@@ -48,7 +54,7 @@ var getResultBox = function(item) {
                     item.title + '</p><p class="u-textSecondary u-text-r-xxs">' + item.date + '</p></div>';
   appendString += '<h3 class="u-text-p u-textWeight-400 u-color-grey-80 u-margin-r-bottom">' + item.description + '</h3>';
 
-  appendString += '<div class="servizio-icons">' + profileIcon + themeIcon + '</div>';
+  appendString += '<div class="servizio-icons">' + profileIcon + themeIcon + tipoIcon + '</div>';
 
   appendString += '<a href="' + baseurl + item.url + '" target="_blank">' +
                     '<button class="Button u-text-m u-background-50 u-color-white u-sizeFull go-servizio-btn">Vai al servizio</button></a>';
@@ -72,7 +78,7 @@ function addIcon(name, title) {
 }
 
 function displaySearchResults(results, utenza, theme, tipo) {
-  console.log('size: ' + results.length)
+  console.log('u: ' + utenza + ' | th: ' + theme + ' | ti: ' + tipo )
   var result_text = ( results.length > 1 ? ' servizi trovati' : ' servizio trovato' )
   $('#results-size').text(results.length + result_text)
 
@@ -80,12 +86,12 @@ function displaySearchResults(results, utenza, theme, tipo) {
   const utenzaIcon = 'cerchio_grigio_' + utenza;
   var filtersIcons = addIcon(utenzaIcon, profileName)
 
-  if ( theme.indexOf('---') < 0 ) {
+  if ( theme && theme.indexOf('---') < 0 ) {
     const themeIcon = 'cerchio_rosso_' + theme;
     const themeName = ( themes[theme] ? themes[theme].name : theme )
     filtersIcons += addIcon(themeIcon, themeName)
   }
-  if ( tipo.indexOf('---') < 0 ) {
+  if ( tipo && tipo.indexOf('---') < 0 ) {
     const tipoIcon = 'cerchio_rosso_' + tipo;
     const tipoName = ( types[tipo] ? types[tipo].name : tipo )
     filtersIcons += addIcon(tipoIcon, tipoName)
@@ -202,8 +208,23 @@ var applyUrlFilters = function() {
   if (search_pattern.length > 0) {
     //hide search mask
     hideSearchMask();
-    searchFor( search_pattern );
+    searchFor( search_pattern, profileFilters, themeFilters );
   }
+}
+
+/**
+ *
+ */
+var searchFor = function(search_pattern, profileFilters = null, themeFilters = null) {
+  // utenza is required
+  var utenza = profileFilters
+  if ( search_pattern.indexOf('utenza') == -1 ) {
+    utenza = $('#utenza option:selected').val();
+    search_pattern += ' +utenza:*' + utenza + '*';
+  }
+  console.log('searching for ' + search_pattern);
+  var results = idx.search(search_pattern);
+  displaySearchResults(results, utenza, themeFilters);
 }
 
 var profileTagClick = function(profile) {
