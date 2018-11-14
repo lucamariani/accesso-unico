@@ -7,6 +7,7 @@ b.	**Presentazione Inizio lavori**
 c.	**Presentazione Fine lavori**
 
 d.	**Presentazione Agibilità**.
-</br>
+
+
 
 La pratica da presentare al SUAPE deve comprendere una serie di documenti tecnici, nonché il calcolo del contributo di costruzione che dovrà essere versato al comune, laddove necessario.

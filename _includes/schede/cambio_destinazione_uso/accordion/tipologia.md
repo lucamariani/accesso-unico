@@ -2,7 +2,7 @@
 
 Titolo richiesto: SCIA
 
-</br>
+
 •	**Cambio di destinazione d’uso in caso di ristrutturazione edilizia**
 
 Titolo richiesto:
@@ -10,12 +10,12 @@ Titolo richiesto:
 2.	Permesso di Costruire in presenza di modifiche della sagoma e dell’area di volume;
 3.	Permesso di Costruire se l’intervento ha luogo negli insediamenti esistenti che rivestono valore storico e culturale.
 
-</br>
+
 •	**Cambio di destinazione d’uso in caso di ristrutturazione urbanistica**
 
 Titolo richiesto: Permesso di costruire
 
-</br>
+
 •	**Cambio di destinazione d’uso all’interno della stessa categoria o per i locali già adibiti a esercizio di impresa**
 
 Titolo richiesto: Comunicazione di inizio lavori asseverata
