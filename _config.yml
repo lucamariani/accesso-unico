@@ -1,6 +1,6 @@
 title:             "UmbriaFacile - Regione Umbria"
 description:       "Portale beta dell'Accesso Unico"
-baseurl:           "/accesso-unico"
+baseurl:           
 url:               "https://lucamariani.github.io/accesso-unico/"
 author:            "Redazione"
 
