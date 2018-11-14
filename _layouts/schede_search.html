@@ -20,10 +20,10 @@ layout: default
           </div>
           {% endif %}
           {% if page.subtitle %}
-          <h4 class="u-text-h4">{{ page.subtitle }}</h3>
+          <h4 class="u-text-h4">{{ page.subtitle }}</h4>
           {% endif %}
           {% if page.author %}
-          <h4 class="u-text-h4">{{ page.author }}</h3>
+          <h4 class="u-text-h4">{{ page.author }}</h4>
           {% endif %}
           {% if page.date %}
           <br>
@@ -38,13 +38,13 @@ layout: default
 
   <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
 
-    <div class="Grid u-margin-r-bottom">
+    <!-- <div class="Grid u-margin-r-bottom">
       <div class="Grid-cell u-sm-size1of3 u-md-size1of4 u-lg-size1of6">
         <button id="new-search-btn" class="Button Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">
           Nuova ricerca
         </button>
       </div>
-    </div>
+    </div> -->
 
     <form class="Form Form--spaced" id="docs-search-form" action="." method="get">
       <p class="Prose u-padding-r-bottom">
@@ -130,10 +130,16 @@ layout: default
     <div id="results-div" class="u-layout-centerContent u-background-grey-15 u-padding-r-all">
       <section class="u-layout-medium">
         <div class="Grid">
-          <div class="Grid-cell u-layout-centerLeft">
+          <div class="Grid-cell u-size2of3 u-sm-size2of3 u-md-size3of4 u-lg-size5of6">
             <h2 class="u-text-r-l u-textWeight-300 u-color-50">
-              <span id="results-size" class="u-text-r-l u-textWeight-300"></span> servizi trovati
+              <span id="results-size" class="u-text-r-l u-textWeight-300"></span> <span id="filter-text" ></span>
             </h2>
+          </div>
+          <div class="Grid-cell u-size1of3 u-sm-size1of3 u-md-size1of4 u-lg-size1of6 u-textRight">
+            <button id="new-search-btn" class="Button Button--shadow u-text-m u-background-50 u-color-white">
+              <span class="no-mobile">Nuova ricerca </span>
+              <span class="u-sm-hidden u-md-hidden u-lg-hidden u-text-r-s Icon Icon-search"></span>
+            </button>
           </div>
         </div>
 

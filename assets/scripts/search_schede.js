@@ -32,7 +32,8 @@ var getResultBox = function(item) {
   var appendString = '';
 
   //var profileIcon = '<img onclick="profileTagClick(\'' + item.utenza + '\')" title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + item.utenza+'.png">';
-  var profileIcon = '<img title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + 'rosso_' + item.utenza+'.png">';
+  var profileName = ( profiles[item.utenza] ? profiles[item.utenza].name : item.utenza );
+  var profileIcon = '<img title="' + profileName + '" class="servizio-icon" src="' + baseurl + iconsurl + 'rosso_' + item.utenza+'.png">';
 
   if ( item.tema.length > 0 ) {
     var themeName = ( themes[item.tema] ? themes[item.tema].name : item.tema );
@@ -66,22 +67,44 @@ var getResultBox = function(item) {
   return appendString;
 }
 
-function displaySearchResults(results) {
-  console.log('size: ' + results.length);
-  $('#results-size').text(results.length)
-  var searchResults = $('#schede-results-list');
-  var store = window.allschede;
+function addIcon(name, title) {
+  return '<img title="' + title + '" class="icon-search-results u-margin-right-s" src="' + baseurl + iconsurl + name +'.png">';
+}
+
+function displaySearchResults(results, utenza, theme, tipo) {
+  console.log('size: ' + results.length)
+  var result_text = ( results.length > 1 ? ' servizi trovati' : ' servizio trovato' )
+  $('#results-size').text(results.length + result_text)
+
+  var profileName = ( profiles[utenza] ? profiles[utenza].name : utenza );
+  const utenzaIcon = 'cerchio_grigio_' + utenza;
+  var filtersIcons = addIcon(utenzaIcon, profileName)
+
+  if ( theme.indexOf('---') < 0 ) {
+    const themeIcon = 'cerchio_rosso_' + theme;
+    const themeName = ( themes[theme] ? themes[theme].name : theme )
+    filtersIcons += addIcon(themeIcon, themeName)
+  }
+  if ( tipo.indexOf('---') < 0 ) {
+    const tipoIcon = 'cerchio_rosso_' + tipo;
+    const tipoName = ( types[tipo] ? types[tipo].name : tipo )
+    filtersIcons += addIcon(tipoIcon, tipoName)
+  }
+  $('#filter-text').html(filtersIcons)
+
+  var searchResults = $('#schede-results-list')
+  var store = window.allschede
 
   if (results.length) { // Are there any results?
-    var appendString = '';
+    var appendString = ''
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
-      var key = results[i].ref;
+      var key = results[i].ref
       //console.log('key:' + key);
-      var item = store[key];
+      var item = store[key]
       //console.log(item);
 
-      appendString += getResultBox(item);
+      appendString += getResultBox(item)
     }
 
     searchResults.html(appendString);
@@ -131,15 +154,15 @@ $(function() {
   /* submit handling */
   $('#schede-search-btn').click(function(event) {
     event.preventDefault();
-    var freesearch = $('#freesearch').val();
+    // var freesearch = $('#freesearch').val();
     var utenza = $('#utenza option:selected').val();
     var theme = $('#tema option:selected').val();
     var tipo = $('#tipologia option:selected').val();
-    console.log('searching for freesearch: ' + freesearch + ',utenza: ' + utenza + ',tipologia: ' + tipo);
+    console.log('searching for utenza: ' + utenza + ',tipologia: ' + tipo);
 
-    var search_freesearch = '*' + freesearch + '*';
+    // var search_freesearch = '*' + freesearch + '*';
     var search_utenza = '*' + utenza + '*';
-    var search_pattern = search_freesearch;
+    var search_pattern = '';
     search_pattern += ' +utenza:' + search_utenza;
     if ( theme.indexOf('---') < 0 )
       search_pattern += ' +tema:' + theme;
@@ -151,7 +174,7 @@ $(function() {
     console.log(results);
     //hide search mask and show new search Button
     hideSearchMask();
-    displaySearchResults(results);
+    displaySearchResults(results, utenza, theme, tipo);
   });
 
   applyUrlFilters();
@@ -181,21 +204,6 @@ var applyUrlFilters = function() {
     hideSearchMask();
     searchFor( search_pattern );
   }
-}
-
-/**
- *
- */
-var searchFor = function(search_pattern) {
-  // utenza is required
-  if ( search_pattern.indexOf('utenza') == -1 ) {
-    var utenza = $('#utenza option:selected').val();
-    search_pattern += ' +utenza:*' + utenza + '*';
-  }
-  console.log('searching for ' + search_pattern);
-  var results = idx.search(search_pattern);
-  console.log(results);
-  displaySearchResults(results);
 }
 
 var profileTagClick = function(profile) {

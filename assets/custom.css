@@ -16,6 +16,12 @@
 .t-Pac #no-results-div {display:none}
 .t-Pac .servizio-icon {cursor:pointer; max-height:35px}
 
+/* responsive utils */
+.t-Pac .no-mobile {display: none !important}
+@media(min-width: 768px) {
+  .t-Pac .no-mobile {display: block !important}
+}
+
 /* title, subtitle */
 .t-Pac h1.u-text-h1, .t-Pac h4.u-text-h4 {margin-bottom: 0 !important}
 
@@ -27,10 +33,12 @@
 }
 /* search schede */
 .t-Pac #new-search-btn {border:0 !important; display: none}
+.t-Pac #new-search-btn .Icon-search {padding: 5px 15px 5px 15px}
 .t-Pac .go-servizio-btn {border:0 !important; position:absolute; bottom:0; left:0}
 .t-Pac .servizio-icons {position:absolute; bottom:50px}
 .t-Pac .servizio-btn-container {position:relative;}
 .t-Pac .servizio-box {min-height:350px}
+.t-Pac .icon-search-results {max-width:35px;position: relative;top: 7px}
 
 .t-Pac .scheda-icona {max-width: 45px;margin-right: 10px;}
 /*.t-Pac .Callout--example {background: #eee;border-top-color: #9c2328}*/

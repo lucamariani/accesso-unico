@@ -49,5 +49,13 @@
         {% unless forloop.last %},{% endunless %}
       {% endfor %}
     };
+    var profiles = {
+      {% for profile in site.data.profiles %}
+        "{{ profile.metaname }}": {
+          "name": "{{ profile.name }}"
+        }
+        {% unless forloop.last %},{% endunless %}
+      {% endfor %}
+    };
   </script>
 </head>
