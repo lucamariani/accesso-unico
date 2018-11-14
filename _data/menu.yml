@@ -1,7 +1,7 @@
 - title: "Home"
   url: /
 
-- title: "Cerca il servizio"
+- title: "Servizi"
   description:  "Cerca l'argomento di tuo interesse o dimmi chi sei"
   url: #
   dropdown:
@@ -10,8 +10,14 @@
   - title: "Chi sei?"
     url: "#profiles"
 
-- title: "Documentazione"
+- title: "Documenti"
   url: /docs_search
 
+- title: "Le mie pratiche"
+  url: /docs_search
+
+- title: "Il mio profilo"
+  url: /docs_search
+  
 - title: "Il Programma"
   url: https://www.arcgis.com/apps/Cascade/index.html?appid=1a91b66d279044b49b1636b287fcb611
