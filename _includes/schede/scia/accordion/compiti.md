@@ -1,13 +1,13 @@
 Il tecnico incaricato:
 
-•	compila la dichiarazione di conformità;
+•	**compila** la dichiarazione di conformità
 
-•	redige il progetto;
+•	**redige** il progetto
 
-•	certifica la conformità alle norme igienico-sanitarie;
+•	**certifica** la conformità alle norme igienico-sanitarie
 
-•	redige la eventuale documentazione ai fini dell’autorizzazione sismica;
+•	**redige** la eventuale documentazione ai fini dell’autorizzazione sismica
 
-•	predispone la relazione paesaggistica e la documentazione necessaria ai fini dell’eventuale rilascio dell’autorizzazione paesaggistica;
+•	**predispone** la relazione paesaggistica e la documentazione necessaria ai fini dell’eventuale rilascio dell’autorizzazione paesaggistica
 
-•	Compila la certificazione in materia idrogeologica e di scarichi.
+•	**compila** la certificazione in materia idrogeologica e di scarichi.

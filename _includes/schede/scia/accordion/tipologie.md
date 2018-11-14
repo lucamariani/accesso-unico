@@ -16,4 +16,3 @@ La L.R. 1/2015 disciplina le tipologie di interventi sottoposti alla SCIA:
 
 
 6. **opere pertinenziali di cui all’articolo 21, comma 4, del r.r. 2/2015**.
-Acconciatore
