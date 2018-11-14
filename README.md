@@ -1,6 +1,6 @@
 # Sito tematico Accesso unico "beta" 2018
 
-Visualizzalo: https://lucamariani.github.io/accesso-unico
+Visualizzalo: https://beta.accessounico.regione.umbria.it
 
 Alcune parti sono derivate dal tema Italia-Design-Jekyll-Theme https://github.com/ggentili/Italia-Design-Jekyll-Theme
 
