@@ -8,13 +8,13 @@
 
 L'abilitazione, così come disposto dall'articolo 3 della legge 17 agosto 2005, n. 174, si consegue previo **superamento di un esame tecnico-pratico** preceduto, in alternativa tra loro:
 
-   - dallo svolgimento di **un corso di qualificazione della durata di due anni**, seguito da un corso di specializzazione di contenuto prevalentemente pratico (si veda il [Catalogo dell’offerta formativa regionale][41642ff8]) oppure da un periodo di inserimento della durata di un anno presso un'impresa di acconciatura, da effettuare nell'arco di due anni;
+- dallo svolgimento di **un corso di qualificazione della durata di due anni**, seguito da un corso di specializzazione di contenuto prevalentemente pratico (si veda il [Catalogo dell’offerta formativa regionale][41642ff8]) oppure da un periodo di inserimento della durata di un anno presso un'impresa di acconciatura, da effettuare nell'arco di due anni;
 
   [41642ff8]: https://siru.regione.umbria.it/SIRU/catalogo_off/index_pubb.php "vai al Catalogo"
 
 **in alternativa**
 
-   - da un periodo di **inserimento della durata di tre anni presso un'impresa di acconciatura**, da effettuare nell'arco di cinque anni, e dallo svolgimento di un apposito corso di formazione teorica (si veda il [Catalogo dell’offerta formativa regionale][d6964d50]).
+- da un periodo di **inserimento della durata di tre anni presso un'impresa di acconciatura**, da effettuare nell'arco di cinque anni, e dallo svolgimento di un apposito corso di formazione teorica (si veda il [Catalogo dell’offerta formativa regionale][d6964d50]).
 
 **Il riconoscimento dell'abilitazione professionale** di acconciatore **acquisita in altri Stati membri dell'Unione europea**, ai sensi della normativa vigente, è disposto **dalla Regione**.
 
