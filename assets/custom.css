@@ -14,7 +14,7 @@
 .t-Pac .search-listing {max-height:450px;overflow-y:auto;}
 .t-Pac #results-div {display:none}
 .t-Pac #no-results-div {display:none}
-.t-Pac .servizio-icon {cursor:pointer; max-height:35px}
+.t-Pac .servizio-icon {max-height:35px}
 
 /* responsive utils */
 .t-Pac .no-mobile {display: none !important}
@@ -38,11 +38,20 @@
 /* search schede */
 .t-Pac #new-search-btn {border:0 !important; display: none}
 .t-Pac #new-search-btn .Icon-search {padding: 5px 15px 5px 15px}
-.t-Pac .go-servizio-btn {border:0 !important; position:absolute; bottom:0; left:0}
-.t-Pac .servizio-icons {position:absolute; bottom:50px}
+.t-Pac .go-servizio-btn {border:1px solid; border-radius:10px; position:absolute; bottom:0; left:0;font-size: 1.5rem}
+.t-Pac .go-servizio-btn:hover {background-color:#9c2328 !important;color:#fff !important}
+.t-Pac .servizio-icons {display: none}
 .t-Pac .servizio-btn-container {position:relative;}
 .t-Pac .servizio-box {min-height:350px}
 .t-Pac .icon-search-results {max-width:35px;position: relative;top: 7px}
+@media(min-width: 301px) {
+  .t-Pac .servizio-icons {position:absolute; display: block; bottom:35px}
+}
+@media(min-width: 350px) {
+  .t-Pac .go-servizio-btn {font-size: 2rem}
+  .t-Pac .servizio-icons {bottom:50px}
+}
+
 
 .t-Pac .scheda-icona {max-width: 45px;margin-right: 10px;}
 /*.t-Pac .Callout--example {background: #eee;border-top-color: #9c2328}*/

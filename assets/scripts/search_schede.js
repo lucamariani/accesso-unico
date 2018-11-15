@@ -57,7 +57,7 @@ var getResultBox = function(item) {
   appendString += '<div class="servizio-icons">' + profileIcon + themeIcon + tipoIcon + '</div>';
 
   appendString += '<a href="' + baseurl + item.url + '" target="_blank">' +
-                    '<button class="Button u-text-m u-background-50 u-color-white u-sizeFull go-servizio-btn">Vai al servizio</button></a>';
+                    '<button class="Button u-background-white u-color-50 u-sizeFull go-servizio-btn">Vai al servizio</button></a>';
 
   appendString += '</section></div></div>';
 
