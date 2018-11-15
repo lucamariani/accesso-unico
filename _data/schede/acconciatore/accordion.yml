@@ -9,18 +9,30 @@
 
 - title: "Requisiti soggettivi"
   file: "requisitisogg.md"
+  utenza:
+    - intermediari
+    - pa
+- title: "Requisiti soggettivi"
+  file: "requisitisoggcittadino.md"
+  utenza:
+    - imprese
+    - cittadini
 
 - title: "Requisiti oggettivi"
   file: "requisitiogg.md"
 
 - title: "Regime avvio"
+  file: "regime_avviocittadino.md"
+  utenza:
+    - imprese
+    - cittadini
+
+- title: "Regime avvio"
   file: "regime_avvio.md"
   utenza:
-- title: "Modulistica"
-  file: "modulistica.md"
+    - intermediari
+    - pa
 
 - title: "Controlli"
   file: "controlli.md"
-  utenza:
-    - imprese
-    - intermediari
+  
