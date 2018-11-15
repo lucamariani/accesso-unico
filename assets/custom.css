@@ -25,6 +25,9 @@
 /* title, subtitle */
 .t-Pac h1.u-text-h1, .t-Pac h4.u-text-h4 {margin-bottom: 0 !important}
 
+/* enable list style in article tags */
+article ul {list-style: inherit !important;margin:1em}
+
 /* home banner */
 /* .t-Pac #banner-text {font-size:1.3em !important} */
 @media(min-width: 768px) {
