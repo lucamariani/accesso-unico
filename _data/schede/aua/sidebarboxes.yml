@@ -3,7 +3,7 @@
   utenza:
     - intermediari
     - cittadini
-- title: Documentazione
+- title: Documenti
   file: documenti.md
   utenza:
     - imprese
