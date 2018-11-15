@@ -7,11 +7,13 @@
 
   {% include head.html %}
 
-  <body class="t-Pac {% if site.main_color %}u-color-{{ site.main_color }}{% endif %}">    
+  <body class="t-Pac {% if site.main_color %}u-color-{{ site.main_color }}{% endif %}">
 
     {% include navbar.html %}
 
     {{ content }}
+
+    {% include menu_popup.html %}
 
     {% include footer.html %}
 

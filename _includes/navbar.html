@@ -202,6 +202,8 @@
 
                 {% if item.url contains "http" %}
                 <li data-megamenu-class="{{ data-megamenu-class }}"><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                {% elsif item.popup %}
+                <li data-megamenu-class="{{ data-megamenu-class }} user-menu-popup-btn"><a href="#" popup-btn="{{ item.popup }}">{{ item.title }}</a>
                 {% else %}
                 <li data-megamenu-class="{{ data-megamenu-class }}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
