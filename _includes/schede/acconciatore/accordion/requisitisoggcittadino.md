@@ -8,11 +8,11 @@
 
 - **Prima alternativa**:
 
-un corso di qualificazione della durata di due anni seguito da: corso di specializzazione di contenuto prevalentemente pratico
+- un corso di qualificazione della durata di due anni seguito da: corso di specializzazione di contenuto prevalentemente pratico
 
 Oppure
 
-inserimento della durata di un anno presso un'impresa di acconciatura, da effettuare nell'arco di due anni
+- inserimento della durata di un anno presso un'impresa di acconciatura, da effettuare nell'arco di due anni
 
 - **Seconda alternativa**:
 
