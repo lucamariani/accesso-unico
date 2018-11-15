@@ -1,8 +1,12 @@
-/* personalizzazione di colori e stili  */
-
-/* set "personalizza_css: true" to activate the use of this css file */
-/* otherwise will be used the standard color from "italia design" */
-
+.t-Pac .regione-logo {height:30px;position:absolute;top: 12px;left: 16px;}
+.t-Pac .regione-title {position:relative;left: 40px;}
+@media(min-width: 1336px) {
+  .t-Pac .regione-logo {display: none;}
+  .t-Pac .regione-title {left: 0;}
+}
+@media(min-width: 1366px) {
+  .t-Pac .regione-logo {display:block;top: 16px;left: 75px;}
+}
 /* change menu colors */
 .t-Pac .Megamenu--default{background-color:#ffffff;}
 .t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}

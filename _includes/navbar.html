@@ -28,7 +28,12 @@
   <div class="Header-banner {{background-banner}}">
       <div class="Header-owner Headroom-hideme ">
           {% if site.header_parent_title %}
-          <a href="{{ site.header_parent_url }}"><span>{{ site.header_parent_title }}</span></a>
+          <a href="{{ site.header_parent_url }}">
+            {% if site.header_parent_logo %}
+            <img class="Headroom-hideme regione-logo" src="{{ site.header_parent_logo | relative_url }}">
+            {% endif %}
+            <span class="regione-title">{{ site.header_parent_title }}</span>
+          </a>
           {% endif %}
 
           {% if site.language_selector %}
