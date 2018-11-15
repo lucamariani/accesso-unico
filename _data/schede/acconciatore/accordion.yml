@@ -11,7 +11,7 @@
   file: "requisitisogg.md"
   utenza:
     - intermediari
-    - pa
+
 - title: "Requisiti soggettivi"
   file: "requisitisoggcittadino.md"
   utenza:
@@ -31,8 +31,7 @@
   file: "regime_avvio.md"
   utenza:
     - intermediari
-    - pa
+    
 
 - title: "Controlli"
   file: "controlli.md"
-  
