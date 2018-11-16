@@ -23,6 +23,7 @@ window.Users = window.Users || {};
     enableListViewClick()
     enableLoginClick()
     enableLogoutClick()
+    enableMenuPopupClick()
   }
 
   // hide
@@ -50,7 +51,14 @@ window.Users = window.Users || {};
       default:
 
     }
+  }
 
+  const enableMenuPopupClick = function() {
+      $('.user-menu-popup-btn a').click(function() {
+        const popupBtn = $(this).attr('popup-btn') + 'Btn'
+        console.log('popupBtn: ' + popupBtn)
+        $('#' + popupBtn).click()
+      })
   }
 
   var enableListViewClick = function() {

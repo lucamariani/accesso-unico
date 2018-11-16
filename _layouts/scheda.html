@@ -16,7 +16,7 @@ layout: default
           </div>
           {% endif %}
           {% if page.subtitle %}
-          <h6 class="u-text-h6 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h4>
+          <h6 class="u-text-h6 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h6>
           {% endif %}
           </div>
 
@@ -98,3 +98,10 @@ layout: default
     </section>
   </div>
 </div>
+
+<script>
+  // underline menu
+  setTimeout(function() {
+    underlineMenu(1)
+  }, 500)
+</script>

@@ -61,6 +61,19 @@ function getAllUrlParams(url) {
 }
 
 /**
+ * Underline menu
+ */
+ const underlineMenu = function(index) {
+   console.log('underlying index ' + index);
+   $('.Megamenu-item a').each(function() {
+     $(this).removeClass('is-selected')
+   })
+   const search = $('.Megamenu-item a')[index]
+   console.log($('nav').find(search));
+   $('nav').find(search).addClass('is-selected')
+ }
+
+/**
  * Show hover label in mobile with :active
  */
 var hoverForMobile = function(selector, label) {

@@ -85,10 +85,15 @@ scripts:
     {% endfor %}
   }
 
-  // set banner background image
   $(function() {
+    // set banner background image
     const img_src = baseurl + '/img/banner_5.png'
     console.log('setting bkg img ' + img_src);
     $('#banner-div').css( 'background-image','url(' + img_src + ')' )
+    // underline menu
+    setTimeout(function() {
+      underlineMenu(0)
+    }, 500)
   })
+
 </script>
