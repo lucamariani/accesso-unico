@@ -10,6 +10,8 @@
 /* change menu colors */
 .t-Pac .Megamenu--default{background-color:#ffffff;}
 .t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
+/* underline menu */
+.t-Pac .Megamenu-item a.is-selected {border-bottom: 2px solid #9F383B;}
 /* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
 /* home page search */
