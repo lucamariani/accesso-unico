@@ -1,5 +1,7 @@
 .t-Pac #login-div, .t-Pac #logout-div {display: none}
 .t-Pac #header-login-container, .t-Pac #header-logout-container {display: none}
+.t-Pac .user-name-mobile {color: #fff;padding: 15px;font-weight: 700;}
+
 @media(min-width: 992px) {
   .t-Pac #login-div, .t-Pac #logout-div {display: inline-block}
   .t-Pac #header-login-container {display:block; position:absolute; right:20px; top:15px;}

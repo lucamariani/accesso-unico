@@ -31,6 +31,18 @@ window.Users = window.Users || {};
     $('.only-loggedin').removeClass('Megamenu-item')
   }
 
+  const showMobileMenuEntry = function(roleClass) {
+    const entries = $('li[data-megamenu-class~="' + roleClass + '"]')
+    var dataMegamenuClass = entries.attr('data-megamenu-class').replace('only-loggedin','');
+    console.log('setting ' + dataMegamenuClass)
+    entries.attr('data-megamenu-class', dataMegamenuClass)
+  }
+
+  const addNameOnMobile = function(name) {
+    const icon = '<img style="height:15px" src="/accesso-unico/assets/images/icons/man.png">'
+    $('.Offcanvas-toggleContainer').append('<span class="user-name-mobile u-text-xs">' + icon + ' ' + name +'</span>')
+  }
+
   // show
   var showUserMenu = function(role) {
     // remove all user's entries
@@ -38,14 +50,25 @@ window.Users = window.Users || {};
     // then shows only the role granted
     switch (role) {
       case 'pa':
-        $('#user-name').text('Gianni Verdi – Comune di Cittadella');
-        // console.log('showing...')
+        // add name on desktop
+        const paName = 'Gianni Verdi – Comune di Cittadella'
+        $('.user-name-class').text(paName);
+        // add name on mobile
+        addNameOnMobile(paName)
+        // show on desktop
         $('.user-pa-entry').addClass('Megamenu-item')
+        // show on mobile
+        showMobileMenuEntry('user-pa-entry')
         break;
       case 'private':
-        $('#user-name').text('Mario Rossi');
-        // console.log('showing...')
+        const privateName = 'Mario Rossi'
+        $('.user-name-class').text(privateName);
+        // add name on mobile
+        addNameOnMobile(privateName)
+        // desktop
         $('.user-private-entry').addClass('Megamenu-item')
+        // show on mobile
+        showMobileMenuEntry('user-private-entry')
         break;
 
       default:
@@ -54,7 +77,7 @@ window.Users = window.Users || {};
   }
 
   const enableMenuPopupClick = function() {
-      $('.user-menu-popup-btn a').click(function() {
+      $('li[data-megamenu-class~="user-menu-popup-btn"] > a').add('.user-menu-popup-btn a').click(function() {
         const popupBtn = $(this).attr('popup-btn') + 'Btn'
         console.log('popupBtn: ' + popupBtn)
         $('#' + popupBtn).click()
@@ -104,16 +127,6 @@ window.Users = window.Users || {};
       hideUserMenu()
     }
   }
-
-  // var switchLoginClass = function() {
-  //   $('.Header-login').addClass('Header-logout')
-  //   $('.Header-login').removeClass('Header-login')
-  // }
-  //
-  // var switchLogoutClass = function() {
-  //   $('.Header-logout').addClass('Header-login')
-  //   $('.Header-logout').removeClass('Header-logout')
-  // }
 
   var setLoginContentMask = function() {
       // hide logout mask
