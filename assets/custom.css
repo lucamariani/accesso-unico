@@ -1,17 +1,16 @@
-.t-Pac .regione-logo {height:30px;position:absolute;top: 12px;left: 16px;}
-.t-Pac .regione-title {position:relative;left: 40px;}
-@media(min-width: 1336px) {
-  .t-Pac .regione-logo {display: none;}
-  .t-Pac .regione-title {left: 0;}
+.t-Pac #login-div, .t-Pac #logout-div {display: none}
+.t-Pac #header-login-container, .t-Pac #header-logout-container {display: none}
+@media(min-width: 992px) {
+  .t-Pac #login-div, .t-Pac #logout-div {display: inline-block}
+  .t-Pac #header-login-container {display:block; position:absolute; right:20px; top:15px;}
+  .t-Pac #header-logout-container {display:block}
 }
-@media(min-width: 1366px) {
-  .t-Pac .regione-logo {display:block;top: 16px;left: 75px;}
-}
+
 /* change menu colors */
 .t-Pac .Megamenu--default{background-color:#ffffff;}
 .t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
 /* underline menu */
-.t-Pac .Megamenu-item a.is-selected {border-bottom: 2px solid #9F383B;}
+.t-Pac .Megamenu-item a.is-selected {border-bottom: 2px solid #65dde0;}
 /* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
 /* home page search */
@@ -75,13 +74,14 @@
 /* header */
 .t-Pac .beta-label {font-size: 12px;position: relative;top: -10px;left: -3px;}
 /* handle login mask*/
+.t-Pac #login-div > img {height:12px}
 .t-Pac .Headroom--fixed.Headroom--not-top .Headroom-showme {max-height: 5em}
 .t-Pac .Headroom-showme {max-height:0; overflow-y:hidden;}
 .t-Pac .Header-login, .t-Pac #logout-icon {cursor: pointer;}
 .t-Pac .login-mask, .t-Pac .logout-mask {display: none}
 .t-Pac #users-list {display: none;  background-color: #30373d;padding: 10px;border-radius: 10px;}
-.t-Pac #users-list li {padding-bottom: 5px;}
-.t-Pac #users-list li:hover {color: #9c2328;}
+.t-Pac #users-list li {padding-bottom: 5px;color: #65dde0;font-weight: 600;}
+.t-Pac #users-list li:hover {color: #fff;}
 /* handle login menu entries */
 .t-Pac .Linklist li[data-megamenu-class~="only-loggedin"] {display: none !important} /* display again with removing only-loggedin attibute */
 

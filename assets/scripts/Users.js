@@ -68,7 +68,7 @@ window.Users = window.Users || {};
   }
 
   var enableLoginClick = function() {
-    $('#users-list li').click(function() {
+    $('.users-list-class li').click(function() {
       console.log('login clicked...');
       const role = $(this).attr('user-role')
       console.log('user role: ' + role)
@@ -77,29 +77,15 @@ window.Users = window.Users || {};
       // add loggedin status
       Cookies.set(USER_STATUS_COOKIE, role)
       location.reload()
-      // handle css classes
-      // switchLoginClass()
-      // handle login mask content
-      // setLogoutContentMask()
-      // as we changed the css class we need to enable callback again
-      // enableLogoutClick()
-      // showUserMenu(role)
     })
   }
 
   var enableLogoutClick = function() {
-    $('#logout-icon').click(function() {
+    $('.logout-icon-class').click(function() {
       console.log('logout clicked...');
       // add loggedin status
       Cookies.set(USER_STATUS_COOKIE, 0)
       location.reload()
-      // handle css classes
-      // switchLogoutClass()
-      // handle login mask content
-      // setLoginContentMask()
-      // as we changed the css class we need to enable callback again
-      // enableLoginClick()
-      // hideUserMenu()
     })
   }
 
@@ -145,6 +131,11 @@ window.Users = window.Users || {};
     $('.Headroom-showme.login-mask').css('max-height', '0')
     $('.logout-mask').show()
     $('.Headroom-showme.logout-mask').css('max-height', '5em')
+
+    //hide on mobile
+    $('.Treeview .users-list-class').css('height',0)
+    $('.Treeview .login-mask').text('ESCI')
+    $('.Treeview .login-mask').addClass('logout-icon-class')
   }
 
 
