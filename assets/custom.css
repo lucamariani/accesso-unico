@@ -40,7 +40,7 @@
 /* .t-Pac #banner-text {font-size:1.3em !important} */
 @media(min-width: 768px) {
   .t-Pac #banner-div {min-height:250px;background-size:contain;background-repeat:no-repeat;background-position-x:right;background-position-y:center}
-  .t-Pac #banner-text {max-width:27%}
+  /* .t-Pac #banner-text {max-width:40%;padding-top: 70px !important;} */
 }
 /* search schede */
 .t-Pac #new-search-btn {border:0 !important; display: none}
