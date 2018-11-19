@@ -1,5 +1,1 @@
-Per destinazione d’uso di un edificio si intende quella in atto in un edificio o in una singola unità immobiliare stabilita dall'ultimo titolo abilitativo assentito, per la costruzione o per il recupero, dal certificato di agibilità o, in assenza o indeterminatezza del titolo, dalla classificazione catastale attribuita, ovvero da altri atti o certificazioni probanti, nonché da quella risultante dallo stato di fatto attestato dal proprietario, con presentazione di elementi di prova.
-
-Se si vuole cambiare la destinazione d’uso di un immobile è necessario chiedere al Comune territorialmente competente un titolo abilitativo – Permesso di Costruire, SCIA o CILA a seconda dei casi.
-Il cambio di destinazione è disciplinato dalle norme contenute nel Piano regolatore generale del Comune che individua per ogni zona le destinazioni compatibili, pertanto deve essere conforme alle leggi e agli strumenti urbanistici vigenti.
-È possibile modificare la categoria dell’immobile o di porzione di esso passando tra le seguenti destinazioni o anche nell’ambito della stessa categoria: residenziale, turistico-ricettiva, produttiva-direzionale, commerciale, rurale.
+PConsiste nella modifica della funzione, utilizzo a cui è adibito un edificio o parte di esso. Si ottiene facendo richiesta al Comune competente.

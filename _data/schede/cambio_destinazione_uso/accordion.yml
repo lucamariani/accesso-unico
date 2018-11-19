@@ -6,13 +6,17 @@
 # - entries without "utenza" key are visible for all profiles
 # - entries with "utenza" key are visible only for that profiles
 
+- title: "Introduzione"
+  file: "introduzione.md"
+
 - title: "Tipologie di cambio di destinazione d'uso"
   file: "tipologia.md"
   utenza:
     - imprese
     - intermediari
+
 - title: "La pratica"
-  file: "pratica.md"
+  file: "pratica_cittadini.md"
   utenza:
     - cittadini
 
@@ -22,7 +26,7 @@
     - imprese
     - intermediari
 
-- title: "Requisiti"
+- title: "Chi può fare richiesta"
   file: "requisiti_cittadini.md"
   utenza:
     - cittadini
@@ -32,11 +36,6 @@
   utenza:
     - imprese
     - intermediari
-
-- title: "Le fasi del procedimento"
-  file: "fasi_cittadini.md"
-  utenza:
-    - cittadini
 
 - title: "Controlli"
   file: "controlli.md"
@@ -58,4 +57,4 @@
 - title: "Costi"
   file: "costi_cittadini.md"
   utenza:
-    - cittadini  
+    - cittadini
