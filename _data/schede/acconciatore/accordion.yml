@@ -14,7 +14,7 @@
   utenza:
     - intermediari
 
-- title: "Chi può esercitare l'attività"
+- title: "Chi può esercitare"
   file: "requisitisoggcittadino.md"
   utenza:
     - imprese
@@ -25,13 +25,13 @@
   utenza:
     - intermediari
 
-- title: "Dove e come esercitare l'attività"
+- title: "Dove e come esercitare"
   file: "requisitiogg.md"
   utenza:
     - cittadini
     - imprese
 
-- title: "Per aprire l'attività"
+- title: "Per aprire"
   file: "regime_avviocittadino.md"
   utenza:
     - imprese
