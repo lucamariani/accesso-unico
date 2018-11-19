@@ -95,6 +95,20 @@
 /* handle login menu entries */
 .t-Pac .Linklist li[data-megamenu-class~="only-loggedin"] {display: none !important} /* display again with removing only-loggedin attibute */
 
+.t-Pac .u-iconPartecipa {display:none}
+@media(min-width: 390px) {
+  .t-Pac .u-iconPartecipa {position:absolute;display:block;width:65px;top: -60px;right: -18px;}
+}
+@media(min-width: 992px) {
+  .t-Pac .u-iconPartecipa { width:50px;top: -40px;right: -18px;}
+}
+@media(min-width: 1187px) {
+  .t-Pac .u-iconPartecipa { width:55px;top: -80px;right: -21px;}
+}
+@media(min-width: 1290px) {
+  .t-Pac .u-iconPartecipa { width:75px;top: -91px;right: -18px;}
+
+
 /* footer */
 .t-Pac .Footer-socialIcons [class*=" Icon-"]{color:#30373d}
 .t-Pac .ScrollTop {background-color:#30373d !important}
