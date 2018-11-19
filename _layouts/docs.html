@@ -37,7 +37,7 @@ layout: default
 
   </div>
 
-  <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
 
     <p class="Prose u-padding-r-top u-padding-r-bottom">
       Cerca la documentazione per titolo, anno o numero
@@ -159,7 +159,7 @@ layout: default
           <!-- / Tags -->
 
           <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
-           <button id="docs-search-btn" type="submit" class="Button Button--default Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">Cerca</button>
+           <button id="docs-search-btn" type="submit" class="Button Button--default Button--shadow u-text-m u-sizeFull">Cerca</button>
           </div>
         </div>
     </fieldset>
@@ -201,4 +201,9 @@ layout: default
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
+
+  // underline menu
+  setTimeout(function() {
+    underlineMenu(2)
+  }, 500)
 </script>

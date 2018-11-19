@@ -28,7 +28,12 @@
   <div class="Header-banner {{background-banner}}">
       <div class="Header-owner Headroom-hideme ">
           {% if site.header_parent_title %}
-          <a href="{{ site.header_parent_url }}"><span>{{ site.header_parent_title }}</span></a>
+          <a href="{{ site.header_parent_url }}">
+            {% if site.header_parent_logo %}
+            <img class="Headroom-hideme regione-logo" src="{{ site.header_parent_logo | relative_url }}">
+            {% endif %}
+            <span class="regione-title">{{ site.header_parent_title }}</span>
+          </a>
           {% endif %}
 
           {% if site.language_selector %}
@@ -202,6 +207,8 @@
 
                 {% if item.url contains "http" %}
                 <li data-megamenu-class="{{ data-megamenu-class }}"><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                {% elsif item.popup %}
+                <li data-megamenu-class="{{ data-megamenu-class }} user-menu-popup-btn"><a href="#" popup-btn="{{ item.popup }}">{{ item.title }}</a>
                 {% else %}
                 <li data-megamenu-class="{{ data-megamenu-class }}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
@@ -273,10 +280,14 @@
 
               {% if site.mega_menu_accedi %}
               <li data-megamenu-class="u-hidden">
-                  <a class="Button u-border-none u-color-95 u-background-compl u-text-r-xxs" href="#">Accedi</a>
+                  <a class="Button u-border-none u-color-95 u-background-compl u-text-r-xxs login-mask" href="#">Accedi</a>
+                  <ul class="users-list-class">
+                    <li user-role="private"><a href="#">Utente privato</a></li>
+                    <li user-role="pa"><a href="#">Utente PA</a></li>
+                  </ul>
               </li>
               {% endif %}
-          </ul>
+            </ul>
 
       </nav>
   </div>

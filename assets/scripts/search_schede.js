@@ -14,7 +14,9 @@ var idx = lunr(function () {
       'tema': window.allschede[key].tema,
       'tipo': window.allschede[key].tipo,
       'subtitle': window.allschede[key].subtitle,
-      'utenza': window.allschede[key].url
+      'utenza': window.allschede[key].url,
+      'version': window.allschede[key].version,
+      'versionLink': window.allschede[key].versionLink
     });
   }
 });
@@ -51,13 +53,15 @@ var getResultBox = function(item) {
   appendString += '<div class="u-nbfc u-borderRadius-m u-color-grey-30 u-background-white servizio-btn-container">';
   appendString += '<section class="u-text-r-l u-padding-r-all u-layout-prose">';
   appendString += '<div class="u-text-p u-padding-r-bottom"><p class="u-color-50 u-text-r-s u-textWeight-600">' +
-                    item.title + '</p><p class="u-textSecondary u-text-r-xxs">' + item.date + '</p></div>';
+                    item.title;
+  if ( item.status ) appendString += '<span class="scheda-title-label"><a href=" ' + baseurl + item.statusLink + '"> '+ item.status + '</a></span>';
+  appendString += '</p><p class="u-textSecondary u-text-r-xxs">' + item.date + '</p></div>';
   appendString += '<h3 class="u-text-p u-textWeight-400 u-color-grey-80 u-margin-r-bottom">' + item.description + '</h3>';
 
   appendString += '<div class="servizio-icons">' + profileIcon + themeIcon + tipoIcon + '</div>';
 
-  appendString += '<a href="' + baseurl + item.url + '" target="_blank">' +
-                    '<button class="Button u-text-m u-background-50 u-color-white u-sizeFull go-servizio-btn">Vai al servizio</button></a>';
+  appendString += '<a href="' + baseurl + item.url + '">' +
+                    '<button class="Button u-background-white u-color-50 u-sizeFull go-servizio-btn">Vai al servizio</button></a>';
 
   appendString += '</section></div></div>';
 

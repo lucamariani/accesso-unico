@@ -57,7 +57,7 @@ var formSubmit = function() {
     appendString += '<ul id="' + label + '-result-list">';
 
     $.each(itemArray, function(key,item) {
-      appendString += '<li class="u-textLeft u-text-xs"><a target="_blank" href="' + _baseurl + item.url + '">' + item.title + '</a></li>';
+      appendString += '<li class="u-textLeft u-text-xs"><a href="' + _baseurl + item.url + '">' + item.title + '</a></li>';
     });
 
     appendString += '</ul><div class="u-background-grey-30 u-margin-top-xs u-padding-top-xxs"></div>';
@@ -70,7 +70,7 @@ var addResultItems = function(label, itemArray, _baseurl) {
 
   if ( itemArray.length > 0 ) {
     $.each(itemArray, function(key,item) {
-      appendString += '<li class="u-textLeft u-text-xs"><a target="_blank" href="' + _baseurl + item.url + '">' + item.title + '</a></li>';
+      appendString += '<li class="u-textLeft u-text-xs"><a href="' + _baseurl + item.url + '">' + item.title + '</a></li>';
     });
   }
 
@@ -108,7 +108,7 @@ var displayResults = function(results) {
         schedeResults.push(item);
       }
 
-      //appendString += '<li style="text-align:left"><a target="_blank" href="' + baseurl + item.url + '">' + item.title + ' (' + item.type + ') </a></li>';
+      //appendString += '<li style="text-align:left"><a href="' + baseurl + item.url + '">' + item.title + ' (' + item.type + ') </a></li>';
     }
 
     addResultItems('schede', schedeResults, baseurl);

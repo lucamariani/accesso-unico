@@ -16,7 +16,7 @@ layout: default
           </div>
           {% endif %}
           {% if page.subtitle %}
-          <h6 class="u-text-h6 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h4>
+          <h6 class="u-text-h6 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h6>
           {% endif %}
           </div>
 
@@ -82,7 +82,7 @@ layout: default
           <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}grigio_{{ page.tema }}.png">
 
           <div class="Form-field" style="padding-bottom: 0px !important;">
-            <a id="research" type="button" href="{{ site.baseurl}}/schede_search" target="_blank" class="Button u-text-xs u-background-50 u-color-white u-sizeFull" style="max-width:15em;">
+            <a id="research" type="button" href="{{ site.baseurl}}/schede_search" class="Button u-text-xs u-background-50 u-color-white u-sizeFull" style="max-width:15em;">
               Nuova ricerca
             </a>
           </div>
@@ -98,3 +98,10 @@ layout: default
     </section>
   </div>
 </div>
+
+<script>
+  // underline menu
+  setTimeout(function() {
+    underlineMenu(1)
+  }, 500)
+</script>

@@ -61,6 +61,21 @@ function getAllUrlParams(url) {
 }
 
 /**
+ * Underline menu
+ */
+ const underlineMenu = function(index) {
+   // if user is logged menu3 and menu4 are user's menus
+   if(index > 2 && Cookies.get('user_status') != 0) index = index + 2;
+   console.log('underlying index ' + index);
+   $('.Megamenu-item a').each(function() {
+     $(this).removeClass('is-selected')
+   })
+   const search = $('.Megamenu-item a')[index]
+   // console.log($('nav').find(search));
+   $('nav').find(search).addClass('is-selected')
+ }
+
+/**
  * Show hover label in mobile with :active
  */
 var hoverForMobile = function(selector, label) {

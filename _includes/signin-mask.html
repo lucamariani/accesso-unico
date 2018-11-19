@@ -1,22 +1,20 @@
-<div id="" style="position:absolute; right:20px; top:5px;" class="{{ include.class }} Header-login login-mask u-color-white">
-  <div id="login-div" style="text-align:right">
-    <div class="" style="display: inline-block; position:relative; top:-5px;">ACCEDI</div>
-    <div class="" style="display: inline-block; position:relative; top:5px;">
-      <img style="max-width: 35px;" src="/accesso-unico/assets/images/icons/rosso_cittadini.png" class="scheda-icona">
-   </div>
+<div id="header-login-container" class="{{ include.class }} Header-login login-mask u-color-white">
+ <div class="u-textRight">
+   <button id="login-div" class="Button Button--default u-test-xxs u-padding-top-xxs u-padding-bottom-xxs">
+     ACCEDI <img src="/accesso-unico/assets/images/icons/people.svg">
+   </button>
  </div>
-  <ul id="users-list">
+  <ul id="users-list" class="users-list-class">
     <li id="private-user" user-role="private">Demo accesso utente privato</li>
     <li id="pa-user" user-role="pa">Demo accesso utente PA</li>
   </ul>
 </div>
 
-<div id="" style="position:absolute; right:20px; top:15px;" class="{{ include.class }} Header-logout logout-mask u-color-white">
+<div id="header-logout-container" style="position:absolute; right:20px; top:15px;" class="{{ include.class }} Header-logout logout-mask u-color-white">
   <div id="logout-div" style="text-align:right">
-    <div class="" style="display: inline-block;position: relative;">Buongiorno, <span id="user-name"></span></div>
+    <div class="" style="display: inline-block;position: relative;">Buongiorno, <span id="user-name" class="user-name-class"></span></div>
     <div class="" style="display: inline-block; position:relative; top:4px;">
-      <!-- <img style="max-width: 35px;" src="/accesso-unico/assets/images/icons/rosso_cittadini.png" class="scheda-icona"> -->
-      <span id="logout-icon" class="u-text-r-s Icon Icon-cancel" title="Esci"></span>
+      <span id="logout-icon" class="logout-icon-class u-text-r-s Icon Icon-cancel" title="Esci"></span>
    </div>
  </div>
 </div>

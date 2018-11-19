@@ -26,13 +26,36 @@ scripts:
   <!-- <div class="Grid u-text-r-l u-layout-wide u-padding-r-bottom"> -->
 
     <div id="banner-div" class="u-sizeFull Prose u-background-50">
-      <div id="banner-text" class="u-padding-all-l u-color-white">
-        <div class="u-text-r-l u-textWeight-700 u-margin-bottom-s">Costruiamo insieme l’Accesso Unico.</div>
+      <!-- <div id="banner-text" class="u-margin-left-xxl u-padding-all-xxl u-color-white">
+        <div class="u-text-r-m u-textWeight-700 u-margin-bottom-s">Costruiamo insieme l’Accesso Unico.</div>
         <div class="u-text-r-xs">
           Sei un cittadino o un operatore delle PA?
           <br>
           Entra nella comunità, il tuo contributo è importante.
         </div>
+      </div>
+      <div class="banner-btn">
+        <button class="Button Button--default">Come Partecipare</button>
+      </div> -->
+      <div class="Grid Grid--withGutter Grid--alignMiddle">
+        <div class="Grid-cell u-sm-size1of3 u-md-size1of3 u-lg-size1of3">
+          <div id="banner-text" class="u-padding-top-xxl u-padding-bottom-xxl u-padding-right-s u-padding-left-xxl u-color-white">
+            <div class="u-text-r-m u-textWeight-700 u-margin-bottom-s">Costruiamo insieme l’Accesso Unico.</div>
+            <div class="u-text-r-xs">
+              Sei un cittadino o un operatore delle PA?
+              <br>
+              Entra nella comunità, il tuo contributo è importante.
+            </div>
+          </div>
+        </div>
+        <div class="Grid-cell u-sm-size1of3 u-md-size1of3 u-lg-size1of3">
+          <div class="banner-btn u-textCenter">
+            <a href="{{ site.baseurl }}/programma"
+              <button class="Button Button--info u-color-50">Come Partecipare</button>
+            </a>
+          </div>
+        </div>
+        <div class="Grid-cell u-sm-size1of3 u-md-size1of3 u-lg-size1of3"></div>
       </div>
       <img class="u-sm-hidden u-md-hidden u-lg-hidden u-sizeFull" src="{{ site.baseurl }}/img/banner_5ta.png">
     </div>
@@ -85,10 +108,15 @@ scripts:
     {% endfor %}
   }
 
-  // set banner background image
   $(function() {
+    // set banner background image
     const img_src = baseurl + '/img/banner_5.png'
     console.log('setting bkg img ' + img_src);
     $('#banner-div').css( 'background-image','url(' + img_src + ')' )
+    // underline menu
+    setTimeout(function() {
+      underlineMenu(0)
+    }, 500)
   })
+
 </script>
