@@ -3,12 +3,6 @@ La SCIA deve essere corredata dalle attestazioni relative alla conformità dei l
 <BR>
 PROCEDIMENTI COLLEGATI
 
-Qualora l'attività di acconciatore presenti un **consumo idrico giornaliero superiore a 1 mc** al momento di massima attività, occorre avviare la pratica [AUA][9725498b]
-Occorre inoltre avviare la pratica di **[cambio di destinazione d’uso]**[7134c849] nel caso in cui i locali sede dell'attività richiedano questo adeguamento.
-
-  [9725498b]: {{ site.baseurl }}/schede/aua/{{page.utenza}} "vai alla scheda"
-
-
-
-
-  [7134c849]: {{ site.baseurl }}/schede/cambio_destinazione_uso/{{ page.utenza }} "Vai alla scheda di pratica"
+Qualora l'attività di acconciatore presenti un **consumo idrico giornaliero superiore a 1 mc** al momento di massima attività, occorre avviare la pratica [AUA]({{ site.baseurl }}/schede/aua/{{page.utenza}} "vai alla scheda")
+<br>
+Occorre avviare la pratica di [cambio di destinazione d’uso]({{ site.baseurl }}/schede/cambio_destinazione_uso/{{ page.utenza }} "Vai alla scheda")  nel caso in cui i locali sede dell'attività richiedano questo adeguamento.
