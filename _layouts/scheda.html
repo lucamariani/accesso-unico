@@ -25,24 +25,20 @@ layout: default
           {% endif %}
           </div>
 
+          {% assign user_items = site.data.profiles | where_exp: "item", "item.metaname == page.utenza" %}
+          {% assign user_item = user_items[0] %}
+          {% assign theme_items = site.data.themes | where_exp: "item", "item.metaname == page.tema" %}
+          {% assign theme_item = theme_items[0] %}
+          {% assign type_items = site.data.schede_types | where_exp: "item", "item.metaname == page.tipo" %}
+          {% assign type_item = type_items[0] %}
+
           <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
               <div id="scheda-icons-div" class="u-textCenter u-sm-hidden">
-                <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_grigio_{{ page.utenza }}.png">
-                <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_rosso_{{ page.tema }}.png">
-                <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_rosso_{{ page.tipo }}.png">
+                <img title="{{ user_item.name | capitalize }}" class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_grigio_{{ page.utenza }}.png">
+                <img title="{{ theme_item.name | capitalize }}" class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_rosso_{{ page.tema }}.png">
+                <img title="{{ type_item.name | capitalize }}" class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_rosso_{{ page.tipo }}.png">
               </div>
           </div>
-
-        <!-- <div class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
-          <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_grigio_{{ page.utenza }}.png">
-          <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}cerchio_rosso_{{ page.tema }}.png">
-          <div id="handle-favorite" scheda_title="{{ page.object }}-{{ page.utenza }}" scheda_url="{{ page.url }}">
-            <span id="add-scheda-to-favorites-btn"
-              class="u-color-50 u-text-r-l Icon Icon-favorite" title="Aggiungi ai preferiti"></span>
-            <span id="remove-scheda-from-favorites-btn"
-              class="u-color-50 u-text-r-l Icon Icon-cancel" title="Rimuovi dai preferiti"></span>
-          </div>
-        </div> -->
       <section>
     </div> <!-- /.u-layout-wide -->
   </div> <!-- /.u-sizeFull -->
@@ -68,11 +64,11 @@ layout: default
       <aside class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
 
         <div id="handle-favorite" class="u-margin-bottom-l" scheda_title="{{ page.object }}-{{ page.utenza }}" scheda_url="{{ page.url }}">
-          <button id="add-scheda-to-favorites-btn" class="Button u-text-xs u-color-50 u-sizeFull">
+          <button id="add-scheda-to-favorites-btn" class="Button Button--default u-text-xs u-sizeFull">
             Aggiungi ai preferiti
             <!-- <span id="" class="white u-text-r-xxs Icon Icon-favorite" title="Aggiungi ai preferiti"></span> -->
           </button>
-          <button id="remove-scheda-from-favorites-btn" class="Button u-text-xs u-color-50 u-sizeFull">
+          <button id="remove-scheda-from-favorites-btn" class="Button Button--default u-text-xs u-sizeFull">
             Rimuovi dai preferiti
             <!-- <span id="" class="white u-text-r-xxs Icon Icon-cancel" title="Rimuovi dai preferiti"></span> -->
           </button>
@@ -83,9 +79,9 @@ layout: default
         {% include schede/sidebar.html utenza=theprofile tema=theme %}
 
         <div id="tue-scelte" role="note" class="Callout Callout--example u-textCenter u-text-r-s u-margin-bottom-xl">
-          <p class="u-color-50 u-textWeight-700 u-text-xs" style="margin-bottom: 0px !important;">La tua scelta</p>
-          <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}rosso_{{ page.utenza }}.png">
-          <img class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}grigio_{{ page.tema }}.png">
+          <p title="" class="u-color-50 u-textWeight-700 u-text-xs" style="margin-bottom: 0px !important;">La tua scelta</p>
+          <img title="{{ user_item.name | capitalize }}" class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}grigio_{{ page.utenza }}.png">
+          <img title="{{ theme_item.name | capitalize }}" class="scheda-icona" src="{{ site.baseurl}}{{ site.iconsurl }}rosso_{{ page.tema }}.png">
 
           <div class="Form-field" style="padding-bottom: 0px !important;">
             <a id="research" type="button" href="{{ site.baseurl}}/schede_search" class="Button Button--default u-text-xs u-sizeFull" style="max-width:15em;">
