@@ -1,8 +1,8 @@
 title:             "UmbriaFacile - Regione Umbria"
 description:       "Costruiamo insieme il portale dei servizi della P.A. dell'Umbria"
-baseurl:           "/accesso-unico"
+baseurl:           
 iconsurl:          "/assets/images/icons/"
-url:               "https://lucamariani.github.io/accesso-unico/"
+url:               "https://beta.accessounico.regione.umbria.it"
 author:            "Redazione"
 accesso_unico_mail: "accessounico@regione.umbria.it"
 
