@@ -13,7 +13,7 @@ main_color: grey-80
 # Header data
 header_parent_title: Regione Umbria
 header_parent_url: "http://www.regione.umbria.it"
-header_parent_logo: 
+header_parent_logo:
 header_language_selector: false
 header_logo:  /assets/images/icons/accesso_unico.png
 header_title: UmbriaFacile
@@ -109,3 +109,8 @@ defaults:
       type: foo
     values:
       layout: single
+
+popup_pratiche_text: "Questo e' un testo di prova per il popup delle pratiche dell'utente privato"
+popup_preferiti_text: "Questo e' un testo di prova per il popup dei preferiti dell'utente privato"
+popup_forum_text: "Questo e' un testo di prova per il popup del forum dell'utente PA"
+popup_aggiornamenti_text: "Questo e' un testo di prova per il popup degli aggiornamenti dell'utente PA"

@@ -8,6 +8,13 @@
   .t-Pac #header-logout-container {display:block}
 }
 
+/* user popups */
+.t-Pac .u-popupResponsive {margin: 0 !important; width: 100%}
+.t-Pac .u-popupImgResponsive {max-width: 100%}
+@media(min-width: 810px) {
+  .t-Pac .u-popupResponsive {margin: 32px !important; width: unset}
+}
+
 /* change menu colors */
 .t-Pac .Megamenu--default{background-color:#ffffff;}
 .t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
@@ -40,12 +47,11 @@
 /* .t-Pac #banner-text {font-size:1.3em !important} */
 @media(min-width: 768px) {
   .t-Pac #banner-div {min-height:250px;background-size:contain;background-repeat:no-repeat;background-position-x:right;background-position-y:center}
-  /* .t-Pac #banner-text {max-width:40%;padding-top: 70px !important;} */
 }
 /* search schede */
 .t-Pac #new-search-btn {border:0 !important; display: none}
 .t-Pac #new-search-btn .Icon-search {padding: 5px 15px 5px 15px}
-.t-Pac .go-servizio-btn {border:1px solid; border-radius:5px; position:absolute; bottom:0; left:0;font-size: 1.5rem}
+.t-Pac .go-servizio-btn {border:1px solid; border-radius:0 0 5px 5px; position:absolute; bottom:0; left:0;font-size: 1.5rem}
 /* .t-Pac .go-servizio-btn:hover {background-color:#9c2328 !important;color:#fff !important} */
 .t-Pac .servizio-icons {display: none}
 .t-Pac .servizio-btn-container {position:relative;}
@@ -53,6 +59,7 @@
 .t-Pac .icon-search-results {max-width:35px;position: relative;top: 7px}
 .t-Pac .scheda-title-label {font-size: 12px;position: relative;top: -10px;left: 5px;}
 .t-Pac h1 .scheda-title-label {font-size: 17px;position: relative;top: -30px;left: 5px;}
+.t-Pac .tipologia-icon {max-width: 45px;top:13px;left:-10px}
 @media(min-width: 301px) {
   .t-Pac .servizio-icons {position:absolute; display: block; bottom:35px}
 }
@@ -87,6 +94,20 @@
 .t-Pac #users-list li:hover {color: #fff;}
 /* handle login menu entries */
 .t-Pac .Linklist li[data-megamenu-class~="only-loggedin"] {display: none !important} /* display again with removing only-loggedin attibute */
+
+.t-Pac .u-iconPartecipa {display:none}
+@media(min-width: 390px) {
+  .t-Pac .u-iconPartecipa {position:absolute;display:block;width:65px;top: -60px;right: -18px;}
+}
+@media(min-width: 992px) {
+  .t-Pac .u-iconPartecipa { width:50px;top: -40px;right: -18px;}
+}
+@media(min-width: 1187px) {
+  .t-Pac .u-iconPartecipa { width:55px;top: -80px;right: -21px;}
+}
+@media(min-width: 1290px) {
+  .t-Pac .u-iconPartecipa { width:75px;top: -91px;right: -18px;}
+
 
 /* footer */
 .t-Pac .Footer-socialIcons [class*=" Icon-"]{color:#30373d}
@@ -149,7 +170,7 @@
 .t-Pac #result-section {display:none;}
 .t-Pac #result-section a {text-decoration: none;}
 .t-Pac .single-doc .object {margin-top: 0.5em;margin-bottom: 0.5em;}
-.t-Pac .docs-box {position: relative;}
+.t-Pac .docs-box {position:relative}
 /* redefine our content width */
 .t-Pac .u-layout-prose {max-width: 40em !important}
 .t-Pac .pointer {cursor: pointer !important}

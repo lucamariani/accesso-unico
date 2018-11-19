@@ -30,7 +30,7 @@
               </h2>
 
               <div id="accordion-panel-{{ forloop.index }}" class="Accordion-panel fr-accordion__panel js-fr-accordion__panel">
-                <div class="u-layout-prose u-color-grey-90 u-text-p u-padding-r-all" markdown="1">
+                <div class="Prose u-layout-prose u-color-grey-90 u-text-p u-padding-r-all" markdown="1">
 
                   {% capture accordion-content %}{% include schede/{{page.object}}/accordion/{{ accordion.file }} %}{% endcapture %}
                   {{ accordion-content | markdownify }}

@@ -74,7 +74,9 @@ layout: default
                   <!-- get the theme's full name -->
                   {% assign utenza_items = site.data.profiles | where_exp: "item", "item.metaname == utenza.name" %}
                   {% assign utenza_item = utenza_items[0] %}
-                  <option class="u-color-50" value="{{ utenza.name }}">{{ utenza_item.name }}</option>
+                  <option class="u-color-50" value="{{ utenza.name }}" style="background-image:url({{ site.baseurl}}{{ site.iconsurl }}grigio_{{ utenza.name }}.png)">
+                    {{ utenza_item.name }}
+                  </option>
                 {% endfor %}
               </select>
             </div>
