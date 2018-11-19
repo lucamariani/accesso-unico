@@ -9,7 +9,12 @@ layout: default
     <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
       <section class="Grid">
         <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
-          <h1 class="u-text-h1 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
+          <h1 class="u-text-h1 u-color-{% if site.main_color %}{{ site.main_color }}{% else %}black{% endif %}">
+            {{ page.title }}
+            {% if page.status%}
+            <span class="scheda-title-label"><a href="{{site.baseurl}}{{page.statusLink}}">{{page.status}}</a></span>
+            {% endif %}
+          </h1>
           {% if page.img %}
           <div class="page-img-div">
             <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
