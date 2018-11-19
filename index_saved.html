@@ -1,0 +1,78 @@
+---
+layout: home
+scripts:
+  - /assets/scripts/wizard.js
+  - /assets/scripts/home_search.js
+---
+
+<!-- main point (manual) -->
+<div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+
+  <div class="u-layout-prose u-text-r-xl u-padding-r-bottom">
+    <p class="u-text-r-xl  u-textSecondary u-lineHeight-l">
+      Accesso Unico: il <span class="u-color-70">punto di riferimento per i servizi e le pratiche</span> della Pubblica Amministrazione in  Umbria
+    </p>
+  </div>
+
+  <section class="Grid">
+    <div class="Grid-cell u-sizeFull u-md-sizeFull u-lg-sizeFull u-text-r-s u-padding-r-all u-textCenter">
+      {% include search_form_home.html %}
+    </div>
+
+  </section>
+
+  <div class="u-text-r-l u-layout-wide u-padding-r-bottom">
+    <p class="Prose u-padding-r-top u-padding-r-bottom">
+      Lo scopo di questo portale è fornire <span class="u-textWeight-700">informazioni e strumenti utili</span> per conoscere servizi e gestire pratiche.
+      È anche un <span class="u-textWeight-700">luogo di confronto diretto</span> con la
+      <span class="u-textWeight-700">Pubblica Amministrazione</span>, dove l'opinione e il contributo dei cittadini è importante.<br>
+      <span class="u-textWeight-700">Il portale in versione Beta</span> sviluppato da Regione Umbria è lo   <span class="u-textWeight-700">strumento condiviso con gli operatori della P.A.</span> per costruire insieme i nuovi servizi dell'Accesso Unico.
+    </p>
+  </div>
+
+  <!-- wizard section -->
+  {% include wizard_home.html %}
+
+
+</div>
+<!-- end index.html -->
+<!-- add schede for searching purpose -->
+<script>
+  window.searchschede = {
+    {% assign all_schede = site.schede | group_by: 'object' %}
+
+    {% for scheda in all_schede %}
+      "{{ scheda.items[0].object | slugify }}": {
+        "title": "{{ scheda.items[0].title | xml_escape }}",
+        "tema": "{{ scheda.items[0].tema | xml_escape }}",
+        "subtitle": "{{ scheda.items[0].subtitle | xml_escape }}",
+        "url": "{{ scheda.items[0].url | xml_escape }}",
+        "type": "scheda"
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+
+  window.docs = {
+    {% for doc in site.data.docs.docs %}
+      "{{ doc.metaname | slugify }}": {
+        "title": "{{ doc.title | xml_escape }}",
+        "tema": "{{ doc.tema | xml_escape }}",
+        "subject": "{{ doc.oggetto | xml_escape }}",
+        "category": "{{ doc.categoria | xml_escape }}",
+        "year": {{ doc.anno }},
+        "ente": "{{ doc.ente | xml_escape }}",
+        "number": {{ doc.numero }},
+        "url": "{{ doc.url | xml_escape }}",
+        "type": "document",
+        "tags": [
+          {% for tag in doc.tags %}
+            "{{ tag  | xml_escape }}"
+            {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  }
+</script>

@@ -28,7 +28,12 @@
   <div class="Header-banner {{background-banner}}">
       <div class="Header-owner Headroom-hideme ">
           {% if site.header_parent_title %}
-          <a href="{{ site.header_parent_url }}"><span>{{ site.header_parent_title }}</span></a>
+          <a href="{{ site.header_parent_url }}">
+            {% if site.header_parent_logo %}
+            <img class="Headroom-hideme regione-logo" src="{{ site.header_parent_logo | relative_url }}">
+            {% endif %}
+            <span class="regione-title">{{ site.header_parent_title }}</span>
+          </a>
           {% endif %}
 
           {% if site.language_selector %}
@@ -50,6 +55,10 @@
               </div>
           </div>
           {% endif %}
+
+          {% if site.mega_menu_accedi %}
+            {% include signin-mask.html class="Headroom-hideme" %}
+          {% endif %}
       </div>
   </div>
   {% endif %}
@@ -67,6 +76,7 @@
           <div class="Header-title Grid-cell">
               <h1 class="Header-titleLink">
                   <a class="{{color}}" href="{{ site.baseurl }}/">{{ site.header_title }}
+                    <span class="beta-label">BETA</span>
                     {% if site.header_subtitle %}
                     <br>
                     <p class="{{color}} u-text-xs u-textWeight-400 u-padding-top-xs">{{ site.header_subtitle}}</p>
@@ -115,6 +125,10 @@
               <div class="Header-search" id="header-search">
                 {% include search_form.html %}
               </div>
+              {% endif %}
+
+              {% if site.XXXmega_menu_accedi %}
+                {% include signin-mask.html class="Headroom-showme u-hidden" %}
               {% endif %}
           </div>
 
@@ -168,17 +182,35 @@
       <nav>
           <ul class="Linklist Linklist--padded Treeview Treeview--default js-Treeview u-text-r-xs">
               {% for item in site.data.menu %}
+                {% assign data-megamenu-class = "Megamenu-item" %}
+                {% assign megamenu-alignRight-class = " u-flexExpandLeft" %}
+                {% assign megamenu-user-private-class = " u-hidden only-loggedin user-private-entry" %}
+                {% assign megamenu-user-pa-class = " u-hidden only-loggedin user-pa-entry" %}
 
-                {% if item.title contains "Programma"%}
-                  {% assign li_class = 'data-megamenu-class="Megamenu-item u-flexExpandLeft"'%}
-                {% else %}
-                  {% assign li_class = 'data-megamenu-class="Megamenu-item"' %}
+                {% if item.user == "private"%}
+                  {% capture data-megamenu-class %}
+                    {{ data-megamenu-class }} {{ megamenu-user-private-class }}
+                  {% endcapture %}
+                {% endif %}
+
+                {% if item.user == "pa"%}
+                  {% capture data-megamenu-class %}
+                    {{ data-megamenu-class }} {{ megamenu-user-pa-class }}
+                  {% endcapture %}
+                {% endif %}
+
+                {% if item.align == "right"%}
+                  {% capture data-megamenu-class %}
+                    {{ data-megamenu-class }} {{ megamenu-alignRight-class }}
+                  {% endcapture %}
                 {% endif %}
 
                 {% if item.url contains "http" %}
-                <li {{ li_class }}><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                <li data-megamenu-class="{{ data-megamenu-class }}"><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
+                {% elsif item.popup %}
+                <li data-megamenu-class="{{ data-megamenu-class }} user-menu-popup-btn"><a href="#" popup-btn="{{ item.popup }}">{{ item.title }}</a>
                 {% else %}
-                <li {{ li_class }}><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
+                <li data-megamenu-class="{{ data-megamenu-class }}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}
 
                 {% if item.dropdown %}
@@ -248,10 +280,14 @@
 
               {% if site.mega_menu_accedi %}
               <li data-megamenu-class="u-hidden">
-                  <a class="Button u-border-none u-color-95 u-background-compl u-text-r-xxs" href="#">Accedi</a>
+                  <a class="Button u-border-none u-color-95 u-background-compl u-text-r-xxs login-mask" href="#">Accedi</a>
+                  <ul class="users-list-class">
+                    <li user-role="private"><a href="#">Utente privato</a></li>
+                    <li user-role="pa"><a href="#">Utente PA</a></li>
+                  </ul>
               </li>
               {% endif %}
-          </ul>
+            </ul>
 
       </nav>
   </div>

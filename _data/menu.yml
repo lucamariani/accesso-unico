@@ -1,23 +1,41 @@
 - title: "Home"
   url: /
+#
+#- title: "Cerca il servizio"
+#  description:  "Cerca l'argomento di tuo interesse o dimmi chi sei"
+#  url: #
+#  dropdown:
+#  - title: "Cosa cerchi?"
+    # url: "#themes"
+#  - title: "Chi sei?"
+#    url: "#profiles"
 
 - title: "Servizi"
-  description:  "Cerca l'argomento di tuo interesse o dimmi chi sei"
-  url: #
-  dropdown:
-  - title: "Cosa cerchi?"
-    url: "#themes"
-  - title: "Chi sei?"
-    url: "#profiles"
+  url: /schede_search
 
 - title: "Documenti"
   url: /docs_search
 
-- title: "Le mie pratiche"
+- title: "Le mie pratiche (demo)"
   url: /docs_search
+  popup: pratiche
+  user: private
 
-- title: "Il mio profilo"
+- title: "Avvisi e preferiti (demo)"
   url: /docs_search
-  
-- title: "Il Programma"
-  url: https://www.arcgis.com/apps/Cascade/index.html?appid=1a91b66d279044b49b1636b287fcb611
+  popup: preferiti
+  user: private
+
+- title: "Forum (demo)"
+  url: /docs_search
+  popup: forum
+  user: pa
+
+- title: "Aggiornamento dati (demo)"
+  url: /docs_search
+  popup: aggiornamenti
+  user: pa
+
+- title: "Accesso Unico"
+  url: /programma
+  align: right

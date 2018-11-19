@@ -13,21 +13,21 @@ layout: default
     <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
       <section class="Grid">
         <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3">
-          <h1 class="u-text-h1 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.title }}</h1>
+          <h1 class="u-text-h1">{{ page.title }}</h1>
           {% if page.img %}
           <div class="page-img-div">
             <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
           </div>
           {% endif %}
           {% if page.subtitle %}
-          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.subtitle }}</h3>
+          <h4 class="u-text-h4">{{ page.subtitle }}</h4>
           {% endif %}
           {% if page.author %}
-          <h3 class="u-text-h3 u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.author }}</h3>
+          <h4 class="u-text-h4">{{ page.author }}</h4>
           {% endif %}
           {% if page.date %}
           <br>
-          <span class="meta u-color-{% if page.titles_color %}{{ page.titles_color }}{% else %}black{% endif %}">{{ page.date | date: '%B %d, %Y' }}</span>
+          <span class="meta">{{ page.date | date: '%B %d, %Y' }}</span>
           <br>
           {% endif %}
         </div>
@@ -36,17 +36,26 @@ layout: default
 
   </div>
 
-  <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
 
-    <p class="Prose u-padding-r-top u-padding-r-bottom">
-      Scegli il profilo in cui ti riconosci, seleziona l'argomento di tuo interesse, filtra i servizi per tipologia:
-    </p>
+    <!-- <div class="Grid u-margin-r-bottom">
+      <div class="Grid-cell u-sm-size1of3 u-md-size1of4 u-lg-size1of6">
+        <button id="new-search-btn" class="Button Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">
+          Nuova ricerca
+        </button>
+      </div>
+    </div> -->
 
-    <form class="Form Form--spaced u-padding-r-all" id="docs-search-form" action="." method="get">
+    <form class="Form Form--spaced" id="docs-search-form" action="." method="get">
+      <p class="Prose u-padding-r-bottom">
+        Scegli il profilo in cui ti riconosci, seleziona l'argomento di tuo interesse, filtra i servizi per tipologia:
+      </p>
+
       <fieldset class="Form-fieldset">
 
         <div class="Grid Grid--withGutter u-background-white" role="search">
 
+          <!--
           <div class="Grid-cell u-md-size3of4 u-lg-size3of4">
             <div class="Form-field">
               <label class="Form-label" for="freesearch">Cerca</label>
@@ -54,6 +63,24 @@ layout: default
             </div>
           </div>
           <div class="Grid-cell u-md-size1of4 u-lg-size1of4"></div>
+          -->
+
+          <div class="Grid-cell u-md-size1of3 u-lg-size1of4">
+            <div class="Form-field">
+              <label class="Form-label is-required" for="tema">Profilo <span class="u-color-50">*</span></label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="utenza" name="utenza" required>
+                {% assign schede_utenza = site.schede | group_by: 'utenza' %}
+                {% for utenza in schede_utenza %}
+                  <!-- get the theme's full name -->
+                  {% assign utenza_items = site.data.profiles | where_exp: "item", "item.metaname == utenza.name" %}
+                  {% assign utenza_item = utenza_items[0] %}
+                  <option class="u-color-50" value="{{ utenza.name }}" style="background-image:url({{ site.baseurl}}{{ site.iconsurl }}grigio_{{ utenza.name }}.png)">
+                    {{ utenza_item.name }}
+                  </option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
 
           <div class="Grid-cell u-md-size1of3 u-lg-size1of4">
             <div class="Form-field">
@@ -66,21 +93,6 @@ layout: default
                   {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == scheda.name" %}
                   {% assign tema_item = tema_items[0] %}
                   <option class="u-color-50" value="{{ scheda.name }}">{{ tema_item.name }}</option>
-                {% endfor %}
-              </select>
-            </div>
-          </div>
-
-          <div class="Grid-cell u-md-size1of3 u-lg-size1of4">
-            <div class="Form-field">
-              <label class="Form-label is-required" for="tema">Profilo</label>
-              <select class="Form-input u-text-r-s u-borderRadius-m" id="utenza" name="utenza" required>
-                {% assign schede_utenza = site.schede | group_by: 'utenza' %}
-                {% for utenza in schede_utenza %}
-                  <!-- get the theme's full name -->
-                  {% assign utenza_items = site.data.profiles | where_exp: "item", "item.metaname == utenza.name" %}
-                  {% assign utenza_item = utenza_items[0] %}
-                  <option class="u-color-50" value="{{ utenza.name }}">{{ utenza_item.name }}</option>
                 {% endfor %}
               </select>
             </div>
@@ -105,7 +117,7 @@ layout: default
           <div class="Grid-cell u-lg-size1of4"></div>
 
           <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of8 u-textRight">
-            <button id="schede-search-btn" type="submit" class="Button Button--shadow u-text-m u-background-50 u-color-white u-sizeFull">Cerca</button>
+            <button id="schede-search-btn" type="submit" class="Button Button--default Button--shadow u-text-m u-sizeFull">Cerca</button>
           </div>
           <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of8 u-textRight">
             <button id="schede-reset-btn" class="Button Button--shadow u-text-m u-background-grey-30 u-color-white u-sizeFull">Annulla</button>
@@ -113,20 +125,34 @@ layout: default
           <div class="Form-field Grid-cell u-md-size1of4 u-lg-size3of4"></div>
 
         </div>
-    </fieldset>
+      </fieldset>
     </form>
 
-    <!-- Results' list -->
-    <section id="result-section" class="u-nbfc u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-r-bottom u-posRelative u-zindex-30">
-      <div class="u-layout-wide u-layoutCenter">
-        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
-          <span id="results-size" class="u-text-r-l u-textWeight-300"></span> servizi trovati
-        </h2>
-        <div id="schede-results-list" class="Grid Grid--withGutter">
+    <!-- Results -->
+    <div id="results-div" class="u-layout-centerContent u-background-grey-15 u-padding-r-all">
+      <section class="u-layout-medium">
+        <div class="Grid">
+          <div class="Grid-cell u-size2of3 u-sm-size2of3 u-md-size3of4 u-lg-size5of6">
+            <h2 class="u-text-r-l u-textWeight-300 u-color-50">
+              <span id="results-size" class="u-text-r-l u-textWeight-300"></span> <span id="filter-text" ></span>
+            </h2>
+          </div>
+          <div class="Grid-cell u-size1of3 u-sm-size1of3 u-md-size1of4 u-lg-size1of6 u-textRight">
+            <button id="new-search-btn" class="Button Button--default Button--shadow u-text-m">
+              <span class="no-mobile">Nuova ricerca </span>
+              <span class="u-sm-hidden u-md-hidden u-lg-hidden u-text-r-s Icon Icon-search"></span>
+            </button>
+          </div>
         </div>
-      </div>
-    </section>
-    <!-- / Results' list -->
+
+        <div class="u-text-r-xxl u-padding-r-top">
+          <div id="schede-results-list" class="Grid Grid--withGutter">
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- / Results -->
+
   </div>
 </div>
 
@@ -136,15 +162,25 @@ layout: default
 
     {% for scheda in site.schede %}
       {% assign utenza = scheda.utenza %}
+      {% capture scheda-description %}{% include schede/{{scheda.object}}/description/{{utenza}}.md %}{% endcapture %}
       "{{ scheda.object | append: utenza | slugify }}": {
         "title": "{{ scheda.title | xml_escape }}",
         "tema": "{{ scheda.tema | xml_escape }}",
         "tipo": "{{ scheda.tipo | xml_escape }}",
         "subtitle": "{{ scheda.subtitle | xml_escape }}",
         "url": "{{ scheda.url | xml_escape }}",
-        "utenza": "{{ scheda.utenza | xml_escape }}"
+        "utenza": "{{ scheda.utenza | xml_escape }}",
+        "description": "{{ scheda-description | markdownify  | truncate: 155 | strip_newlines }}",
+        "status": "{{ scheda.status | xml_escape }}",
+        "statusLink": "{{ scheda.statusLink | xml_escape }}",
+        "date": "{{ scheda.data | date: '%d %b %Y' }}"
       }
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   };
+
+  // underline menu
+  setTimeout(function() {
+    underlineMenu(1)
+  }, 500)
 </script>

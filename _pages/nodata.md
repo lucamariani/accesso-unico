@@ -24,9 +24,7 @@ $(function() {
         <div role="document" class="Prose">
             <h2 class="u-cf u-text-h2 u-borderHideFocus" id="modal-title" tabindex="0">Dati non disponibili</h2>
             <p>
-                Quod voluptatibus sapiente dolorem omnis possimus odit quod consequatur. Delectus ex et corporis. Sed minima ea. Et maiores pariatur illum voluptatem est nam fugit non blanditiis. Esse eaque veritatis et eaque autem et dolorem fugit nobis. Incidunt error
-                vel culpa sed assumenda unde. Incidunt et minima tempore omnis sequi iure et sed enim. Laboriosam et in et veniam placeat aliquid quos quasi ut. Qui molestiae ea quibusdam. Sunt ut nobis aut quam asperiores incidunt voluptatem omnis saepe.
-                Et nam commodi minima. Iste esse dolores distinctio.
+                Dati non disponibili in rete.
             </p>
             <!--<button class="Button Button--danger js-fr-dialogmodal-close u-floatRight">Chiudi</button>-->
         </div>

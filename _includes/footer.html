@@ -22,12 +22,12 @@
                     <div class="Footer-block Grid-cell u-md-size1of4 u-lg-size1of4">
                         <h2 class="Footer-blockTitle">Contatti</h2>
                         <div class="Footer-subBlock">
-                            <h3 class="Footer-subTitle">{{ site.recapiti1 }}</h3>
-                            <address>
-                            {{ site.recapiti2 }}<br>
-                            {{ site.recapiti3 }}<br>
-                            {{ site.recapiti4 }}
-                            </address>
+                            <h3 class="Footer-subTitle">
+                              {{ site.recapiti1 }}<br>
+                              {{ site.recapiti2 }}<br>
+                              {{ site.recapiti3 }}<br>
+                              {{ site.recapiti4 }}
+                            </h3>
                         </div>
                     </div>
                     {% endif %}
@@ -88,9 +88,6 @@
                     {% endif %}
                     {% if site.note_legali_url %}
                     <li><a href="{{ site.note_legali_url }}" title="Note legali">Note legali</a></li>
-                    {% endif %}
-                    {% if site.contatti_url %}
-                    <li><a href="{{ site.contatti_url }}" title="Contatti">Contatti</a></li>
                     {% endif %}
                     <li><a href="https://github.com/ggentili/Italia-Design-Jekyll-Theme" title="Contatti">Tema</a></li>
                 </ul>

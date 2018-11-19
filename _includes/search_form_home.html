@@ -1,43 +1,38 @@
 <form class="Form u-padding-all-xl u-text-r-xs u-layoutCenter u-layout-prose" id="home-search-form">
-  <p class="Form-legend u-color-grey-70 u-text-m u-margin-bottom-xs">Ciao, come posso aiutarti?</p>
+    <!--<p class="Form-legend u-color-grey-70 u-text-m u-margin-bottom-xs">Ciao, come posso aiutarti?</p>-->
 
   <div class="Grid Grid--equalHeight u-background-white u-color-grey-30" role="search">
     <div class="Form-field Form-field--withPlaceholder Grid-cell u-md-size3of4 u-lg-size3of4">
-      <input class="Form-input u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs u-color-50" id="home-cerca" autocomplete="off" value="" required />
-      <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">cerca nel sito...</label>
+      <input class="Form-input u-text-r-s u-text-r-xs u-borderHideFocus u-border-all-xxs u-color-50"
+      placeholder="cerca il servizio di tuo interesse...." id="home-cerca" autocomplete="off" value="" />
+      <!-- <label class="Form-label u-color-grey-50 u-text-r-xxs" for="cerca">cerca nel sito...</label> -->
     </div>
 
     <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
-     <button id="home-search-btn" type="submit" class="Button u-text-m u-background-50 u-color-white u-sizeFull">Cerca</button>
+     <button id="home-search-btn" type="submit" class="Button Button--default u-text-m u-sizeFull">Cerca</button>
     </div>
 
   </div>
 </form>
 
-
-<button id="open_btn" class="Button Button--default js-fr-dialogmodal-open u-hidden" aria-controls="modal">
-  Apri
-</button>
-<div class="Dialog js-fr-dialogmodal" id="modal">
-  <div style="min-width:40%" class="
-      Dialog-content
-      Dialog-content--centered
-      u-background-white
-      u-layout-prose
-      u-margin-t-xl
-      u-margin-b-xl
-      u-padding-all-xl
-      js-fr-dialogmodal-modal
-    "
-    aria-labelledby="modal-title">
-    <div role="document" class="Prose">
-      <div class="u-background-50 u-padding-top-s"></div>
-      <div id="dialog-results-content"></div>
-      <!--
-      <h3 class="u-cf u-textLeft u-borderHideFocus" id="modal-title" tabindex="0">Risultati</h3>
-      <ul id="search-result-list"></ul>
-    -->
-      <button class="Button u-color-white u-margin-top-s u-background-50 js-fr-dialogmodal-close u-floatRight">Chiudi</button>
+<div id="no-results-div">Spiacenti, non ci sono risultati per questa ricerca.</div>
+<div id="results-div" class="u-margin-right-xl u-margin-left-xl u-padding-right-xl u-padding-left-xl u-padding-top-l">
+  <div class="Grid Grid--withGutter">
+    <div class="Grid-cell u-md-size1of2 u-lg-size1of2 u-margin-r-bottom">
+        <div class="u-sizeFull u-text-r-s u-color-70">
+            <h3 class="u-border-bottom-m">
+                <p class="u-block u-text-h4 u-color-60">Servizi</p>
+            </h3>
+            <ul id="schede-result-list" class="Linklist Prose u-text-r-xs search-listing"></ul>
+        </div>
+    </div>
+    <div class="Grid-cell u-md-size1of2 u-lg-size1of2 u-margin-r-bottom">
+        <div class="u-sizeFull u-text-r-s u-color-70">
+            <h3 class="u-border-bottom-m">
+                <p class="u-block u-text-h4 u-textClean u-color-60">Documenti</p>
+            </h3>
+            <ul id="docs-result-list" class="Linklist Prose u-text-r-xs search-listing"></ul>
+        </div>
     </div>
   </div>
 </div>

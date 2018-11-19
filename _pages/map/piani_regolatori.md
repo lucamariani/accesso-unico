@@ -1,5 +1,5 @@
 ---
-layout: map-page
+layout: prg-page
 title: "Piani Regolatori Comunali"
 metatitle: map-regolatori
 map_width:
@@ -9,4 +9,4 @@ content_files:
   - content1.md
   - content2.md
 ---
-{% include comuni_select.html %}
+{% include comuniprg_select.html %}
