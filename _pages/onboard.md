@@ -12,6 +12,7 @@ $(function() {
 </button>
 <div class="Dialog js-fr-dialogmodal" id="modal">
     <div class="
+      u-popupResponsive
       Dialog-content
       Dialog-content--centered
       u-background-white
@@ -34,7 +35,7 @@ $(function() {
             Livello 1, 2, 3, 4	Servizio operativo e pienamente funzionale, soggetto comunque a continuo miglioramento (nei vari livelli di sofisticazione da 1 a 4)
             Dismesso	Servizio non più operativo o di versione ormai obsoleta, presente solo a livello storico
 
-            <img src="/accesso-unico/images/2018/11/cosae.png" alt="Cosa e'">
+            <img class="u-popupImgResponsive" src="/accesso-unico/images/2018/11/cosae.png" alt="Cosa e'">
 
             Una volta a regime l'insieme dell'Accesso unico permetterà di semplificare l’accesso dell’utente ai servizi delle Pubbliche Amministrazioni, alleggerire la complessità per l'utente, aumentare l’interoperabilità automatica tra gli enti, costruire una base di conoscenza utile per tutti i canali di accesso ai servizi (sia sportelli fisici che on line o telefonici).
 

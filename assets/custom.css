@@ -8,6 +8,13 @@
   .t-Pac #header-logout-container {display:block}
 }
 
+/* user popups */
+.t-Pac .u-popupResponsive {margin: 0 !important; width: 100%}
+.t-Pac .u-popupImgResponsive {max-width: 100%}
+@media(min-width: 810px) {
+  .t-Pac .u-popupResponsive {margin: 32px !important; width: unset}
+}
+
 /* change menu colors */
 .t-Pac .Megamenu--default{background-color:#ffffff;}
 .t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
