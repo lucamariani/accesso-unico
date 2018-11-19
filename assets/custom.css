@@ -45,7 +45,7 @@
 /* search schede */
 .t-Pac #new-search-btn {border:0 !important; display: none}
 .t-Pac #new-search-btn .Icon-search {padding: 5px 15px 5px 15px}
-.t-Pac .go-servizio-btn {border:1px solid; border-radius:10px; position:absolute; bottom:0; left:0;font-size: 1.5rem}
+.t-Pac .go-servizio-btn {border:1px solid; border-radius:5px; position:absolute; bottom:0; left:0;font-size: 1.5rem}
 /* .t-Pac .go-servizio-btn:hover {background-color:#9c2328 !important;color:#fff !important} */
 .t-Pac .servizio-icons {display: none}
 .t-Pac .servizio-btn-container {position:relative;}

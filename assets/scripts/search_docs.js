@@ -49,6 +49,7 @@ function displaySearchResults(results, store) {
       appendString += '<a target="_blank" href="' + item.url + '"><h3 class="u-color-50">' + item.title + '</h3></a>';
       appendString += '<p class="object"><b>' + item.subject + '</b></p>';
 
+      appendString += '<div class="doc-properties">';
       if ( item.category.length > 0 )
         appendString += '<p class="pointer" title="Visualizza tutti i documenti della categoria ' + item.category +
           '" onclick="searchFor(\'+category:' + item.category + '\')">Categoria: ' + item.category + '</p>';
@@ -79,8 +80,9 @@ function displaySearchResults(results, store) {
         docTags += '</p>';
         appendString += docTags;
       }
+      appendString += '<br><br></div>';
 
-      appendString += '<a href="' + item.url + '">' +
+      appendString += '<a target="_blank" href="' + item.url + '">' +
                         '<button class="Button u-background-white u-color-50 u-sizeFull go-servizio-btn">Vai al documento</button></a>';
 
       appendString += '</div></div></div></div>';
