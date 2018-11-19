@@ -6,38 +6,68 @@ scripts:
 ---
 
 <!-- main point (manual) -->
-<div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
-
-  <div class="u-layout-prose u-text-r-xl u-padding-r-bottom">
-    <p class="u-text-r-xl  u-textSecondary u-lineHeight-l">
-      Accesso Unico: il <span class="u-color-70">punto di riferimento per i servizi e le pratiche</span> della Pubblica Amministrazione in  Umbria
-    </p>
-  </div>
-
+<div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
+<!-- <section>
+  cerca
+</section> -->
   <section class="Grid">
     <div class="Grid-cell u-sizeFull u-md-sizeFull u-lg-sizeFull u-text-r-s u-padding-r-all u-textCenter">
-      <!--<div class="u-text-r-s u-layout-prose">
-        <p class="u-textSecondary u-lineHeight-l">
-          Lo scopo di Accesso Unico è quello di fornire <span class="u-textWeight-700">informazioni e strumenti utili</span> per conoscere e gestire le vostre pratiche.
-          È anche un <span class="u-textWeight-700">luogo di confronto diretto</span> con la
-          <span class="u-textWeight-700">Pubblica Amministrazione umbra</span>, dove la tua opinione e il tuo contributo è importante.
-          <span class="u-textWeight-700">Siamo in fase Beta</span>, questo vuol dire che, al momento, sono disponibili solo alcune delle sue funzionalità per cittadini e imprese, professionisti intermediari e Pubbliche amministrazioni.
-          <br><a href="#" class="u-textWeight-700">Per saperne di più ></a>
-        </p>
-      </div>-->
       {% include search_form_home.html %}
     </div>
 
   </section>
 
-  <div class="u-text-r-s u-layout-wide u-padding-r-bottom">
-    <p class="Prose u-padding-r-top u-padding-r-bottom">
+  <div class="u-layout-prose u-text-r-xl u-padding-r-bottom">
+    <p class="u-text-r-l  u-textSecondary u-lineHeight-l u-textCenter">
+      Accesso Unico: <span class="u-color-70">semplifichiamo l’accesso ai servizi</span> della Pubblica Amministrazione in Umbria
+    </p>
+  </div>
+
+  <!-- <div style="line-height:1.5" class="u-text-r-l u-layout-wide u-padding-r-bottom">
+    <p class="u-padding-r-top u-padding-r-bottom">
       Lo scopo di questo portale è fornire <span class="u-textWeight-700">informazioni e strumenti utili</span> per conoscere servizi e gestire pratiche.
       È anche un <span class="u-textWeight-700">luogo di confronto diretto</span> con la
       <span class="u-textWeight-700">Pubblica Amministrazione</span>, dove l'opinione e il contributo dei cittadini è importante.<br>
       <span class="u-textWeight-700">Il portale in versione Beta</span> sviluppato da Regione Umbria è lo   <span class="u-textWeight-700">strumento condiviso con gli operatori della P.A.</span> per costruire insieme i nuovi servizi dell'Accesso Unico.
     </p>
-  </div>
+  </div> -->
+
+    <div id="banner-div" class="u-sizeFull Prose u-background-50">
+      <!-- <div id="banner-text" class="u-margin-left-xxl u-padding-all-xxl u-color-white">
+        <div class="u-text-r-m u-textWeight-700 u-margin-bottom-s">Costruiamo insieme l’Accesso Unico.</div>
+        <div class="u-text-r-xs">
+          Sei un cittadino o un operatore delle PA?
+          <br>
+          Entra nella comunità, il tuo contributo è importante.
+        </div>
+      </div>
+      <div class="banner-btn">
+        <button class="Button Button--default">Come Partecipare</button>
+      </div> -->
+      <div class="Grid Grid--withGutter Grid--alignMiddle">
+        <div class="Grid-cell u-sm-size1of3 u-md-size1of3 u-lg-size1of3">
+          <div id="banner-text" class="u-padding-top-xxl u-padding-bottom-xxl u-padding-right-s u-padding-left-xxl u-color-white">
+            <div class="u-text-r-m u-textWeight-700 u-margin-bottom-s">Costruiamo insieme l’Accesso Unico.</div>
+            <div class="u-text-r-xs">
+              Sei un cittadino o un operatore delle PA?
+              <br>
+              Entra nella comunità, il tuo contributo è importante.
+            </div>
+          </div>
+        </div>
+        <div class="Grid-cell u-sm-size1of3 u-md-size1of3 u-lg-size1of3">
+          <div class="banner-btn u-textCenter">
+            <a href="{{ site.baseurl }}/programma"
+              <button class="Button Button--info u-color-50">Come Partecipare</button>
+            </a>
+          </div>
+        </div>
+        <div class="Grid-cell u-sm-size1of3 u-md-size1of3 u-lg-size1of3"></div>
+      </div>
+      <img class="u-sm-hidden u-md-hidden u-lg-hidden u-sizeFull" src="{{ site.baseurl }}/img/banner_5ta.png">
+    </div>
+
+  <div class="u-padding-r-top u-padding-r-bottom"></div>
 
   <!-- wizard section -->
   {% include wizard_home.html %}
@@ -84,4 +114,16 @@ scripts:
       {% unless forloop.last %},{% endunless %}
     {% endfor %}
   }
+
+  $(function() {
+    // set banner background image
+    const img_src = baseurl + '/img/banner_5.png'
+    console.log('setting bkg img ' + img_src);
+    $('#banner-div').css( 'background-image','url(' + img_src + ')' )
+    // underline menu
+    setTimeout(function() {
+      underlineMenu(0)
+    }, 500)
+  })
+
 </script>

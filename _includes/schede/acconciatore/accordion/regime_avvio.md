@@ -1,5 +1,9 @@
-L'esercizio dell'attività, in qualunque forma ed a qualsiasi titolo esercitata, è subordinato alla presentazione della segnalazione certificata di inizio di attività (SCIA) da presentare allo Sportello unico per le attività produttive e per l'attività edilizia (SUAPE) di cui all' articolo 40 della l.r. 8/2011 competente per il territorio in cui si svolge l'attività. La segnalazione è corredata dalle attestazioni relative alla conformità dei locali ai requisiti urbanistici ed igienico-sanitari previsti dalla normativa vigente.
+**L'esercizio dell'attività,** in qualunque forma e a qualsiasi titolo esercitata, **è subordinato alla presentazione della Segnalazione certificata di inizio di attività** (SCIA) presso lo **Sportello unico per le attività produttive e per l'attività edilizia** (SUAPE) di cui all' articolo 40 della l.r. 8/2011 competente per il territorio in cui si svolge l'attività.
+La SCIA deve essere corredata dalle attestazioni relative alla conformità dei locali ai requisiti urbanistici e igienico-sanitari previsti dalla normativa vigente.
+<BR><br>
 
-Il regime per l'avvio dell'attività è previsto dalla SEZIONE I- ATTIVITA' COMMERCIALI E ASSIMILABILI-PUNTO 10 -ACCONCIATORI ED ESTETISTI pag. 69-70 -della [tabella A allegata al D. LGS. 25 novembre 2016, n. 222][bc263163], recante “Individuazione di procedimenti oggetto di autorizzazione, segnalazione certificata di inizio di attività (SCIA), silenzio assenso e comunicazione e di definizione dei regimi amministrativi applicabili a determinate attività e procedimenti, ai sensi dell'articolo 5 della legge 7 agosto 2015, n. 124”.
+**PROCEDIMENTI COLLEGATI**
 
-  [bc263163]: http://www.italiasemplice.gov.it/tabella-a/sezione-i/sezione-i-10-acconciatori-ed-estetisti/ "Vai alla tabella"
+Qualora l'attività di acconciatore presenti un **consumo idrico giornaliero superiore a 1 mc** al momento di massima attività, occorre avviare la pratica **[AUA]({{ site.baseurl }}/schede/aua/{{page.utenza}} "vai alla scheda")**
+<br>
+Occorre avviare la pratica di **[cambio di destinazione d’uso]({{ site.baseurl }}/schede/cambio_destinazione_uso/{{ page.utenza }} "Vai alla scheda")** nel caso in cui i locali sede dell'attività richiedano questo adeguamento.

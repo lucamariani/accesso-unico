@@ -8,10 +8,14 @@
   file: presenta-pratica.md
   utenza:
     - cittadini
-- title: Normativa
-  file: normativa.md
+- title: Documenti
+  file: documenti.md
   utenza:
+    - intermediari
     - imprese
+- title: Procedimenti Collegati
+  file: procedimenti.md
+  utenza:
     - intermediari
 - title: Piano Regolatore Generale
   file: prg.md

@@ -8,7 +8,61 @@ img:
 
 # lista moduli
 modulistica:
-  - tipologia: Moduli comuni
+  - tipologia: Edilizia
+    documenti:
+      - nome: Certificazione preventiva sull'esistenza e qualita' dei vincoli
+        denominazione: Certificazione preventiva sull'esistenza e qualita' dei vincoli
+        release: 1
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/26.pdf
+
+      - nome: CILA
+        denominazione: Comunicazione inizio lavori asseverata - CILA
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/27.pdf
+
+      - nome: Comunicazione fine lavori
+        denominazione: Comunicazione fine lavori
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/28.pdf
+
+      - nome: Dichiarazione che tiene luogo dell'agibilità
+        denominazione: Dichiarazione che tiene luogo dell'agibilità
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/29.pdf
+
+      - nome: Dichiarazione di conformità del piano attuativo
+        denominazione: Dichiarazione di conformità del piano attuativo
+        release: 1
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/30.pdf
+
+      - nome: Dichiarazione per l'agibilità
+        denominazione: Dichiarazione per l'agibilità
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/31.pdf
+
+      - nome: Elaborati progettuali minimi necessari a corredo delle istanze per i titoli abitativi
+        denominazione: Elaborati progettuali minimi necessari a corredo delle istanze di Permesso di costruire e di SCIA
+        release: 1
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/32.pdf
+
+      - nome: Modulo SCIA
+        denominazione: Segnalazione certificata di inizio attività
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/33.pdf
+
+      - nome: Permesso di costruire
+        denominazione: Richiesta di permesso di costruire
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/34.pdf
+
+      - nome: Soggetti coinvolti
+        denominazione: Soggetti coinvolti
+        release: 1
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/35.pdf
+
+
+
+  - tipologia: Attivita' commerciali e Assimilate
     documenti:
       - nome: Scheda anagrafica
         denominazione: Scheda anagrafica
@@ -20,10 +74,6 @@ modulistica:
         release: 5
         link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/02.pdf
 
-
-
-  - tipologia: Attivita' commerciali e Assimilate
-    documenti:
       - nome: Acconciatore ed Estetisti
         denominazione: SCIA per l'esercizio dell'attivita' di acconciatore e/o estetista
         release: 2
@@ -32,7 +82,7 @@ modulistica:
       - nome: Agenzie di affari di competenza del Comune
         denominazione: Comunicazione per l'esercizio dell'attività delle agenzie di afffari di competenza del Comune
         release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/04.pdf  
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/04.pdf
 
       - nome: Apparecchi automatici
         denominazione: SCIA per l'esercizio di vendita mediante apparecchi automatici in altri esercizi commerciali già abilitati o in altre strutture e/o su area pubblica
@@ -42,7 +92,7 @@ modulistica:
       - nome: Autorimesse
         denominazione: SCIA per l'esercizio dell'attività di autorimessa
         release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/06.pdf  
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/06.pdf
 
       - nome: Commercio all'ingrosso
         denominazione: Autorizzazione per il commercio all'ingrosso
@@ -57,7 +107,7 @@ modulistica:
       - nome: Facchinaggio
         denominazione: SCIA per l'esercizio dell'attività di Facchinaggio
         release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/09.pdf  
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/09.pdf
 
       - nome: Imprese di pulizie
         denominazione: SCIA per l'esercizio dell'attività di pulizie, disinfezione, disinfestazione, di derattizzazione e di sanificazione
@@ -132,7 +182,7 @@ modulistica:
       - nome: Vendita al domicilio dei consumatori
         denominazione: SCIA per l'esercizio di vendita presso il domicilio dei consumatori
         release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/24.pdf  
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/24.pdf
 
       - nome: Vendita per corrispondenza
         denominazione: SCIA per l'esercizio di vendita per corrispondenza, televisione e altri sistemi di comunicazione, compreso il commercio on line
@@ -140,58 +190,6 @@ modulistica:
         link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/25.pdf
 
 
-
-  - tipologia: Edilizia
-    documenti:
-    - nome: Certificazione preventiva sull'esistenza e qualita' dei vincoli
-      denominazione: Certificazione preventiva sull'esistenza e qualita' dei vincoli
-      release: 1
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/26.pdf
-
-    - nome: CILA
-      denominazione: Comunicazione inizio lavori asseverata - CILA
-      release: 2
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/27.pdf
-
-    - nome: Comunicazione fine lavori
-      denominazione: Comunicazione fine lavori
-      release: 2
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/28.pdf
-
-    - nome: Dichiarazione che tiene luogo dell'agibilità
-      denominazione: Dichiarazione che tiene luogo dell'agibilità
-      release: 2
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/29.pdf
-
-    - nome: Dichiarazione di conformità del piano attuativo
-      denominazione: Dichiarazione di conformità del piano attuativo
-      release: 1
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/30.pdf
-
-    - nome: Dichiarazione per l'agibilità
-      denominazione: Dichiarazione per l'agibilità
-      release: 2
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/31.pdf
-
-    - nome: Elaborati progettuali minimi necessari a corredo delle istanze per i titoli abitativi
-      denominazione: Elaborati progettuali minimi necessari a corredo delle istanze di Permesso di costruire e di SCIA
-      release: 1
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/32.pdf
-
-    - nome: Modulo SCIA
-      denominazione: Segnalazione certificata di inizio attività
-      release: 2
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/33.pdf
-
-    - nome: Permesso di costruire
-      denominazione: Richiesta di permesso di costruire
-      release: 2
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/34.pdf
-
-    - nome: Soggetti coinvolti
-      denominazione: Soggetti coinvolti
-      release: 1
-      link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/35.pdf
 
 
 

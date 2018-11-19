@@ -1,59 +1,59 @@
 - name: Agricoltura
   color: yellow
   metaname: agricoltura
-  image: /assets/images/ico-agricoltura.png
+  image: /assets/images/icons/rosso_agricoltura.png
 
 - name: Ambiente
   color: green
   metaname: ambiente
-  image: /assets/images/ico-ambiente.png
+  image: /assets/images/icons/rosso_ambiente.png
 
 - name: Turismo
   color: orange
   metaname: turismo
-  image: /assets/images/ico-turismo.png
+  image: /assets/images/icons/rosso_turismo.png
 
 - name: Industria e Attività Manifatturiere
   color: lightblue
   metaname: industria
-  image: /assets/images/ico-industria.png
+  image: /assets/images/icons/rosso_industria.png
 
 - name: Commercio
   color: lightblue
   metaname: commercio
-  image: /assets/images/ico-commercio.png
+  image: /assets/images/icons/rosso_commercio.png
 
 - name: Artigianato
   color: blue
   metaname: artigianato
-  image: /assets/images/ico-artigianato.png
+  image: /assets/images/icons/rosso_artigianato.png
 
 - name: Lavoro, scuola e formazione
   color: lightpurple
   metaname: lavoro
-  image: /assets/images/ico-lavoro.png
+  image: /assets/images/icons/rosso_lavoro.png
 
 - name: Trasporti
   color: grey
   metaname: infrastrutture
-  image: /assets/images/ico-infrastrutture.png
+  image: /assets/images/icons/rosso_infrastrutture.png
 
 - name: Salute e Igiene
   color: pink
   metaname: salute
-  image: /assets/images/ico-salute.png
+  image: /assets/images/icons/rosso_salute.png
 
 - name: Territorio, Edilizia e Urbanistica
   color: purple
   metaname: edilizia
-  image: /assets/images/ico-edilizia.png
+  image: /assets/images/icons/rosso_edilizia.png
 
 - name: Cassetta degli attrezzi
   color: purple
   metaname: utilita
-  image: /assets/images/ico-utili.png
+  image: /assets/images/icons/rosso_utili.png
 
 - name: Semplificazione
   color: purple
   metaname: semplificazione
-  image: /assets/images/ico-semplificazione.png
+  image: /assets/images/icons/rosso_semplificazione.png

@@ -19,6 +19,8 @@
 
   <script src="{{ '/italia_build/IWT.min.js' | relative_url }}"></script>
 
+  <script src="{{ site.baseurl }}{{"/assets/scripts/Users.js" }}"></script>
+
   {% for script in page.scripts %}
     {% capture scriptFullPath %}{{ script | relative_url }}{% endcapture %}
     <script src="{{ scriptFullPath }}"></script>
@@ -28,3 +30,10 @@
     {% capture scriptFullPath %}{{ script | relative_url }}{% endcapture %}
     <script src="{{ scriptFullPath }}"></script>
   {% endfor %}
+
+  <script>
+    $(function() {
+      // Favorites.initialize()
+      Users.initialize()
+    })
+  </script>

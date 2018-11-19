@@ -1,25 +1,124 @@
-/* personalizzazione di colori e stili  */
+.t-Pac #login-div, .t-Pac #logout-div {display: none}
+.t-Pac #header-login-container, .t-Pac #header-logout-container {display: none}
+.t-Pac .user-name-mobile {color: #fff;padding: 15px;font-weight: 700;}
 
-/* set "personalizza_css: true" to activate the use of this css file */
-/* otherwise will be used the standard color from "italia design" */
+@media(min-width: 992px) {
+  .t-Pac #login-div, .t-Pac #logout-div {display: inline-block}
+  .t-Pac #header-login-container {display:block; position:absolute; right:20px; top:15px;}
+  .t-Pac #header-logout-container {display:block}
+}
+
+/* user popups */
+.t-Pac .u-popupResponsive {margin: 0 !important; width: 100%}
+.t-Pac .u-popupImgResponsive {max-width: 100%}
+@media(min-width: 810px) {
+  .t-Pac .u-popupResponsive {margin: 32px !important; width: unset}
+}
 
 /* change menu colors */
 .t-Pac .Megamenu--default{background-color:#ffffff;}
 .t-Pac .Megamenu--default .Megamenu-item > a{color:#9F383B !important; font-weight: 200 !important;}
+/* underline menu */
+.t-Pac .Megamenu-item a.is-selected {border-bottom: 2px solid #65dde0;}
 /* home page pictures*/
 .t-Pac .u-imgResponsive{display: block;height: auto;max-width: 100%;}
 /* home page search */
-.t-Pac #home-search-btn, .t-Pac #schede-search-btn, .t-Pac #schede-reset-btn {border:0 !important}
+.t-Pac #home-search-btn, .t-Pac #schede-search-btn, .t-Pac #schede-reset-btn, .t-Pac #research {border:0 !important}
 .t-Pac .js-fr-dialogmodal-close {border:0 !important}
+.t-Pac .search-listing {max-height:450px;overflow-y:auto;}
+.t-Pac #results-div {display:none}
+.t-Pac #no-results-div {display:none}
+.t-Pac .servizio-icon {max-height:35px}
+
+/* responsive utils */
+.t-Pac .no-mobile {display: none !important}
+@media(min-width: 768px) {
+  .t-Pac .no-mobile {display: block !important}
+}
+
+/* title, subtitle */
+.t-Pac h1.u-text-h1, .t-Pac h4.u-text-h4 {margin-bottom: 0 !important}
+
+/* enable list style in article tags */
+.t-Pac article ul {list-style: inherit !important;margin:1em}
+.t-Pac article ol {list-style: decimal !important;margin:1em}
+
+/* home banner */
+/* .t-Pac #banner-text {font-size:1.3em !important} */
+@media(min-width: 768px) {
+  .t-Pac #banner-div {min-height:250px;background-size:contain;background-repeat:no-repeat;background-position-x:right;background-position-y:center}
+}
+/* search schede */
+.t-Pac #new-search-btn {border:0 !important; display: none}
+.t-Pac #new-search-btn .Icon-search {padding: 5px 15px 5px 15px}
+.t-Pac .go-servizio-btn {border:1px solid; border-radius:0 0 5px 5px; position:absolute; bottom:0; left:0;font-size: 1.5rem}
+/* .t-Pac .go-servizio-btn:hover {background-color:#9c2328 !important;color:#fff !important} */
+.t-Pac .servizio-icons {display: none}
+.t-Pac .servizio-btn-container {position:relative;}
+.t-Pac .servizio-box {min-height:350px}
+.t-Pac .icon-search-results {max-width:35px;position: relative;top: 7px}
+.t-Pac .scheda-title-label {font-size: 12px;position: relative;top: -10px;left: 5px;}
+.t-Pac h1 .scheda-title-label {font-size: 17px;position: relative;top: -30px;left: 5px;}
+.t-Pac .tipologia-icon {max-width: 45px;top:13px;left:-10px}
+@media(min-width: 301px) {
+  .t-Pac .servizio-icons {position:absolute; display: block; bottom:35px}
+}
+@media(min-width: 350px) {
+  .t-Pac .go-servizio-btn {font-size: 2rem}
+  .t-Pac .servizio-icons {bottom:50px}
+}
+
+
+.t-Pac .scheda-icona {max-width: 45px;margin-right: 10px;}
+.t-Pac .Callout--example {background: #ffffff;border-top-color: #9c2328}
+.t-Pac .Callout {padding-bottom: 8px;}
+.t-Pac .Callout {padding-left: 0;}
+.t-Pac .Callout {padding-right: 0;}
+.t-Pac .Callout {padding-top: 5px;}
+/* .t-Pac #tue-scelte {margin-bottom: 100px} */
+/* .t-Pac #scheda-icons-div  */
 
 /* define links' color */
 .t-Pac #main a {color:rgb(48, 55, 61)}
+
+/* header */
+.t-Pac .beta-label {font-size: 12px;position: relative;top: -10px;left: -3px;}
+/* handle login mask*/
+.t-Pac #login-div > img {height:12px}
+.t-Pac .Headroom--fixed.Headroom--not-top .Headroom-showme {max-height: 5em}
+.t-Pac .Headroom-showme {max-height:0; overflow-y:hidden;}
+.t-Pac .Header-login, .t-Pac #logout-icon {cursor: pointer;}
+.t-Pac .login-mask, .t-Pac .logout-mask {display: none}
+.t-Pac #users-list {display: none;  background-color: #30373d;padding: 10px;border-radius: 10px;}
+.t-Pac #users-list li {padding-bottom: 5px;color: #65dde0;font-weight: 600;}
+.t-Pac #users-list li:hover {color: #fff;}
+/* handle login menu entries */
+.t-Pac .Linklist li[data-megamenu-class~="only-loggedin"] {display: none !important} /* display again with removing only-loggedin attibute */
+
+.t-Pac .u-iconPartecipa {display:none}
+@media(min-width: 390px) {
+  .t-Pac .u-iconPartecipa {position:absolute;display:block;width:65px;top: -60px;right: -18px;}
+}
+@media(min-width: 992px) {
+  .t-Pac .u-iconPartecipa { width:50px;top: -40px;right: -18px;}
+}
+@media(min-width: 1187px) {
+  .t-Pac .u-iconPartecipa { width:55px;top: -80px;right: -21px;}
+}
+@media(min-width: 1290px) {
+  .t-Pac .u-iconPartecipa { width:75px;top: -91px;right: -18px;}
+
+
+/* footer */
+.t-Pac .Footer-socialIcons [class*=" Icon-"]{color:#30373d}
+.t-Pac .ScrollTop {background-color:#30373d !important}
 
 /* modifica entry menu 4 livello */
 .Megamenu--default .Megamenu-subnavGroup > li > ul > li > ul > li > a {margin-left:10px !important; font-style: italic !important;}
 
 /* wizard */
 .t-Pac .profile, .t-Pac .theme {max-width:140px}
+.t-Pac .wizard-item img {max-width: 75px}
 
 /* define themes colors */
 .t-Pac .theme-yellow, .t-Pac .theme-agricoltura {color:#fec401 !important}
@@ -40,6 +139,7 @@
 
 .t-Pac .page-img-div { max-height:250px; margin-top:20px; margin-bottom: 20px; overflow: hidden;}
 .t-Pac .page-img { max-width: 100%;}
+.t-Pac #page-content img {max-width: 100%;}
 
 /* tabs */
 .t-Pac #tab2 {display:none;}
@@ -70,6 +170,7 @@
 .t-Pac #result-section {display:none;}
 .t-Pac #result-section a {text-decoration: none;}
 .t-Pac .single-doc .object {margin-top: 0.5em;margin-bottom: 0.5em;}
+.t-Pac .docs-box {position:relative}
 /* redefine our content width */
 .t-Pac .u-layout-prose {max-width: 40em !important}
 .t-Pac .pointer {cursor: pointer !important}
