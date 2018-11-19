@@ -30,9 +30,9 @@
 
 - title: "Iter amministrativo"
   file: "iter.md"
-utenza:
-  - imprese
-  - intermediari
+  utenza:
+    - imprese
+    - intermediari
 
 - title: "Costi, Durata e Tempi di rilascio"
   file: "costi_cittadino.md"
