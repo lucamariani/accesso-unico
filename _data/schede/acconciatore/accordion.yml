@@ -22,6 +22,14 @@
 
 - title: "Requisiti oggettivi"
   file: "requisitiogg.md"
+  utenza:
+    - intermediari
+
+- title: "Dove e come esercitare l'attività"
+  file: "requisitiogg.md"
+  utenza:
+    - cittadini
+    - imprese
 
 - title: "Per aprire l'attività"
   file: "regime_avviocittadino.md"
