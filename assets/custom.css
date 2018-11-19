@@ -46,12 +46,13 @@
 .t-Pac #new-search-btn {border:0 !important; display: none}
 .t-Pac #new-search-btn .Icon-search {padding: 5px 15px 5px 15px}
 .t-Pac .go-servizio-btn {border:1px solid; border-radius:10px; position:absolute; bottom:0; left:0;font-size: 1.5rem}
-.t-Pac .go-servizio-btn:hover {background-color:#9c2328 !important;color:#fff !important}
+/* .t-Pac .go-servizio-btn:hover {background-color:#9c2328 !important;color:#fff !important} */
 .t-Pac .servizio-icons {display: none}
 .t-Pac .servizio-btn-container {position:relative;}
 .t-Pac .servizio-box {min-height:350px}
 .t-Pac .icon-search-results {max-width:35px;position: relative;top: 7px}
 .t-Pac .scheda-title-label {font-size: 12px;position: relative;top: -10px;left: 5px;}
+.t-Pac h1 .scheda-title-label {font-size: 17px;position: relative;top: -30px;left: 5px;}
 @media(min-width: 301px) {
   .t-Pac .servizio-icons {position:absolute; display: block; bottom:35px}
 }
@@ -148,6 +149,7 @@
 .t-Pac #result-section {display:none;}
 .t-Pac #result-section a {text-decoration: none;}
 .t-Pac .single-doc .object {margin-top: 0.5em;margin-bottom: 0.5em;}
+.t-Pac .docs-box {position: relative;}
 /* redefine our content width */
 .t-Pac .u-layout-prose {max-width: 40em !important}
 .t-Pac .pointer {cursor: pointer !important}
