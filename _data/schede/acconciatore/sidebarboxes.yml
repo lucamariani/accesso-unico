@@ -13,6 +13,10 @@
   utenza:
     - intermediari
     - imprese
+- title: Procedimenti Collegati
+  file: procedimenti.md
+  utenza:
+    - intermediari
 - title: Piano Regolatore Generale
   file: prg.md
   utenza:
