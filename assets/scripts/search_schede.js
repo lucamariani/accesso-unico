@@ -81,10 +81,6 @@ function addIcon(name, title) {
   return '<img title="' + title + '" class="icon-search-results u-margin-right-s" src="' + baseurl + iconsurl + name +'.png">';
 }
 
-function addTipologiaIcon(name,title) {
-  return '<img title="' + title + '" class="icon-search-results u-margin-right-s tipologia-icon" src="' + baseurl + iconsurl + name +'.png">';
-}
-
 function displaySearchResults(results, utenza, theme, tipo) {
   console.log('u: ' + utenza + ' | th: ' + theme + ' | ti: ' + tipo )
   var result_text = ( results.length > 1 ? ' servizi trovati' : ' servizio trovato' )
@@ -100,9 +96,9 @@ function displaySearchResults(results, utenza, theme, tipo) {
     filtersIcons += addIcon(themeIcon, themeName)
   }
   if ( tipo && tipo.indexOf('---') < 0 ) {
-    const tipoIcon = tipo + '_rosso';
+    const tipoIcon = 'cerchio_rosso_' + tipo;
     const tipoName = ( types[tipo] ? types[tipo].name : tipo )
-    filtersIcons += addTipologiaIcon(tipoIcon, tipoName)
+    filtersIcons += addIcon(tipoIcon, tipoName)
   }
   $('#filter-text').html(filtersIcons)
 
