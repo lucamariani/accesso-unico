@@ -5,5 +5,4 @@ utenza: intermediari
 tema: ambiente
 tipo: pratica
 title: Autorizzazione Unica Ambientale
-subtitle: AUA per gli intermediari
----
+subtitle: AUA, autorizzazioni, comunicazioni, scarichi, emissioni in atmosfera, rifiuti, utilizzo effluenti e fanghi
