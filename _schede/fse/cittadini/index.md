@@ -5,7 +5,7 @@ utenza: cittadini
 tema: salute
 tipo: servizio
 title: Fascicolo Sanitario Elettronico
-subtitle: referti, prescrizioni mediche, vaccinazioni, storia clinica, stato di salute
+subtitle: FSE, referti, prescrizioni mediche, vaccinazioni, storia clinica, stato di salute
 status: BETA
 statusLink: /onboard
 ---
