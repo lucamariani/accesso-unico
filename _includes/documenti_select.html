@@ -13,9 +13,8 @@
         <div class="Form-field" style="padding-bottom:0 !important">
           <select class="Form-input" id="documenti" aria-required="true" required>
             <option disabled selected>seleziona</option>
-            <option value="{{ site.baseurl }}/docs_search?tags={{page.metaname | downcase}}">{{page.title | capitalize}}</option>
+            <option value="{{ site.baseurl }}/docs_search?tags={{page.title | downcase}}">{{page.title | capitalize}}</option>
             <option value="{{ site.baseurl }}/docs_search?theme={{page.tema | downcase}}">{{theme_item.name | capitalize}}</option>
-
           </select>
         </div>
 
