@@ -1,15 +1,15 @@
 Il fascicolo sanitario elettronico viene **attivato dal cittadino** tramite il **suo consenso**, **revocabile in ogni momento**. <br>L’operazione di attivazione **è gratuita**, facoltativa e possibile in qualunque momento.
 <br><br>
-Occorre il consenso esplicito e formale del cittadino, che può essere revocato in ogni momento
-<br><br>
 Servono **2 tipi di consenso**,  espliciti e formali:
  - all’alimentazione del fascicolo con dati sanitari;
  - alla consultazione del fascicolo da parte di operatori del Servizio Sanitario Nazionale.
+
 <br><br>
 Il consenso può essere **rilasciato in vari modi**:
 
 -	al **proprio medico di medicina generale** o **altro operatore** autorizzato
 -	**direttamente online**, accedendo per la **prima volta** al proprio Fascicolo Sanitario Elettronico.
+
 <br><br>
 Una volta attivato, il fascicolo viene **alimentato automaticamente**, con dati certificati, riferiti a eventi clinici dell’assistito.
 <br><br>
