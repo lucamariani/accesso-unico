@@ -30,12 +30,9 @@ $(function() {
 
             Seguire questa nuova logica dell’Accesso unico richiede un percorso impegnativo, quindi le singole schede che trovate nel catalogo dei servizi in UmbriaFacile sono caratterizzate da uno "stato del servizio" nel modo seguente:
 
-            Alfa	Servizio in fase sperimentale e non ancora stabile, può non avere ancora alcuni dei requisiti minimi richiesti
-            Beta	Servizio operativo ma ancora in fase di test e messa a punto, può non avere ancora tutte le funzionalità richieste
-            Livello 1, 2, 3, 4	Servizio operativo e pienamente funzionale, soggetto comunque a continuo miglioramento (nei vari livelli di sofisticazione da 1 a 4)
-            Dismesso	Servizio non più operativo o di versione ormai obsoleta, presente solo a livello storico
 
-            <img class="u-popupImgResponsive" src="/accesso-unico/images/2018/11/cosae.png" alt="Cosa e'">
+          ![Presidio Organizzativo]({{site.baseurl}}/images/2018/11/presidioorganizzativo.png)
+
 
             Una volta a regime l'insieme dell'Accesso unico permetterà di semplificare l’accesso dell’utente ai servizi delle Pubbliche Amministrazioni, alleggerire la complessità per l'utente, aumentare l’interoperabilità automatica tra gli enti, costruire una base di conoscenza utile per tutti i canali di accesso ai servizi (sia sportelli fisici che on line o telefonici).
 
