@@ -344,3 +344,27 @@ docs:
     tags:
         - direttivascarichi
         - AUA
+
+  - title: Legge 13 agosto 2010, n. 136
+    metaname: doc29
+    oggetto: Piano straordinario contro le mafie, nonche' delega al Governo in materia di normativa antimafia.
+    categoria: normativa
+    tema: semplificazione
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2010-08-13;136"
+    anno: 2010
+    ente:
+    numero: 136
+    tags:
+      - Acconciatore
+
+  - title: D.Lgs 9 novembre 2007, n. 206
+    metaname: doc30
+    oggetto: Attuazione della direttiva 2005/36/CE relativa al riconoscimento delle qualifiche professionali, nonche' della direttiva 2006/100/CE che adegua determinate direttive sulla libera circolazione delle persone a seguito dell'adesione di Bulgaria e Romania.
+    categoria: normativa
+    tema: artigianato
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-11-09;206"
+    anno: 2007
+    ente:
+    numero: 206
+    tags:
+      - Acconciatore
