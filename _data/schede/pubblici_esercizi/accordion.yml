@@ -7,14 +7,14 @@
 # - entries with "utenza" key are visible only for that profiles
 
 
-- title: "Requisiti"
+- title: "Introduzione"
+  file: "introduzione.md"
+
+- title: "Requisiti dell'esercente"
   file: "requisiti.md"
 
-- title: "Regime avvio"
+- title: "Per aprire"
   file: "regime_avvio.md"
-  utenza:
-    - imprese
-    - intermediari
 
 - title: "Controlli"
   file: "controlli.md"
