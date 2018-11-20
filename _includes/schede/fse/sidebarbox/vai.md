@@ -1,3 +1,3 @@
 # [Vai al servizio][d0de62d7]
 
-  [d0de62d7]: {{ site.baseurl }}/map/piani_regolatori/ "indirizzo web del servizio"
+  [d0de62d7]: https://salute.regione.umbria.it/fse "indirizzo web del servizio"
