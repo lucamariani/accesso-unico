@@ -6,4 +6,6 @@ tema: ambiente
 tipo: pratica
 title: Autorizzazione Unica Ambientale
 subtitle: AUA per le imprese
+status: BETA
+statusLink: /onboard
 ---

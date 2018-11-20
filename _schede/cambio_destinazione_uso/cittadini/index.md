@@ -6,4 +6,6 @@ tema: edilizia
 tipo: pratica
 title: Cambio di destinazione d'uso
 subtitle: mutamento della destinazione di appartamenti, uffici, magazzini, negozi, garage, box, depositi etc..
+status: BETA
+statusLink: /onboard
 ---
