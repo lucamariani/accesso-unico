@@ -2,6 +2,7 @@
 .t-Pac #header-login-container, .t-Pac #header-logout-container {display: none}
 .t-Pac .user-name-mobile {color: #fff;padding: 15px;font-weight: 700;}
 
+/* 992px is the sarting width for desktop visuazlization */
 @media(min-width: 992px) {
   .t-Pac #login-div, .t-Pac #logout-div {display: inline-block}
   .t-Pac #header-login-container {display:block; position:absolute; right:20px; top:15px;}
@@ -13,6 +14,18 @@
 .t-Pac .u-popupImgResponsive {max-width: 100%}
 @media(min-width: 810px) {
   .t-Pac .u-popupResponsive {margin: 32px !important; width: unset}
+}
+
+/* Hamburger */
+/* show in md and lg on scroll */
+.t-Pac .Headroom--not-top .Hamburger-toggleContainer.u-lg-hidden.u-md-hidden {display: inline-block !important;}
+@media(min-width: 992px) {
+  .t-Pac .Headroom--not-top .Header-utils.Grid-cell {width:0 !important;}
+  .t-Pac .Headroom--not-top .Header-title.Grid-cell {width:50% !important;margin-top:10px;margin-bottom:10px;}
+  .t-Pac .Headroom--not-top #header-subtitle {display: inline-block}
+}
+@media(min-width: 1366px) {
+  .t-Pac .Headroom--not-top .Header-title.Grid-cell {width:60% !important}
 }
 
 /* change menu colors */
@@ -82,7 +95,11 @@
 .t-Pac #main a {color:rgb(48, 55, 61)}
 
 /* header */
-.t-Pac .beta-label {font-size: 12px;position: relative;top: -10px;left: -3px;}
+.t-Pac .Headroom--top .beta-label {font-size: 12px;position: relative;top: -10px;left: -3px;}
+.t-Pac .Headroom--not-top .beta-label {font-size: 10px;position: relative;top: -5px;left: -3px;}
+@media(min-width: 768px) {
+  .t-Pac .Headroom--not-top .beta-label {font-size: 12px;top: -10px;}
+}
 /* handle login mask*/
 .t-Pac #login-div > img {height:12px}
 .t-Pac .Headroom--fixed.Headroom--not-top .Headroom-showme {max-height: 5em}
