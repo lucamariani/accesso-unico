@@ -23,10 +23,9 @@ $(function() {
         <div role="document" class="Prose">
             <h2 class="u-cf u-text-h2 u-borderHideFocus" id="modal-title" tabindex="0">Processo di Onboarding</h2>
             <p>
-            L’<b>ingresso<b/> dei servizi pubblici nel Portale "UmbriaFacile" deve rispettare precisi criteri di qualità e di funzionalità, secondo processi e metodologie definite e con un miglioramento continuo.<br><br>
-            Questo garantisce che i servizi che l'utente trova nel Portale siano stati ridisegnati nella logica dell'Accesso Unico (principi digital first, service design, cittadino al centro, omnicanalità, comunicazione chiara, ecc).
-            <br>
-            Seguire questa nuova logica dell’Accesso unico richiede un <b>percorso impegnativo<b/>, quindi le singole schede che trovate nel catalogo dei servizi in UmbriaFacile sono caratterizzate da uno "stato del servizio" nel modo seguente:
+            L’<b>ingresso</b> dei servizi pubblici all’interno del Portale "UmbriaFacile" deve rispettare precisi criteri di qualità e di funzionalità (principi digital first, service design, cittadino al centro, omnicanalità, comunicazione chiara, ecc), secondo processi e metodologie ben definite e con un miglioramento continuo.
+            Ogni servizio, quindi, è ridisegnato secondo tale logica e pertanto la sua definizione richiede un percorso impegnativo.
+            Ogni scheda – servizio è caratterizzata da uno "stato del servizio" nel modo seguente:
             <br>
             <img class="u-popupImgResponsive" src="{{ site.baseurl }}/images/2018/11/stato-del-servizio.png" alt="Stato del servizio">
             </p>
