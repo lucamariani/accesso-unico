@@ -28,18 +28,9 @@ $(function() {
             Questo garantisce che i servizi che l'utente trova nel Portale siano stati ridisegnati nella logica dell'Accesso unico (principi digital first, service design, cittadino al centro, omnicanalità, comunicazione chiara, ecc).
 
             Seguire questa nuova logica dell’Accesso unico richiede un percorso impegnativo, quindi le singole schede che trovate nel catalogo dei servizi in UmbriaFacile sono caratterizzate da uno "stato del servizio" nel modo seguente:
-
-
-            <img src="/accesso-unico/images/2018/11/stato-del-servizio.png" alt="Stato delle schede servizio nel catalogo">
-
-
-            Una volta a regime l'insieme dell'Accesso unico permetterà di semplificare l’accesso dell’utente ai servizi delle Pubbliche Amministrazioni, alleggerire la complessità per l'utente, aumentare l’interoperabilità automatica tra gli enti, costruire una base di conoscenza utile per tutti i canali di accesso ai servizi (sia sportelli fisici che on line o telefonici).
-
-              PER APPROFONDIRE
-
-                Per maggiori informazioni su come gli enti possono partecipare al Programma di intervento consultare la pagina dedicata: xxxx
-
-                Per il glossario utilizzato nell'Agwnda digitale dell'Umbria: yyyyy
+            <br>
+            <img class="u-popupImgResponsive" src="{{ site.baseurl }}/images/2018/11/stato-del-servizio.png" alt="Stato del servizio">
+            
 
             </p>
             <!--<button class="Button Button--danger js-fr-dialogmodal-close u-floatRight">Chiudi</button>-->
