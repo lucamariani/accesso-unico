@@ -30,7 +30,7 @@ $(function() {
             Seguire questa nuova logica dell’Accesso unico richiede un percorso impegnativo, quindi le singole schede che trovate nel catalogo dei servizi in UmbriaFacile sono caratterizzate da uno "stato del servizio" nel modo seguente:
 
 
-            <img src="/accesso-unico/images/2018/11/presidioorganizzativo.png" alt="Presidio Organizzativo">
+            <img src="/accesso-unico/images/2018/11/stato-del-servizio.png" alt="Stato delle schede servizio nel catalogo">
 
 
             Una volta a regime l'insieme dell'Accesso unico permetterà di semplificare l’accesso dell’utente ai servizi delle Pubbliche Amministrazioni, alleggerire la complessità per l'utente, aumentare l’interoperabilità automatica tra gli enti, costruire una base di conoscenza utile per tutti i canali di accesso ai servizi (sia sportelli fisici che on line o telefonici).
