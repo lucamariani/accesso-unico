@@ -6,6 +6,11 @@
 # - entries without "utenza" key are visible for all profiles
 # - entries with "utenza" key are visible only for that profiles
 
+- title: "Introduzione"
+  file: "introduzione.md"
+  utenza:
+    - imprese
+    - cittadini
 - title: "Interventi subordinati alla SCIA"
   file: "interventi_scia.md"
   utenza:
