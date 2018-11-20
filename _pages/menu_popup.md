@@ -40,7 +40,7 @@ $(function() {
   Apri
 </button>
 
-<div class="Dialog js-fr-dialogmodal" id="modal" style="z-index:50">
+<div class="Dialog js-fr-dialogmodal u-zindex-50" id="modal">
     <div class="
       u-popupResponsive
       Dialog-content
