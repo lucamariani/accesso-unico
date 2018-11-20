@@ -23,9 +23,9 @@ $(function() {
         <div role="document" class="Prose">
             <h2 class="u-cf u-text-h2 u-borderHideFocus" id="modal-title" tabindex="0">Processo di Onboarding</h2>
             <p>
-            L’<b>ingresso dei servizi pubblici all’interno del Portale "UmbriaFacile"</b> deve rispettare precisi criteri di qualità e di funzionalità (principi digital first, service design, cittadino al centro, omnicanalità, comunicazione chiara, ecc), secondo processi e metodologie ben definite e con un miglioramento continuo.
+            L’<b>ingresso dei servizi pubblici all’interno del Portale "UmbriaFacile"</b> deve rispettare precisi criteri di qualità e di funzionalità (principi digital first, service design, cittadino al centro, omnicanalità, comunicazione chiara, ecc), secondo processi e metodologie ben definite.
             <br>
-            Ogni servizio, quindi, è ridisegnato secondo tale logica e pertanto la sua definizione richiede un percorso impegnativo.
+            Ogni <b>servizio</b>, quindi, è <b>ridisegnato secondo tale logica</b> e pertanto la sua definizione richiede un percorso impegnativo.
             <br><br>
             Ogni scheda – servizio è caratterizzata da uno <b>"stato del servizio"</b> nel modo seguente:
             <br>
