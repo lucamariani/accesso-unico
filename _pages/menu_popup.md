@@ -28,22 +28,24 @@ $(function() {
   bindClick(back)
 
   if ( menu ) {
+    const testopopup
     switch(menu) {
     case 'pratiche':
-        $('#menu_txt').text( pratichetxt );
+        const testopopup = pratichetxt;
         break;
     case 'preferiti':
-        $('#menu_txt').text( preferititxt );
+        const testopopup =  preferititxt;
         break;
     case 'forum':
-          $('#menu_txt').text( forumtxt );
+          const testopopup =  forumtxt;
           break;
     case 'aggiornamenti':
-        $('#menu_txt').text( aggiornamentitxt );
+        const testopopup =  aggiornamentitxt;
         break;
     default:
-        $('#menu_txt').text( aggiornamentitxt );
+        const testopopup = aggiornamentitxt;
     }
+    $('#menu_txt').text( testopopup );
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
   $('#open_btn').click();
