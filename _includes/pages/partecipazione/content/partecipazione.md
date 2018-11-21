@@ -6,8 +6,10 @@
 <br>
 - Se sei un **amministratore** sarai coinvolto nella **governance** dell’Accesso Unico
 
-<br><br>
------------------------------------------------------------------------------------------
+<br><br><br>
+### e-mail per partecipare: accessounico@regione.umbria.it
+
+<br><br><br>
 **Digitalizzare un servizio pubblico** significa ridisegnare il suo processo per sfruttare le logiche digitali, **coordinare** gli enti partecipanti ed **integrare** i diversi sistemi.
 <br><br>
 Per questo il Programma Accesso Unico richiede il **ruolo attivo di tutte le PA dell’Umbria** definito e regolato da uno specifico **Accordo attuativo** nell’ambito della Convenzione generale della **CN-Umbria** di cui alla Legge Regionale n.9/2014.
