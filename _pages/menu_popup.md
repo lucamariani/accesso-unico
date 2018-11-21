@@ -28,7 +28,7 @@ $(function() {
   bindClick(back)
 
   if ( menu ) {
-    $('#menu_txt').text(aggiornamenti_txt);
+    $('#menu_txt').text(pratiche_txt);
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
   $('#open_btn').click();
