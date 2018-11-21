@@ -12,6 +12,6 @@ D) **autorizzazione generale** di cui all'articolo 272 del decreto legislativo 3
 
 E) **comunicazione o nulla osta** di cui all'articolo 8, commi 4 o comma 6, della legge 26 ottobre 1995, n. 447;
 
-F) **autorizzazione all'utilizzo dei fanghi **derivanti dal processo di depurazione in agricoltura di cui all'articolo 9 del decreto legislativo 27 gennaio 1992, n. 99;
+F) **autorizzazione all'utilizzo dei fanghi** derivanti dal processo di depurazione in agricoltura di cui all'articolo 9 del decreto legislativo 27 gennaio 1992, n. 99;
 
 G) **comunicazioni in materia di rifiuti** di cui agli articoli 215 e 216 del decreto legislativo 3 aprile 2006, n. 152.

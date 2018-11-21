@@ -1,5 +1,4 @@
 L'Autorizzazione Unica Ambientale è un provvedimento rilasciato su richiesta dell’interessato.
-<br><br>
 È costituita da **sette autorizzazioni/comunicazioni** di seguito elencate:
 - **A** - autorizzazione agli *scarichi*;
 - **B** - comunicazione preventiva per l'**utilizzazione agronomica degli effluenti di allevamento, delle acque di vegetazione dei frantoi oleari e delle acque reflue** provenienti dalle aziende ivi previste;
