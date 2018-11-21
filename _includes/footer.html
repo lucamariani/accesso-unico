@@ -38,14 +38,14 @@
                         <div class="Footer-subBlock">
                             {% if site.email %}
                             <h3 class="Footer-subTitle">Indirizzo Email</h3>
-                            <a href="mailto:{{ site.email }}?subject=Accesso Unico"</a>
+                            <a href="mailto:{{ site.email }}?subject=Accesso Unico">{{ site.email }}</a>
                             {% endif %}
                             {% if site.email and site.pec %}
                             <br><br>
                             {% endif %}
                             {% if site.pec %}
                             <h3 class="Footer-subTitle">Indirizzo PEC</h3>
-                            <a href="">{{ site.pec }}</a>
+                            <a href="mailto:{{ site.email }}?subject=Accesso Unico">{{ site.pec }}</a>
                             {% endif %}
                         </div>
                     </div>
