@@ -1,11 +1,9 @@
 **CARATTERISTICHE DEI LOCALI**
 
-Come previsto dal regolamento comunale, trattandosi di **prestazione di servizi alla persona** pertinenti a iniziative imprenditoriali definite artigianali dalla legislazione di settore, tali attività devono essere svolte in locali aventi **destinazione d’uso** previste dalla legge e compatibili con le prescrizioni contenute nel Piano Regolatore vigente. 
+Come previsto dal regolamento comunale, trattandosi di **prestazione di servizi alla persona** pertinenti a iniziative imprenditoriali definite artigianali dalla legislazione di settore, tali attività devono essere svolte in locali aventi **destinazione d’uso** previste dalla legge e compatibili con le prescrizioni contenute nel Piano Regolatore vigente.
 Naturalmente, in caso di coesistenza di più attività in uno stesso locale, è l’**attività “prevalente”** che condiziona la destinazione d’uso dell’immobile.
 Ad esempio, in caso di coesistenza di attività artigianale prevalente di acconciatore e di attività commerciale secondaria di commercio al dettaglio, la destinazione d’uso del locale rimarrà quella relativa all’uso prevalente. In ottemperanza a quanto previsto negli **strumenti urbanistici comunali** vigenti.
-
 Tutto ciò a prescindere dal fatto che l’impresa titolare dell’attività sia iscritta, o meno, all’Albo imprese artigiane.
-
 <br><br>
 **DOVE SI PUÒ  ESERCITARE**
 

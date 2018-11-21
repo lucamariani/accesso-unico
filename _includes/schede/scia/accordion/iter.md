@@ -1,15 +1,15 @@
 **Competenze SUAPE**
 
-•	Riceve la segnalazione corredata dagli elementi da allegare.
+•	Riceve la segnalazione corredata dagli elementi da allegare;
 
 
-•	Dichiara l’irricevibilità se accerta l’incompletezza formale della segnalazione e dei relativi allegati. Esito negativo.
+•	Dichiara l’irricevibilità se accerta l’incompletezza formale della segnalazione e dei relativi allegati. Esito negativo;
 
 
-•	Verifica la completezza formale della segnalazione e dei relativi allegati, rilascia la ricevuta e la copia degli elaborati vistati. Esito positivo. L’attività edilizia può essere iniziata dalla data di presentazione della SCIA.
+•	Verifica la completezza formale della segnalazione e dei relativi allegati, rilascia la ricevuta e la copia degli elaborati vistati. Esito positivo. L’attività edilizia può essere iniziata dalla data di presentazione della SCIA;
 
 
-•	Comunica il nominativo del responsabile del procedimento entro 10 gg. dal rilascio della ricevuta.
+•	Comunica il nominativo del responsabile del procedimento entro 10 gg. dal rilascio della ricevuta;
 
 
 •	In caso di esito non favorevole degli eventuali assensi e provvedimenti necessari, il SUAPE effettua comunicazione all’interessato entro cinque giorni dalla data in cui sono stati acquisiti agli atti, con le indicazioni che la segnalazione è priva di effetti.
