@@ -13,3 +13,5 @@
   utenza:
     - imprese
     - intermediari
+- title: Procedimenti collegati
+  file: procedimenti.md
