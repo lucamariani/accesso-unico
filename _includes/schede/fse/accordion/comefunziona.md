@@ -1,8 +1,8 @@
 
 L’**accesso online al fascicolo** è possibile solo tramite l'**identificazione digitale**, utilizzando indistintamente :
 
--	la tua identità digitale [SPID][212158a9]
--	la tua smartcard personale "[Carta Nazionale dei Servizi][700cfb22]"
+-	la tua identità digitale **[SPID][212158a9]**
+-	la tua smartcard personale "**[Carta Nazionale dei Servizi][700cfb22]**"
 mediante LoginUmbria.
 <br><br>
 Una volta effettuato l’accesso, sia il cittadino sia il medico, potranno consultare i documenti sanitari presenti nel Fascicolo.

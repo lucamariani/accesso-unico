@@ -1,4 +1,4 @@
-**CHE COSA È IL SUAPE?**
+**COSA È IL SUAPE?**
 
 L’acronimo SUAPE sta per **Sportello Unico Attività Produttive Edilizia** e consente all’utente cittadino/impresa/intermediario di relazionarsi con una sola struttura per presentare istanze, comunicazioni e segnalazioni.
 Il **D.P.R. 160/2010 individua il SUAP**, relativo alle Attività Produttive, come lo sportello di competenza comunale che assicuri “al richiedente una risposta telematica unica e tempestiva in luogo degli altri uffici comunali e di tutte le amministrazioni pubbliche comunque coinvolte nel procedimento, ivi comprese quelle preposte alla tutela ambientale, paesaggistico-territoriale, del patrimonio storico-artistico o alla tutela della salute e della pubblica incolumità.”
