@@ -3,10 +3,10 @@ layout: default
 ---
 
 <script>
-const pratiche_txt = "{{ site.popup_pratiche_text }}"
-const preferiti_txt = "{{ site.popup_preferiti_text }}"
-const forum_txt = "{{ site.popup_forum_text }}"
-const aggiornamenti_txt = "{{ site.popup_aggiornamenti_text }}"
+const pratichetxt = "{{ site.popup_pratiche_text }}"
+const preferititxt = "{{ site.popup_preferiti_text }}"
+const forumtxt = "{{ site.popup_forum_text }}"
+const aggiornamentitxt = "{{ site.popup_aggiornamenti_text }}"
 
 /*const bindCloseBtn = (url) => {
   $('#close_btn').click(function() {
@@ -28,7 +28,8 @@ $(function() {
   bindClick(back)
 
   if ( menu ) {
-    $('#menu_txt').text(pratiche_txt);
+      cont testo = menu + "txt"
+    $('#menu_txt').text( testo );
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
   $('#open_btn').click();
