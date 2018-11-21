@@ -1,17 +1,15 @@
-- title: Presenta la Pratica
-  file: presenta-pratica.md
-  utenza:
-    - intermediari
-    - cittadini
+
+- title: Procedimenti collegati
+  file: procedimenti.md
+
 - title: Documenti
   file: documenti.md
   utenza:
     - imprese
     - intermediari
+
 - title: Piano Regolatore Generale
   file: prg.md
   utenza:
     - imprese
     - intermediari
-- title: Procedimenti collegati
-  file: procedimenti.md
