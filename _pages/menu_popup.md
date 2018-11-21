@@ -28,7 +28,7 @@ $(function() {
   bindClick(back)
 
   if ( menu ) {
-      cont testo = menu + "txt"
+      const testo = menu + "txt"
     $('#menu_txt').text( testo );
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
