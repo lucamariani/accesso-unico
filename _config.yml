@@ -43,7 +43,7 @@ recapiti1: Agenda Digitale dell’Umbria
 recapiti2: Via Mario Angeloni, 68
 recapiti3: 06100 Perugia
 recapiti4: Centralino (+39) 075.504.1
-email: agndadigitale@regione.umbria.it
+email: agendadigitale@regione.umbria.it
 pec:
 privacy_url: http://www.regione.umbria.it/privacy-policy
 note_legali_url: http://www.regione.umbria.it/note-legali
@@ -113,4 +113,4 @@ defaults:
 popup_pratiche_text: "Questo e' un testo di prova per il popup delle pratiche dell'utente privato"
 popup_preferiti_text: "Questo e' un testo di prova per il popup dei preferiti dell'utente privato"
 popup_forum_text: "Questo e' un testo di prova per il popup del forum dell'utente PA"
-popup_aggiornamenti_text: "Questo e' un testo di prova per il popup degli aggiornamenti dell'utente PA"
+popup_aggiornamenti_text: "Una piattaforma di gestione condivisa dei dati del portale riferiti alle PA partecipanti consente di aggiornare le informazioni di propria competenza:"
