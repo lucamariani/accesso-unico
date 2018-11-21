@@ -29,7 +29,7 @@ $(function() {
 
   if ( menu ) {
     var nomeconst = menu + 'txt';
-    $('#menu_txt').text( val(nomeconst) );
+    $('#menu_txt').text( nomeconst );
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
   $('#open_btn').click();
