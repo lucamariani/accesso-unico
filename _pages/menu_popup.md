@@ -28,8 +28,22 @@ $(function() {
   bindClick(back)
 
   if ( menu ) {
-    var nomeconst = menu + 'txt';
-    $('#menu_txt').text( {{ 'site.popup_'+ menu +'_text' }} );
+    switch(menu) {
+    case 'pratiche':
+        $('#menu_txt').text( pratichetxt );
+        break;
+    case 'preferiti':
+        $('#menu_txt').text( preferititxt );
+            break;
+    case 'forum':
+          $('#menu_txt').text( forumtxt );
+                break;
+    case 'aggiornamenti':
+        $('#menu_txt').text( aggiornamentitxt );
+                    break;
+            default:
+        code block
+    }
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
   $('#open_btn').click();
