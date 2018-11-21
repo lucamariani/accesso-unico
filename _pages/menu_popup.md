@@ -28,8 +28,8 @@ $(function() {
   bindClick(back)
 
   if ( menu ) {
-    const nomeconst = menu + 'txt';
-    $('#menu_txt').text( nomeconst.val() );
+    var nomeconst = menu + 'txt';
+    $('#menu_txt').text( val(nomeconst) );
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
   $('#open_btn').click();
