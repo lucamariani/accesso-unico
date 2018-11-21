@@ -11,7 +11,7 @@ L'AUA ha una durata di **15 anni decorrenti dal rilascio**. Il rinnovo deve esse
 
 **MODULISTICA**
 
-Con il DPCM del 8 maggio 2015 è stato adottato il **modello semplificato e unificato** per la richiesta di AUA. È in corso l’approvazione  del modello unico AUA regionale da utilizzare obbligatoriamente con decorrenza dal 01//01/2019.
+Con il DPCM del 8 maggio 2015 è stato adottato il **modello semplificato e unificato** per la richiesta di AUA. È in corso l’approvazione  del modello unico AUA regionale da utilizzare obbligatoriamente con decorrenza dal 01/01/2019.
 
 **COSTI**
 
