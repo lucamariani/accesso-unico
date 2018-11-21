@@ -27,25 +27,8 @@ $(function() {
   /*bindCloseBtn(back)*/
   bindClick(back)
 
-  switch(menu) {
-  case 'pratiche':
-      const testopopup = pratiche_txt;
-      break;
-  case 'preferiti':
-      const testopopup =  preferiti_txt;
-      break;
-  case 'forum':
-        const testopopup =  forum_txt;
-        break;
-  case 'aggiornamenti':
-      const testopopup =  aggiornamenti_txt;
-      break;
-  default:
-      const testopopup = aggiornamenti_txt;
-  }
-
   if ( menu ) {
-    $('#menu_txt').text(testopopup);
+    $('#menu_txt').text(aggiornamenti_txt);
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
   $('#open_btn').click();
