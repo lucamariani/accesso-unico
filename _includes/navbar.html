@@ -78,8 +78,7 @@
                   <a class="{{color}}" href="{{ site.baseurl }}/">{{ site.header_title }}
                     <span class="beta-label">BETA</span>
                     {% if site.header_subtitle %}
-                    <br>
-                    <p class="{{color}} u-text-xs u-textWeight-400 u-padding-top-xs">{{ site.header_subtitle}}</p>
+                    <p id="header-subtitle" class="{{color}} u-text-xs u-textWeight-400 u-padding-top-xs">{{ site.header_subtitle}}</p>
                     {% endif %}
                   </a>
               </h1>
@@ -127,9 +126,6 @@
               </div>
               {% endif %}
 
-              {% if site.XXXmega_menu_accedi %}
-                {% include signin-mask.html class="Headroom-showme u-hidden" %}
-              {% endif %}
           </div>
 
           {% if site.mega_menu %}
@@ -208,7 +204,8 @@
                 {% if item.url contains "http" %}
                 <li data-megamenu-class="{{ data-megamenu-class }}"><a target="_blank" href="{{ item.url }}">{{ item.title }}</a>
                 {% elsif item.popup %}
-                <li data-megamenu-class="{{ data-megamenu-class }} user-menu-popup-btn"><a href="#" popup-btn="{{ item.popup }}">{{ item.title }}</a>
+                <li data-megamenu-class="{{ data-megamenu-class }} user-menu-popup-btn">
+                  <a href="{{ site.baseurl }}/menu_popup?menu={{ item.popup }}&back={{ page.url }}" popup-btn="{{ item.popup }}">{{ item.title }}</a>
                 {% else %}
                 <li data-megamenu-class="{{ data-megamenu-class }}"><a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a>
                 {% endif %}

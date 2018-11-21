@@ -52,21 +52,6 @@ layout: default
             <div class="Form-field">
               <label class="Form-label" for="titolo">Titolo</label>
               <input data-menu-trigger="titolo-listing" class="Form-input u-text-r-s u-borderRadius-m" id="titolo" name="titolo" autocomplete="off" value="" />
-
-              <!--<div id="titolo-listing" data-menu
-                class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-size4of4 u-md-size4of4 u-lg-size2of4">
-                <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
-                <ul class="Linklist">
-                  {% assign docs = site.data.docs.docs | sort: 'title' %}
-                  {% for doc in docs %}
-                  <li>
-                    <a href="{{ doc.url }}" class="u-padding-r-all u-textLeft" onclick="">
-                      <span>{{ doc.title }}</span>
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>-->
             </div>
           </div>
 
@@ -74,21 +59,6 @@ layout: default
             <div class="Form-field">
               <label class="Form-label is-required" for="number">Numero</label>
               <input data-menu-trigger="numero-listing" class="Form-input u-text-r-s u-borderRadius-m" id="numero" name="numero">
-
-              <!--<div id="numero-listing" data-menu
-                class="Dropdown-menu Header-language-other u-jsVisibilityHidden u-nojsDisplayNone u-size2of4 u-md-size1of4 u-lg-size1of4">
-                <span class="Icon-drop-down Dropdown-arrow u-color-white"></span>
-                <ul class="Linklist">
-                  {% assign docs_number = site.data.docs.docs | group_by: 'numero' %}
-                  {% for docn in docs_number %}
-                  <li>
-                    <a href="{{ doc.url }}" class="u-padding-r-all u-textLeft" onclick="">
-                      <span>{{ docn.name }}</span>
-                    </a>
-                  </li>
-                  {% endfor %}
-                </ul>
-              </div>-->
             </div>
           </div>
 
@@ -166,7 +136,7 @@ layout: default
     </form>
 
     <!-- Results' list -->
-    <section id="result-section" class="u-nbfc u-background-grey-15 u-layout-r-withGutter u-padding-r-top u-padding-r-bottom u-posRelative u-zindex-30">
+    <section id="result-section" class="u-nbfc u-background-grey-15 u-padding-r-all u-posRelative u-zindex-30">
       <div class="u-layout-wide u-layoutCenter">
         <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
           <span id="results-size" class="u-text-r-l u-textWeight-300"></span> Documenti trovati
