@@ -27,7 +27,7 @@ $(function() {
             <br>
             Ogni <b>servizio</b>, quindi, viene <b>ridisegnato</b> nel rispetto dei <b>requisiti minimi</b> fissati per l'inserimento in catalogo: un <b>percorso impegnativo</b> per la definizione condivisa delle metodologie da seguire per l'aumento del loro livello di sofisticazione /interattività.
             <br><br>
-            Ogni scheda-servizio è caratterizzata da uno <b>"stato del servizio"</b> nel modo seguente:
+            Ogni scheda-servizio è caratterizzata da uno <b>"stato del servizio"</b> nel seguente modo:
             <img class="u-popupImgResponsive" src="{{ site.baseurl }}/images/2018/11/stato-del-servizio.png" alt="Stato del servizio">
             </p>
             <!--<button class="Button Button--danger js-fr-dialogmodal-close u-floatRight">Chiudi</button>-->
