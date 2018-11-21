@@ -20,6 +20,6 @@ L'abilitazione, così come disposto dall'articolo 3 della legge 17 agosto 2005, 
 
   [d6964d50]: https://siru.regione.umbria.it/SIRU/catalogo_off/index_pubb.php "vai al Catalogo"
 
-Qualora si possiedano requisiti professionali acquisiti al di fuori degli stati UE, **la domanda di riconoscimento degli stessi** deve essere inviata, a cura degli interessati, **al Ministero dello Sviluppo Economico**, ai sensi dell’art. 5, comma 2, del D.Lgs.  9 novembre 2007 n. 206 di attuazione della direttiva 2005/36/CE.
+Qualora si possiedano requisiti professionali acquisiti al di fuori degli stati UE, **la domanda di riconoscimento degli stessi** deve essere inviata, a cura degli interessati, al **Ministero dello Sviluppo Economico** ai sensi dell’art. 5, comma 2, del D.Lgs.  9 novembre 2007 n. 206 di attuazione della direttiva 2005/36/CE.
 
 4)	**Per ogni sede o unità locale dell'impresa** in cui viene esercitata l'attività di acconciatore **è designato**, nella persona del titolare, di un socio partecipante al lavoro, di un familiare coadiuvante o di un dipendente dell'impresa, almeno **un responsabile tecnico** in possesso dell’abilitazione professionale il quale garantisce la propria presenza durante lo svolgimento delle attività medesime.
