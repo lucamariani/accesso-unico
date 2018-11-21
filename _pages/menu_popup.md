@@ -3,10 +3,10 @@ layout: default
 ---
 
 <script>
-const pratichetxt = "{{ site.popup_pratiche_text }}"
-const preferititxt = "{{ site.popup_preferiti_text }}"
-const forumtxt = "{{ site.popup_forum_text }}"
-const aggiornamentitxt = "{{ site.popup_aggiornamenti_text }}"
+const pratiche_txt = "{{ site.popup_pratiche_text }}"
+const preferiti_txt = "{{ site.popup_preferiti_text }}"
+const forum_txt = "{{ site.popup_forum_text }}"
+const aggiornamenti_txt = "{{ site.popup_aggiornamenti_text }}"
 
 /*const bindCloseBtn = (url) => {
   $('#close_btn').click(function() {
@@ -27,25 +27,25 @@ $(function() {
   /*bindCloseBtn(back)*/
   bindClick(back)
 
+  switch(menu) {
+  case 'pratiche':
+      const testopopup = pratiche_txt;
+      break;
+  case 'preferiti':
+      const testopopup =  preferiti_txt;
+      break;
+  case 'forum':
+        const testopopup =  forum_txt;
+        break;
+  case 'aggiornamenti':
+      const testopopup =  aggiornamenti_txt;
+      break;
+  default:
+      const testopopup = aggiornamenti_txt;
+  }
+
   if ( menu ) {
-    const testopopup
-    switch(menu) {
-    case 'pratiche':
-        const testopopup = pratichetxt;
-        break;
-    case 'preferiti':
-        const testopopup =  preferititxt;
-        break;
-    case 'forum':
-          const testopopup =  forumtxt;
-          break;
-    case 'aggiornamenti':
-        const testopopup =  aggiornamentitxt;
-        break;
-    default:
-        const testopopup = aggiornamentitxt;
-    }
-    $('#menu_txt').text( testopopup );
+    $('#menu_txt').text(testopopup);
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
   $('#open_btn').click();
