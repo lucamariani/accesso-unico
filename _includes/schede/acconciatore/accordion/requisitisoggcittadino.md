@@ -14,16 +14,12 @@
 
     inserimento della durata di un anno presso un'impresa di acconciatura, da effettuare nell'arco di due anni
 
-
-
 - **Seconda alternativa**:
 
     inserimento della durata di tre anni presso un'impresa di acconciatura, da effettuare nell'arco di cinque anni e svolgimento di un apposito corso di formazione teorica.
 
-
-
 **Il riconoscimento dell'abilitazione professionale** di acconciatore **acquisita in altri Stati membri dell'Unione europea**, ai sensi della normativa vigente, è disposto **dalla Regione**.
 
-Qualora si possiedano requisiti professionali acquisiti al di fuori degli stati UE, **la domanda di riconoscimento degli stessi** deve essere inviata al **Ministero dello Sviluppo Economico **.<br>
-
+Qualora si possiedano requisiti professionali acquisiti al di fuori degli stati UE, **la domanda di riconoscimento degli stessi** deve essere inviata al **Ministero dello Sviluppo Economico**
+<br>
 4) È necessario, per ogni sede o unità locale dell'impresa, designare un **responsabile tecnico** in possesso dell’abilitazione professionale che garantisca la propria presenza durante lo svolgimento delle attività medesime.
