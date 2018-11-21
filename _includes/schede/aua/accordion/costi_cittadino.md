@@ -8,12 +8,8 @@ Per i **procedimenti superiori a 90 giorni**, l'Autorità competente (Regione) a
 
 **COSTI**
 
-Il soggetto richiedente è tenuto al versamento delle **spese istruttorie e diritti** complessivamente previsti, nelle misure già stabilite dalle disposizioni vigenti.
-
-La **marca da bollo** è unica e va apposta solo sul modello unico d'istanza.
+Il soggetto richiedente è tenuto al versamento delle **spese istruttorie e diritti** complessivamente previsti, nelle misure già stabilite dalle disposizioni vigenti. La **marca da bollo** è unica e va apposta solo sul modello unico d'istanza.
 
 **DURATA E RINNOVO**
 
-L'AUA ha una durata di **15 anni** decorrenti dal rilascio del titolo da parte del SUAPE.
-
-Il rinnovo deve essere chiesto **almeno 6 mesi prima della scadenza**.
+L'AUA ha una durata di **15 anni** decorrenti dal rilascio del titolo da parte del SUAPE. Il rinnovo deve essere chiesto **almeno 6 mesi prima della scadenza**.
