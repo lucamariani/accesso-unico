@@ -34,15 +34,15 @@ $(function() {
         break;
     case 'preferiti':
         $('#menu_txt').text( preferititxt );
-            break;
+        break;
     case 'forum':
           $('#menu_txt').text( forumtxt );
-                break;
+          break;
     case 'aggiornamenti':
         $('#menu_txt').text( aggiornamentitxt );
-                    break;
-            default:
-        code block
+        break;
+    default:
+        $('#menu_txt').text( aggiornamentitxt );
     }
     $('#menu_img').attr('src', baseurl + '/assets/images/popups/' + menu + '.png')
   }
