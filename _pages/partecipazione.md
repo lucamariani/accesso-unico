@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Fare rete tra PA per creare conoscenza
+title: Costruiamo insieme l'Accesso Unico
 metatitle: partecipazione
-subtitle: costruiamo insieme l'Accesso Unico
+subtitle: fare rete tra PA per creare conoscenza
 background:
 img:
 ---
