@@ -1,10 +1,10 @@
 **Per l’avvio o l’esercizio** dell’attività di acconciatore sono necessari:
 
-1)	Iscrizione **all’Albo imprese artigiane** per le imprese artigiane, iscrizione **al registro imprese** per le imprese commerciali.<br><br>
+1. Iscrizione **all’Albo imprese artigiane** per le imprese artigiane, iscrizione **al registro imprese** per le imprese commerciali.<br><br>
 
-2)	**Requisiti morali** relativi alle disposizioni antimafia.<br>
+2. **Requisiti morali** relativi alle disposizioni antimafia.<br>
 
-3)  **Requisiti professionali** ovvero **Abilitazione professionale** che si ottiene superando un esame tecnico-pratico che si può sostenere dopo aver svolto un percorso formativo articolato secondo le due seguenti alternative:
+3. **Requisiti professionali** ovvero **Abilitazione professionale** che si ottiene superando un esame tecnico-pratico che si può sostenere dopo aver svolto un percorso formativo articolato secondo le due seguenti alternative:
 
 - **Prima alternativa**:
 
@@ -22,4 +22,4 @@
 
 Qualora si possiedano requisiti professionali acquisiti al di fuori degli stati UE, **la domanda di riconoscimento degli stessi** deve essere inviata al **Ministero dello Sviluppo Economico**.
 <br><br>
-4) È necessario, per ogni sede o unità locale dell'impresa, designare un **responsabile tecnico** in possesso dell’abilitazione professionale che garantisca la propria presenza durante lo svolgimento delle attività medesime.
+4. È necessario, per ogni sede o unità locale dell'impresa, designare un **responsabile tecnico** in possesso dell’abilitazione professionale che garantisca la propria presenza durante lo svolgimento delle attività medesime.
