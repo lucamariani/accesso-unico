@@ -1,4 +1,4 @@
-- [A-Autorizzazione agli scarichi]({{ site.baseurl }}/schede/scia/{{ page.utenza }})
+- A-Autorizzazione agli scarichi
 - B-Comunicazione preventiva
 - C-Autorizzazione alle emissioni in atmosfera
 - D-Autorizzazione Generale
