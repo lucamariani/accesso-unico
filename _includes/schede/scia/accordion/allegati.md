@@ -1,5 +1,6 @@
 1. **Dichiarazione firmata da un progettista abilitato** che asseveri la conformità del progetto:
 
+
 - agli strumenti urbanistici sia vigenti che adottati
 
 - ai piani di settore
@@ -14,7 +15,7 @@
 
 - alla sussistenza delle opere di urbanizzazione primaria.
 
-<br>
+
 2. **Elaborati progettuali** richiesti dal regolamento per l’attività edilizia o da altri documenti previsti dalla vigente normativa.
 
 3. **Attestazione** concernente il titolo di legittimazione.
