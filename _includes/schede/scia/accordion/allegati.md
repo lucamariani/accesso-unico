@@ -1,4 +1,5 @@
 1. **Dichiarazione firmata da un progettista abilitato** che asseveri la conformità del progetto:
+
 - agli strumenti urbanistici sia vigenti che adottati
 
 - ai piani di settore
