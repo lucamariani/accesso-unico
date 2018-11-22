@@ -1,4 +1,4 @@
-•	**Dichiarazione firmata da un progettista abilitato** che asseveri la conformità del progetto:
+1. **Dichiarazione firmata da un progettista abilitato** che asseveri la conformità del progetto:
 - agli strumenti urbanistici sia vigenti che adottati
 
 - ai piani di settore
@@ -13,16 +13,16 @@
 
 - alla sussistenza delle opere di urbanizzazione primaria.
 
-•	**Elaborati progettuali** richiesti dal regolamento per l’attività edilizia o da altri documenti previsti dalla vigente normativa.
+2. **Elaborati progettuali** richiesti dal regolamento per l’attività edilizia o da altri documenti previsti dalla vigente normativa.
 
-•	**Attestazione** concernente il titolo di legittimazione.
+3. **Attestazione** concernente il titolo di legittimazione.
 
-•	**Certificazione firmata dal progettista**, in merito all’eventuale contributo di costruzione e al versamento del relativo importo, oltre che alle eventuali monetizzazioni previste dagli strumenti urbanistici.
+4. **Certificazione firmata dal progettista**, in merito all’eventuale contributo di costruzione e al versamento del relativo importo, oltre che alle eventuali monetizzazioni previste dagli strumenti urbanistici.
 
-•	**Documentazione** relativa alle autocertificazioni per l’eventuale **autorizzazione paesaggistica**.
+5. **Documentazione** relativa alle autocertificazioni per l’eventuale **autorizzazione paesaggistica**.
 
-•	**Documentazione** relativa alle eventuali certificazioni in** materia idrogeologica e di scarichi**.
+6. **Documentazione** relativa alle eventuali certificazioni in** materia idrogeologica e di scarichi**.
 
-•	**Eventuali assensi** necessari di cui all’articolo 113, comma 4 della e la ricevuta della L.R. 1/2015.
+7. **Eventuali assensi** necessari di cui all’articolo 113, comma 4 della e la ricevuta della L.R. 1/2015.
 
-•	**Ottenimento di pareri** degli organi competenti per quanto previsto agli articoli 128 (Adempimenti in materia di assetto idraulico) e 129 della L.R. 1/2015 (Scarichi delle acque reflue in pubblica fognatura).
+8. **Ottenimento di pareri** degli organi competenti per quanto previsto agli articoli 128 (Adempimenti in materia di assetto idraulico) e 129 della L.R. 1/2015 (Scarichi delle acque reflue in pubblica fognatura).
