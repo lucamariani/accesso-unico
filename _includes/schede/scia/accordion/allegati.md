@@ -1,21 +1,21 @@
 - **Dichiarazione firmata da un progettista abilitato** che asseveri la conformità del progetto:
-<br><br>
 
- - agli strumenti urbanistici sia vigenti che adottati
 
- - ai piani di settore
+ 1. agli strumenti urbanistici sia vigenti che adottati
 
- - alle disposizioni in materia di dotazioni territoriali e funzionali
+ 2. ai piani di settore
 
- - alle norme del regolamento comunale per l’attività edilizia comunale
+ 3. alle disposizioni in materia di dotazioni territoriali e funzionali
 
- - alle norme di sicurezza e igienico-sanitarie o riportare il parere della ASL nei casi in cui non possa essere sostituito dalla certificazione
+ 4. alle norme del regolamento comunale per l’attività edilizia comunale
 
- - alle norme concernenti l’abbattimento delle barriere architettoniche
+ 5. alle norme di sicurezza e igienico-sanitarie o riportare il parere della ASL nei casi in cui non possa essere sostituito dalla certificazione
 
- - alla sussistenza delle opere di urbanizzazione primaria.
+ 6. alle norme concernenti l’abbattimento delle barriere architettoniche
 
-<br>
+ 7. alla sussistenza delle opere di urbanizzazione primaria.
+
+
 - **Elaborati progettuali** richiesti dal regolamento per l’attività edilizia o da altri documenti previsti dalla vigente normativa.
 
 - **Attestazione** concernente il titolo di legittimazione.
