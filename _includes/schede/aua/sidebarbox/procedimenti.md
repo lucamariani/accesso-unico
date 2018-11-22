@@ -1,0 +1,7 @@
+- A-Autorizzazione agli scarichi
+- B-Comunicazione preventiva
+- C-Autorizzazione alle emissioni in atmosfera
+- D-Autorizzazione Generale
+- E-Comunicazione o Nulla osta
+- F-Autorizzazione all'utilizzo dei fanghi
+- G-Comunicazione in materia di rifiuti

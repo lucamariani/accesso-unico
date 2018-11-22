@@ -18,7 +18,7 @@ docs:
     numero: 380
     tags:
       - SUAPE
-      - CambioDestinazioneUso
+      - cambio_destinazione_uso
       - SCIA
 
   - title: D.P.R. 7 settembre 2010, n. 160
@@ -67,7 +67,7 @@ docs:
     ente: Regione Umbria
     numero: 4
     tags:
-      - Acconciatore
+      - acconciatore
 
   - title: Legge regionale 10 luglio 2017, n. 8
     metaname: doc6
@@ -79,7 +79,7 @@ docs:
     ente: Regione Umbria
     numero: 8
     tags:
-      - BedandBreakfast
+      - bedandbreakfast
 
   - title: Legge regionale 13 giugno 2014, n. 10
     metaname: doc7
@@ -146,7 +146,7 @@ docs:
     ente:
     numero: 174
     tags:
-      - Acconciatore
+      - acconciatore
 
   - title: D.Lgs 6 settembre 2011, n. 159
     metaname: doc13
@@ -158,7 +158,7 @@ docs:
     ente:
     numero: 159
     tags:
-      - Acconciatore
+      - acconciatore
 
   - title: D.P.R. 3 giugno 1998, n. 252
     metaname: doc14
@@ -170,7 +170,7 @@ docs:
     ente:
     numero: 252
     tags:
-        - Acconciatore
+        - acconciatore
 
   - title: Deliberazione della Giunta Regionale 20 giugno 2017, n. 700
     metaname: doc15
@@ -294,7 +294,7 @@ docs:
     ente:
     numero: 287
     tags:
-        - pubbliciesercizi
+        - pubblici_esercizi
 
   - title: Decreto Legislativo 31 marzo 1998, n. 114
     metaname: doc25
@@ -306,7 +306,7 @@ docs:
     ente:
     numero: 114
     tags:
-        - pubbliciesercizi
+        - pubblici_esercizi
 
   - title: Decreto Legislativo 26 marzo 2010, n. 59
     metaname: doc26
@@ -318,7 +318,7 @@ docs:
     ente:
     numero: 59
     tags:
-        - pubbliciesercizi
+        - pubblici_esercizi
 
   - title: Deliberazione della Giunta Regionale 26 luglio 2011, n. 847
     metaname: doc27
@@ -330,7 +330,7 @@ docs:
     ente: Regione Umbria
     numero: 847
     tags:
-        - pubbliciesercizi
+        - pubblici_esercizi
 
   - title: Deliberazione della Giunta Regionale 19 settembre 2018, n. 1024
     metaname: doc28
@@ -344,3 +344,27 @@ docs:
     tags:
         - direttivascarichi
         - AUA
+
+  - title: Legge 13 agosto 2010, n. 136
+    metaname: doc29
+    oggetto: Piano straordinario contro le mafie, nonche' delega al Governo in materia di normativa antimafia.
+    categoria: normativa
+    tema: semplificazione
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2010-08-13;136"
+    anno: 2010
+    ente:
+    numero: 136
+    tags:
+      - acconciatore
+
+  - title: D.Lgs 9 novembre 2007, n. 206
+    metaname: doc30
+    oggetto: Attuazione della direttiva 2005/36/CE relativa al riconoscimento delle qualifiche professionali, nonche' della direttiva 2006/100/CE che adegua determinate direttive sulla libera circolazione delle persone a seguito dell'adesione di Bulgaria e Romania.
+    categoria: normativa
+    tema: artigianato
+    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2007-11-09;206"
+    anno: 2007
+    ente:
+    numero: 206
+    tags:
+      - acconciatore

@@ -10,5 +10,11 @@
     - imprese
     - intermediari
 
+- title: WebGis regionale dei PRG dei Comuni dell'Umbria
+  file: webgis.md
+  utenza:
+    - imprese
+    - intermediari
+
 - title: Procedimenti collegati
   file: procedimenti.md

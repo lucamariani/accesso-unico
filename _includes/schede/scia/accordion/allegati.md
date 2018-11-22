@@ -1,29 +1,31 @@
-•	**Dichiarazione firmata da un progettista abilitato** che asseveri la conformità del progetto:
+- **Dichiarazione firmata da un progettista abilitato** che asseveri la conformità del progetto:
 
-    agli strumenti urbanistici sia vigenti che adottati
 
-    ai piani di settore
+ 1. agli strumenti urbanistici sia vigenti che adottati
 
-    alle disposizioni in materia di dotazioni territoriali e funzionali
+ 2. ai piani di settore
 
-    alle norme del regolamento comunale per l’attività edilizia comunale
+ 3. alle disposizioni in materia di dotazioni territoriali e funzionali
 
-    alle norme di sicurezza e igienico-sanitarie o riportare il parere della ASL nei casi in cui non possa essere sostituito dalla certificazione
+ 4. alle norme del regolamento comunale per l’attività edilizia comunale
 
-    alle norme concernenti l’abbattimento delle barriere architettoniche
+ 5. alle norme di sicurezza e igienico-sanitarie o riportare il parere della ASL nei casi in cui non possa essere sostituito dalla certificazione
 
-    alla sussistenza delle opere di urbanizzazione primaria.
+ 6. alle norme concernenti l’abbattimento delle barriere architettoniche
 
-•	**Elaborati progettuali** richiesti dal regolamento per l’attività edilizia o da altri documenti previsti dalla vigente normativa.
+ 7. alla sussistenza delle opere di urbanizzazione primaria.
 
-•	**Attestazione** concernente il titolo di legittimazione.
 
-•	**Certificazione firmata dal progettista**, in merito all’eventuale contributo di costruzione e al versamento del relativo importo, oltre che alle eventuali monetizzazioni previste dagli strumenti urbanistici.
+- **Elaborati progettuali** richiesti dal regolamento per l’attività edilizia o da altri documenti previsti dalla vigente normativa.
 
-•	**Documentazione** relativa alle autocertificazioni per l’eventuale **autorizzazione paesaggistica**.
+- **Attestazione** concernente il titolo di legittimazione.
 
-•	**Documentazione** relativa alle eventuali certificazioni in** materia idrogeologica e di scarichi**.
+- **Certificazione firmata dal progettista**, in merito all’eventuale contributo di costruzione e al versamento del relativo importo, oltre che alle eventuali monetizzazioni previste dagli strumenti urbanistici.
 
-•	**Eventuali assensi** necessari di cui all’articolo 113, comma 4 della e la ricevuta della L.R. 1/2015.
+- **Documentazione** relativa alle autocertificazioni per l’eventuale **autorizzazione paesaggistica**.
 
-•	**Ottenimento di pareri** degli organi competenti per quanto previsto agli articoli 128 (Adempimenti in materia di assetto idraulico) e 129 della L.R. 1/2015 (Scarichi delle acque reflue in pubblica fognatura).
+- **Documentazione** relativa alle eventuali certificazioni in** materia idrogeologica e di scarichi**.
+
+- **Eventuali assensi** necessari di cui all’articolo 113, comma 4 della e la ricevuta della L.R. 1/2015.
+
+- **Ottenimento di pareri** degli organi competenti per quanto previsto agli articoli 128 (Adempimenti in materia di assetto idraulico) e 129 della L.R. 1/2015 (Scarichi delle acque reflue in pubblica fognatura).

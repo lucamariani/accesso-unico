@@ -5,6 +5,8 @@ utenza: cittadini
 tema: ambiente
 tipo: pratica
 title: Autorizzazione Unica Ambientale
-subtitle: aua per il cittadino
+subtitle: AUA, autorizzazioni, comunicazioni, scarichi, emissioni in atmosfera, rifiuti, utilizzo effluenti e fanghi
 accordion_open: false
+status: BETA
+statusLink: /onboard
 ---

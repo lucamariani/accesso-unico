@@ -38,7 +38,7 @@
   metaname: infrastrutture
   image: /assets/images/icons/rosso_infrastrutture.png
 
-- name: Salute e Igiene
+- name: Salute
   color: pink
   metaname: salute
   image: /assets/images/icons/rosso_salute.png
