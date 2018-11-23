@@ -219,7 +219,9 @@ var applyUrlFilters = function() {
 /**
  *
  */
-var searchFor = function(search_pattern, profileFilters = null, themeFilters = null) {
+// var searchFor = function(search_pattern, profileFilters = null, themeFilters = null) {
+var searchFor = function(search_pattern, profileFilters, themeFilters) {
+  console.log('---> themeFilters: ' + themeFilters);
   // utenza is required
   var utenza = profileFilters
   if ( search_pattern.indexOf('utenza') == -1 ) {
