@@ -16,7 +16,7 @@ const texts = {
   })    
 }*/
 
-const bindClick = (url) => {  
+var bindClick = function(url) {  
   $('#modal').click(function() {
     location.href = baseurl + url
   })
