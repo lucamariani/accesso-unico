@@ -16,6 +16,6 @@ Per questo il Programma Accesso Unico richiede il **ruolo attivo di tutte le PA 
 <br><br>
 La realizzazione dell’Accesso unico è un **percorso impegnativo** accompagnato dalla definizione di obiettivi e azioni condivise poi elaborate dalle **Comunità Tematiche**.
 <br><br>
-All’interno delle Comunità Tematiche gli operatori delle PA aderenti **collaboreranno** per costruire insieme la base di conoscenza comune che permette il popolamento progressivo del **catalogo dei servizi** dell’Accesso Unico.
+All’interno delle Comunità Tematiche gli operatori delle PA aderenti **collaborano** per costruire insieme la base di conoscenza comune che permette il popolamento progressivo del **catalogo dei servizi** dell’Accesso Unico.
 <br><br>
 Le Comunità tematiche si avvalgono del **confronto tra esperti** attraverso gli strumenti della **comunicazione e partecipazione** quali ad es. forum e repository GitHub, utilizzando i metodi di “service design”, definendo regole, vocabolari e processi condivisi.
