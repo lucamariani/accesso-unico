@@ -7,7 +7,7 @@
 - Se sei un **amministratore** sarai coinvolto nella **governance** dell’Accesso Unico
 
 <br><br><br>
-### e-mail per partecipare: <a href="mailto: accessounico@regione.umbria.it ?subject=Accesso Unico - Partecipazione">accessounico.regione.umbria.it</a>
+### e-mail per partecipare: <a href="mailto:accessounico@regione.umbria.it ?subject=Accesso Unico - Partecipazione">accessounico@regione.umbria.it</a>
 
 <br><br><br>
 **Digitalizzare un servizio pubblico** significa ridisegnare il suo processo per sfruttare le logiche digitali, **coordinare** gli enti partecipanti ed **integrare** i diversi sistemi.
