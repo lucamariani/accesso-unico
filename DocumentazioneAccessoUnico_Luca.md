@@ -6,7 +6,7 @@ Per configurare il sito sono disponibili i seguenti parametri che si trovano nel
 
 - *header_red_theme*: (true, false)
 
-  configura lo stile dell'header da utilizzare ( rosso o bianco ). Default FALSE
+  configura lo stile dell'header da poter utilizzare ( rosso o bianco ). Default FALSE
 
 ## Creare nuova scheda
 
@@ -18,23 +18,23 @@ Per creare una nuova scheda:
 
 2. in queste sottocartelle creo un file `index.md` all'interno del quale inserisco solo un `Front Matter`:
 
-  > layout: scheda  
-  > object: < *nome cartella scheda* >  
-  > utenza: < *nome sotto-cartella scheda* >    
-  > tema: < *tema scheda* >  
+  > layout: scheda
+  > object: < *nome cartella scheda* >
+  > utenza: < *nome sotto-cartella scheda* >
+  > tema: < *tema scheda* >
   > title: < *titolo scheda* >    
-  > subtitle: < *sottotitolo scheda* >    
-  > accordion_open: [ true, false ]    
+  > subtitle: < *sottotitolo scheda* >
+  > accordion_open: [ true, false ]
   > meta_description: < *descrizione per SEO* >
 
   Esempio:
-  > layout: scheda  
-  > object: scia  
-  > utenza: imprese  
-  > tema: edilizia  
-  > title: Cambio destinazione d'uso  
-  > subtitle: SCIA    
-  > accordion_open: true    
+  > layout: scheda
+  > object: scia
+  > utenza: imprese
+  > tema: edilizia
+  > title: Cambio destinazione d'uso
+  > subtitle: SCIA
+  > accordion_open: true
   > meta_description: Il cambio destinazione d'uso e' questo
 
   il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
@@ -54,7 +54,7 @@ Per creare una nuova scheda:
   - imprenditori
 
 3. creo una cartella dentro `"_data/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/schede/scia"` ) e all'interno di questa creo:
-  - 3.1. un file `"accordion.yml"`  
+  - 3.1. un file `"accordion.yml"`
    Questo conterra' una lista di accordion che devono apparire nella scheda, specificando:
      - "title": il titolo dell'accordion
      - "file": il nome del file all'interno del quale scriveremo il contenuto dell'accordion stesso
@@ -83,7 +83,7 @@ Per creare una nuova scheda:
           - imprese
           - intermediari
       ~~~
-  - 3.2. un file `"sidebarboxes.yml"`  
+  - 3.2. un file `"sidebarboxes.yml"`
   Questo conterra' una lista di box che devono apparire nella slidebar, specificando:
     - "title": il titolo del box
     - "file": il nome del file all'interno del quale scriveremo il contenuto del box stesso
@@ -192,17 +192,17 @@ Per creare una nuova pagina:
 
 2. in questo file inserisco un `Front Matter`:
 
-  > layout: page  
-  > title: < *titolo pagina* >    
+  > layout: page
+  > title: < *titolo pagina* >
   > metatitle: < *nome file (senza estensione)* >
-  > subtitle: < *sottotitolo page* >  
+  > subtitle: < *sottotitolo page* >
   > background: < *absolute path to image* >
 
   Esempio:
-  > layout: page  
-  > title: Prova  
-  > metatitle: prova  
-  > subtitle: Prova pagina statica  
+  > layout: page
+  > title: Prova
+  > metatitle: prova
+  > subtitle: Prova pagina statica
   > background: '/img/bg-about.jpg'
 
   poi inserisco il contenuto con la sintassi MD.
@@ -210,7 +210,7 @@ Per creare una nuova pagina:
   La pgina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://lucamariani.github.io/accesso-unico/prova/
 
 3. creo una cartella dentro `"_data/pages"`, con lo stesso nome del file creata al punto 1 ( `"_data/pages/prova"` ) e all'interno di questa creo:
-  <!-- - 3.1. un file `"accordion.yml"`  
+  <!-- - 3.1. un file `"accordion.yml"`
    Questo conterra' una lista di accordion che devono apparire nella page, specificando:
      - "title": il titolo dell'accordion
      - "file": il nome del file all'interno del quale scriveremo il contenuto dell'accordion stesso
@@ -240,7 +240,7 @@ Per creare una nuova pagina:
           - intermediari
       ~~~
       -->
-  - 3.1. un file `"sidebarboxes.yml"`  
+  - 3.1. un file `"sidebarboxes.yml"`
   Questo conterra' una lista di box che devono apparire nella slidebar, specificando:
     - "title": il titolo del box
     - "file": il nome del file all'interno del quale scriveremo il contenuto dell'accordion stesso
@@ -288,10 +288,10 @@ Per creare una nuova pagina:
 
 2. in questo file inserisco un `Front Matter`:
 
-  > layout: map-page  
-  > title: < *titolo pagina* >    
+  > layout: map-page
+  > title: < *titolo pagina* >
   > metatitle: < *nome file (senza estensione)* >
-  > subtitle: < *sottotitolo page* >  
+  > subtitle: < *sottotitolo page* >
   > map_title: < *titolo mappa* >
   > map_url: < *url mappa ( o applicazione) Esri* >
   > content_files:
@@ -300,9 +300,9 @@ Per creare una nuova pagina:
     - < *nome file* >
 
   Esempio:
-  > layout: map-page  
+  > layout: map-page
   > title: "SUAPE e Piani regolatori: Dati Comunali"
-  > metatitle: piani_regolatori  
+  > metatitle: piani_regolatori
   > subtitle: Prova pagina GIS
   > map_title: "SUAPE e Piani regolatori: Dati Comunali"
   > map_url: "https://www.arcgis.com/apps/SimpleViewer/index.html?appid=af849b23d87f414ebae057f41cde48db"
@@ -379,9 +379,9 @@ https://www.iconfinder.com/iconsets/spring-23
   - pagina di arrivo dalla ricerca con filtri per tema e categoria
 
 ### 30/08/2018
- - Home page Wizard    
- Chi sei? A cosa sei interessato?    
- chi sei -> a cosa sei interessato-> risultati     
+ - Home page Wizard
+ Chi sei? A cosa sei interessato?
+ chi sei -> a cosa sei interessato-> risultati
  a cosa sei interessato -> chi sei -> risultati
 
 ### 29/08/2018
