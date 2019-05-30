@@ -24,7 +24,7 @@ var idx = lunr(function () {
 function displaySearchResults(results, store) {
   console.log('size: ' + results.length);
   $('#results-size').text(results.length)
-  var searchResults = $('#docs-results-list');
+  var searchResults = $('#news-results-list');
 
   if (results.length) { // Are there any results?
     var appendString = '';
@@ -132,24 +132,17 @@ $(function() {
   applyUrlFilters();
 
   /* submit handling */
-  $('#docs-search-btn').click(function(event) {
+  $('#news-search-btn').click(function(event) {
     event.preventDefault();
-    var title = $('#titolo').val();
-    var number = $('#numero').val();
-    var year = $('#year option:selected').val();
-    var theme = $('#tema option:selected').val();
-    var category = $('#categoria option:selected').val();
-    var tags = $('#tags option:selected').val();
-    console.log('searching for titolo: ' + title + ', number: ' + number + ',year: ' + year + ',tags: ' + tags);
+    const title = $('#titolo').val();
+    const theme = $('#tema option:selected').val();
+    const category = $('#categoria option:selected').val();
+    const tags = $('#tags option:selected').val();
+    console.log('searching for titolo: ' + title + ',tags: ' + tags);
 
-    var search_title = '*' + title + '*';
-    var search_number = number + '*';
-    var search_year = year;
-    var search_pattern = '+title:' + search_title + ' +number:' + search_number;
-    if ( search_year.indexOf('---') < 0 )
-      search_pattern += ' +year:' + search_year;
-    if ( theme.indexOf('---') < 0 )
-      search_pattern += ' +tema:' + theme;
+    const search_title = '*' + title + '*';
+    let search_pattern = (title ? '+title:' + search_title : '');
+
     if ( category.indexOf('---') < 0 )
       search_pattern += ' +category:' + category;
     if ( tags.indexOf('---') < 0 )
@@ -166,9 +159,9 @@ $(function() {
 var applyUrlFilters = function() {
   console.log('applyUrlFilters...');
   // search for theme
-  var themeFilters = getAllUrlParams().theme;
-  if( themeFilters ) {
-    var search_pattern = '+tema:' + themeFilters;
+  var categoryFilters = getAllUrlParams().category;
+  if( categoryFilters ) {
+    var search_pattern = '+category:' + categoryFilters;
     searchFor( search_pattern );
   }
   // search for tags
