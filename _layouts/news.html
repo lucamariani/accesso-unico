@@ -57,7 +57,7 @@ layout: default
 
           <div class="Grid-cell u-size1of2 u-md-size1of2 u-lg-size1of4">
             <div class="Form-field">
-              <label class="Form-label is-required" for="categoria">Categoria</label>
+              <label class="Form-label is-required" for="categoria">Argomento</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
                 <option selected>---</option>
                 {% assign news_category = site.categories %}
@@ -116,6 +116,7 @@ layout: default
           {% endfor %}
         ],
         "year": "{{ news.date | date: '%Y' }}",
+        "date": "{{ news.date | date: '%d - %m - %Y' }}",
         "tags": [
           {% for tag in news.tags %}
             "{{ tag  | xml_escape }}"
