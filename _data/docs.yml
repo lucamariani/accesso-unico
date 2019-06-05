@@ -3,8 +3,10 @@ category:
     metaname: normativa
   - name: Regolamenti
     metaname: regolamenti
-  - name: Pareri, Circolari e Accordi
-    metaname: circolari
+  - name: Deliberazioni di Giunta
+    metaname: deliberazioni
+  - name: Determinazioni Dirigenziali
+    metaname: determinazioni
 
 docs:
   - title: D.P.R. 6 giugno 2001, n. 380
@@ -175,7 +177,7 @@ docs:
   - title: Deliberazione della Giunta Regionale 20 giugno 2017, n. 700
     metaname: doc15
     oggetto: Accordo Conferenza Unificata 4 maggio 2017, n. 46/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata in materia di attività commerciali e assimilate ed edilizia.
-    categoria: circolari
+    categoria: deliberazioni
     tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR700_2017.pdf"
     anno: 2017
@@ -188,7 +190,7 @@ docs:
   - title: Deliberazione della Giunta Regionale 28 settembre 2017, n. 1088
     metaname: doc16
     oggetto: Accordo Conferenza unificata 6 luglio 2017, n. 76/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze ed integrazione n. 77/CU (per estendere il modulo “Notifica ai fini della registrazione a tutti gli operatori del settore alimentare (OSA) laddove non sia prescritto il riconoscimento)”.
-    categoria: circolari
+    categoria: deliberazioni
     tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR1088_2017.pdf"
     anno: 2017
@@ -201,7 +203,7 @@ docs:
   - title: Deliberazione della Giunta Regionale 16 ottobre 2017, n. 1188
     metaname: doc17
     oggetto: D.G.R. 28 settembre 2017, n. 1088. Accordo Conferenza unificata 6 luglio 2017, n. 76/CU. Recepimento ed adeguamento da parte della Regione Umbria della modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze ed integrazione n. 77/CU (per estendere il modulo “Notifica ai fini della registrazione a tutti gli operatori del settore alimentare (OSA) laddove non sia prescritto il riconoscimento). - Rettifica errore materiale.
-    categoria: circolari
+    categoria: deliberazioni
     tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DGR1088_2017.pdf"
     anno: 2017
@@ -214,7 +216,7 @@ docs:
   - title: Deliberazione della Giunta Regionale 26 marzo 2018, n. 274
     metaname: doc18
     oggetto: Accordo conferenza unificata del 22 febbraio 2018, n.18/CU. Recepimento ed adeguamento da parte della Regione Umbria di ulteriore modulistica unificata e standardizzata per la presentazione delle segnalazioni, comunicazioni ed istanze in materia di attività commerciali e assimilate.
-    categoria: circolari
+    categoria: deliberazioni
     tema: semplificazione
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/DGR-274_26-03-2018.zip"
     anno: 2017
@@ -275,7 +277,7 @@ docs:
   - title: Deliberazione della Giunta Regionale 29 dicembre 2015, n. 1656
     metaname: doc23
     oggetto: L.R. 10/2015. Articolo 2. Allegato A, paragrafo 1 lettera a) secondo alinea. Funzioni riallocate in regione in tema di Ambiente. Valutazioni ambientali AUA, AIA e VAS. Disposizioni attuative.
-    categoria: circolari
+    categoria: deliberazioni
     tema: ambiente
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/docs/DGR_1656_29_12_2015.pdf"
     anno: 2015
@@ -323,7 +325,7 @@ docs:
   - title: Deliberazione della Giunta Regionale 26 luglio 2011, n. 847
     metaname: doc27
     oggetto: Art. 5 bis, comma 3 L.R. n. 24/1999 - Indirizzi e criteri qualitativi per l'insediamento di esercizi di somministrazione di alimenti e bevande.
-    categoria: circolari
+    categoria: deliberazioni
     tema: commercio
     url: "http://www.regione.umbria.it/documents/18/1156212/dgr+847_2011.PDF/648bd27d-f815-48c9-b12c-02e7ebba4eea"
     anno: 2011
@@ -335,7 +337,7 @@ docs:
   - title: Deliberazione della Giunta Regionale 19 settembre 2018, n. 1024
     metaname: doc28
     oggetto: Direttiva tecnica regionale per la disciplina degli scarichi delle acque reflue - approvazione.
-    categoria: circolari
+    categoria: deliberazioni
     tema: ambiente
     url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/docs/DGR_1024_19_09_2018_Bur.pdf"
     anno: 2018
@@ -368,3 +370,16 @@ docs:
     numero: 206
     tags:
       - acconciatore
+
+  - title: Determinazione dirigenziale 30 aprile 2019, n. 3971
+    metaname: doc31
+    oggetto: Modulistica unificata e standardizzata in materia di edilizia. Approvazione di modifiche e aggiornamenti.
+    categoria: determinazioni
+    tema: semplificazione
+    url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/BUR_DD3971_2019.pdf"
+    anno: 2019
+    ente: Regione Umbria
+    numero: 3971
+    tags:
+        - ModulisticaUnificata
+        - SUAPE
