@@ -12,7 +12,7 @@ modulistica:
     documenti:
       - nome: Certificazione preventiva sull'esistenza e qualita' dei vincoli
         denominazione: Certificazione preventiva sull'esistenza e qualita' dei vincoli
-        release: 1
+        release: 2
         link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/26.pdf
 
       - nome: CILA
