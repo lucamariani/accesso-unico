@@ -140,7 +140,8 @@ $(function() {
     const tags = $('#tags option:selected').val();
     console.log('searching for titolo: ' + title + ',tags: ' + tags);
 
-    const search_title = '*' + title + '*';
+    const search_title = title;
+    // const search_title = title;
     let search_pattern = (title ? '+title:' + search_title : '');
 
     if ( category.indexOf('---') < 0 )

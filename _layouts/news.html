@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-
+<style>
+  select {
+    padding: 5.25px !important;
+  }
+</style>
 <div id="main">
 
   <!-- Page Title -->
@@ -40,7 +44,7 @@ layout: default
   <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
 
     <p class="Prose u-padding-r-top u-padding-r-bottom">
-      Cerca la documentazione per titolo, anno o numero
+      Cerca le notizie per titolo, argomento o tag
     </p>
 
     <form class="Form Form--spaced u-padding-r-all" id="news-search-form" action="." method="get">
@@ -48,28 +52,31 @@ layout: default
 
         <div class="Grid Grid--withGutter u-background-white" role="search">
 
-          <div class="Grid-cell u-size4of4 u-md-size2of4 u-lg-size2of4">
+          <div class="Grid-cell u-size4of4 u-md-size2of4 u-lg-sizeof4">
             <div class="Form-field">
               <label class="Form-label" for="titolo">Titolo</label>
               <input data-menu-trigger="titolo-listing" class="Form-input u-text-r-s u-borderRadius-m" id="titolo" name="titolo" autocomplete="off" value="" />
             </div>
           </div>
 
-          <div class="Grid-cell u-size1of2 u-md-size1of2 u-lg-size1of4">
+          <div class="Grid-cell u-size1of2 u-md-size1of4 u-lg-size1of4">
             <div class="Form-field">
               <label class="Form-label is-required" for="categoria">Argomento</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
                 <option selected>---</option>
-                {% assign news_category = site.categories %}
-                {% for category in news_category %}
-                <option class="u-color-50" value="{{ category[0] }}">{{ category[0] }}</option>
+                {% assign docs_theme = site.data.docs.docs | group_by: 'tema' %}
+                {% for doc in docs_theme %}
+                  <!-- get the theme's full name -->
+                  {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == doc.name" %}
+                  {% assign tema_item = tema_items[0] %}
+                  <option class="u-color-50" value="{{ doc.name }}">{{ tema_item.name }}</option>
                 {% endfor %}
               </select>
             </div>
           </div>
 
           <!-- Tags -->          
-          <div class="Grid-cell u-size1of2 u-md-size1of2 u-lg-size1of4">
+          <div class="Grid-cell u-size1of2 u-md-size1of4 u-lg-size1of4">
             <div class="Form-field">
               <label class="Form-label" for="tags">Tags</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="tags" name="tags">
