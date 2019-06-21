@@ -44,7 +44,7 @@ layout: default
   <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
 
     <p class="Prose u-padding-r-top u-padding-r-bottom">
-      Cerca le notizie per titolo, argomento o tag
+      Cerca per titolo, argomento o tag
     </p>
 
     <form class="Form Form--spaced u-padding-r-all" id="news-search-form" action="." method="get">
@@ -124,6 +124,7 @@ layout: default
         ],
         "year": "{{ news.date | date: '%Y' }}",
         "date": "{{ news.date | date: '%d - %m - %Y' }}",
+        "url": "{{ news.url }}",
         "tags": [
           {% for tag in news.tags %}
             "{{ tag  | xml_escape }}"
