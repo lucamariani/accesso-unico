@@ -121,6 +121,35 @@ scripts:
     {% endfor %}
   }
 
+  window.news = {
+    {% for news in site.posts %}
+      "news{{ forloop.index }}": {
+        "title": "{{ news.title | xml_escape }}",
+        "subtitle": "{{ news.subtitle | xml_escape }}",
+        "category": [
+          {% for category in news.categories %}
+              {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == category" %}
+              {% assign tema_item = tema_items[0] %}
+              "{{ tema_item.name }}"
+              {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ],
+        "year": "{{ news.date | date: '%Y' }}",
+        "date": "{{ news.date | date: '%d %B %Y' }}",
+        "url": "{{ news.url }}",
+        "serpImage": "{{ news.search_image }}",
+        "summary": "{{ news.summary }}",
+        "tags": [
+          {% for tag in news.tags %}
+            "{{ tag  | xml_escape }}"
+            {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+
   $(function() {
     // set banner background image
     const img_src = baseurl + '/img/banner_5.png'
