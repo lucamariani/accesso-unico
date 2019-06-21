@@ -119,9 +119,9 @@ var displayResults = function(results) {
       if ( key in searchschede) {
         schedeResults.push(searchschede[key]);
       } else if ( key in docs ) {
-        schedeResults.push(docs[key]);
+        docsResults.push(docs[key]);
       } else if ( key in news ) {
-        schedeResults.push(news[key]);
+        newsResults.push(news[key]);
       }
 
       //appendString += '<li style="text-align:left"><a href="' + baseurl + item.url + '">' + item.title + ' (' + item.type + ') </a></li>';
