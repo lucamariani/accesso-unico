@@ -33,7 +33,7 @@ function displaySearchResults(results, store) {
       var key = results[i].ref;
       //console.log('key:' + key);
       var item = store[key];
-      //console.log(item);
+      console.log(item);
 
       appendString += '<div class="Grid-cell u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight">';
       appendString += '<div class="u-nbfc u-flexWrap u-flex u-color-grey-60 u-xs-padding-all-none u-borderShadow-m u-xs-borderShadow-none u-borderRadius-m u-background-white u-sizeFill">';
