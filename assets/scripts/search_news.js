@@ -41,14 +41,14 @@ function displaySearchResults(results, store) {
       appendString += '<div class="docs-box u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill u-padding-r-all"><div class="u-sizeFull u-padding-r-all u-xs-padding-all-none single-doc">';      
       appendString += '<a target="_blank" href="' + item.url + '"><h3 class="u-color-50">' + item.title + '</h3></a>';
       appendString += '<p class="object"><b>' + item.date + '</b></p>';
-
+ 
       appendString += '<div class="doc-properties">';
       if ( item.category.length > 0 )
         appendString += '<p class="pointer" title="Visualizza tutti i documenti della categoria ' + item.category +
-          '" onclick="searchFor(\'+category:' + item.category + '\')">Categoria: ' + item.category + '</p>';
+          '" onclick="searchFor(\'+category:' + item.category + '\')">Argomento: ' + item.category + '</p>';
 
-      appendString += '<p class="pointer" title="Visualizza tutti i documenti dell\'anno ' + item.year +
-          '" onclick="searchFor(\'+year:' + item.year + '\')">Anno: ' + item.year + '</p>';
+      // appendString += '<p class="pointer" title="Visualizza tutti i documenti dell\'anno ' + item.year +
+      //     '" onclick="searchFor(\'+year:' + item.year + '\')">Anno: ' + item.year + '</p>';
 
       if ( item.tags.length > 0 ) {
         var docTags = '<p>Tags: ';
@@ -63,8 +63,8 @@ function displaySearchResults(results, store) {
       }
       appendString += '<br><br></div>';
 
-      appendString += '<a target="_blank" href="' + item.url + '">' +
-                        '<button class="Button u-background-white u-color-50 u-sizeFull go-servizio-btn">Vai al documento</button></a>';
+      // appendString += '<a target="_blank" href="' + item.url + '">' +
+      //                   '<button class="Button u-background-white u-color-50 u-sizeFull go-servizio-btn">Vai al documento</button></a>';
 
       appendString += '</div></div></div></div>';
     }

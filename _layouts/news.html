@@ -118,14 +118,17 @@ layout: default
         "subtitle": "{{ news.subtitle | xml_escape }}",
         "category": [
           {% for category in news.categories %}
-              "{{ category | xml_escape }}"
+              {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == category" %}
+              {% assign tema_item = tema_items[0] %}
+              "{{ tema_item.name }}"
               {% unless forloop.last %},{% endunless %}
           {% endfor %}
         ],
         "year": "{{ news.date | date: '%Y' }}",
-        "date": "{{ news.date | date: '%d - %m - %Y' }}",
+        "date": "{{ news.date | date: '%d %B %Y' }}",
         "url": "{{ news.url }}",
         "serpImage": "{{ news.search_image }}",
+        "summary": "{{ news.summary }}",
         "tags": [
           {% for tag in news.tags %}
             "{{ tag  | xml_escape }}"
