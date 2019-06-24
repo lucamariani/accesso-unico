@@ -102,7 +102,10 @@ layout: default
         <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
           <span id="results-size" class="u-text-r-l u-textWeight-300"></span> novità trovate
         </h2>
-        <div id="news-results-list" class="Grid Grid--withGutter">
+        <div class="u-layout-centerContent u-cf">
+          <div id="news-results-list-col1" class="u-floatLeft u-size1of3 u-padding-r-right"></div>
+          <div id="news-results-list-col2" class="u-floatLeft u-size1of3"></div>
+          <div id="news-results-list-col3" class="u-floatLeft u-size1of3 u-padding-r-left"></div>
         </div>
       </div>
     </section>
@@ -142,6 +145,6 @@ layout: default
 
   // underline menu
   setTimeout(function() {
-    underlineMenu(2)
+    underlineMenu(3)
   }, 500)
 </script>

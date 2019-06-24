@@ -24,18 +24,21 @@ var idx = lunr(function () {
 function displaySearchResults(results, store) {
   console.log('size: ' + results.length);
   $('#results-size').text(results.length)
-  var searchResults = $('#news-results-list');
+  let searchResultsObject = $("div[id*='news-results-list-col']");
+
+  // first reset columns' results
+  searchResultsObject.each(function(index) {
+    $(this).html('');
+  })
 
   if (results.length) { // Are there any results?
     var appendString = '';
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
       var key = results[i].ref;
-      //console.log('key:' + key);
       var item = store[key];
-      console.log(item);
 
-      appendString += '<div class="Grid-cell u-md-size1of3 u-lg-size1of3 u-margin-r-bottom u-layout-matchHeight">';
+      appendString = '<div class="Grid-cell u-margin-r-bottom">';
       appendString += '<div class="u-nbfc u-flexWrap u-flex u-color-grey-60 u-xs-padding-all-none u-borderShadow-m u-xs-borderShadow-none u-borderRadius-m u-background-white u-sizeFill">';
       if(item.serpImage) appendString += '<img src="' + item.serpImage + '" class="u-sizeFull" alt="porro vel rem">';
       appendString += '<div class="docs-box u-flexWrap u-flex u-flexAlignSelfStretch u-sizeFill u-padding-r-all"><div class="u-sizeFull u-padding-r-all u-xs-padding-all-none single-doc">';      
@@ -46,9 +49,6 @@ function displaySearchResults(results, store) {
       if ( item.category.length > 0 )
         appendString += '<p class="pointer" title="Visualizza tutti i documenti della categoria ' + item.category +
           '" onclick="searchFor(\'+category:' + item.category + '\')">Argomento: ' + item.category + '</p>';
-
-      // appendString += '<p class="pointer" title="Visualizza tutti i documenti dell\'anno ' + item.year +
-      //     '" onclick="searchFor(\'+year:' + item.year + '\')">Anno: ' + item.year + '</p>';
 
       if ( item.tags.length > 0 ) {
         var docTags = '<p>Tags: ';
@@ -62,14 +62,13 @@ function displaySearchResults(results, store) {
         appendString += docTags;
       }
       appendString += '<br><br></div>';
-
-      // appendString += '<a target="_blank" href="' + item.url + '">' +
-      //                   '<button class="Button u-background-white u-color-50 u-sizeFull go-servizio-btn">Vai al documento</button></a>';
-
       appendString += '</div></div></div></div>';
+
+      // divide in 3 columns
+      let columnIndex = (i % 3);
+      searchResultsObject.eq(columnIndex).append(appendString);
     }
 
-    searchResults.html(appendString);
   } else {
     searchResults.html('<p>La ricerca non ha prodotto alcun risultato</p>');
   }
