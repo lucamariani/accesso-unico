@@ -39,6 +39,17 @@ var idx = lunr(function () {
     });
   }
 
+  for (var key in window.news) { // Add the data to lunr
+    this.add({
+      'metaname': key,
+      'title': window.news[key].title,
+      'sutitle': window.news[key].subtitle,
+      'category': window.news[key].category,
+      'year': window.news[key].year,
+      'tags': window.news[key].tags
+    });
+  }
+
 });
 
 var search_for = '';
@@ -66,15 +77,16 @@ var formSubmit = function() {
 }
 */
 var addResultItems = function(label, itemArray, _baseurl) {
-  var appendString = '';
-
+  let appendString = '';
+  const appendTo = '#' + label + '-result-list';
+  console.log('home_search.js: adding result list to #', appendTo)
   if ( itemArray.length > 0 ) {
     $.each(itemArray, function(key,item) {
       appendString += '<li class="u-textLeft u-text-xs"><a href="' + _baseurl + item.url + '">' + item.title + '</a></li>';
     });
   }
 
-  $('#' + label + '-result-list').append(appendString);
+  $(appendTo).append(appendString);
 }
 
 var showResults = function() {
@@ -91,21 +103,25 @@ var displayResults = function(results) {
   // reset
   $('.search-listing').html('');
 
-  var schedeResults = [], docsResults = [];
+  var schedeResults = [], docsResults = [], newsResults = [];
 
   if (results.length > 0) { // Are there any results?
     showResults();
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
+
+      console.log('homesearch.js results: ', results)
+
       var key = results[i].ref;
 
-      var item = searchschede[key];
+      console.log('homesearch.js key: ', key)
 
-      if (typeof item == 'undefined' ) {
-        item = docs[key];
-        docsResults.push(item);
-      } else {
-        schedeResults.push(item);
+      if ( key in searchschede) {
+        schedeResults.push(searchschede[key]);
+      } else if ( key in docs ) {
+        docsResults.push(docs[key]);
+      } else if ( key in news ) {
+        newsResults.push(news[key]);
       }
 
       //appendString += '<li style="text-align:left"><a href="' + baseurl + item.url + '">' + item.title + ' (' + item.type + ') </a></li>';
@@ -113,6 +129,7 @@ var displayResults = function(results) {
 
     addResultItems('schede', schedeResults, baseurl);
     addResultItems('docs', docsResults, '');
+    addResultItems('news', newsResults, '');
 
   } else {
     // no results
