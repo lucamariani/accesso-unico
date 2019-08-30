@@ -18,17 +18,40 @@
           </select>
         </div>
 
-      </fieldset>
-<!--
-        <div class="Form-field Grid-cell u-textLeft" style="padding-bottom: 0px !important;">
-          <a id="gobutton" type="button" href="#" target="_blank"
-            class="Button u-text-xs u-background-50 u-color-white u-sizeFull"
-            style="max-width:15em;">Vai al servizio</a>
-        </div>
+      </fieldset>        
 
--->
     </form>
   </div>
+</div>
+
+<div>
+    {% assign docs_array = "" | split: ',' %}
+    
+  <ul>
+  {% for doc in site.data.docs.docs %}      
+    {% for tag in doc.tags %}
+      {% assign downcasetag = tag | downcase %}
+      {% if downcasetag == page.object %}        
+        {% assign docs_array = docs_array | push: doc %}
+        {%- break -%}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </ul>
+
+  <ul>
+  {% for doc in site.data.docs.docs %}
+    {% if doc.tema == page.tema %}
+      {% assign docs_array = docs_array | push: doc %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+
+  <ul>
+  {% for doc in docs_array | uniq: 'title' %}      
+    <li><a target="_blank" href="{{ doc.url }}">{{ doc.title }}</a></li>
+  {% endfor %}
+  </ul>
 </div>
 
 <script>
