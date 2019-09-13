@@ -18,30 +18,30 @@ Per creare una nuova scheda:
 
 2. in queste sottocartelle creo un file `index.md` all'interno del quale inserisco solo un `Front Matter`:
 
-  > layout: scheda
-  > object: < *nome cartella scheda* >
-  > utenza: < *nome sotto-cartella scheda* >
-  > tema: < *tema scheda* >
-  > title: < *titolo scheda* >
-  > tipo: <*tipologia scheda*>
-  > subtitle: < *sottotitolo scheda* >
-  > accordion_open: [ true, false ]
-  > meta_description: < *descrizione per SEO* > (al momento non è stato utilizzato)
-  > status: <*stato della scheda*>
+  > layout: scheda   
+  > object: < *nome cartella scheda* >   
+  > utenza: < *nome sotto-cartella scheda* >   
+  > tema: < *tema scheda* >   
+  > title: < *titolo scheda* >   
+  > tipo: <*tipologia scheda*>   
+  > subtitle: < *sottotitolo scheda* >   
+  > accordion_open: [ true, false ]   
+  > meta_description: < *descrizione per SEO* > (al momento non è stato utilizzato)   
+  > status: <*stato della scheda*>   
   > statusLink: <*link che arriva alla pagina statica relativa allo status*>
 
   Esempio:
-  > layout: scheda
-  > object: scia
-  > utenza: imprese
-  > tema: edilizia
-  > tipo: pratica
-  > title: Cambio destinazione d'uso
-  > subtitle: SCIA
-  > accordion_open: true
-  > meta_description:
-  > status: BETA
-  > statusLink:/onboard
+  > layout: scheda   
+  > object: scia   
+  > utenza: imprese   
+  > tema: edilizia   
+  > tipo: pratica   
+  > title: Cambio destinazione d'uso   
+  > subtitle: SCIA   
+  > accordion_open: true   
+  > meta_description:   
+  > status: BETA   
+  > statusLink:/onboard   
 
 
   il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
@@ -209,31 +209,33 @@ Per creare una nuova pagina:
 
 2. in questo file inserisco un `Front Matter`:
 
-  > layout: page
-  > title: < *titolo pagina* >
-  > metatitle: < *nome file (senza estensione)* >
-  > subtitle: < *sottotitolo page* >
-  > background: < *absolute path to image* > (non utilizzato)
+  > layout: page   
+  > title: < *titolo pagina* >   
+  > metatitle: < *nome file (senza estensione)* >   
+  > subtitle: < *sottotitolo page* >   
+  > background: < *absolute path to image* > (non utilizzato)   
   > img: (non utilizzato)
 
   Esempio:
-  > layout: page
-  > title: SUAPE
-  > metatitle: cosaesuape
-  > subtitle: cosa è, ente competente, .....
+  > layout: page   
+  > title: SUAPE   
+  > metatitle: cosaesuape   
+  > subtitle: cosa è, ente competente, .....   
 
 
 
-  La pgina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://beta.accessounico.regione.umbria.it/cosaesuape
+  La pagina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://beta.accessounico.regione.umbria.it/cosaesuape
 
-3. creo una cartella dentro `"_data/pages"`, con lo stesso nome del file creata al punto 1 ( `"_data/pages/cosaesuape"` ) e all'interno di questa creo:
-  3.1. un file `"sidebarboxes.yml"`
+3. creo una cartella dentro `"_data/pages"`, con lo stesso nome del file creata al punto 1 ( `"_data/pages/cosaesuape"` ) e all'interno di questa creo:   
+
+  3.1. un file `"sidebarboxes.yml"`   
    Questo conterra' una lista di accordion che devono apparire nella sidebar, specificando:
      - "title": il titolo del box
-     - "file": il nome del file all'interno del quale scriveremo il relativo contenuto
+     - "file": il nome del file all'interno del quale scriveremo il relativo contenuto   
 Esempio:
      - title: "A chi mi devo rivolgere"
-  	 - file: "chi.md"
+  	 - file: "chi.md"   
+
   3.2 un file `"content.yml"`
   Questo file conterrà una lista di files, specificando:
      - "file": suape.md
@@ -254,9 +256,11 @@ In questi files inserisco il contenuto con la sintassi MD.
 ## Sono state create pagine statiche relative a:
     •	**Modulistica unificata**
     •	**Dati comunali – SUAPE** (solo per alcuni Comuni dell’Umbria)
-In questi due casi, ai fini di una migliore visualizzazione e uso delle tabelle, è stato creato un layout ad hoc:
-    •	Per la modulistica                   layout: modulistica
-    •	Per i dati comunali – SUAPE          layout: info_suape.
+In questi due casi, ai fini di una migliore visualizzazione e uso delle tabelle, è stato creato un layout ad hoc:   
+
+    •	Per la modulistica                   layout: modulistica   
+    •	Per i dati comunali – SUAPE          layout: info_suape.   
+
 In questi casi è stato necessario creare in _pages/ i seguenti files:
 
 •	modulistica-unificata.md nel quale è presente il seguente Front Matter:
@@ -303,19 +307,21 @@ In questi due casi nella cartella _includes/pages/ non è stato creata la cartel
 ## Altre pagine statiche………
 Relativamente, invece, alle seguenti pagine:
 
-•	nodata
-•	onboard
+•	nodata   
+•	onboard   
 •	menu_popup
 
 sono state create in _pages le relative pagine md, ovvero:
-•	nodata.md
-•	onboard.md
-•	menu_popup.md
+
+•	nodata.md   
+•	onboard.md   
+•	menu_popup.md   
 
 ciascuna con i relativi layout, presenti nella cartella _layouts, ovvero:
-•	layout: nodata             nodata.html
-•	layout: onboard            onboard.html
-•	layout: default            default.html
+
+•	layout: nodata             nodata.html   
+•	layout: onboard            onboard.html   
+•	layout: default            default.html   
 
 
 ## Creare pagina mappa GIS
@@ -363,10 +369,10 @@ Per creare una nuova pagina:
      - un file `content2.md` dove scrivo il contenuto che deve essere visualizzato sotto la mappa
 
 
-     ~~~
+
      il primo si trova in: _includes/pages/map-regolatori/content/content1.md
      il secondo si trova in: _includes/pages/map-regolatori/content/content2.md
-          ~~~
+
 Naturalmente il file di layout si trova nella cartella _layouts e si chiama pgr-page.html.
 
 ## Documenti
@@ -409,7 +415,10 @@ Se si vuole modificare il menù di navigazione, i profili d’utenza o gli argom
 Per inserire tale elemento in una pagina statica, in una pagina del tipo mappa Gis oppure in un sidebarbox è necessario inserire, nel relativo file .md, un include del file html in cui gestisco le varie entrate.
 
 Es. Nella scheda “Acconciatore” è presente una sidebarbox relativa alla modulistica.
+
 In questo caso nel file modulistica.md presente in _includes/schede/acconciatore/sidebarbox/ sarà presente il seguente contenuto:
+
 scarica i modelli che ti interessano:
       {% include modulistica_select.html %}
+
 Il file modulistica_select.html si trova nella cartella _includes/.

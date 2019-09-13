@@ -1,0 +1,150 @@
+---
+layout: default
+---
+<style>
+  select {
+    padding: 5.25px !important;
+  }
+</style>
+<div id="main">
+
+  <!-- Page Title -->
+  {% if page.background %}
+  <div class="u-sizeFull" style="height: 350px; background-size: cover; background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+  <div class="u-sizeFull">
+  {% endif %}
+
+    <div class="u-layout-wide u-layoutCenter u-text-r-l u-padding-r-top u-margin-r-bottom u-layout-r-withGutter">
+      <section class="Grid">
+        <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3">
+          <h1 class="u-text-h1">{{ page.title }}</h1>
+          {% if page.img %}
+          <div class="page-img-div">
+            <img class="page-img" src="{{ page.img | prepend: site.baseurl | replace: '//', '/' }}">
+          </div>
+          {% endif %}
+          {% if page.subtitle %}
+          <h4 class="u-text-h4">{{ page.subtitle }}</h4>
+          {% endif %}
+          {% if page.author %}
+          <h4 class="u-text-h4">{{ page.author }}</h4>
+          {% endif %}
+          {% if page.date %}
+          <br>
+          <span class="meta">{{ page.date | date: '%B %d, %Y' }}</span>
+          <br>
+          {% endif %}
+        </div>
+      <section>
+    </div>
+
+  </div>
+
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
+
+    <p class="Prose u-padding-r-top u-padding-r-bottom">
+      Cerca per titolo, argomento o tag
+    </p>
+
+    <form class="Form Form--spaced u-padding-r-all" id="news-search-form" action="." method="get">
+      <fieldset class="Form-fieldset">
+
+        <div class="Grid Grid--withGutter u-background-white" role="search">
+
+          <div class="Grid-cell u-size4of4 u-md-size2of4 u-lg-sizeof4">
+            <div class="Form-field">
+              <label class="Form-label" for="titolo">Titolo</label>
+              <input data-menu-trigger="titolo-listing" class="Form-input u-text-r-s u-borderRadius-m" id="titolo" name="titolo" autocomplete="off" value="" />
+            </div>
+          </div>
+
+          <div class="Grid-cell u-size1of2 u-md-size1of4 u-lg-size1of4">
+            <div class="Form-field">
+              <label class="Form-label is-required" for="categoria">Argomento</label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
+                <option selected>---</option>
+                {% assign docs_theme = site.data.docs.docs | group_by: 'tema' %}
+                {% for doc in docs_theme %}
+                  <!-- get the theme's full name -->
+                  {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == doc.name" %}
+                  {% assign tema_item = tema_items[0] %}
+                  <option class="u-color-50" value="{{ doc.name }}">{{ tema_item.name }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+
+          <!-- Tags -->          
+          <div class="Grid-cell u-size1of2 u-md-size1of4 u-lg-size1of4">
+            <div class="Form-field">
+              <label class="Form-label" for="tags">Tags</label>
+              <select class="Form-input u-text-r-s u-borderRadius-m" id="tags" name="tags">
+                <option selected>---</option>
+                {% for tag in site.tags %}
+                  <option class="u-color-50" value="{{ tag[0] }}">{{ tag[0] }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <!-- / Tags -->
+
+          <div class="Form-field Grid-cell u-md-size1of4 u-lg-size1of4 u-textRight">
+           <button id="news-search-btn" type="submit" class="Button Button--default Button--shadow u-text-m u-sizeFull">Cerca</button>
+          </div>
+        </div>
+    </fieldset>
+    </form>
+
+    <!-- Results' list -->
+    <section id="result-section" class="u-nbfc u-background-grey-15 u-padding-r-all u-posRelative u-zindex-30">
+      <div class="u-layout-wide u-layoutCenter">
+        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
+          <span id="results-size" class="u-text-r-l u-textWeight-300"></span> novità trovate
+        </h2>
+        <div class="u-layout-centerContent u-cf">
+          <div id="news-results-list-col1" class="u-floatLeft u-size1of3 u-padding-r-right"></div>
+          <div id="news-results-list-col2" class="u-floatLeft u-size1of3"></div>
+          <div id="news-results-list-col3" class="u-floatLeft u-size1of3 u-padding-r-left"></div>
+        </div>
+      </div>
+    </section>
+    <!-- / Results' list -->
+  </div>
+</div>
+
+<script>
+  window.news = {
+    {% for news in site.posts %}
+      "news{{ forloop.index }}": {
+        "title": "{{ news.title | xml_escape }}",
+        "subtitle": "{{ news.subtitle | xml_escape }}",
+        "category": [
+          {% for category in news.categories %}
+              {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == category" %}
+              {% assign tema_item = tema_items[0] %}
+              "{{ tema_item.name }}"
+              {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ],
+        "year": "{{ news.date | date: '%Y' }}",
+        "date": "{{ news.date | date: '%d %B %Y' }}",
+        "url": "{{ news.url }}",
+        "serpImage": "{{ news.search_image }}",
+        "summary": "{{ news.summary }}",
+        "tags": [
+          {% for tag in news.tags %}
+            "{{ tag  | xml_escape }}"
+            {% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+      {% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  };
+
+  // underline menu
+  setTimeout(function() {
+    underlineMenu(3)
+  }, 500)
+</script>
