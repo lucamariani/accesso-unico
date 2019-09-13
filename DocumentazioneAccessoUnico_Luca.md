@@ -1,3 +1,8 @@
+---
+layout: dev
+permalink: /dev_doc
+---
+
 # Documentazione Accesso Unico
 
 ## Parametri di configurazione

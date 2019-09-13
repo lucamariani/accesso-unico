@@ -129,8 +129,10 @@ layout: default
         ],
         "year": "{{ news.date | date: '%Y' }}",
         "date": "{{ news.date | date: '%d %B %Y' }}",
-        "url": "{{ news.url }}",
-        "serpImage": "{{ news.search_image }}",
+        "url": "{{ site.baseurl }}{{ news.url }}",
+        {% if news.search_image %}
+        "serpImage": "{{ site.baseurl }}{{ news.search_image }}",
+        {% endif %}
         "summary": "{{ news.summary }}",
         "tags": [
           {% for tag in news.tags %}

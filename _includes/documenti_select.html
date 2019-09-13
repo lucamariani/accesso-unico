@@ -1,40 +1,48 @@
+{% assign docs_by_category_array = "" | split: ',' %}
+{% assign docs_by_tag_array = "" | split: ',' %}
+  
+{% for doc in site.data.docs.docs %}      
+  {% for tag in doc.tags %}
+    {% assign downcasetag = tag | downcase %}
+    {% if downcasetag == page.object %}        
+      {% assign docs_by_tag_array = docs_by_tag_array | push: doc %}
+      {%- break -%}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+{% comment %} create metatitles array to filter duplicated docs in next cycle {% endcomment %}
+{% assign doc_metatitles = docs_by_tag_array | map: 'metaname' %}
+
+{% for doc in site.data.docs.docs %}
+  {% if doc.tema == page.tema %}
+  {% comment %} add docs only if not yet present {% endcomment %}
+    {% unless doc_metatitles contains doc.metaname %}
+      {% assign docs_by_category_array = docs_by_category_array | push: doc %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
 <div class="u-text-r-s u-layout-wide">
   <div class="u-color-white u-border-top-xxs u-border-bottom-xxs">
-
-    <form class="Form Form--spaced u-color-40 u-text-r-xs u-layout-prose">
-
-      <fieldset class="Form-fieldset">
-<!--
-        <legend class="Form-legend">Scegli il comune</legend>
--->
-{% assign theme_items = site.data.themes | where_exp: "item", "item.metaname == page.tema" %}
-{% assign theme_item = theme_items[0] %}
-
-        <div class="Form-field" style="padding-bottom:0 !important">
-          <select class="Form-input" id="documenti" aria-required="true" required>
-            <option disabled selected>seleziona</option>
-            <option value="{{ site.baseurl }}/docs_search?tags={{page.object | downcase}}">{{page.title | capitalize}}</option>
-            <option value="{{ site.baseurl }}/docs_search?theme={{page.tema | downcase}}">{{theme_item.name | capitalize}}</option>
-          </select>
-        </div>
-
-      </fieldset>
-<!--
-        <div class="Form-field Grid-cell u-textLeft" style="padding-bottom: 0px !important;">
-          <a id="gobutton" type="button" href="#" target="_blank"
-            class="Button u-text-xs u-background-50 u-color-white u-sizeFull"
-            style="max-width:15em;">Vai al servizio</a>
-        </div>
-
--->
-    </form>
+    <ul class="Linklist Linklist--padded Treeview Treeview--default js-Treeview u-text-r-xs">
+      <li><a target="_blank" href="#">{{ page.title }}</a>
+        <ul>
+          {% for doc in docs_by_tag_array %}      
+            <li><a target="_blank" href="{{ doc.url }}">{{ doc.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% comment %} get the theme's full name {% endcomment %}
+      {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == page.tema" %}
+      {% assign tema_item = tema_items[0] %}
+      <li><a target="_blank" href="#">{{ tema_item.name }}</a>
+        <ul>
+          {% for doc in docs_by_category_array %}      
+            <li><a target="_blank" href="{{ doc.url }}">{{ doc.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
   </div>
 </div>
-
-<script>
-  $('#documenti').on('change', function(event) {
-    console.log( 'selected ' + $(this).val() );
-    //$('#gobutton').attr( 'href', $(this).val() );
-    window.location.href = $(this).val()
-  });
-</script>
