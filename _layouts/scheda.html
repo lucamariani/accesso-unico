@@ -47,7 +47,7 @@ layout: default
 
   <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
     <section class="Grid">
-      <div class="Grid-cell u-sizeFull u-md-size3of4 u-lg-size3of4">
+      <div class="Grid-cell u-sizeFull u-md-size2of3 u-lg-size2of3">
 
         <article class="Prose u-layout-prose">
 
@@ -61,7 +61,7 @@ layout: default
       </div>
 
       <!-- Sidebar -->
-      <aside class="Grid-cell u-sizeFull u-md-size1of4 u-lg-size1of4 u-text-r-s u-padding-r-all">
+      <aside class="Grid-cell u-sizeFull u-md-size1of3 u-lg-size1of3 u-text-r-s u-padding-r-all">
 
         <div id="handle-favorite" class="u-margin-bottom-l" scheda_title="{{ page.object }}-{{ page.utenza }}" scheda_url="{{ page.url }}">
           <button id="add-scheda-to-favorites-btn" class="Button Button--default u-text-xs u-sizeFull">
@@ -73,6 +73,8 @@ layout: default
             <!-- <span id="" class="white u-text-r-xxs Icon Icon-cancel" title="Rimuovi dai preferiti"></span> -->
           </button>
         </div>
+
+        {% include riferimenti.html %}
 
         {% capture theprofile %}{{ page.utenza }}{% endcapture %}
         {% capture theme %}{{ page.tema }}{% endcapture %}
@@ -90,7 +92,7 @@ layout: default
           </div>
         </div>
 
-        {% include partecipa.html %}
+        {% include partecipa.html %}        
 
         {% include share.html %}
 
