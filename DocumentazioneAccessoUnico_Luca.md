@@ -23,24 +23,50 @@ Per creare una nuova scheda:
 
 2. in queste sottocartelle creo un file `index.md` all'interno del quale inserisco solo un `Front Matter`:
 
-  > layout: scheda
-  > object: < *nome cartella scheda* >
-  > utenza: < *nome sotto-cartella scheda* >
-  > tema: < *tema scheda* >
-  > title: < *titolo scheda* >    
-  > subtitle: < *sottotitolo scheda* >
-  > accordion_open: [ true, false ]
-  > meta_description: < *descrizione per SEO* >
+  > layout: scheda    
+  > object: < *nome cartella scheda* >    
+  > utenza: < *nome sotto-cartella scheda* >    
+  > tema: < *tema scheda* >    
+  > title: < *titolo scheda* >       
+  > subtitle: < *sottotitolo scheda* >    
+  > accordion_open: [ true, false ]    
+  > meta_description: < *descrizione per SEO* >    
+  > data: < *data scheda* >    
+  > status: < *stato scheda* >    
+  > statusLink: < *link stato scheda* >    
+  > \# riferimenti    
+  > descrizione_direzione: < *Descrizione della direzione"* >    
+  > nome_ufficio: < *Ufficio nome* >    
+  > indirizzo: < *indirizzo* >    
+  > telefono: < *telefono* >    
+  > email: < *email* >    
+  > pec: < *pec* >    
+  > nome_responsabile: < *nome responsabile* >    
+  > telefono_responsabile: < *telefono responsabile* >    
+  > email_responsabile: < *email responsabile* >    
 
   Esempio:
-  > layout: scheda
-  > object: scia
-  > utenza: imprese
-  > tema: edilizia
-  > title: Cambio destinazione d'uso
-  > subtitle: SCIA
-  > accordion_open: true
-  > meta_description: Il cambio destinazione d'uso e' questo
+  > layout: scheda    
+  > object: scia    
+  > utenza: imprese    
+  > tema: edilizia    
+  > title: Cambio destinazione d'uso    
+  > subtitle: SCIA    
+  > accordion_open: true    
+  > meta_description: Il cambio destinazione d'uso e' questo    
+  > data: 13/01/2018    
+  > status: BETA    
+  > statusLink: /onboard    
+  > \# riferimenti    
+  > descrizione_direzione: "Descrizione della direzione"    
+  > nome_ufficio: "Ufficio nome"    
+  > indirizzo: "indirizzo"    
+  > telefono: "+3900032223"    
+  > email: "efwef@efef.com"    
+  > pec: "pecefwef@efef.com"    
+  > nome_responsabile: "Mr. John Smith"    
+  > telefono_responsabile: "+3900032225"    
+  > email_responsabile: "johnsmith@gre.it"    
 
   il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
   - agricoltura
