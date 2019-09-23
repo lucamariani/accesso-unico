@@ -10,4 +10,14 @@ meta_description: "L'attività di acconciatore comprende tutti i trattamenti e i
 data: 13/01/2018
 status: BETA
 statusLink: /onboard
+# riferimenti
+descrizione_direzione: "Descrizione della direzione"
+nome_ufficio: "Ufficio nome"
+indirizzo: "indirizzo"
+telefono: "+3900032223"
+email: "efwef@efef.com"
+pec: "pecefwef@efef.com"
+nome_responsabile: "Mr. John Smith"
+telefono_responsabile: "+3900032225"
+email_responsabile: "johnsmith@gre.it"
 ---
