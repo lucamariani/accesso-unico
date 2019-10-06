@@ -1,34 +1,35 @@
 <!-- <div class="u-border-top-xs u-border-bottom-xs u-color-50" id="myTabContent">
-        {% for post in site.posts limit:4  %}
-            {{ post.title }}
+        {% for scheda in site.schedas limit:4  %}
+            {{ scheda.title }}
         {% endfor %}
 </div> -->
 
 <div class="u-layout-centerContent">
     <section class="u-layout-wide u-padding-top-xxl u-padding-bottom-xxl">
-        <h2 class="u-text-r-l u-padding-r-bottom">Novità</h2>
+        <h2 class="u-text-r-l u-padding-r-bottom">Servizi</h2>
 
         <div class="Grid Grid--withGutter">
 
-            {% for post in site.posts limit:4  %}
+            {% assign citizen-schede = site.schede | where:"utenza", "cittadini"%}
+            {% for scheda in citizen-schede limit:4  %}
             <div class="Grid-cell u-md-size1of4 u-lg-size1of4">
                     <div class="u-color-grey-30 u-border-top-xxs u-padding-right-xxl u-padding-r-all">
                         <p class="u-padding-r-bottom">
                             <span class="Dot u-background-70"></span>
-                            {% for category in post.categories %}
-                            <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+                            {% for category in scheda.tema %}
+                            <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="{{site.baseurl}}/schede_search?theme={{category|slugize}}">{{category}}</a>
                             {% unless forloop.last %}&nbsp;{% endunless %}
                             {% endfor %}
-                            <!-- <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="#">{{ post.categories }}</a> -->
-                            <span class="u-text-r-xxs u-textSecondary u-textWeight-400 u-lineHeight-xl u-cf">{{ post.date | date: "%d-%m-%Y"}}</span>
+                            <!-- <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="#">{{ scheda.categories }}</a> -->
+                            <span class="u-text-r-xxs u-textSecondary u-textWeight-400 u-lineHeight-xl u-cf">{{ scheda.date | date: "%d-%m-%Y"}}</span>
                         </p>
                         <h3 class="u-padding-r-top u-padding-r-bottom"><a class="u-text-h4 u-textClean u-color-black"
-                                href="{{ post.url }}">
-                                {{ post.title }}
+                                href="{{ scheda.url }}">
+                                {{ scheda.title }}
                             </a>
                         </h3>
                         <p class="u-lineHeight-l u-text-r-xs u-textSecondary u-padding-r-right">
-                                {{ post.subtitle }}
+                                {{ scheda.subtitle }}
                         </p>
                     </div>
     
@@ -38,8 +39,8 @@
         </div>
 
         <p class="u-textCenter u-text-md-right u-text-lg-right u-padding-r-top">
-            <a href="{{site.baseurl}}/news_search" class="u-color-50 u-textClean u-text-h4">
-                tutte le novità<span class="Icon Icon-chevron-right"></span></a>
+            <a href="{{site.baseurl}}/schede_search" class="u-color-50 u-textClean u-text-h4">
+                tutti i servizi<span class="Icon Icon-chevron-right"></span></a>
         </p>
 
     </section>

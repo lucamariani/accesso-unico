@@ -68,7 +68,7 @@
 /* .t-Pac .go-servizio-btn:hover {background-color:#9c2328 !important;color:#fff !important} */
 .t-Pac .servizio-icons {display: none}
 .t-Pac .servizio-btn-container {position:relative;}
-.t-Pac .servizio-box {min-height:350px}
+.t-Pac .servizio-box {min-height:325px}
 .t-Pac .icon-search-results {max-width:35px;position: relative;top: 7px}
 .t-Pac .scheda-title-label {font-size: 12px;position: relative;top: -10px;left: 5px;}
 .t-Pac h1 .scheda-title-label {font-size: 17px;position: relative;top: -30px;left: 5px;}
@@ -78,7 +78,7 @@
 }
 @media(min-width: 350px) {
   .t-Pac .go-servizio-btn {font-size: 2rem}
-  .t-Pac .servizio-icons {bottom:50px}
+  .t-Pac .servizio-icons {bottom:20px}
 }
 
 
