@@ -11,8 +11,8 @@ data: 13/01/2018
 status: BETA
 statusLink: /onboard
 # riferimenti
-descrizione_direzione: "Descrizione della direzione"
-nome_ufficio: "Ufficio nome"
+descrizione_direzione: "Direzione regionale programmazione, affari internazionali ed europei. Agenda digitale, agenzie e società partecipate"
+nome_ufficio: "Servizio Programmazione strategica dello sviluppo della società dell'informazione e dell'amministrazione digitale, sistema informativo greografico e semplificazione amministrativa"
 indirizzo: "indirizzo"
 telefono: "+3900032223"
 email: "efwef@efef.com"
