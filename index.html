@@ -6,10 +6,18 @@ scripts:
 ---
 
 <!-- main point (manual) -->
-<div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
-<!-- <section>
-  cerca
-</section> -->
+<div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">  
+
+  <div class="u-layout-prose u-text-r-xl">
+    <p class="u-textCenter u-text-h2">
+        Accesso Unico 
+    </p>
+    <p class="u-text-r-l u-textSecondary u-lineHeight-l u-textCenter">
+      <span class="u-textWeight-600 u-color-70">semplifichiamo l’accesso ai servizi della Pubblica Amministrazione in Umbria</span>
+    </p>
+  </div>
+
+  <!-- <section> cerca </section> -->
   <section class="Grid">
     <div class="Grid-cell u-sizeFull u-md-sizeFull u-lg-sizeFull u-text-r-s u-padding-r-all u-textCenter">
       {% include search_form_home.html %}
@@ -17,17 +25,11 @@ scripts:
 
   </section>
 
-  <div class="u-layout-prose u-text-r-xl u-padding-r-bottom">
-    <p class="u-text-r-l  u-textSecondary u-lineHeight-l u-textCenter">
-      Accesso Unico: <span class="u-color-70">semplifichiamo l’accesso ai servizi</span> della Pubblica Amministrazione in Umbria
-    </p>
-  </div>
-
   <div style="line-height:1.5" class="u-text-r-l u-layout-wide u-padding-r-bottom">
-    <p class="u-padding-r-top u-padding-r-bottom">
-      Lo scopo di questo portale è fornire <span class="u-textWeight-700">informazioni e strumenti utili</span> per conoscere servizi e gestire pratiche.
-      E’ in <span class="u-textWeight-700">versione beta</span> quale strumento condiviso con gli operatori della PA e dei cittadini.
-      <span class="u-textWeight-700"><a href="{{ site.baseurl }}/programma">per saperne di più</a>>></span>
+    <p class="u-text-r-s u-padding-r-top u-padding-r-bottom">
+      Lo scopo di questo portale è fornire <span class="u-text-r-s u-textWeight-700">informazioni e strumenti utili</span> per conoscere servizi e gestire pratiche.
+      E’ in <span class="u-text-r-s u-textWeight-700">versione beta</span> quale strumento condiviso con gli operatori della PA e dei cittadini.
+      <span class="u-text-r-s u-textWeight-700"><a href="{{ site.baseurl }}/programma">per saperne di più</a>>></span>
       <!-- <span class="u-textWeight-700">luogo di confronto diretto</span> con la
       <span class="u-textWeight-700">Pubblica Amministrazione</span>, dove l'opinione e il contributo dei cittadini è importante.<br>
       <span class="u-textWeight-700">Il portale in versione Beta</span> sviluppato da Regione Umbria è lo   <span class="u-textWeight-700">strumento condiviso con gli operatori della P.A.</span> per costruire insieme i nuovi servizi dell'Accesso Unico.
@@ -66,11 +68,11 @@ scripts:
   {% include wizard_home.html %}
   {% endif %}
 
-  <!-- news section -->
-  {% include anteprima_news.html %}
-
-  <!-- schede section -->
+  <!-- servizi section -->
   {% include anteprima_schede.html %}
+
+  <!-- news section -->
+  {% include anteprima_news.html %}  
 
 </div>
 <!-- end index.html -->
