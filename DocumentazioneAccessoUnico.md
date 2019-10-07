@@ -34,16 +34,6 @@ Per creare una nuova scheda:
   > data: < *data scheda* >    
   > status: < *stato scheda* >    
   > statusLink: < *link stato scheda* >    
-  > \# riferimenti    
-  > descrizione_direzione: < *Descrizione della direzione"* >    
-  > nome_ufficio: < *Ufficio nome* >    
-  > indirizzo: < *indirizzo* >    
-  > telefono: < *telefono* >    
-  > email: < *email* >    
-  > pec: < *pec* >    
-  > nome_responsabile: < *nome responsabile* >    
-  > telefono_responsabile: < *telefono responsabile* >    
-  > email_responsabile: < *email responsabile* >    
 
   Esempio:
   > layout: scheda    
@@ -57,16 +47,6 @@ Per creare una nuova scheda:
   > data: 13/01/2018    
   > status: BETA    
   > statusLink: /onboard    
-  > \# riferimenti    
-  > descrizione_direzione: "Descrizione della direzione"    
-  > nome_ufficio: "Ufficio nome"    
-  > indirizzo: "indirizzo"    
-  > telefono: "+3900032223"    
-  > email: "efwef@efef.com"    
-  > pec: "pecefwef@efef.com"    
-  > nome_responsabile: "Mr. John Smith"    
-  > telefono_responsabile: "+3900032225"    
-  > email_responsabile: "johnsmith@gre.it"    
 
   il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
   - agricoltura
@@ -164,6 +144,33 @@ Per creare una nuova scheda:
     _includes/schede/scia/sidebarbox/prg.md
     _includes/schede/scia/sidebarbox/normativa.md
     ~~~
+
+  5. Riferimenti scheda   
+  Per aggiungere i riferimenti della scheda bisogna editare il file `"_data/schede/riferimenti.yml"` aggiungendo il nome della scheda e i seguenti campi:
+      
+  > < *nome scheda* >:    
+  > &nbsp;&nbsp;&nbsp;&nbsp;descrizione_direzione: < *Descrizione della direzione"* >    
+  > &nbsp;&nbsp;&nbsp;&nbsp;nome_ufficio: < *Ufficio nome* >    
+  > &nbsp;&nbsp;&nbsp;&nbsp;indirizzo: < *indirizzo* >    
+  > &nbsp;&nbsp;&nbsp;&nbsp;telefono: < *telefono* >    
+  > &nbsp;&nbsp;&nbsp;&nbsp;email: < *email* >    
+  > &nbsp;&nbsp;&nbsp;&nbsp;pec: < *pec* >    
+  > &nbsp;&nbsp;&nbsp;&nbsp;nome_responsabile: < *nome responsabile* >    
+  > &nbsp;&nbsp;&nbsp;&nbsp;telefono_responsabile: < *telefono responsabile* >    
+  > &nbsp;&nbsp;&nbsp;&nbsp;email_responsabile: < *email responsabile* >    
+      
+  Esempio:
+
+  > acconciatore:   
+  > &nbsp;&nbsp;&nbsp;&nbsp;descrizione_direzione: "Descrizione della direzione"    
+  > &nbsp;&nbsp;&nbsp;&nbsp;nome_ufficio: "Ufficio nome"    
+  > &nbsp;&nbsp;&nbsp;&nbsp;indirizzo: "indirizzo"    
+  > &nbsp;&nbsp;&nbsp;&nbsp;telefono: "+3900032223"    
+  > &nbsp;&nbsp;&nbsp;&nbsp;email: "efwef@efef.com"    
+  > &nbsp;&nbsp;&nbsp;&nbsp;pec: "pecefwef@efef.com"    
+  > &nbsp;&nbsp;&nbsp;&nbsp;nome_responsabile: "Mr. John Smith"    
+  > &nbsp;&nbsp;&nbsp;&nbsp;telefono_responsabile: "+3900032225"    
+  > &nbsp;&nbsp;&nbsp;&nbsp;email_responsabile: "johnsmith@gre.it"    
 
 
 ## Pagina lista schede per tema
