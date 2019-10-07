@@ -7,36 +7,37 @@
         </span>
       </p>
 
+      {% assign riferimenti = site.data.schede.riferimenti[page.object] %}
       <div>
             <p class="">
-                {{ page.descrizione_direzione }}
+                {{ riferimenti.descrizione_direzione }}
             </p>
             <p class="u-margin-top-xs u-margin-bottom-xs">
-                {{ page.nome_ufficio }}
+                {{ riferimenti.nome_ufficio }}
             </p>
             <p class="u-margin-bottom-xs">
-                    {{ page.indirizzo }}
+                {{ riferimenti.indirizzo }}
             </p>
             <p class="u-margin-bottom-xs">
-                   Tel: {{ page.telefono }}
+                Tel: {{ riferimenti.telefono }}
             </p>
             <p class="u-margin-bottom-xs">
-                   E-mail: {{ page.email }}
+                E-mail: {{ riferimenti.email }}
             </p>
             <p class="u-margin-bottom-xs">
-                   PEC: {{ page.pec }}
+                PEC: {{ riferimenti.pec }}
             </p>
             <p class="u-textWeight-600 u-margin-top-xs">
                 Responsabile
             </p>
             <p class="u-margin-bottom-xs">
-                    {{ page.nome_responsabile }}
+                {{ riferimenti.nome_responsabile }}
              </p>
              <p class="u-margin-bottom-xs">
-                    Tel: {{ page.telefono_responsabile }}
+                Tel: {{ riferimenti.telefono_responsabile }}
              </p>
              <p class="u-margin-bottom-xs">
-                    E-mail: {{ page.email_responsabile }}
+                E-mail: {{ riferimenti.email_responsabile }}
              </p>            
       </div>
         
