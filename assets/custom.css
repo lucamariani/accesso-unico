@@ -42,6 +42,9 @@
 .t-Pac #results-div {display:none}
 .t-Pac #no-results-div {display:none}
 .t-Pac .servizio-icon {max-height:35px}
+.t-Pac .home-servizio-div {position:relative}
+.t-Pac .home-servizio-category-icon {max-height:50px;position:relative;left:-16px}
+.t-Pac .home-servizio-category-text {position:absolute;top:16px;left:30px}
 
 /* responsive utils */
 .t-Pac .no-mobile {display: none !important}

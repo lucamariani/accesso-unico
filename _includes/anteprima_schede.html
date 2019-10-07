@@ -15,9 +15,14 @@
             <div class="Grid-cell u-md-size1of4 u-lg-size1of4">
                     <div class="u-color-grey-30 u-border-top-xxs u-padding-right-xxl u-padding-r-all">
                         <p class="u-padding-r-bottom">
-                            <span class="Dot u-background-70"></span>
+                            <span class="u-background-70"></span>
                             {% for category in scheda.tema %}
-                            <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="{{site.baseurl}}/schede_search?theme={{category|slugize}}">{{category}}</a>
+                            <div class="home-servizio-div">
+                                <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="{{site.baseurl}}/schede_search?theme={{category|slugize}}">
+                                    <img title="{{ category | capitalize }}" class="home-servizio-category-icon" src="{{ site.baseurl}}{{ site.iconsurl }}rosso_{{ category }}.png">
+                                    <div class="home-servizio-category-text">{{category}}</div>
+                                </a>
+                            </div>
                             {% unless forloop.last %}&nbsp;{% endunless %}
                             {% endfor %}
                             <!-- <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="#">{{ scheda.categories }}</a> -->
