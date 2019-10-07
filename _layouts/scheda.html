@@ -74,7 +74,9 @@ layout: default
           </button>
         </div>
 
-        {% include riferimenti.html %}
+        {% if site.data.schede.riferimenti[page.object] %}
+          {% include riferimenti.html %}
+        {% endif %}
 
         {% capture theprofile %}{{ page.utenza }}{% endcapture %}
         {% capture theme %}{{ page.tema }}{% endcapture %}
