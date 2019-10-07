@@ -1,3 +1,8 @@
+---
+layout: dev
+permalink: /dev_doc
+---
+
 # Documentazione Accesso Unico
 
 ## Parametri di configurazione
@@ -6,7 +11,7 @@ Per configurare il sito sono disponibili i seguenti parametri che si trovano nel
 
 - *header_red_theme*: (true, false)
 
-  configura lo stile dell'header da utilizzare ( rosso o bianco ). Default FALSE
+  configura lo stile dell'header da poter utilizzare ( rosso o bianco ). Default FALSE
 
 ## Creare nuova scheda
 
@@ -18,50 +23,66 @@ Per creare una nuova scheda:
 
 2. in queste sottocartelle creo un file `index.md` all'interno del quale inserisco solo un `Front Matter`:
 
-  > layout: scheda   
-  > object: < *nome cartella scheda* >   
-  > utenza: < *nome sotto-cartella scheda* >   
-  > tema: < *tema scheda* >   
-  > title: < *titolo scheda* >   
-  > tipo: <*tipologia scheda*>   
-  > subtitle: < *sottotitolo scheda* >   
-  > accordion_open: [ true, false ]   
-  > meta_description: < *descrizione per SEO* > (al momento non è stato utilizzato)   
-  > status: <*stato della scheda*>   
-  > statusLink: <*link che arriva alla pagina statica relativa allo status*>
+  > layout: scheda    
+  > object: < *nome cartella scheda* >    
+  > utenza: < *nome sotto-cartella scheda* >    
+  > tema: < *tema scheda* >    
+  > title: < *titolo scheda* >       
+  > subtitle: < *sottotitolo scheda* >    
+  > accordion_open: [ true, false ]    
+  > meta_description: < *descrizione per SEO* >    
+  > data: < *data scheda* >    
+  > status: < *stato scheda* >    
+  > statusLink: < *link stato scheda* >    
+  > \# riferimenti    
+  > descrizione_direzione: < *Descrizione della direzione"* >    
+  > nome_ufficio: < *Ufficio nome* >    
+  > indirizzo: < *indirizzo* >    
+  > telefono: < *telefono* >    
+  > email: < *email* >    
+  > pec: < *pec* >    
+  > nome_responsabile: < *nome responsabile* >    
+  > telefono_responsabile: < *telefono responsabile* >    
+  > email_responsabile: < *email responsabile* >    
 
   Esempio:
-  > layout: scheda   
-  > object: scia   
-  > utenza: imprese   
-  > tema: edilizia   
-  > tipo: pratica   
-  > title: Cambio destinazione d'uso   
-  > subtitle: SCIA   
-  > accordion_open: true   
-  > meta_description:   
-  > status: BETA   
-  > statusLink:/onboard   
-
+  > layout: scheda    
+  > object: scia    
+  > utenza: imprese    
+  > tema: edilizia    
+  > title: Cambio destinazione d'uso    
+  > subtitle: SCIA    
+  > accordion_open: true    
+  > meta_description: Il cambio destinazione d'uso e' questo    
+  > data: 13/01/2018    
+  > status: BETA    
+  > statusLink: /onboard    
+  > \# riferimenti    
+  > descrizione_direzione: "Descrizione della direzione"    
+  > nome_ufficio: "Ufficio nome"    
+  > indirizzo: "indirizzo"    
+  > telefono: "+3900032223"    
+  > email: "efwef@efef.com"    
+  > pec: "pecefwef@efef.com"    
+  > nome_responsabile: "Mr. John Smith"    
+  > telefono_responsabile: "+3900032225"    
+  > email_responsabile: "johnsmith@gre.it"    
 
   il tema deve essere scelto tra quelli definiti alla chiave "*metadata*" nel file "*_data/themes.yml*", ossia questi:
   - agricoltura
   - ambiente
   - turismo
-  - industria
-  - commercio
+  - diritti
   - artigianato
   - lavoro
   - infrastrutture
   - salute
   - edilizia
-  - semplificazione
 
   l' utenza deve essere scelta tra quelli definiti alla chiave "*metadata*" nel file "*_data/profiles.yml*", ossia questi:
   - cittadini
   - imprese
   - imprenditori
-  - pa
 
 3. creo una cartella dentro `"_data/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/schede/scia"` ) e all'interno di questa creo:
   - 3.1. un file `"accordion.yml"`
@@ -120,36 +141,29 @@ Per creare una nuova scheda:
          file: "controlli.md"
        ~~~
 
-4. creare una cartella dentro `"_includes/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_includes/schede/scia"` ) e all'interno di questa creo tre cartelle, "accordion", "sidebarbox" e "description"
-"_includes/schede/scia/accordion"
-"_includes/schede/scia/sidebarbox"
-"_includes/schede/scia/description"
+4. creare una cartella dentro `"_includes/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_includes/schede/scia"` ) e all'interno di questa creo due cartelle, `"accordion"` e `"sidebarbox"` ( `"_includes/schede/scia/accordion"`, `"_includes/schede/scia/sidebarbox"` )
 
+  - all'interno della cartella `"accordion"` creo:
+     - un file `description.md` dove scrivo la descrizione della scheda, ossia le scritte tra il sottotitolo e le accordion
+     -  i file contenenti i contenuti degli accordion, come li ho definiti al punto 3.1
 
-  - all'interno della cartella `"accordion"` creo i files contenenti i contenuti degli accordion, come li ho definiti al punto 3.1
-
-
+     ~~~
      _includes/schede/scia/accordion/classificazione.md
      _includes/schede/scia/accordion/sicurezza.md
      _includes/schede/scia/accordion/requisiti.md
      _includes/schede/scia/accordion/guida.md
      _includes/schede/scia/accordion/controlli.md
      _includes/schede/scia/accordion/normativa.md
+     ~~~
 
+  - all'interno della cartella `"sidebarbox"` creo:
+     - i file contenenti i contenuti dei box della sidebar, come li ho definiti al punto 3.2
 
-  - all'interno della cartella `"sidebarbox"` creo i file contenenti i contenuti dei box della sidebar, come li ho definiti al punto 3.2
-
-
+    ~~~
     _includes/schede/scia/sidebarbox/chi.md
     _includes/schede/scia/sidebarbox/prg.md
     _includes/schede/scia/sidebarbox/normativa.md
-
-  - all’interno della cartella “description” creo tanti file quanti sono i profili di utenza (cittadini, imprese, intermediari, pa). Questi file md conterranno la descrizione della pratica a secondo del profilo.
-    	_includes/schede/scia/description/cittadini.md
-    	_includes/schede/scia/description/imprese.md
-    	_includes/schede/scia/description/intermediari.md
-    	_includes/schede/scia/description/pa.md
-
+    ~~~
 
 
 ## Pagina lista schede per tema
@@ -203,125 +217,96 @@ Definiamo una collezione di nome "Pages" creando la cartella ``"_pages"``
 
 Per creare una nuova pagina:
 
-1. creo un file MD ( con un nome rappresentativo della pagina che sto creando ) nella cartella ``"_pages"`` ( `"_pages/cosaesuape.md"` ).
+1. creo un file MD ( con un nome rappresentativo della pagina che sto creando ) nella cartella ``"_pages"`` ( `"_pages/prova.md"` ).
 
   Il nome del file creato deve essere inserito nel FrontMatter con la key "metatitle".
 
 2. in questo file inserisco un `Front Matter`:
 
-  > layout: page   
-  > title: < *titolo pagina* >   
-  > metatitle: < *nome file (senza estensione)* >   
-  > subtitle: < *sottotitolo page* >   
-  > background: < *absolute path to image* > (non utilizzato)   
-  > img: (non utilizzato)
+  > layout: page
+  > title: < *titolo pagina* >
+  > metatitle: < *nome file (senza estensione)* >
+  > subtitle: < *sottotitolo page* >
+  > background: < *absolute path to image* >
 
   Esempio:
-  > layout: page   
-  > title: SUAPE   
-  > metatitle: cosaesuape   
-  > subtitle: cosa è, ente competente, .....   
+  > layout: page
+  > title: Prova
+  > metatitle: prova
+  > subtitle: Prova pagina statica
+  > background: '/img/bg-about.jpg'
 
+  poi inserisco il contenuto con la sintassi MD.
 
+  La pgina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://lucamariani.github.io/accesso-unico/prova/
 
-  La pagina sara' visibile al link: *URL_BASE*/*nome file (senza estensione)* : es. https://beta.accessounico.regione.umbria.it/cosaesuape
+3. creo una cartella dentro `"_data/pages"`, con lo stesso nome del file creata al punto 1 ( `"_data/pages/prova"` ) e all'interno di questa creo:
+  <!-- - 3.1. un file `"accordion.yml"`
+   Questo conterra' una lista di accordion che devono apparire nella page, specificando:
+     - "title": il titolo dell'accordion
+     - "file": il nome del file all'interno del quale scriveremo il contenuto dell'accordion stesso
+     - "utenza": una lista di profili che devono vedere quell'accordion (non utilizzando la chiave "utenza", l'accordion sara' visibile da tutti i profili)
 
-3. creo una cartella dentro `"_data/pages"`, con lo stesso nome del file creata al punto 1 ( `"_data/pages/cosaesuape"` ) e all'interno di questa creo:   
+      Esempio:
+      ~~~
+      - title: "Classificazione"
+        file: "classificazione.md"
 
-  3.1. un file `"sidebarboxes.yml"`   
-   Questo conterra' una lista di accordion che devono apparire nella sidebar, specificando:
-     - "title": il titolo del box
-     - "file": il nome del file all'interno del quale scriveremo il relativo contenuto   
-Esempio:
-     - title: "A chi mi devo rivolgere"
-  	 - file: "chi.md"   
+      - title: "Sicurezza"
+        file: "sicurezza.md"
 
-  3.2 un file `"content.yml"`
-  Questo file conterrà una lista di files, specificando:
-     - "file": suape.md
+      - title: "Requisiti"
+        file: "requisiti.md"
 
+      - title: "Guida"
+        file: "guida.md"
 
-4. creare una cartella dentro `"_includes/pages"`, con lo stesso nome del file creato al punto 1 ( `"_includes/pages/cosaesuape"` ) e all'interno di questa creo due cartelle, `"content"` e `"sidebarbox"` ( `"_includes/pages/cosaesuape/content"`, `"_includes/pages/cosaesuape/sidebarbox"` )
+      - title: "Controlli"
+        file: "controlli.md"
+
+      - title: "Normativa"
+        file: "normativa.md"
+        utenza:
+          - imprese
+          - intermediari
+      ~~~
+      -->
+  - 3.1. un file `"sidebarboxes.yml"`
+  Questo conterra' una lista di box che devono apparire nella slidebar, specificando:
+    - "title": il titolo del box
+    - "file": il nome del file all'interno del quale scriveremo il contenuto dell'accordion stesso
+
+    Esempio:
+       ~~~
+       - title: "A chi mi devo rivolgere"
+         file: "chi.md"
+
+       - title: "Ciao"
+         file: "ciao.md"
+       ~~~
+
+4. creare una cartella dentro `"_includes/pages"`, con lo stesso nome del file creato al punto 1 ( `"_includes/pages/prova"` ) e all'interno di questa creo due cartelle, `"content"` e `"sidebarbox"` ( `"_includes/pages/prova/content"`, `"_includes/pages/prova/sidebarbox"` )
 
   - all'interno della cartella `"content"` creo:
-  i files .md contenuti in content.yml
-_includes/pages/cosaesuape/content/suape.md
+     <!--- un file `description.md` dove scrivo la descrizione della page, ossia le scritte tra il sottotitolo e le accordion
+     -  i file contenenti i contenuti degli accordion, come li ho definiti al punto 3.1
 
+     ~~~
+     _includes/pages/prova/accordion/classificazione.md
+     _includes/pages/prova/accordion/sicurezza.md
+     _includes/pages/prova/accordion/requisiti.md
+     _includes/pages/prova/accordion/guida.md
+     _includes/pages/prova/accordion/controlli.md
+     _includes/pages/prova/accordion/normativa.md
+     ~~~
+     -->
   - all'interno della cartella `"sidebarbox"` creo:
      - i file contenenti i contenuti dei box della sidebar, come li ho definiti al punto 3.1
-In questi files inserisco il contenuto con la sintassi MD.
+
     ~~~
-    _includes/pages/cosaesuape/sidebarbox/chi.md
-
-## Sono state create pagine statiche relative a:
-    •	**Modulistica unificata**
-    •	**Dati comunali – SUAPE** (solo per alcuni Comuni dell’Umbria)
-In questi due casi, ai fini di una migliore visualizzazione e uso delle tabelle, è stato creato un layout ad hoc:   
-
-    •	Per la modulistica                   layout: modulistica   
-    •	Per i dati comunali – SUAPE          layout: info_suape.   
-
-In questi casi è stato necessario creare in _pages/ i seguenti files:
-
-•	modulistica-unificata.md nel quale è presente il seguente Front Matter:
-
-    layout: modulistica
-    title: (titolo della pagina) Modulistica Unificata
-    metatitle: (nome del file senza estensione) modulistica-unificata
-    subtitle: (sottotitolo della pagina) Informazioni e link
-    tipologia: Edilizia
-
-        nome:
-        denominazione:
-        release:
-        link:
-
-    tipologia: Attività commerciali e assimilate
-
-        nome:
-        denominazione:
-        release:
-        link:
-
-•	tanti files quanti sono i Comuni dell’Umbria in oggetto amelia.md, foligno.md, gubbio.md ecc con il seguente Front Matter:
-
-        layout: info_suape
-        title: (titolo della pagina) Comune di Gubbio
-        metatitle: (nome del file senza estensione) gubbio
-        subtitle: (sottotitolo della pagina) Sportello Comunale SUAPE – riferimenti informazioni
-
-        info:
-           sede:
-           responsabile:
-           contatti:
-
-        sportelli:
-           nome: (nome dello Sportello, avrà tanti blocchi di questo tipo per quanti sono gli sportelli; es.  edilizia ed Attività produttive)
-           sede:
-           responsabile:
-           contatti:
-           orari:
-Da notare che i relativi files di layout sono presenti nella cartella _layouts e sono: modulistica.html e info_suape.html.
-In questi due casi nella cartella _includes/pages/ non è stato creata la cartella content ma solo quella sidebarboxe.
-
-## Altre pagine statiche………
-Relativamente, invece, alle seguenti pagine:
-
-•	nodata   
-•	onboard   
-•	menu_popup
-
-sono state create in _pages le relative pagine md, ovvero:
-
-•	nodata.md   
-•	onboard.md   
-•	menu_popup.md   
-
-ciascuna con i relativi layout, presenti nella cartella _layouts, ovvero:
-
-•	layout: nodata             nodata.html   
-•	layout: onboard            onboard.html   
-•	layout: default            default.html   
+    _includes/pages/prova/sidebarbox/chi.md
+    _includes/pages/prova/sidebarbox/ciao.md
+    ~~~
 
 
 ## Creare pagina mappa GIS
@@ -330,13 +315,13 @@ Per creare una nuova pagina:
 
 1. creo un file MD ( con un nome rappresentativo della pagina che sto creando ) nella cartella ``"_pages/map"`` ( `"_pages/map/piani_regolatori.md"` ).
 
+  Il nome del file creato deve essere inserito nel FrontMatter con la key "metatitle".
 
 2. in questo file inserisco un `Front Matter`:
 
-  > layout: prg-page
+  > layout: map-page
   > title: < *titolo pagina* >
-  > metatitle:
-  > map_width:
+  > metatitle: < *nome file (senza estensione)* >
   > subtitle: < *sottotitolo page* >
   > map_title: < *titolo mappa* >
   > map_url: < *url mappa ( o applicazione) Esri* >
@@ -346,79 +331,92 @@ Per creare una nuova pagina:
     - < *nome file* >
 
   Esempio:
-  > layout: prg-page
-  > title: "Piani regolatori Comunali"
-  > metatitle: map-regolatori
+  > layout: map-page
+  > title: "SUAPE e Piani regolatori: Dati Comunali"
+  > metatitle: piani_regolatori
   > subtitle: Prova pagina GIS
-  > map_title: "Piani regolatori Comunali e Regolamenti Edilizi"
-  > map_url: "//www.arcgis.com/apps/Embed/index.html?webmap=88c87422d51f4352837f6c38b1be87be&extent=11.451,42.5318,13.4794,43.433&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light"
+  > map_title: "SUAPE e Piani regolatori: Dati Comunali"
+  > map_url: "https://www.arcgis.com/apps/SimpleViewer/index.html?appid=af849b23d87f414ebae057f41cde48db"
   > content_files:
     - content1.md
     - content2.md
+    - content3.md
 
+  Dopo il FrontMatter posso aggiungere il content ( x es. per la dropdown dei comuni, realizzata con un l'include di `*comuni_select.html*` )
 
-  Dopo il FrontMatter posso aggiungere il content:
-  {% include comuniprg_select.html %} il cui file html si trova in _includes/.
+  La pagina sara' visibile al link: *URL_BASE/map/nome file (senza estensione)* : es. https://lucamariani.github.io/accesso-unico/map/piani_regolatori
 
-  La pagina sara' visibile al link: *URL_BASE/map/nome file (senza estensione)* : es.https://beta.accessounico.regione.umbria.it/map/piani_regolatori/
-
-3. creare una cartella dentro `"_includes/pages/`, con lo stesso nome del metatitle di cui al punto 1 ( `"_includes/pages/map-regolatori"` ) e all'interno di questa creare la cartella `"content"` ( `"_includes/pages/map-regolatori/content"` )
+3. creare una cartella dentro `"_includes/pages/map"`, con lo stesso nome del file creato al punto 1 ( `"_includes/pages/map/piani_regolatori"` ) e all'interno di questa creo la cartella `"content"` ( `"_includes/pages/map/piani_regolatori/content"` )
 
   - all'interno della cartella `"content"` posso creare i file opzionali che ho inserito nella lista `"content_files"` del FrontMatter:
      - un file `content1.md` dove scrivo il contenuto che deve essere visualizzato sopra la mappa
      - un file `content2.md` dove scrivo il contenuto che deve essere visualizzato sotto la mappa
+     - un file `content3.md` dove scrivo il contenuto che deve essere visualizzato sotto il content della pagina
+
+     ~~~
+     _includes/pages/map/piani_regolatori/content/content1.md
+     _includes/pages/map/piani_regolatori/content/content2.md
+     _includes/pages/map/piani_regolatori/content/content3.md
+     ~~~
 
 
+# Todo
 
-     il primo si trova in: _includes/pages/map-regolatori/content/content1.md
-     il secondo si trova in: _includes/pages/map-regolatori/content/content2.md
+SIMULATORE
+prevede serie di domande fino ad arrivare ad una scheda
 
-Naturalmente il file di layout si trova nella cartella _layouts e si chiama pgr-page.html.
+chi sei -> a cosa sei interessato->  domanda 1 -> ... -> domanda N -> scheda
 
-## Documenti
+utilizzare TIMELINE (https://italia.github.io/design-web-toolkit/components/preview/timeline.html) on nod che si aggiungono dinamicamente sulla scelta della risposta precedente
 
-Nella home – page del sito è presente, tra gli altri, anche il menù “Documenti” attraverso il quale si accede ad una pagina di ricerca il cui popolamento avviene inserendo i documenti nel file docs.yml presente nella cartella _data/.
+### prendere spunto per lo stile delle schede qui: https://www.gov.uk/licence-finder
 
-Il questo file è inserito il seguente Front Matter:
-category:
-  - name: Normativa
-    metaname: normativa
-  - name: Regolamenti
-    metaname: regolamenti
-  - name: Pareri, Circolari e Accordi
-    metaname: circolari
+### Pagine GIS (mappa) per:
+- sportello
+- PRG
+- regolamenti comunali
 
-La parte sottostante viene replicata per ciascun documento inserito.
+#### layout: md1 + mappa + md2 + dropdown + md3
+- gli md (1,2,3) sono opzionali
 
-docs:
-  - title: D.P.R. 6 giugno 2001, n. 380
-    metaname: doc1
-    oggetto: Testo unico delle disposizioni legislative e regolamentari in materia edilizia
-    categoria: normativa
-    tema: edilizia
-    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2001-06-06;380"
-    anno: 2001
-    ente:
-    numero: 380
-    tags:
-      - SUAPE
-      - cambio_destinazione_uso
-      - SCIA
+iframe mappa: clicco sul comune -> popup con link a pagina dettagli
+sotto la mappa: lista comuni con link alla pagina dettagli
 
-## Menù – Profili - Argomenti
+nella pagina dei dettagli degli sportelli c'e' una sezione che mostra la piattaforma informatica utilizzata dal comune in questione (2 piattaforme, PEC). I requisiti della piattaforma sono anche loro schede ma di tipo "strumenti"
 
-Se si vuole modificare il menù di navigazione, i profili d’utenza o gli argomenti è possibile farlo modificando rispettivamente i seguenti files: menu.yml, profiles.yml, themes.yml presenti nella cartella _data/.
+### Gestione links
+Utilizzare {{ site.baseurl }} al posto di https://lucamariani.github.io/accesso-unico
 
+> x es: https://lucamariani.github.io/accesso-unico/schede/acconciatore/imprese/index.html
 
-## Creazione di combo box
+> {{ site.baseurl }}/schede/acconciatore/imprese/index.html
 
-Per inserire tale elemento in una pagina statica, in una pagina del tipo mappa Gis oppure in un sidebarbox è necessario inserire, nel relativo file .md, un include del file html in cui gestisco le varie entrate.
+### link icone
+https://www.iconfinder.com/iconsets/spring-23
 
-Es. Nella scheda “Acconciatore” è presente una sidebarbox relativa alla modulistica.
+# DONE
+### 09/10/2018
+- listing schede per tema: aggiungere label per profilo
 
-In questo caso nel file modulistica.md presente in _includes/schede/acconciatore/sidebarbox/ sarà presente il seguente contenuto:
+### 26/09/2018
+- Documentazione: inserire tag x valori: modulistica, suape, ...
+- aggiungere tipologia di Schede servizio, pratica
 
-scarica i modelli che ti interessano:
-      {% include modulistica_select.html %}
+### 21/09/2018
+- Documentazione:
+  - aggiungere tema (gli stessi delle schede)
+  - categoria: normativa, regolamenti, pareri e circolari
+  - maschera ricerca iniziale (anno, numero, categoria, tema)
+  - pagina di arrivo dalla ricerca con filtri per tema e categoria
 
-Il file modulistica_select.html si trova nella cartella _includes/.
+### 30/08/2018
+ - Home page Wizard
+ Chi sei? A cosa sei interessato?
+ chi sei -> a cosa sei interessato-> risultati
+ a cosa sei interessato -> chi sei -> risultati
+
+### 29/08/2018
+- creare file temi.yml con nomi, icone, colori, ...
+
+### 22/08/2018 ( DONE: 24/08/2018)
+- modifica a Schede: aggiungere foto (850x250 px)
