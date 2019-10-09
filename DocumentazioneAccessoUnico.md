@@ -147,7 +147,7 @@ Per creare una nuova scheda:
 
   5. Riferimenti scheda   
   Per aggiungere i riferimenti della scheda bisogna editare il file `"_data/schede/riferimenti.yml"` aggiungendo il nome della scheda e i seguenti campi:
-      
+
   > < *nome scheda* >:    
   > &nbsp;&nbsp;&nbsp;&nbsp;descrizione_direzione: < *Descrizione della direzione"* >    
   > &nbsp;&nbsp;&nbsp;&nbsp;nome_ufficio: < *Ufficio nome* >    
@@ -158,7 +158,7 @@ Per creare una nuova scheda:
   > &nbsp;&nbsp;&nbsp;&nbsp;nome_responsabile: < *nome responsabile* >    
   > &nbsp;&nbsp;&nbsp;&nbsp;telefono_responsabile: < *telefono responsabile* >    
   > &nbsp;&nbsp;&nbsp;&nbsp;email_responsabile: < *email responsabile* >    
-      
+
   Esempio:
 
   > acconciatore:   
