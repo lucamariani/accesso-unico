@@ -43,10 +43,20 @@
   metaname: salute
   image: /assets/images/icons/rosso_salute.png
 
-- name: Territorio, Edilizia e Urbanistica
+- name: Edilizia
   color: purple
   metaname: edilizia
   image: /assets/images/icons/rosso_edilizia.png
+
+- name: Territorio
+  color: purple
+  metaname: territorio
+  image: /assets/images/icons/rosso_territorio.png
+
+- name: Opere Pubbliche
+  color: purple
+  metaname: operepubbliche
+  image: /assets/images/icons/rosso_operepubbliche.png
 
 - name: Cassetta degli attrezzi
   color: purple
