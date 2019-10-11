@@ -69,7 +69,6 @@
   image: /assets/images/icons/rosso_semplificazione.png
 
 - name: Caccia e pesca
-  color: purple
+  color: pink
   metaname: caccia
   image: /assets/images/icons/rosso_caccia_pesca.png
-  
