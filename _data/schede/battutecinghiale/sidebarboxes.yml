@@ -3,7 +3,7 @@
   utenza:
     - cittadini
 
-- title: Vai al servizio
+- title: Vai al gestionale
   file: vaiintermediari.md
   utenza:
     - intermediari
