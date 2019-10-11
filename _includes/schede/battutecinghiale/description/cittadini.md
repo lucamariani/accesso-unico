@@ -1,1 +1,1 @@
-Strumento online che raccoglie la storia clinica e sanitaria di una persona. Occorre autenticarsi e dare il consenso.
+Servizio on-line per segnalare e seguire le battute di caccia al cinghiale in Umbria svolte da squadre iscritte presso gli Ambiti Territoriali di Caccia

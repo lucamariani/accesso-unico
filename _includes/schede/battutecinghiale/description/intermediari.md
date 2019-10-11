@@ -1,1 +1,1 @@
-Strumento online che raccoglie la storia clinica e sanitaria di una persona. Occorre autenticarsi e dare il consenso.
+Servizio on line per la gestione delle battute di caccia al cinghiale da parte degli ATC.
