@@ -1,2 +1,9 @@
 - title: Vai al servizio
-  file: vai.md
+  file: vaicittadini.md
+  utenza:
+    - cittadini
+
+- title: Vai al servizio
+  file: vaiintermediari.md
+  utenza:
+    - vaiintermediari
