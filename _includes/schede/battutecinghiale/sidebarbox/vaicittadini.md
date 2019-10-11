@@ -1,1 +1,1 @@
-[Vai al gestionale](http://applicazioni.regione.umbria.it/caccia-battute)
+[](http://applicazioni.regione.umbria.it/caccia-battute)
