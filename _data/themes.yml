@@ -67,3 +67,8 @@
   color: purple
   metaname: semplificazione
   image: /assets/images/icons/rosso_semplificazione.png
+
+- name: Caccia e pesca
+  color: purple
+  metaname: cacciapesca
+  image: /assets/images/icons/cerchio_rosso_caccia_pesca.png

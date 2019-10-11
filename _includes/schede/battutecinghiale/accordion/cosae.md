@@ -1,0 +1,3 @@
+Un servizio on-line finalizzato al popolamento in tempo reale di un data-base relativo alla composizione delle squadre di caccia, alla segnalazione della battuta e alla comunicazione dei dati di abbattimento trasmessi il giorno della battuta stessa o pochi giorni dopo.
+Un servizio on-line per consultare liberamente i settori del territorio regionale interessati dalle battute di caccia.
+E’ di utilità per i cacciatori coinvolti nella caccia al cinghiale in battuta, per gli Ambiti Territoriali di Caccia, per i servizi di Polizia provinciale e per tutto il pubblico interessato alla fruizione del territorio agro-silvo-pastorale, come escursionisti o cercatori di funghi e tartufi.
