@@ -2,7 +2,7 @@
 layout: scheda
 object: battutecinghiale
 utenza: intermediari
-tema: caccia
+tema: caccia_pesca
 tipo: servizio
 title: Battute di caccia al cinghiale nel territorio umbro
 subtitle: caccia, venatorio, cacciatore, cinghiale, battuta
