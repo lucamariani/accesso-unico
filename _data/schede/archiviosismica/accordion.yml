@@ -1,0 +1,39 @@
+# A list of accordions
+#
+# Title: the title of the accordion
+# File: the file name where the content of this accordion is stored
+# Utenza: onditional visibility for profile
+# - entries without "utenza" key are visible for all profiles
+# - entries with "utenza" key are visible only for that profiles
+
+- title: "Cosa è"
+  file: "cosae.md"
+  utenza:
+    - imprese
+    - intermediari
+    - pa
+    - cittadini
+
+- title: "Modalità di accesso"
+  file: "modalita_accesso.md"
+  utenza:
+    - imprese
+    - intermediari
+    - pa
+    - cittadini
+
+- title: "Costi"
+  file: "costi.md"
+  utenza:
+    - imprese
+    - intermediari
+    - pa
+    - cittadini
+
+- title: "Modalità di accesso per progetti antecedenti il 9 dicembre 1981"
+  file: "modalita_ante1981.md"
+  utenza:
+    - imprese
+    - intermediari
+    - pa
+    - cittadini
