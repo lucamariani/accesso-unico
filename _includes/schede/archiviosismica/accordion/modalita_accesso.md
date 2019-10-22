@@ -21,6 +21,7 @@ L'istanza può essere presentata:
 - tramite **invio con posta certificata** al seguente indirizzo:  direzioneterritorio@pec.regione.umbria.it.
 
 Nell'oggetto della PEC indicare :
+
 In caso di **primo accesso**: Richiesta Accesso agli Atti  - Nome e cognome del Committente - Protocollo riferimento progetto (se conosciuto)
 
 In caso di **integrazione**: Integrazione Accesso Atti  - Nome e cognome del Committente - Protocollo riferimento progetto (se conosciuto).
@@ -40,10 +41,6 @@ Per i **condomini** allegare il verbale assemblea che autorizzi l'accesso.
 
 **Per l'ambito territoriale di Perugia:**
 
-Servizio Rischio Sismico.
-
-Sezione Rischio sismico, normativa antisismica e prevenzione sismica. Genio civile.
-
 Sede : Via Palermo, 86/A - piano 3 - 06124 Perugia.
 
 Orario:          (Martedì e Venerdì ore 9.00 - 12.00 previo appuntamento telefonico)
@@ -60,10 +57,6 @@ Marco Cittadini             0755044344 mcittadini@regione.umbria.it
 
 
 **Per l'ambito territoriale di Terni:**
-
-Servizio Rischio Sismico.
-
-Sezione Rischio sismico, normativa antisismica e prevenzione sismica. Genio civile.
 
 Sede: Edificio Centro Multimediale Terni – piano 2-  Piazzala Bosco 3/a – 05100 Terni
 

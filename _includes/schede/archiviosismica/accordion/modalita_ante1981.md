@@ -4,7 +4,9 @@
 
 **Nell'ambito territoriale di Perugia:**
 
-Servizio Opere Pubbliche, Programmazione, Progettazione e Attuazione, Monitoraggio e Sicurezza. Sez. Attività Tecnico Amministrativa
+Servizio Opere Pubbliche, Programmazione, Progettazione e Attuazione, Monitoraggio e Sicurezza.
+
+Sez. Attività Tecnico Amministrativa
 
 Rivolgersi a:
 
