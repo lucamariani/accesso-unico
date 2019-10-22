@@ -1,2 +1,2 @@
 
-[Clicca qui](http://applicazioni.regione.umbria.it/caccia-admin)
+[Per andare al gestionale clicca qui](http://applicazioni.regione.umbria.it/caccia-admin)

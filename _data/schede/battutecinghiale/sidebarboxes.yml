@@ -1,9 +1,9 @@
-- title: Per andare al servizio
+- title:
   file: vaicittadini.md
   utenza:
     - cittadini
 
-- title: Per andare al gestionale
+- title: 
   file: vaiintermediari.md
   utenza:
     - intermediari
