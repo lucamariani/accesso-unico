@@ -2,7 +2,7 @@
 Le iscrizioni delle squadre, le segnalazioni di battuta e la trasmissione dei dati di abbattimento sono servizi che necessitano di registrazione rispettivamente da parte degli ATC, dei capisquadra, loro delegati, ovvero solo alcuni cacciatori autorizzati per ciascuna squadra.
 
 Se **sei un cacciatore**, per ottenere l'accesso al gestionale di immissione delle battute di caccia, è necessario:
-- iscriversi al Sistema di Identità Digitale della Regione Umbria “FED-Umbria” raggiungibile al seguente indirizzo: [](https://identity.pa.umbria.it/);
+- iscriversi al Sistema di Identità Digitale della Regione Umbria “FED-Umbria” raggiungibile al seguente indirizzo: [https://identity.pa.umbria.it/](https://identity.pa.umbria.it/);
 - comunicare al proprio ATC di competenza il nominativo, il codice fiscale e la squadra di appartenenza.
 Entro pochi giorni sarà attivo l’accesso al gestionale raggiungibile all’indirizzo: http://applicazioni.regione.umbria.it/caccia-battute
 
