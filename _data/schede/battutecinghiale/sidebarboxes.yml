@@ -3,7 +3,13 @@
   utenza:
     - cittadini
 
-- title: 
+- title:
   file: vaiintermediari.md
   utenza:
+    - intermediari
+
+- title: Manualistica
+  file: manualistica.md
+  utenza:
+    - cittadini
     - intermediari
