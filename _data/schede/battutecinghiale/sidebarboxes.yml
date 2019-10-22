@@ -1,0 +1,15 @@
+- title:
+  file: vaicittadini.md
+  utenza:
+    - cittadini
+
+- title:
+  file: vaiintermediari.md
+  utenza:
+    - intermediari
+
+- title: Manualistica
+  file: manualistica.md
+  utenza:
+    - cittadini
+  
