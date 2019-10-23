@@ -1,0 +1,7 @@
+- title: Consulta i dati
+  file: vaialservizio.md
+  utenza:
+    - cittadini
+    - intermediari
+    - imprese
+    - pa
