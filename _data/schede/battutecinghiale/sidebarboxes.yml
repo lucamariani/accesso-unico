@@ -1,12 +1,9 @@
 - title: Vai al servizio
-  file: vaicittadini.md
+  file: vaialservizio.md
   utenza:
     - cittadini
-
-- title: Vai al servizio
-  file: vaiintermediari.md
-  utenza:
     - intermediari
+
 
 - title: Manualistica
   file: manualistica.md
