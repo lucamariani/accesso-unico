@@ -1,2 +1,2 @@
 
-[Per andare al gestionale clicca qui](http://applicazioni.regione.umbria.it/caccia-admin)
+[Se sei un addetto ATC](http://applicazioni.regione.umbria.it/caccia-admin)
