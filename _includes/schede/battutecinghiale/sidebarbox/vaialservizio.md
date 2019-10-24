@@ -1,1 +1,1 @@
-[Se sei un cacciatore](http://applicazioni.regione.umbria.it/caccia-battute)
+[Vai al gestionale](http://applicazioni.regione.umbria.it/caccia-battute)
