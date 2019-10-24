@@ -14,8 +14,3 @@ Per scaricare la APP di segnalazione delle battute di caccia al cinghiale in svo
 [App Segnalazione di inizio battuta ](http://www.regione.umbria.it/documents/18/18079694/App+Segnalazione+Battute/cee7ea16-6c80-4451-a099-c8f9c0580a56)
 
 Entro la fine della stagione venatoria deve completarsi l'immissione dei verbali.
-
-
-**Se sei un addetto dell’ATC** occorre essere autorizzato e registrato al sistema.
-
-Il 30 giugno di ogni anno è la scadenza per iscrizione delle squadre.

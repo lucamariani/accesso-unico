@@ -2,8 +2,11 @@
   file: vaialservizio.md
   utenza:
     - cittadini
-    - intermediari
 
+- title: Accedi al gestionale
+  file: vaialgestionale.md
+  utenza:
+    - intermediari
 
 - title: Manualistica
   file: manualistica.md
