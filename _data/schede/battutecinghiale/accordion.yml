@@ -10,19 +10,19 @@
 - title: "Cosa è"
   file: "cosae.md"
   utenza:
-    - Cittadini
+    - cittadini
     - intermediari
 
 - title: "A chi è rivolto"
   file: "achierivolto.md"
   utenza:
-    - Cittadini
+    - cittadini
     - intermediari
 
 - title: "Come funziona"
   file: "comefunziona.md"
   utenza:
-    - Cittadini
+    - cittadini
 
 - title: "Come funziona"
   file: "comefunzionainter.md"
