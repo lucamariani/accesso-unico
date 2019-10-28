@@ -12,33 +12,33 @@ modulistica:
     documenti:
       - nome: Certificazione preventiva sull'esistenza e qualita' dei vincoli
         denominazione: Certificazione preventiva sull'esistenza e qualita' dei vincoli
-        release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/26.pdf
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/26-2.pdf
 
       - nome: CILA
         denominazione: Comunicazione inizio lavori asseverata - CILA
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/27.pdf
+        release: 3
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/27-3.pdf
 
       - nome: Comunicazione fine lavori
         denominazione: Comunicazione fine lavori
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/28.pdf
+        release: 3
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/28-3.pdf
 
       - nome: Dichiarazione che tiene luogo dell'agibilità
         denominazione: Dichiarazione che tiene luogo dell'agibilità
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/29.pdf
+        release: 3
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/29-3.pdf
 
       - nome: Dichiarazione di conformità del piano attuativo
         denominazione: Dichiarazione di conformità del piano attuativo
-        release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/30.pdf
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/30-2.pdf
 
       - nome: Dichiarazione per l'agibilità
         denominazione: Dichiarazione per l'agibilità
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/31.pdf
+        release: 3
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/31-3.pdf
 
       - nome: Elaborati progettuali minimi necessari a corredo delle istanze per i titoli abitativi
         denominazione: Elaborati progettuali minimi necessari a corredo delle istanze di Permesso di costruire e di SCIA
@@ -47,18 +47,18 @@ modulistica:
 
       - nome: Modulo SCIA
         denominazione: Segnalazione certificata di inizio attività
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/33.pdf
+        release: 3
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/33-3.pdf
 
       - nome: Permesso di costruire
         denominazione: Richiesta di permesso di costruire
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/34.pdf
+        release: 3
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/34-3.pdf
 
       - nome: Soggetti coinvolti
         denominazione: Soggetti coinvolti
-        release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/35.pdf
+        release: 2
+        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/35-2.pdf
 
 
 
