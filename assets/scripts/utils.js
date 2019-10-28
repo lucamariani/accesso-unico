@@ -87,3 +87,25 @@ var hoverForMobile = function(selector, label) {
   const activeSelector = selector + ':active'
   $(selector).css(activeSelector,'red')
 }
+
+/**
+ * Get the max height from a list of items fetched by selectors
+ */
+const getMaxHeight = function(selector) 
+{
+  const maxHeight = Math.max.apply(null, $(selector).map(function ()
+  {
+      return $(this).height();
+  }).get())
+  return maxHeight
+}
+
+/**
+ * Set the max height from a list of items fetched by selectors
+ * @param {*} selector 
+ */
+const setMaxHeight = function(selector) 
+{
+  const maxHeight = getMaxHeight(selector)
+  $(selector).height(maxHeight)
+}

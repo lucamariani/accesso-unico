@@ -31,16 +31,19 @@
                             </div>
                             {% unless forloop.last %}&nbsp;{% endunless %}
                             {% endfor %}
-                            <!-- <span class="u-text-r-xxs u-textSecondary u-textWeight-400 u-lineHeight-xl u-cf">{{ scheda.date | date: "%d-%m-%Y"}}</span> -->
                         </p>
-                        <h3 class="u-padding-r-top u-padding-r-bottom"><a class="u-text-h4 u-textClean u-color-black"
-                                href="{{site.baseurl}}{{ scheda.url }}">
-                                {{ scheda.title }}
-                            </a>
-                        </h3>
-                        <p class="u-lineHeight-l u-text-r-xs u-textSecondary u-padding-r-right">
-                                {{ scheda.subtitle }}
-                        </p>
+                        <div class="anteprima-scheda-title">
+                            <h3 class="u-padding-r-top u-padding-r-bottom"><a class="u-text-h4 u-textClean u-color-black"
+                                    href="{{site.baseurl}}{{ scheda.url }}">
+                                    {{ scheda.title }}
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="anteprima-scheda-description">
+                            <p class="u-lineHeight-l u-text-r-xs u-textSecondary u-padding-r-right">
+                                {% include schede/{{scheda.object}}/description/{{scheda.utenza}}.md %}
+                            </p>
+                        </div>
                     </div>
     
             </div>
