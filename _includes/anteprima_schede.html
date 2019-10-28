@@ -16,26 +16,34 @@
                     <div class="u-color-grey-30 u-border-top-xxs u-padding-right-xxl u-padding-r-all">
                         <p class="u-padding-r-bottom">
                             <span class="u-background-70"></span>
-                            {% for category in scheda.tema %}
+                            {% for category_metaname in scheda.tema %}
+                            <!-- get category name -->
+                            {% for item in site.data.themes %}
+                                {% if item.metaname == category_metaname %}
+                                    {% assign category_name = item.name %}
+                                {% endif %}
+                            {% endfor %}
                             <div class="home-servizio-div">
-                                <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="{{site.baseurl}}/schede_search?theme={{category|slugize}}">
-                                    <img title="{{ category | capitalize }}" class="home-servizio-category-icon" src="{{ site.baseurl}}{{ site.iconsurl }}rosso_{{ category }}.png">
-                                    <div class="home-servizio-category-text">{{category}}</div>
+                                <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="{{site.baseurl}}/schede_search?theme={{category_metaname|escape}}">
+                                    <img title="{{ category_name | capitalize }}" class="home-servizio-category-icon" src="{{ site.baseurl}}{{ site.iconsurl }}rosso_{{ category_metaname }}.png">
+                                    <div class="home-servizio-category-text">{{category_name}}</div>
                                 </a>
                             </div>
                             {% unless forloop.last %}&nbsp;{% endunless %}
                             {% endfor %}
-                            <!-- <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="#">{{ scheda.categories }}</a> -->
-                            <span class="u-text-r-xxs u-textSecondary u-textWeight-400 u-lineHeight-xl u-cf">{{ scheda.date | date: "%d-%m-%Y"}}</span>
                         </p>
-                        <h3 class="u-padding-r-top u-padding-r-bottom"><a class="u-text-h4 u-textClean u-color-black"
-                                href="{{site.baseurl}}{{ scheda.url }}">
-                                {{ scheda.title }}
-                            </a>
-                        </h3>
-                        <p class="u-lineHeight-l u-text-r-xs u-textSecondary u-padding-r-right">
-                                {{ scheda.subtitle }}
-                        </p>
+                        <div class="anteprima-scheda-title">
+                            <h3 class="u-padding-r-top u-padding-r-bottom"><a class="u-text-h4 u-textClean u-color-black"
+                                    href="{{site.baseurl}}{{ scheda.url }}">
+                                    {{ scheda.title }}
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="anteprima-scheda-description">
+                            <p class="u-lineHeight-l u-text-r-xs u-textSecondary u-padding-r-right">
+                                {% include schede/{{scheda.object}}/description/{{scheda.utenza}}.md %}
+                            </p>
+                        </div>
                     </div>
     
             </div>

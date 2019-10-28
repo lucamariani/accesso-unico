@@ -12,23 +12,32 @@
 
             {% for post in site.posts limit:4  %}
             <div class="Grid-cell u-md-size1of4 u-lg-size1of4">
-                    <div class="u-color-grey-30 u-border-top-xxs u-padding-right-xxl u-padding-r-all">
-                        <p class="u-padding-r-bottom">
-                            <span class="Dot u-background-70"></span>
-                            {% for category in post.categories %}
-                            <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-                            {% unless forloop.last %}&nbsp;{% endunless %}
-                            {% endfor %}
-                            <!-- <a class="u-textClean u-textWeight-700 u-text-r-xs u-color-50" href="#">{{ post.categories }}</a> -->
+                    <div class="u-color-grey-30 u-border-top-xxs u-padding-right-xxl u-padding-r-all">                        
+                        <div class="anteprima-news-title">
+                            <h3 class="u-padding-r-top"><a class="u-text-h4 u-textClean u-color-black"
+                                    href="{{site.baseurl}}{{ post.url }}">
+                                    {{ post.title }}
+                                </a>
+                            </h3>
                             <span class="u-text-r-xxs u-textSecondary u-textWeight-400 u-lineHeight-xl u-cf">{{ post.date | date: "%d-%m-%Y"}}</span>
-                        </p>
-                        <h3 class="u-padding-r-top u-padding-r-bottom"><a class="u-text-h4 u-textClean u-color-black"
-                                href="{{site.baseurl}}{{ post.url }}">
-                                {{ post.title }}
-                            </a>
-                        </h3>
-                        <p class="u-lineHeight-l u-text-r-xs u-textSecondary u-padding-r-right">
-                                {{ post.subtitle }}
+                        </div>
+                        <div class="anteprima-news-subtitle">
+                            <p class="u-lineHeight-l u-text-r-xs u-textSecondary u-padding-r-right u-padding-r-top">
+                                    {{ post.subtitle }}
+                            </p>
+                        </div>
+                        <p class="u-padding-r-top">
+                            {% for category_metaname in post.categories %}
+                            <!-- get category name -->
+                            {% for item in site.data.themes %}
+                                {% if item.metaname == category_metaname %}
+                                    {% assign category_name = item.name %}
+                                {% endif %}
+                            {% endfor %}
+                            <img title="{{ category_name | capitalize }}" class="home-news-category-icon" src="{{ site.baseurl}}{{ site.iconsurl }}rosso_{{ category_metaname }}.png">
+                            <a class="u-textClean u-textWeight-700 u-text-r-xxs u-color-50" href="{{site.baseurl}}/news_search?theme={{category_metaname|slugize}}">{{category_name}}</a>
+                            {% unless forloop.last %}<br>{% endunless %}
+                            {% endfor %}                                                        
                         </p>
                     </div>
     

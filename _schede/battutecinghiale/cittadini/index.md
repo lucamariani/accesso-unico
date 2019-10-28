@@ -2,7 +2,7 @@
 layout: scheda
 object: battutecinghiale
 utenza: cittadini
-tema: caccia e pesca
+tema: cacciapesca
 tipo: servizio
 title: Battute di caccia al cinghiale
 subtitle: caccia, venatorio, cacciatore, cinghiale, battuta

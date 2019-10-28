@@ -76,59 +76,23 @@ function displaySearchResults(results, store) {
   $('#result-section').show();
 }
 
-/*var titleSuggestionHandling = function() {
-  console.log("titleSuggestionHandling");
-  var $titles = $('#titolo-listing > ul > li').clone()
+/*
+ * Hide search mask and show new search button
+ */
+var hideSearchMask = function() {
+  $( "#news-search-form" ).toggle();
+  $( "#new-search-btn" ).toggle();
 
-  $('#titolo').on('keydown', function(event) {
-    if (event.which === 9 && $(this).is(':focus')) {
-      $(this).blur()
-      return true
-    }
-  })
-
-  $('#titolo').on('keyup', function(event) {
-    var text = event.target.value.toLowerCase()
-
-    $('#titolo-listing > ul').html($titles.filter(function(index, elem) {
-      var title = $(elem).find('span').html().toLowerCase()
-      console.log("title: " + title)
-
-      if (title.indexOf(text) >= 0) {
-        return elem
-      }
-    }))
-    $('#titolo-listing > ul > li:first').trigger('mouseenter')
-  })
+  $( "#new-search-btn" ).click(function() {
+    $( "#news-search-form" ).show( "blind", function() {
+      // Animation complete.
+    });
+    $( "#new-search-btn" ).hide();
+  });
 }
 
-var numberSuggestionHandling = function() {
-  var $numbers = $('#numero-listing > ul > li').clone()
-
-  $('#numero').on('keydown', function(event) {
-    if (event.which === 9 && $(this).is(':focus')) {
-      $(this).blur()
-      return true
-    }
-  })
-
-  $('#numero').on('keyup', function(event) {
-    var text = event.target.value.toLowerCase()
-    $('#numero-listing > ul').html($numbers.filter(function(index, elem) {
-      var number = $(elem).find('span').html().toLowerCase()
-
-      if (number.indexOf(text) >= 0) {
-        return elem
-      }
-    }))
-    $('#numero-listing > ul > li:first').trigger('mouseenter')
-  })
-}*/
-
-$(function() {
-  //
-  //titleSuggestionHandling();
-  //numberSuggestionHandling();
+$(function() 
+{
   applyUrlFilters();
 
   /* submit handling */
@@ -149,26 +113,30 @@ $(function() {
     if ( tags.indexOf('---') < 0 )
       search_pattern += ' +tags:' + tags;
 
-    console.log('searching for ' + search_pattern);
+    // console.log('searching for ' + search_pattern);
     var results = idx.search(search_pattern);
-    console.log(results);
+    // console.log(results);
+    hideSearchMask();
     displaySearchResults(results, window.news);
   });
 
 })
 
 var applyUrlFilters = function() {
-  console.log('applyUrlFilters...');
+  console.log('news applyUrlFilters...');
   // search for theme
-  var categoryFilters = getAllUrlParams().category;
+  var categoryFilters = getAllUrlParams().theme;
+  console.log('categoryFilters: ', getAllUrlParams())
   if( categoryFilters ) {
     var search_pattern = '+category:' + categoryFilters;
+    hideSearchMask();
     searchFor( search_pattern );
   }
   // search for tags
   var tagFilters = getAllUrlParams().tags;
   if( tagFilters ) {
     var search_pattern = '+tags:' + tagFilters;
+    hideSearchMask();
     searchFor( search_pattern );
   }
 }

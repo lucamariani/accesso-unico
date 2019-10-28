@@ -13,11 +13,6 @@
   metaname: turismo
   image: /assets/images/icons/rosso_turismo.png
 
-- name: Industria e Attività Manifatturiere
-  color: lightblue
-  metaname: industria
-  image: /assets/images/icons/rosso_industria.png
-
 - name: Commercio
   color: lightblue
   metaname: commercio
@@ -70,5 +65,5 @@
 
 - name: Caccia e pesca
   color: pink
-  metaname: caccia e pesca
-  image: /assets/images/icons/rosso_caccia e pesca.png
+  metaname: cacciapesca
+  image: /assets/images/icons/rosso_cacciapesca.png

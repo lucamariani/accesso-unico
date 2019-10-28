@@ -176,9 +176,9 @@ $(function() {
     if ( tipo.indexOf('---') < 0 )
       search_pattern += ' +tipo:' + tipo;
 
-    console.log('searching for ' + search_pattern);
+    // console.log('searching for ' + search_pattern);
     var results = idx.search(search_pattern);
-    console.log(results);
+    // console.log(results);
     //hide search mask and show new search Button
     hideSearchMask();
     displaySearchResults(results, utenza, theme, tipo);
