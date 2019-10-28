@@ -70,5 +70,5 @@
 
 - name: Caccia e pesca
   color: pink
-  metaname: caccia e pesca
-  image: /assets/images/icons/rosso_caccia e pesca.png
+  metaname: cacciapesca
+  image: /assets/images/icons/rosso_cacciapesca.png
