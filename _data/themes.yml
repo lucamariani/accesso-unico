@@ -13,11 +13,6 @@
   metaname: turismo
   image: /assets/images/icons/rosso_turismo.png
 
-- name: Industria e Attività Manifatturiere
-  color: lightblue
-  metaname: industria
-  image: /assets/images/icons/rosso_industria.png
-
 - name: Commercio
   color: lightblue
   metaname: commercio

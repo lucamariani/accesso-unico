@@ -41,18 +41,17 @@ layout: default
 
   </div>
 
-  <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
-
-    <p class="Prose u-padding-r-top u-padding-r-bottom">
-      Cerca per titolo, argomento o tag
-    </p>
+  <div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">    
 
     <form class="Form Form--spaced u-padding-r-all" id="news-search-form" action="." method="get">
+      <p class="Prose u-padding-r-top u-padding-r-bottom">
+        Cerca per titolo, argomento o tag
+      </p>
       <fieldset class="Form-fieldset">
 
         <div class="Grid Grid--withGutter u-background-white" role="search">
 
-          <div class="Grid-cell u-size4of4 u-md-size2of4 u-lg-sizeof4">
+          <div class="Grid-cell u-size4of4 u-md-size2of4 u-lg-size2of4">
             <div class="Form-field">
               <label class="Form-label" for="titolo">Titolo</label>
               <input data-menu-trigger="titolo-listing" class="Form-input u-text-r-s u-borderRadius-m" id="titolo" name="titolo" autocomplete="off" value="" />
@@ -99,9 +98,19 @@ layout: default
     <!-- Results' list -->
     <section id="result-section" class="u-nbfc u-background-grey-15 u-padding-r-all u-posRelative u-zindex-30">
       <div class="u-layout-wide u-layoutCenter">
-        <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
-          <span id="results-size" class="u-text-r-l u-textWeight-300"></span> novità trovate
-        </h2>
+        <div class="Grid">
+          <div class="Grid-cell u-size2of3 u-sm-size2of3 u-md-size3of4 u-lg-size5of6">
+            <h2 class="u-text-r-l u-textWeight-300 u-color-50 u-padding-r-bottom">
+              <span id="results-size" class="u-text-r-l u-textWeight-300"></span> novità trovate
+            </h2>
+          </div>
+          <div class="Grid-cell u-size1of3 u-sm-size1of3 u-md-size1of4 u-lg-size1of6 u-textRight">
+            <button id="new-search-btn" class="Button Button--default Button--shadow u-text-m">
+              <span class="no-mobile">Nuova ricerca </span>
+              <span class="u-sm-hidden u-md-hidden u-lg-hidden u-text-r-s Icon Icon-search"></span>
+            </button>
+          </div>
+        </div>
         <div class="u-layout-centerContent u-cf">
           <div id="news-results-list-col1" class="u-floatLeft u-size1of3 u-padding-r-right"></div>
           <div id="news-results-list-col2" class="u-floatLeft u-size1of3"></div>
