@@ -63,12 +63,8 @@ layout: default
               <label class="Form-label is-required" for="categoria">Argomento</label>
               <select class="Form-input u-text-r-s u-borderRadius-m" id="categoria" name="categoria">
                 <option selected>---</option>
-                {% assign docs_theme = site.data.docs.docs | group_by: 'tema' %}
-                {% for doc in docs_theme %}
-                  <!-- get the theme's full name -->
-                  {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == doc.name" %}
-                  {% assign tema_item = tema_items[0] %}
-                  <option class="u-color-50" value="{{ doc.name }}">{{ tema_item.name }}</option>
+                {% for category in site.data.themes %}
+                  <option class="u-color-50" value="{{ category.metaname }}">{{ category.name }}</option>
                 {% endfor %}
               </select>
             </div>

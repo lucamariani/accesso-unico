@@ -125,7 +125,7 @@ scripts:
           {% for category in news.categories %}
               {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == category" %}
               {% assign tema_item = tema_items[0] %}
-              "{{ tema_item.name }}"
+              "{{ tema_item.metaname }}"
               {% unless forloop.last %},{% endunless %}
           {% endfor %}
         ],
