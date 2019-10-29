@@ -202,6 +202,13 @@
 /* increment dialog mask z-index to cover header */
 .t-Pac .fr-dialogmodal--is-ready {z-index: 50}
 
+/* news carousel */
+.t-Pac #news-container {width: 100%;margin: 0 auto;overflow: hidden;}
+.t-Pac #news-container ul {overflow: hidden;margin: 0px;padding: 0px;width: 300%;}
+.t-Pac #news-container ul li {width: 33.3%;list-style: none;float: left;margin-right: 0%;}
+.t-Pac #news-container ul li img {width: 100%;height: auto;}
+/* .t-Pac #news-container ul li a {text-decoration-line: none;} */
+
 /* grigio scuro
 .t-Pac .Header-banner{background-color:#333333;}
 .t-Pac .Header-languages{background-color:#333333;}

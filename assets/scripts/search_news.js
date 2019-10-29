@@ -70,7 +70,7 @@ function displaySearchResults(results, store) {
     }
 
   } else {
-    searchResults.html('<p>La ricerca non ha prodotto alcun risultato</p>');
+    searchResultsObject.eq(0).html('<p>La ricerca non ha prodotto alcun risultato</p>');
   }
   // show results' section
   $('#result-section').show();

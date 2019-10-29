@@ -6,11 +6,11 @@ scripts:
 ---
 
 <!-- main point (manual) -->
-<div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">
+<div class="u-layout-wide u-layoutCenter u-text-r-l u-margin-r-bottom u-layout-r-withGutter">  
 
   <div class="u-layout-prose u-text-r-xl">
     <p class="u-textCenter u-text-h2">
-        Accesso Unico
+        Accesso Unico 
     </p>
     <p class="u-text-r-l u-textSecondary u-lineHeight-l u-textCenter">
       <span class="u-textWeight-600 u-color-70">semplifichiamo l’accesso ai servizi della Pubblica Amministrazione in Umbria</span>
@@ -125,7 +125,7 @@ scripts:
           {% for category in news.categories %}
               {% assign tema_items = site.data.themes | where_exp: "item", "item.metaname == category" %}
               {% assign tema_item = tema_items[0] %}
-              "{{ tema_item.name }}"
+              "{{ tema_item.metaname }}"
               {% unless forloop.last %},{% endunless %}
           {% endfor %}
         ],
