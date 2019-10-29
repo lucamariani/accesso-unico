@@ -1,0 +1,1 @@
+Un servizio on-line per consultare liberamente i dati sulle battute di caccia, le squadre e gli esemplari abbattuti e l'informazione in tempo reale delle battute di caccia in svolgimento nei settori del territorio regionale delimitati.

@@ -16,6 +16,9 @@
 - title: "Documenti"
   url: /docs_search
 
+- title: "Novità"
+  url: /news_search
+
 - title: "Le mie pratiche (demo)"
   url: /docs_search
   popup: pratiche

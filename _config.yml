@@ -60,6 +60,7 @@ twitter_list:
 twitter_list_title: Twitter@amministrazione
 links_leads:
 links_leads_title: A est rerum leads
+newhome: true
 
 # Build settings
 
@@ -69,7 +70,7 @@ exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "DocumentazioneAcce
 # permalink: /:categories/:title/
 markdown:          kramdown
 paginate:          5
-paginate_path:     "/posts/page:num/"#
+paginate_path:     "/posts/page:num/"
 locale: "it-IT"
 plugins:
   - jekyll-feed

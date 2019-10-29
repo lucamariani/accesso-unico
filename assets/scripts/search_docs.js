@@ -82,9 +82,6 @@ function displaySearchResults(results, store) {
       }
       appendString += '<br><br></div>';
 
-      appendString += '<a target="_blank" href="' + item.url + '">' +
-                        '<button class="Button u-background-white u-color-50 u-sizeFull go-servizio-btn">Vai al documento</button></a>';
-
       appendString += '</div></div></div></div>';
     }
 
