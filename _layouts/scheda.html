@@ -1,5 +1,7 @@
 ---
 layout: default
+scripts:
+  - /assets/scripts/news-carousel.js
 ---
 
 <div id="main">
@@ -81,6 +83,8 @@ layout: default
         {% capture theprofile %}{{ page.utenza }}{% endcapture %}
         {% capture theme %}{{ page.tema }}{% endcapture %}
         {% include schede/sidebar.html utenza=theprofile tema=theme %}
+
+        {% include novita_box.html %}
 
         <div id="tue-scelte" role="note" class="Callout Callout--example u-textCenter u-text-r-s u-margin-bottom-xl">
           <p title="" class="u-color-50 u-textWeight-700 u-text-xs" style="margin-bottom: 0px !important;">La tua scelta</p>
