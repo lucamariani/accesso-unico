@@ -1,9 +1,9 @@
-- title: Vai al servizio
+- title: Vai al Servizio
   file: vaialservizio.md
   utenza:
     - cittadini
 
-- title: Accedi al gestionale
+- title: Via al Servizio
   file: vaialgestionale.md
   utenza:
     - intermediari

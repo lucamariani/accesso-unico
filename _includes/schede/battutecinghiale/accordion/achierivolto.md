@@ -1,1 +1,1 @@
-Le iscrizioni delle squadre, le segnalazioni di battuta e la trasmissione dei dati di abbattimento sono servizi che necessitano di registrazione rispettivamente da parte degli ATC, dei capisquadra, loro delegati, ovvero solo alcuni cacciatori autorizzati per ciascuna squadra.
+Agli ATC, i capisquadra, loro delegati, ovvero solo alcuni cacciatori autorizzati per ciascuna squadra che necessitano di registrazione per utilizzare i servizi quali le iscrizioni delle squadre, le segnalazioni di battuta e la trasmissione dei dati di abbattimento

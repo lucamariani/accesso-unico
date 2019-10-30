@@ -4,7 +4,7 @@ object: battutecinghiale
 utenza: cittadini
 tema: cacciapesca
 tipo: servizio
-title: Battute di caccia al cinghiale
+title: Gestione venatoria del cinghiale
 subtitle: caccia, venatorio, cacciatore, cinghiale, battuta
 status: BETA
 statusLink: /onboard

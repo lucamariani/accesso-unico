@@ -1,12 +1,12 @@
 
 
-**Se sei un capo-squadra**, per ottenere l'accesso al gestionale di immissione delle battute di caccia, è necessario:
+Per ottenere l’accesso al servizio di immissione delle battute di caccia da parte dei capi-squadra, è necessario:
 - iscriversi al Sistema di Identità Digitale della Regione Umbria “FED-Umbria” raggiungibile al seguente indirizzo [https://identity.pa.umbria.it/](https://identity.pa.umbria.it/);
 - comunicare al proprio ATC di competenza il nominativo, il codice fiscale e la squadra di appartenenza.
 
-Entro pochi giorni sarà attivo l’accesso al gestionale.
+La procedura di registrazione si concluderà entro pochi giorni e sarà attivo l’accesso al servizio.
 
-Per la segnalazione dell'avvio della battuta in tempo reale i capisquadra devono utilizzare l'applicazione “Segnalazione Battuta” da installare sul proprio smartphone o su quello di alcuni altri componenti della squadra.
+Per la segnalazione dell'**avvio della battuta in tempo reale** i capisquadra devono utilizzare l'applicazione “Segnalazione Battuta” da installare sul proprio smartphone o su quello di alcuni altri componenti della squadra.
 
 Per scaricare la APP di segnalazione delle battute di caccia al cinghiale in svolgimento, funzionante su cellulari android, cliccare sul link seguente:
 
