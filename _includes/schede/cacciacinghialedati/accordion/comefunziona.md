@@ -1,3 +1,3 @@
 
 
-I dati delle battute di caccia al cinghiale sono liberamente consultabili on-line da tutti gli interessati.
+I servizi on-line sono liberamente accessibili da tutti gli interessati senza necessità di autenticazione

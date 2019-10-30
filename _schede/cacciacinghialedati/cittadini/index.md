@@ -4,7 +4,7 @@ object: cacciacinghialedati
 utenza: cittadini
 tema: cacciapesca
 tipo: servizio
-title: Dati su caccia al cinghiale
+title: Caccia al cinghiale
 subtitle: caccia, venatorio, cacciatore, cinghiale, battuta
 status: BETA
 statusLink: /onboard
