@@ -1,7 +1,3 @@
-●	Per le pratiche antecedenti l'anno 1972, la competenza è della Prefettura di Perugia e Terni
-
-●	Per le pratiche da gennaio 1972 al 08 dicembre 1981 la competenza è della Regione Umbria:
-
 **Nell'ambito territoriale di Perugia:**
 
 Servizio Opere Pubbliche, Programmazione, Progettazione e Attuazione, Monitoraggio e Sicurezza.

@@ -1,4 +1,12 @@
 
+- title: Vai alla piattaforma
+  file: piattaforma.md
+  utenza:
+    - imprese
+    - intermediari
+    - pa
+    - cittadini
+
 - title: Modulistica
   file: modulistica.md
   utenza:
