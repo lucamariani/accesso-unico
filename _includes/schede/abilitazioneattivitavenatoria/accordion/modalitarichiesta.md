@@ -2,7 +2,7 @@
 
 Tutti i cittadini maggiorenni aspiranti cacciatori che hanno residenza in Umbria.
 
-**Come fare**:
+**Come fare**
 
 L’aspirante cacciatore deve trasmettere alla Regione Umbria una domanda in bollo per sostenere l’esame il cui superamento è necessario per conseguire l’abilitazione all’esercizio venatorio; l’attestato viene spedito/rilasciato il giorno dell’esame……
 
