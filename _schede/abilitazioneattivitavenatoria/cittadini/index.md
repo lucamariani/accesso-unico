@@ -4,7 +4,7 @@ object: abilitazioneattivitavenatoria
 utenza: cittadini
 tema: cacciapesca
 tipo: pratica
-title: Gestione venatoria del cinghiale
+title: Abilitazione all'attività venatoria
 subtitle: caccia, venatorio, licenza, cacciatore, esame
 status: BETA
 statusLink: /onboard
