@@ -5,7 +5,7 @@ utenza: imprese
 tema: operepubbliche
 tipo: pratica
 title: Elenco regionale dei professionisti
-subtitle: opere pubbliche, affidamento diretto, servizi, architettura, ingegneria
+subtitle: opere pubbliche, affidamento diretto, architettura, ingegneria
 status: BETA
 statusLink: /onboard
 ---
