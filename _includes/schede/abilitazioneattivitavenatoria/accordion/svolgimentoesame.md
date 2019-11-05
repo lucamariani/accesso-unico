@@ -2,9 +2,9 @@
 
 Il giorno dell’esame occorre presentarsi all’indirizzo indicato nella convocazione di fronte alla commissione insediata presso la Regione Umbria  muniti di:
 
-•	un certificato medico di idoneità psicofisica, avente data non anteriore a sei mesi, rilasciato dalla ASL competente per territorio o da altra autorità sanitaria abilitata al rilascio
-
-•	un documento di identità valido
+- un certificato medico di idoneità psicofisica, avente data non anteriore a sei mesi, rilasciato dalla ASL competente per territorio o da altra autorità sanitaria abilitata al rilascio
+ 
+- un documento di identità valido
 
 La prova d’esame in forma scritta e orale verte sulle seguenti materie:
 
