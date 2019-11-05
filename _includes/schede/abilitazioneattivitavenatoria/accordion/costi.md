@@ -1,7 +1,7 @@
-Il pagamento per l'abilitazione all'esercizio venatorio va effettuato esclusivamente tramite l'Anagrafica Regionale dei Cacciatori, la quale consente il controllo automatico dell'avvenuto pagamento, indispensabile per il rilascio del tesserino venatorio annuale.
+16€ di marca da bollo da apporre sulla domanda
 
-Il cacciatore dovrà compilare i campi richiesti dei propri dati anagrafici, oppure, in alternativa, effettuare il login tramite SPID o FEDUMBRIA per recuperare i dati anagrafici in automatico.
+16€ di marca da bollo che viene apposta sull’attestato di idoneità
 
-A seguire dovrà scegliere il tipo di abilitazione e il periodo di validità per il quale effettua il versamento.
+tassa annuale di concessione regionale per l’esercizio venatorio il cui importo varia ( vedi [PAGOPA](https://pagoumbria.regione.umbria.it/pagoumbria/addon/caccia/edit.jsf?m=4&idEnte=33ED3E1B55346CBB0001) ).
 
-Al termine potrà effettuare il pagamento direttamente on-line (carta di credito, bonifico, PayPal, etc), oppure stampare un documento per il pagamento differito da consegnare presso i prestatori di servizi di pagamento (Uffici Postali, Ricevitorie, Tabaccherie, ATM Bancomat, etc.). Il pagamento avviene grazie al sistema elettronico di Pagamento per la Pubblica Amministrazione PagoUmbria/PagoPA
+Il rilascio della licenza di caccia richiede anche il pagamento della relativa tassa di concessione governativa legato alla pratica per il rilascio della prima licenza di porto d’armi per uso di caccia c/o la Questura della provincia di residenza.
