@@ -1,2 +1,1 @@
-scarica i modelli che ti interessano:
-{% include modulisticaacg_select.html %}
+[Vai ai quesiti ricorrenti](http://www.regione.umbria.it/opere-pubbliche/quesiti-ricorrenti-faq)
