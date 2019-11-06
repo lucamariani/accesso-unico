@@ -16,9 +16,9 @@ Il cacciatore dovrà compilare i campi richiesti dei propri dati anagrafici, opp
 
 A seguire dovrà scegliere il tipo di abilitazione e il periodo di validità per il quale effettua il versamento.
 
-Al termine potrà effettuare il pagamento direttamente on-line (carta di credito, bonifico, PayPal, etc), oppure stampare un documento per il pagamento differito da consegnare presso i prestatori di servizi di pagamento (Uffici Postali, Ricevitorie, Tabaccherie, ATM Bancomat, etc.). 
+Al termine potrà effettuare il pagamento direttamente on-line (carta di credito, bonifico, PayPal, etc), oppure stampare un documento per il pagamento differito da consegnare presso i prestatori di servizi di pagamento (Uffici Postali, Ricevitorie, Tabaccherie, ATM Bancomat, etc.).
 
-Il pagamento avviene grazie al sistema elettronico di Pagamento per la Pubblica Amministrazione PagoUmbria/PagoPA, per maggiori informazioni vedere le F.A.Q. di PagoPA.
+Il pagamento avviene grazie al sistema elettronico di Pagamento per la Pubblica Amministrazione PagoUmbria/PagoPA, per maggiori informazioni vedere le [F.A.Q. di PagoPA](https://docs.italia.it/italia/pagopa/pagopa-docs-faq/it/stabile/_docs/FAQ_sezioneA.html)
 
 Nel caso si scelga il pagamento differito notare bene che questo andrà effettuato esclusivamente tramite il documento stampato all'atto dell'iscrizione e non compilando ulteriori bollettini postali altrimenti non verrebbe abbinato all'iscrizione all'anagrafica unica e non verrebbe stampato il tesserino venatorio per quel cacciatore.
 
