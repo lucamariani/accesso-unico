@@ -22,4 +22,12 @@ Il pagamento avviene grazie al sistema elettronico di Pagamento per la Pubblica 
 
 Nel caso si scelga il pagamento differito notare bene che questo andrà effettuato esclusivamente tramite il documento stampato all'atto dell'iscrizione e non compilando ulteriori bollettini postali altrimenti non verrebbe abbinato all'iscrizione all'anagrafica unica e non verrebbe stampato il tesserino venatorio per quel cacciatore.
 
+Seguire il seguente collegamento:
+
+[Pagamento abilitazione all'esercizio venatorio tramite anagrafica regionale dei cacciatori](https://serviziinrete.regione.umbria.it/lc/content/dam/formsanddocuments/01212820540_Caccia/pagamento_tassa_regionale/jcr:content?wcmmode=disabled&dataRef=http%3A%2F%2Flocalhost%3A8080%2Frest%2Fservices%2FModulisticaOnline%2FGetForm%2FPrecompiledData%3Fin_string_formid%3Dpagamento_tassa_regionale%26in_string_extensions%3DAF%26in_int_id_dipartimento%3D4%26in_int_id_ente%3D1%26in_xml_data%3D%26in_string_pathdata%3D):
+
+
+
+
+
 ---
