@@ -13,7 +13,7 @@ Le tipologie di servizio per cui si può richiedere l'iscrizione in Elenco sono 
 "prestazioni inerenti le tecnologie dell'informazione e comunicazione".
 
 Le fasce d'importo sono:
-- Fascia 1: servizi di importo stimato inferiori a 20.000,00 euro;
-- Fascia 2: servizi di importo stimato compreso tra 20.000,00 euro ed inferiore a 100.000,00 euro.
+- **Fascia 1**: servizi di importo stimato inferiori a 20.000,00 euro;
+- **Fascia 2**: servizi di importo stimato compreso tra 20.000,00 euro ed inferiore a 100.000,00 euro.
 
 E' possibile richiedere l'iscrizione nell'Elenco per un numero massimo di dieci tipologie di servizi, scelti complessivamente in entrambe le Fasce 1 e 2.

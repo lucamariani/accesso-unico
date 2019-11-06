@@ -14,10 +14,10 @@ g) limitatamente ai servizi di collaudo e ai servizi di supporto tecnico amminis
 Per il possesso del requisiti necessari all’iscrizione si rimanda all'art. 2 alla Disciplina approvata con deliberazione della Giunta Regionale n. 1399 del 11/10/2010, modificata con deliberazione della Giunta regionale n. 341 del 23/03/2015.
 
 
-Pertanto, prima di iniziare l’iter, occorre:
+Pertanto, **prima di iniziare** l’iter, occorre:
 
-- accertare il proprio profilo professionale in relazione al modello di domanda da presentare: esistono infatti differenti modelli.
+- **accertare** il proprio profilo professionale in relazione al modello di domanda da presentare: esistono infatti differenti modelli.
 
-- determinare le tipologie di servizi e le relative fasce di importo per cui si chiede l'iscrizione: occorre il possesso di specifici requisiti minimi.
+- **determinare** le tipologie di servizi e le relative fasce di importo per cui si chiede l'iscrizione: occorre il possesso di specifici requisiti minimi.
 
-- scegliere se sottoscrivere l'istanza tramite firma digitale o firma autografa in relazione agli strumenti digitali posseduti da ciascun soggetto sottoscrittore.
+- **scegliere** se sottoscrivere l'istanza tramite firma digitale o firma autografa in relazione agli strumenti digitali posseduti da ciascun soggetto sottoscrittore.
