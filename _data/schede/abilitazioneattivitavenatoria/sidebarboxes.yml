@@ -2,3 +2,7 @@
   file: vaialservizioattivitavenatoria.md
   utenza:
     - cittadini
+- title: Test
+  file: test.md
+  utenza:
+    - cittadini
