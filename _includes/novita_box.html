@@ -17,7 +17,7 @@
                   <!-- show last 3 news for this theme -->
                   {% for news in site.categories[page.tema] | limit: 3 %}
                   <li id="news-slide-{{ forloop.index }}"><a class="u-textLeft u-text-r-xs u-color-grey-80"
-                      href="{{ news.url }}">{{ news.title }}</a></li>
+                      href="{{site.baseurl}}{{ news.url }}">{{ news.title }}</a></li>
                   {% endfor %}
                 </ul>
               </div>
