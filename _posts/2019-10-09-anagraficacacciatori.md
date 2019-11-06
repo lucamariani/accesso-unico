@@ -9,7 +9,9 @@ categories: [cacciapesca]
 summary:
 ---
 
-**Anagrafica Regionale dei cacciatori**
+#Anagrafica Regionale dei cacciatori
+
+---
 
 E' stata realizzata l'anagrafica unificata a livello regionale dei cacciatori umbri
 Abilitazione all'esercizio venatorio:
@@ -22,4 +24,3 @@ Il cacciatore dovrà compilare i campi richiesti dei propri dati anagrafici, opp
 
 Nel caso si scelga il pagamento differito notare bene che questo andrà effettuato esclusivamente tramite il documento stampato all'atto dell'iscrizione e non compilando ulteriori bollettini postali altrimenti non verrebbe abbinato all'iscrizione all'anagrafica unica e non verrebbe stampato il tesserino venatorio per quel cacciatore.
 
----
