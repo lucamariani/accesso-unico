@@ -2,13 +2,13 @@
 layout: post
 title:  "Adozione del Piano Faunistico Venatorio Regionale 2019-2023"
 titles_color: 'black'
-subtitle:
+subtitle: "Con Deliberazione di Giunta Regionale n. 881 del 15/7/2019 è stato adottato il Piano Faunistico Venatorio Regionale 2019-2023.
+"
 background:
 search_image:
 categories: [cacciapesca]
 summary: ''
 ---
-Con Deliberazione di Giunta Regionale n. 881 del 15/7/2019 è stato adottato il Piano Faunistico Venatorio Regionale 2019-2023.
 
 Il PFVR 2019-2023 è stato approvato dall'Assemblea Legislativa con Deliberazione n. 331 dell'8/8/2019 (vigente fino al 7/8/2024 e comunque fino all'approvazione del successivo strumento pianificatorio), pubblicata nel Supplemento ordinario n. 1 al «Bollettino Ufficiale» - Serie Generale - n. 43 del 21 agosto 2019.
 
