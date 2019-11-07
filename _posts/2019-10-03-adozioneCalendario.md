@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Adozione del Piano Faunistico Venatorio Regionale 2019-2023"
+title:  "Adozione del Calendario venatorio 2019-2020"
 titles_color: 'black'
 subtitle:
 background:
@@ -8,13 +8,11 @@ search_image:
 categories: [cacciapesca]
 summary: ''
 ---
-Con Deliberazione di Giunta Regionale n. 881 del 15/7/2019 è stato adottato il Piano Faunistico Venatorio Regionale 2019-2023.
 
-Il PFVR 2019-2023 è stato approvato dall'Assemblea Legislativa con Deliberazione n. 331 dell'8/8/2019 (vigente fino al 7/8/2024 e comunque fino all'approvazione del successivo strumento pianificatorio), pubblicata nel Supplemento ordinario n. 1 al «Bollettino Ufficiale» - Serie Generale - n. 43 del 21 agosto 2019.
+Il calendario venatorio è stato approvato con Deliberazione di Giunta Regionale n. 625 del 17 maggio 2018 (pubblicata nel Bollettino Ufficiale della Regione Umbria - Serie Generale -)
 
-[DDR 881 del 15/07/2019](http://www.regione.umbria.it/documents/18/468346/DGR+Adozione+Piano+Faunistico+2019-2023/afdee2a1-e44a-4c7e-83a9-99e4050e610f)
+[Calendario venatorio stagione 2019-2020](http://www.regione.umbria.it/documents/18/468346/Calendario+venatorio+2019/5471b9c1-4607-40d0-b04a-7282dba176c5)
 
-[BUR n. 43 del 21/8/2019 - Supplemento ordinario n. 1](http://www.regione.umbria.it/documents/18/468346/Bollettino+43+agosto+2019+PFVR/7bb6e1e1-c663-4361-8b16-9dc09fcd040e)
 
 
 ---
