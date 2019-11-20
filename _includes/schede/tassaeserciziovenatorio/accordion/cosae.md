@@ -1,5 +1,5 @@
-Chiunque sia in possesso di una licenza di caccia in corso di validità rilasciata dalla Questura, per poter cacciare deve effettuare il pagamento della abilitazione all’esercizio dell’attività venatoria.
+Chiunque sia in possesso di una licenza di caccia in corso di validità rilasciata dalla Questura, per poter cacciare nel territorio regionale, deve effettuare il pagamento annuale della tassa di rinnovo della abilitazione all’esercizio venatorio.
 
-Questo comporta l’obbligo della iscrizione alla Anagrafica Regionale dei Cacciatori.
+Da ottobre 2019 per ottenere il rinnovo annuale dell'abilitazione è necessario essere iscritti alla Anagrafica Regionale dei Cacciatori.
 
-A pagamento avvenuto è possibile per il cacciatore munirsi del tesserino di caccia annuale.
+Solo a pagamento avvenuto il cacciatore potrà munirsi del tesserino venatorio annuale.

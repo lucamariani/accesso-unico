@@ -12,7 +12,7 @@
   utenza:
     - cittadini
 
-- title: "Modalità di iscrizione all'anagrafica"
+- title: "Modalità di iscrizione all'anagrafica regionale dei cacciatori"
   file: "modalitaiscrizione.md"
   utenza:
     - cittadini
