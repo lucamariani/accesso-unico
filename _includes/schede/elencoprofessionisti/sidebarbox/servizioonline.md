@@ -1,1 +1,1 @@
-[Accedi all'area riservata](http://elencoprofessionisti.regione.umbria.it/home2)
+[avvia la pratica](http://elencoprofessionisti.regione.umbria.it/home2)
