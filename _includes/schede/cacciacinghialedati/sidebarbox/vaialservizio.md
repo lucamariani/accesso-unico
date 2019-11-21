@@ -1,5 +1,3 @@
-<!--{% include vaialserviziocacciacinghialedati_select.html %}-->
-
 [Battute di caccia in svolgimento](http://www.battutecinghiale.regione.umbria.it/ushahidi-dev/index.php/)
 
 [Battute di caccia](http://www.regione.umbria.it/web/servizi/battute)
