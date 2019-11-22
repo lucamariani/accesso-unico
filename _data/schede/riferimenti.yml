@@ -85,4 +85,15 @@ elencoprofessionisti:
     pec: "direzioneambiente.regione@postacert.umbria.it"
     nome_responsabile: "Stefania Rosi Bonci"
     telefono_responsabile: "0755042738"
-    email_responsabile: "srosibonci@regione.umbria.it"      
+    email_responsabile: "srosibonci@regione.umbria.it"
+
+tassaeserciziovenatorio:
+    descrizione_direzione: "Direzione regionale Agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
+    telefono: "0755045104"
+    email: "gsaltalamacchia@regione.umbria.it"
+    pec: "direzioneagricoltura.regione@postacert.umbria.it"
+    nome_responsabile: "Umberto Sergiacomi"
+    telefono_responsabile: "0755045002"
+    email_responsabile: "usergiacomi@regione.umbria.it"
