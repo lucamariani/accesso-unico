@@ -1,3 +1,3 @@
-[Avvia la pratica](https://serviziinrete.regione.umbria.it/lc/content/dam/formsanddocuments/01212820540_Caccia/pagamento_tassa_regionale/jcr:content?wcmmode=disabled&dataRef=http%3A%2F%2Flocalhost%3A8080%2Frest%2Fservices%2FModulisticaOnline%2FGetForm%2FPrecompiledData%3Fin_string_formid%3Dpagamento_tassa_regionale%26in_string_extensions%3DAF%26in_int_id_dipartimento%3D4%26in_int_id_ente%3D1%26in_xml_data%3D%26in_string_pathdata%3D)<br>
+[Anagrafica regionale cacciatori](https://serviziinrete.regione.umbria.it/lc/content/dam/formsanddocuments/01212820540_Caccia/pagamento_tassa_regionale/jcr:content?wcmmode=disabled&dataRef=http%3A%2F%2Flocalhost%3A8080%2Frest%2Fservices%2FModulisticaOnline%2FGetForm%2FPrecompiledData%3Fin_string_formid%3Dpagamento_tassa_regionale%26in_string_extensions%3DAF%26in_int_id_dipartimento%3D4%26in_int_id_ente%3D1%26in_xml_data%3D%26in_string_pathdata%3D)<br>
 <br>
-[Avvia il pagamento](https://pagoumbria.regione.umbria.it/pagoumbria/addon/caccia/edit.jsf?m=4&idEnte=33ED3E1B55346CBB000)
+[Effettua il pagamento](https://pagoumbria.regione.umbria.it/pagoumbria/addon/caccia/edit.jsf?m=4&idEnte=33ED3E1B55346CBB000)

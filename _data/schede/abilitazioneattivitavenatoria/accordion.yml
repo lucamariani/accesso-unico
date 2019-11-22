@@ -22,6 +22,12 @@
   utenza:
     - cittadini
 
+- title: "Rilascio dell'attestato"
+  file: "rilascioattestato.md"
+  utenza:
+    - cittadini
+
+
 - title: "Costi"
   file: "costi.md"
   utenza:
