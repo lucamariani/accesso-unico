@@ -2,3 +2,8 @@
   file: vaialservizioattivitavenatoria.md
   utenza:
     - cittadini
+
+- title: Servizi collegati
+  file: servizicollegatiabilitazionevenatoria.md
+  utenza:
+    - cittadini
