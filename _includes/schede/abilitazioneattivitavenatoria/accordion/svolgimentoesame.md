@@ -21,5 +21,3 @@ e) principi elementari di protezione civile, pronto soccorso, intervento antince
 f) tecniche di produzione della selvaggina
 
 L’esito dell’esame viene comunicato al candidato alla fine delle prove.
-
-Superato l’esame, l’attestato viene rilasciato nei giorni successivi.

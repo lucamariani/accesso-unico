@@ -2,3 +2,8 @@
   file: vaialservizioanagrafica_pagopa.md
   utenza:
     - cittadini
+
+- title: Servizi collegati
+  file: servizicollegatitassaeserciziovenatorio.md
+  utenza:
+    - cittadini
