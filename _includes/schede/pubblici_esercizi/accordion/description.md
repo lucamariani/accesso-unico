@@ -1,2 +1,0 @@
-È’ una forma di commercio al dettaglio di alimenti e di bevande, comprese quelle alcoliche di qualsiasi gradazione, nonché di latte, dolciumi, generi di pasticceria, gelateria e di prodotti di gastronomia, caratterizzata dal consumo dei prodotti alimentari nei locali dell’esercizio (o in superfici aperte al pubblico a tal fine attrezzate annesse all’esercizio), anche quando effettuata con distributori automatici.
-La somministrazione si caratterizza per il “servizio assistito”, cioè la presenza di personale addetto al servizio al tavolo.
