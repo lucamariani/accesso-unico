@@ -1,3 +1,5 @@
+{% if site.categories[page.tema]%}
+  <!-- show the box only for news for this theme -->
 <div class="u-nbfc u-borderShadow-xxs u-borderRadius-m u-color-grey-50 u-background-white u-margin-bottom-xl">
 
   <div class="u-text-r-l u-textCenter u-padding-r-all u-layout-prose">
@@ -30,3 +32,7 @@
     </p>
   </div>
 </div>
+
+
+
+{% endif %}
