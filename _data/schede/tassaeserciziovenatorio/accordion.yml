@@ -21,3 +21,8 @@
   file: "modalitapagamento_costi.md"
   utenza:
     - cittadini
+
+- title: "Tesserino di caccia"
+  file: "tesserinocaccia.md"
+  utenza:
+    - cittadini
