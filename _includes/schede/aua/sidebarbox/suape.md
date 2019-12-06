@@ -1,2 +1,2 @@
-Vai allo sportello SUAPE del Comune dove risiede lo stabilimento
+Vai allo sportello SUAPE del Comune interessato
 {% include comuni_select.html %}
