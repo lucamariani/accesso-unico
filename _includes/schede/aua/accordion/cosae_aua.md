@@ -1,7 +1,9 @@
 È un provvedimento rilasciato su richiesta dell’interessato e sostituisce le seguenti autorizzazioni/comunicazioni di seguito elencate:
 
 **A** - autorizzazione agli **scarichi di acque reflue**;
+
 **B** - comunicazione preventiva per l'**utilizzazione agronomica degli effluenti di allevamento, delle acque di vegetazione dei frantoi oleari e delle acque reflue** provenienti dalle aziende ivi previste;
+
 **C** - autorizzazione alle **emissioni in atmosfera**;
 
 **D** - **autorizzazione di carattere generale** alle emissioni in atmosfera;

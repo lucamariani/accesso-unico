@@ -3,6 +3,7 @@
 Le sette autorizzazioni seguono procedimenti che hanno tempi di rilascio differenti.
 
 Per i **procedimenti inferiori o pari a 90 giorni**, l’Autorità competente (Regione) adotta il provvedimento AUA **entro 90 giorni** e lo trasmette al SUAPE che rilascia il titolo.
+
 Per i **procedimenti superiori a 90 giorni**, l’Autorità competente (Regione) adotta il provvedimento AUA **entro 120 giorni** dal ricevimento della domanda o **150 giorni in caso di necessarie integrazioni**.
 
 **Costi**

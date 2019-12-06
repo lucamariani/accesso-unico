@@ -18,7 +18,7 @@ Tutti i titolari delle piccole e medie imprese e i titolari degli impianti a esc
 
 **Come richiederla**
 
-**La domanda** va presentata allo Sportello unico per le attività produttive ed edilizie (**SUAPE**) del Comune competente territorialmente che la trasmette alla Regione e ai soggetti competenti in materia ambientale che intervengono nei procedimenti sostituiti dalla stessa.
+**La domanda** **va presentata allo Sportello unico per le attività produttive ed edilizie** (**SUAPE**) del Comune competente territorialmente che la trasmette alla Regione e ai soggetti competenti in materia ambientale che intervengono nei procedimenti sostituiti dalla stessa.
 
 L'**Autorità competente** ai fini del rilascio, rinnovo e aggiornamento dell'autorizzazione unica ambientale è la **Regione Umbria**.
 
