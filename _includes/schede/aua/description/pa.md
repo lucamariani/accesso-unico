@@ -1,1 +1,1 @@
-Cosa è l'AUA, Modalità di richiesta dell'AUA, Iter amministrativo
+È un provvedimento che incorpora in un unico atto diverse autorizzazioni ambientali previste dalla normativa di settore.

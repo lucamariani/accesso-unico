@@ -5,7 +5,7 @@ utenza: imprese
 tema: ambiente
 tipo: pratica
 title: Autorizzazione Unica Ambientale
-subtitle: AUA, autorizzazioni, comunicazioni, scarichi, emissioni in atmosfera, rifiuti, utilizzo effluenti e fanghi
+subtitle: scarichi, emissioni in atmosfera, utilizzazione agronomica, acustica, rumore, rifiuti, autorizzazione, ambiente, AUA
 status: BETA
 statusLink: /onboard
 ---

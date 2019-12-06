@@ -1,7 +1,7 @@
 ---
 layout: scheda
 object: aua
-utenza: intermediari
+utenza: pa
 tema: ambiente
 tipo: pratica
 title: Autorizzazione Unica Ambientale
