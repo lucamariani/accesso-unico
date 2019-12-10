@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Adozione Linee Guida AUA"
+title:  "Linee Guida AUA"
 titles_color: 'black'
-subtitle:
+subtitle: Adottate le Linee Guida e il modello semplificato e unificato per la presentazione della richiesta di AUA
 background:
 search_image:
 categories: [ambiente]
