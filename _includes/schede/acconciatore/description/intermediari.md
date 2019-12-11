@@ -1,1 +1,1 @@
-Introduzione, Requisiti soggettivi, Requisiti oggettivi, Regime avvio, Controlli
+Requisiti e titoli per avviare l’attività di acconciatore.
