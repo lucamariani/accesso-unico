@@ -45,7 +45,7 @@
 <tr height="20">
 <td height="20"></td>
 <td></td>
-<td class="xl68" colspan="6">• frequenza di corso di specializzazione di contenuto prevalentemente pratico;</td>
+<td class="xl68" colspan="6">• frequenza di corso di specializzazione di contenuto prevalentemente<br />  pratico;</td>
 </tr>
 <tr height="20">
 <td height="20"></td>
@@ -64,7 +64,7 @@
 <tr height="20">
 <td height="20"></td>
 <td></td>
-<td class="xl68" colspan="6">• un periodo di inserimento della durata di almeno un anno presso un’impresa di acconciatura.</td>
+<td class="xl68" colspan="6">• un periodo di inserimento della durata di almeno un anno presso un’impresa<br />  di acconciatura.</td>
 </tr>
 </tbody>
 </table>
