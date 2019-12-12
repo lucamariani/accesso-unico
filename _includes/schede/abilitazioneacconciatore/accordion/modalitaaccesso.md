@@ -4,20 +4,27 @@
 **A) se in possesso della qualifica professionale di acconciatore acquisita attraverso:**
 
 1.	frequenza di percorso triennale di istruzione e formazione professionale seguito da:
+
 •	frequenza di corso di specializzazione di contenuto pratico
+
 Oppure
+
 •	acquisizione di diploma professionale di tecnico dell’acconciatura;
 
 2.	frequenza di corso di qualificazione professionale seguito da:
+
 •	frequenza di corso di specializzazione di contenuto prevalentemente pratico;
 
 3.	frequenza di percorso biennale di formazione professionale seguito da:
+
 •	un periodo di inserimento della durata di almeno un anno presso un’impresa di acconciatura.
 
 **B) se si è svolto un periodo di inserimento lavorativo presso un’impresa di acconciatura:**
 
 •	in contratto di apprendistato
+
 Oppure
+
 •	in qualità di dipendente, familiare coadiuvante o socio partecipante al lavoro
 
 e aver frequentato un corso di formazione teorica.
@@ -25,6 +32,7 @@ e aver frequentato un corso di formazione teorica.
 **C) se in possesso della qualifica di barbiere acquisita attraverso:**
 
 •	un'esperienza lavorativa qualificata, in qualità di dipendente, familiare coadiuvante o socio partecipante al lavoro presso un’impresa di barbiere.
+
 •	aver frequentato un corso di riqualificazione.
 
 
