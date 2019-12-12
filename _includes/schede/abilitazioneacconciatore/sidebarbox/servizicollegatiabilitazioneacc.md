@@ -1,2 +1,2 @@
 
-[Esercizio dell'attività di acconciatore](/schede/acconciatore/cittadini/index.html)
+[Esercizio dell'attività di acconciatore](/accesso-unico/schede/acconciatore/cittadini/index.html)
