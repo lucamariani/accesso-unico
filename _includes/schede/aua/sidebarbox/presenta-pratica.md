@@ -1,2 +1,2 @@
-Vai allo sportello SUAPE del Comune interessato
+Scegli Comune interessato per avere informazioni online sul Suape
 {% include comuni_select.html %}

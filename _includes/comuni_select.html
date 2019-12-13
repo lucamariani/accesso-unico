@@ -9,7 +9,7 @@
 -->
         <div class="Form-field" style="padding-bottom:0 !important">
           <select class="Form-input" id="comune" aria-required="true" required>
-            <option disabled selected>seleziona per avere informazioni online sul Suape</option>
+            <option disabled selected>seleziona</option>
             {% for comune in site.data.comuni %}
               <option value="{{ comune.url }}">{{ comune.name }} </option>
             {% endfor%}
