@@ -11,7 +11,7 @@
           <select class="Form-input" id="comune" aria-required="true" required>
             <option disabled selected>seleziona</option>
             {% for comune in site.data.comuni %}
-              <option value="{{ site.baseurl }}{{ comune.url }}">{{ comune.name }}</option>
+              <option value="{{ comune.url }}">{{ comune.name }}</option>
             {% endfor%}
           </select>
         </div>
