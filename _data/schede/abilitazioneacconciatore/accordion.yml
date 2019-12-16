@@ -13,13 +13,13 @@
     - cittadini
     - imprese
 
-- title: "Modalità per accedere all'esame finale"
+- title: "Chi può sostenere l'esame finale"
   file: "modalitaaccesso.md"
   utenza:
     - cittadini
     - imprese
 
-- title: "Modalità di richiesta"
+- title: "Come fare richiesta"
   file: "modalitarichiesta.md"
   utenza:
     - cittadini
