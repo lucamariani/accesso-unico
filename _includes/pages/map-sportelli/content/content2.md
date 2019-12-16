@@ -1,1 +1,1 @@
-#### seleziona il tuo comune per ulteriori informazioni..
+#### seleziona il tuo comune per attivare il link..
