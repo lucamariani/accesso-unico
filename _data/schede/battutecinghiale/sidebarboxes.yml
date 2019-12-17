@@ -4,6 +4,12 @@
     - cittadini
     - intermediari
 
+- title: Servizi collegati
+  file: servizicollegatibattutecinghiale.md
+  utenza:
+    - cittadini
+    - intermediari
+
 - title: Manualistica
   file: manualistica.md
   utenza:
