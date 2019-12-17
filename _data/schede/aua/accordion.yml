@@ -6,15 +6,22 @@
 # - entries without "utenza" key are visible for all profiles
 # - entries with "utenza" key are visible only for that profiles
 
-- title: "Cosa è l'AUA"
+- title: "Cosa è"
   file: "cosae_aua.md"
   utenza:
     - imprese
     - intermediari
     - pa
 
-- title: "Modalità di richiesta"
+- title: "Chi la può richiedere"
   file: "requisiti.md"
+  utenza:
+    - imprese
+    - intermediari
+    - pa
+
+- title: "Come richiederla"
+  file: "comerichiederla.md"
   utenza:
     - imprese
     - intermediari
