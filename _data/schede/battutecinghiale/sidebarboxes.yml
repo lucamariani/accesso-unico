@@ -4,12 +4,6 @@
     - cittadini
     - intermediari
 
-- title: Vai al Servizio
-  file: vaialgestionale.md
-  utenza:
-    - cittadini
-    - intermediari
-
 - title: Manualistica
   file: manualistica.md
   utenza:
