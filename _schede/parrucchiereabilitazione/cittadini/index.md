@@ -1,6 +1,6 @@
 ---
 layout: scheda
-object: abilitazioneacconciatore
+object: parrucchiereabilitazione
 utenza: cittadini
 tema: artigianato
 tipo: pratica
