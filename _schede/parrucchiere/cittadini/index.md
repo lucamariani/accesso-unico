@@ -1,6 +1,6 @@
 ---
 layout: scheda
-object: acconciatore
+object: parrucchiere
 utenza: cittadini
 tema: artigianato
 title: Esercizio dell’attività di acconciatore
