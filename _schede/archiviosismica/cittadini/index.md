@@ -8,4 +8,5 @@ title: Archivio sismica - accesso atti
 subtitle: progetti, rischio sismico, costruzioni, edilizia
 status: BETA
 statusLink: /onboard
+evidenza: si
 ---

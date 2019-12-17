@@ -10,8 +10,9 @@
 
         <div class="Grid Grid--withGutter">
 
-            {% assign citizen-schede = site.schede | where:"utenza", "cittadini"%}
-            {% for scheda in citizen-schede limit:4  %}
+         <!-- {% assign citizen-schede = site.schede | where:"utenza", "cittadini"%} è stato cambiato il criterio-->
+         {% assign evidenza-schede = site.schede | where:"evidenza", "si"%}
+            {% for scheda in evidenza-schede limit:4  %}
             <div class="Grid-cell u-md-size1of4 u-lg-size1of4">
                     <div class="u-color-grey-30 u-border-top-xxs u-padding-right-xxl u-padding-r-all">
                         <p class="u-padding-r-bottom">

@@ -8,4 +8,5 @@ title: Abilitazione all'attività venatoria
 subtitle: caccia, venatorio, licenza, cacciatore, esame
 status: BETA
 statusLink: /onboard
+evidenza: si
 ---
