@@ -12,14 +12,9 @@
   utenza:
     - imprese
     - intermediari
-- title: Piano Regolatore Generale
-  file: prg.md
-  utenza:
-    - imprese
-    - intermediari
 
-- title: WebGis regionale dei PRG dei Comuni dell'Umbria
-  file: webgis.md
+- title: Servizi collegati
+  file: servizicollegati.md
   utenza:
     - imprese
     - intermediari
