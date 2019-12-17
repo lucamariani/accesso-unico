@@ -22,15 +22,3 @@
   utenza:
     - intermediari
     - imprese
-- title: Procedimenti Collegati
-  file: procedimenti.md
-  utenza:
-    - intermediari
-- title: Piano Regolatore Generale
-  file: prg.md
-  utenza:
-    - intermediari
-- title: WebGis regionale dei PRG dei Comuni dell'Umbria
-  file: webgis.md
-  utenza:
-    - intermediari

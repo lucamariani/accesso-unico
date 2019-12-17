@@ -1,2 +1,4 @@
 
-[Esercizio dell'attività di acconciatore](/accesso-unico/schede/abilitazioneacconciatore/cittadini/index.html)
+[Abilitazione per l'esercizio dell'attività di acconciatore](/schede/parrucchiereabilitazione/cittadini/index.html)
+
+[Cambio di destinazione d'uso](/schede/cambio_destinazione_uso/cittadini/index.html)
