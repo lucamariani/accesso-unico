@@ -1,3 +1,3 @@
 oppure
 
-#### seleziona il tuo comune per attivare il link..
+#### seleziona il comune per attivare il link..
