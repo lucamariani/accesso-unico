@@ -6,7 +6,7 @@ tema: cacciapesca
 tipo: pratica
 title: Abilitazione all'attività venatoria
 subtitle: caccia, venatorio, licenza, cacciatore, esame
-status: BETA
+status: Livello2
 statusLink: /onboard
 evidenza: si
 ---
