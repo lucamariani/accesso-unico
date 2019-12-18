@@ -12,6 +12,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Modalità di adesione"
   file: "modalita_adesione.md"
@@ -19,6 +20,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Costi e durata"
   file: "costi.md"
@@ -26,3 +28,4 @@
     - imprese
     - intermediari
     - pa
+    - cittadini

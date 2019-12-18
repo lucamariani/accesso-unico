@@ -5,6 +5,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: Modulistica
   file: modulistica.md
@@ -12,6 +13,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: Servizi collegati
   file: procedimenti.md
@@ -19,6 +21,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: Documenti
   file: documenti.md
@@ -26,3 +29,4 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
