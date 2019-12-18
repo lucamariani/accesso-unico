@@ -6,7 +6,7 @@ tema: ambiente
 tipo: pratica
 title: Autorizzazione Unica Ambientale
 subtitle: scarichi, emissioni in atmosfera, utilizzazione agronomica, acustica, rumore, rifiuti, autorizzazione, AUA
-status: BETA
+status: Livello2,3
 statusLink: /onboard
 evidenza: si
 ---

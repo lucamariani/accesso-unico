@@ -6,6 +6,6 @@ tema: cacciapesca
 tipo: servizio
 title: Gestione venatoria del cinghiale
 subtitle: caccia, venatorio, cacciatore, cinghiale, battuta
-status: BETA
+status: Livello3
 statusLink: /onboard
 ---
