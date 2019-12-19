@@ -1,2 +1,2 @@
 
-[Tassa di abilitazione all'esercizio venatorio](/accesso-unico/schede/tassaeserciziovenatorio/cittadini/index.html)
+[Tassa di abilitazione all'esercizio venatorio]({{site.baseurl}}/schede/tassaeserciziovenatorio/cittadini/index.html)
