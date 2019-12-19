@@ -1,4 +1,5 @@
-[Autorizzazione Unica Ambientale](/accesso-unico/schede/aua/imprese/index.html)
+
+[Autorizzazione Unica Ambientale]({{site.baseurl}}/schede/aua/imprese/index.html)
 
 
-[Sportelli Suape Comunali](/accesso-unico/map/sportelli_suape/)
+[Sportelli Suape Comunali]({{site.baseurl}}/map/sportelli_suape/)

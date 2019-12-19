@@ -1,1 +1,2 @@
-[Abilitazione all'attività venatoria](/accesso-unico/schede/abilitazioneattivitavenatoria/cittadini/index.html)
+
+[Abilitazione all'attività venatoria]({{site.baseurl}}/schede/abilitazioneattivitavenatoria/cittadini/index.html)

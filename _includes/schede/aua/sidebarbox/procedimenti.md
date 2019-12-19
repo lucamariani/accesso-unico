@@ -1,4 +1,6 @@
-[Autorizzazione di Carattere Generale per le emissioni in atmosfera](/accesso-unico/schede/acg/imprese/index.html)
+
+[Autorizzazione di Carattere Generale per le emissioni in atmosfera]({{site.baseurl}}/schede/acg/imprese/index.html)
 
 
-[Sportelli Suape Comunali](/accesso-unico/map/sportelli_suape/)
+[Sportelli Suape Comunali]({{site.baseurl}}/map/sportelli_suape/)
+
