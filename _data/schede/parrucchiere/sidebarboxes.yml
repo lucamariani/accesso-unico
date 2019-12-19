@@ -2,6 +2,8 @@
   file: presenta-pratica.md
   utenza:
     - cittadini
+    - imprese
+    - intermediari
 
 - title: Modulistica
   file: modulistica.md
