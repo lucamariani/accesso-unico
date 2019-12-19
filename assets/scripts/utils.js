@@ -64,8 +64,13 @@ function getAllUrlParams(url) {
  * Underline menu
  */
  const underlineMenu = function(index) {
-   // if user is logged menu3 and menu4 are user's menus
-   if(index > 2 && Cookies.get('user_status') != 0) index = index + 2;
+   // change underline for logged users
+   if(typeof Cookies.get('user_status') !== 'undefined') {
+    // if user is logged menu3 and menu4 are user's menus
+    if(index > 2 && Cookies.get('user_status') != 0) {
+      index = index + 2;
+    }
+  }
    console.log('underlying index ' + index);
    $('.Megamenu-item a').each(function() {
      $(this).removeClass('is-selected')
@@ -81,4 +86,26 @@ function getAllUrlParams(url) {
 var hoverForMobile = function(selector, label) {
   const activeSelector = selector + ':active'
   $(selector).css(activeSelector,'red')
+}
+
+/**
+ * Get the max height from a list of items fetched by selectors
+ */
+const getMaxHeight = function(selector) 
+{
+  const maxHeight = Math.max.apply(null, $(selector).map(function ()
+  {
+      return $(this).height();
+  }).get())
+  return maxHeight
+}
+
+/**
+ * Set the max height from a list of items fetched by selectors
+ * @param {*} selector 
+ */
+const setMaxHeight = function(selector) 
+{
+  const maxHeight = getMaxHeight(selector)
+  $(selector).height(maxHeight)
 }

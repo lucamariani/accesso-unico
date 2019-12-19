@@ -1,7 +1,4 @@
-- A-Autorizzazione agli scarichi
-- B-Comunicazione preventiva
-- C-Autorizzazione alle emissioni in atmosfera
-- D-Autorizzazione Generale
-- E-Comunicazione o Nulla osta
-- F-Autorizzazione all'utilizzo dei fanghi
-- G-Comunicazione in materia di rifiuti
+[Autorizzazione di Carattere Generale per le emissioni in atmosfera](/accesso-unico/schede/acg/imprese/index.html)
+
+
+[Sportelli Suape Comunali](/accesso-unico/map/sportelli_suape/)

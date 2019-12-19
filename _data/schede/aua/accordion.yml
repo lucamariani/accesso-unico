@@ -6,35 +6,30 @@
 # - entries without "utenza" key are visible for all profiles
 # - entries with "utenza" key are visible only for that profiles
 
-- title: "Cosa è l'AUA"
-  file: "attivita_aua.md"
+- title: "Cosa è"
+  file: "cosae_aua.md"
   utenza:
     - imprese
     - intermediari
+    - pa
 
-- title: "Cosa è l'AUA"
-  file: "cosae_aua.md"
-  utenza:
-    - cittadini
-
-- title: "Modalità di richiesta dell'AUA"
-  file: "modalita_cittadini.md"
-  utenza:
-    - cittadini
-
-- title: "Modalità di richiesta dell'AUA"
+- title: "Chi la può richiedere"
   file: "requisiti.md"
   utenza:
     - imprese
     - intermediari
+    - pa
 
-- title: "Iter amministrativo"
-  file: "iter.md"
+- title: "Come richiederla"
+  file: "comerichiederla.md"
   utenza:
     - imprese
     - intermediari
+    - pa
 
 - title: "Costi, Durata e Tempi di rilascio"
-  file: "costi_cittadino.md"
+  file: "costi.md"
   utenza:
-    - cittadini
+    - imprese
+    - intermediari
+    - pa

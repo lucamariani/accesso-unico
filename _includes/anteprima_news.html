@@ -1,0 +1,55 @@
+<!-- <div class="u-border-top-xs u-border-bottom-xs u-color-50" id="myTabContent">
+        {% for post in site.posts limit:4  %}
+            {{ post.title }}
+        {% endfor %}
+</div> -->
+
+<div class="u-layout-centerContent">
+    <section class="u-layout-wide u-padding-top-xxl u-padding-bottom-xxl">
+        <h2 class="u-text-r-l u-padding-r-bottom">Novità</h2>
+
+        <div class="Grid Grid--withGutter">
+
+            {% for post in site.posts limit:4  %}
+            <div class="Grid-cell u-md-size1of4 u-lg-size1of4">
+                    <div class="u-color-grey-30 u-border-top-xxs u-padding-right-xxl u-padding-r-all">                        
+                        <div class="anteprima-news-title">
+                            <h3 class="u-padding-r-top"><a class="u-text-h4 u-textClean u-color-black"
+                                    href="{{site.baseurl}}{{ post.url }}">
+                                    {{ post.title }}
+                                </a>
+                            </h3>                            
+                        </div>
+                        <span class="u-text-r-xxs u-textSecondary u-textWeight-400 u-lineHeight-xl u-cf">{{ post.date | date: "%d-%m-%Y"}}</span>
+                        <div class="anteprima-news-subtitle">
+                            <p class="u-lineHeight-l u-text-r-xs u-textSecondary u-padding-r-right u-padding-r-top">
+                                    {{ post.subtitle }}
+                            </p>
+                        </div>
+                        <p class="u-padding-r-top">
+                            {% for category_metaname in post.categories %}
+                            <!-- get category name -->
+                            {% for item in site.data.themes %}
+                                {% if item.metaname == category_metaname %}
+                                    {% assign category_name = item.name %}
+                                {% endif %}
+                            {% endfor %}
+                            <img title="{{ category_name | capitalize }}" class="home-news-category-icon" src="{{ site.baseurl}}{{ site.iconsurl }}rosso_{{ category_metaname }}.png">
+                            <a class="u-textClean u-textWeight-700 u-text-r-xxs u-color-50" href="{{site.baseurl}}/news_search?theme={{category_metaname|slugize}}">{{category_name}}</a>
+                            {% unless forloop.last %}<br>{% endunless %}
+                            {% endfor %}                                                        
+                        </p>
+                    </div>
+    
+            </div>
+            {% endfor %}
+
+        </div>
+
+        <p class="u-textCenter u-text-md-right u-text-lg-right u-padding-r-top">
+            <a href="{{site.baseurl}}/news_search" class="u-color-50 u-textClean u-text-h4">
+                tutte le novità<span class="Icon Icon-chevron-right"></span></a>
+        </p>
+
+    </section>
+</div>

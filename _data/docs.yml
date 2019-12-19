@@ -71,17 +71,6 @@ docs:
     tags:
       - acconciatore
 
-  - title: Legge regionale 10 luglio 2017, n. 8
-    metaname: doc6
-    oggetto: Legislazione turistica regionale
-    categoria: normativa
-    tema: turismo
-    url: "http://leggi.crumbria.it/mostra_atto.php?id=183168&v=FI,SA,TE,IS,VE,RA,MM&m=5&datafine=20180804"
-    anno: 2017
-    ente: Regione Umbria
-    numero: 8
-    tags:
-      - bedandbreakfast
 
   - title: Legge regionale 13 giugno 2014, n. 10
     metaname: doc7
@@ -286,53 +275,6 @@ docs:
     tags:
         - AUA
 
-  - title: Legge 25 agosto 1991, n. 287
-    metaname: doc24
-    oggetto: Aggiornamento della normativa sull'insediamento e sull'attività dei pubblici esercizi.
-    categoria: normativa
-    tema: commercio
-    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1991-08-25;287!vig="
-    anno: 1991
-    ente:
-    numero: 287
-    tags:
-        - pubblici_esercizi
-
-  - title: Decreto Legislativo 31 marzo 1998, n. 114
-    metaname: doc25
-    oggetto: Riforma della disciplina relativa al settore del commercio, a norma dell'articolo 4, comma 4, della legge 15 marzo 1997, n. 59.
-    categoria: normativa
-    tema: commercio
-    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1998-03-31;114!vig="
-    anno: 1998
-    ente:
-    numero: 114
-    tags:
-        - pubblici_esercizi
-
-  - title: Decreto Legislativo 26 marzo 2010, n. 59
-    metaname: doc26
-    oggetto: Attuazione della direttiva 2006/123/CE relativa ai servizi nel mercato interno.
-    categoria: normativa
-    tema: commercio
-    url: "http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2010-03-26;59!vig="
-    anno: 2010
-    ente:
-    numero: 59
-    tags:
-        - pubblici_esercizi
-
-  - title: Deliberazione della Giunta Regionale 26 luglio 2011, n. 847
-    metaname: doc27
-    oggetto: Art. 5 bis, comma 3 L.R. n. 24/1999 - Indirizzi e criteri qualitativi per l'insediamento di esercizi di somministrazione di alimenti e bevande.
-    categoria: deliberazioni
-    tema: commercio
-    url: "http://www.regione.umbria.it/documents/18/1156212/dgr+847_2011.PDF/648bd27d-f815-48c9-b12c-02e7ebba4eea"
-    anno: 2011
-    ente: Regione Umbria
-    numero: 847
-    tags:
-        - pubblici_esercizi
 
   - title: Deliberazione della Giunta Regionale 19 settembre 2018, n. 1024
     metaname: doc28
@@ -383,3 +325,39 @@ docs:
     tags:
         - ModulisticaUnificata
         - SUAPE
+
+  - title: Deliberazione della Giunta Regionale 29 novembre 2017, n. 12724
+    metaname: doc32
+    oggetto: Autorizzazione di carattere generale per le emissioni in atmosfera provenienti da stabilimenti con impianti ed attività in deroga ai sensi dell’art. 272, comma 2, del D.Lgs. n. 152/2006 e s.m. e i..
+    categoria: deliberazioni
+    tema: ambiente
+    url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/DD12724_2017.pdf"
+    anno: 2017
+    ente: Regione Umbria
+    numero: 12724
+    tags:
+        - acg
+
+  - title: Deliberazione della Giunta Regionale 11 ottobre 2010, n. 1399
+    metaname: doc33
+    oggetto: Istituzione dell’Elenco regionale dei professionisti da invitare alle procedure negoziate per l’affidamento di servizi attinenti all’architettura e all’ingegneria di importo inferiore a centomila euro. Disciplina delle modalità di gestione e requisiti per l’iscrizione dei soggetti nell’Elenco.
+    categoria: deliberazioni
+    tema: operepubbliche
+    url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/docs/DGR1399_2010.pdf"
+    anno: 2010
+    ente: Regione Umbria
+    numero: 1399
+    tags:
+        - elencoprofessionisti
+
+  - title: Deliberazione della Giunta Regionale 23 marzo 2015, n. 341
+    metaname: doc34
+    oggetto: Elenco regionale dei professionisti di cui all’art. 21 della L.R. n. 3/2010 - Modifiche e integrazioni alla “Disciplina delle modalità di gestione e requisiti per l’iscrizione dei soggetti nell’Elenco regionale dei professionisti da invitare alle procedure negoziate per l’affidamento di servizi attinenti all’architettura e all’ingegneria di importo inferiore a centomila euro” approvata con deliberazione della Giunta regionale n. 1399/2010 con le tipologie di servizio di competenza degli archeologi e dei professionisti delle tecnologie dell’informazione e comunicazione e requisiti per l’iscrizione.
+    categoria: deliberazioni
+    tema: operepubbliche
+    url: "http://www.umbriageo.regione.umbria.it/AccessoUnico/docs/DGR341_2015.pdf"
+    anno: 2015
+    ente: Regione Umbria
+    numero: 341
+    tags:
+        - elencoprofessionisti

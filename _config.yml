@@ -1,6 +1,6 @@
 title:             "UmbriaFacile - Regione Umbria"
 description:       "Costruiamo insieme il portale dei servizi della P.A. dell'Umbria"
-baseurl:           
+baseurl:
 iconsurl:          "/assets/images/icons/"
 url:               "https://beta.accessounico.regione.umbria.it"
 author:            "Redazione"
@@ -39,11 +39,11 @@ github_username: Regione-Umbria
 footer_logo: /assets/images/LogoRegioneWhite.png
 footer_title: Regione Umbria
 footer_subtitle: Giunta Regionale
-recapiti1: Agenda Digitale dell’Umbria
+recapiti1:
 recapiti2: Via Mario Angeloni, 68
 recapiti3: 06100 Perugia
 recapiti4: Centralino (+39) 075.504.1
-email: agendadigitale@regione.umbria.it
+email: accessounico@regione.umbria.it
 pec: regione.giunta@postacert.umbria.it
 privacy_url: http://www.regione.umbria.it/privacy-policy
 note_legali_url: http://www.regione.umbria.it/note-legali
@@ -60,6 +60,7 @@ twitter_list:
 twitter_list_title: Twitter@amministrazione
 links_leads:
 links_leads_title: A est rerum leads
+newhome: true
 
 # Build settings
 
@@ -69,7 +70,7 @@ exclude: ["Gemfile", "Gemfile.lock", "README.md", "LICENSE", "DocumentazioneAcce
 # permalink: /:categories/:title/
 markdown:          kramdown
 paginate:          5
-paginate_path:     "/posts/page:num/"#
+paginate_path:     "/posts/page:num/"
 locale: "it-IT"
 plugins:
   - jekyll-feed

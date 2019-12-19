@@ -13,11 +13,6 @@
   metaname: turismo
   image: /assets/images/icons/rosso_turismo.png
 
-- name: Industria e Attività Manifatturiere
-  color: lightblue
-  metaname: industria
-  image: /assets/images/icons/rosso_industria.png
-
 - name: Commercio
   color: lightblue
   metaname: commercio
@@ -43,10 +38,20 @@
   metaname: salute
   image: /assets/images/icons/rosso_salute.png
 
-- name: Territorio, Edilizia e Urbanistica
+- name: Edilizia
   color: purple
   metaname: edilizia
   image: /assets/images/icons/rosso_edilizia.png
+
+- name: Territorio
+  color: purple
+  metaname: territorio
+  image: /assets/images/icons/rosso_territorio.png
+
+- name: Opere Pubbliche
+  color: purple
+  metaname: operepubbliche
+  image: /assets/images/icons/rosso_operepubbliche.png
 
 - name: Cassetta degli attrezzi
   color: purple
@@ -57,3 +62,8 @@
   color: purple
   metaname: semplificazione
   image: /assets/images/icons/rosso_semplificazione.png
+
+- name: Caccia e pesca
+  color: pink
+  metaname: cacciapesca
+  image: /assets/images/icons/rosso_cacciapesca.png
