@@ -1,17 +1,15 @@
-**Chi la può chiedere**
+Tutti i titolari delle piccole e medie imprese e i titolari degli impianti a esclusione dei seguenti:
 
-Devono presentare richiesta di AUA come definite dal Dm 18 aprile 2005 e i **titolari delle piccole e medie imprese** come definite dal Dm 18 aprile 2005 e i **titolari degli impianti non soggetti alla disciplina dell'AIA** (Autorizzazione Integrata Ambientale).
+- gli **impianti soggetti ad Autorizzazione integrata ambientale (AIA)** di cui all’art. 29-ter D.Lgs. 152/2006;
 
-**A chi si chiede**
+- i **progetti soggetti a valutazione di impatto ambientale (VIA)**, nei casi in cui il provvedimento finale di VIA comprende e sostituisce tutti gli atti di assenso, comunque denominati;
 
-La domanda di AUA va presentata allo **Sportello unico per le attività produttive e per l’edilizia** (SUAPE) competente territorialmente.
+- gli **impianti di smaltimento o di recupero dei rifiuti** soggetti all’autorizzazione unica di cui all’art. 208 D. Lgs. 152/2006;
 
-La **Regione è l’Autorità competente al rilascio dell’AUA**, unitamente ad altri Soggetti istituzionali che intervengono nei procedimenti sostituiti dalla stessa.
+- gli **impianti di produzione di energia elettrica** soggetti ad all’autorizzazione unica di cui al D. Lgs. 387/2003;
 
-**Quando chiederla**
+- gli **impianti di produzione di energia elettrica da cogenerazione** soggetti all’autorizzazione unica di cui al D. Lgs. 115/2007;
 
-La domanda di AUA deve essere inoltrata per **il rilascio, il rinnovo o l'aggiornamento** di uno o più dei sette titoli abilitativi elencati nell'articolo 3 del regolamento (Dpr 13 marzo 2013, n. 59). La richiesta deve avvenire in occasione della scadenza del primo titolo abilitativo da essa sostituito.
+- gli **interventi di bonifica** di cui agli articoli 242 e ss. D. Lgs. 152/2006;
 
-**Quando non si può chiederla**
-
-Se il progetto è sottoposto a **valutazione di impatto ambientale** (VIA) e le leggi statali o regionali stabiliscono che la Via sostituisce tutti gli atti di assenso di tipo ambientale. In ogni caso l'**AUA deve essere richiesta dopo l'espletamento della pratica VIA.** In caso sia necessario sottoporre il progetto a "verifica di assoggettabilità" a VIA, la domanda AUA va presentata dopo la conclusione di tale verifica con esito negativo.
+- gli **interventi immobiliari** senza specifica destinazione.

@@ -5,7 +5,7 @@ utenza: cittadini
 tema: semplificazione
 tipo: servizio
 title: Sportelli Suape Comunali
-subtitle: informazioni di contatto e indicazioni sul funzionamento
+subtitle: sportello, edilizia, commercio, pratiche, comunale, attività produttive
 accordion_open: true
 status: BETA
 statusLink: /onboard

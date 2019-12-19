@@ -19,12 +19,14 @@
     - cittadini
     - intermediari
 
-- title: "Come funziona"
-  file: "comefunziona.md"
+- title: "Come si attiva da parte dei capi-squadra"
+  file: "comesiattivacs.md"
   utenza:
     - cittadini
+    - intermediari
 
-- title: "Come funziona"
-  file: "comefunzionainter.md"
+- title: "Come si attiva da parte degli ATC"
+  file: "comesiattivainter.md"
   utenza:
+    - cittadini
     - intermediari

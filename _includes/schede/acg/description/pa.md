@@ -1,1 +1,1 @@
-L’adesione all'ACG per la prevenzione dell'inquinamento atmosferico è un’attività in deroga con autocertificazione
+L’ACG è riservata a stabilimenti con impianti ed attività in deroga

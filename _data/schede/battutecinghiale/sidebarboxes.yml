@@ -1,14 +1,17 @@
-- title: Vai al servizio
+- title: Vai al Servizio
   file: vaialservizio.md
   utenza:
     - cittadini
+    - intermediari
 
-- title: Accedi al gestionale
-  file: vaialgestionale.md
+- title: Servizi collegati
+  file: servizicollegatibattutecinghiale.md
   utenza:
+    - cittadini
     - intermediari
 
 - title: Manualistica
   file: manualistica.md
   utenza:
     - cittadini
+    - intermediari

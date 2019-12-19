@@ -1,1 +1,1 @@
-Informazioni on-line utili per tutto il pubblico interessato alla fruizione del territorio agro-silvo-pastorale, come escursionisti o cercatori di funghi e tartufi, oltre che per gli stessi cacciatori coinvolti, per gli Ambiti Territoriali di Caccia e per i servizi di Polizia provinciale
+Tutto il pubblico interessato alla fruizione del territorio agro-silvo-pastorale, come escursionisti o cercatori di funghi e tartufi, oltre che per gli stessi cacciatori coinvolti, per gli Ambiti Territoriali di Caccia e per i servizi di vigilanza (carabinieri, forestali, ecc.)

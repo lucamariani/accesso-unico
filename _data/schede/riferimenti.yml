@@ -1,14 +1,4 @@
 # riferimenti
-acconciatore:
-  descrizione_direzione: "Direzione regionale programmazione, affari internazionali ed europei. Agenda digitale, agenzie e società partecipate"
-  nome_ufficio: "Servizio Programmazione strategica dello sviluppo della società dell'informazione e dell'amministrazione digitale, sistema informativo greografico e semplificazione amministrativa"
-  indirizzo: "indirizzo"
-  telefono: "+3900032223"
-  email: "efwef@efef.com"
-  pec: "pecefwef@efef.com"
-  nome_responsabile: "Mr. John Smith"
-  telefono_responsabile: "+3900032225"
-  email_responsabile: "johnsmith@gre.it"
 
 aua:
   descrizione_direzione: "Direzione regionale agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
@@ -53,4 +43,58 @@ battutecinghiale:
     nome_responsabile: "Umberto Sergiacomi"
     telefono_responsabile: "0755045002"
     email_responsabile: "usergiacomi@regione.umbria.it"
-    
+
+cacciacinghialedati:
+    descrizione_direzione: "Direzione regionale Agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
+    telefono: "0755045104"
+    email: "gsaltalamacchia@regione.umbria.it"
+    pec: "direzioneagricoltura.regione@postacert.umbria.it"
+    nome_responsabile: "Umberto Sergiacomi"
+    telefono_responsabile: "0755045002"
+    email_responsabile: "usergiacomi@regione.umbria.it"
+
+abilitazioneattivitavenatoria:
+    descrizione_direzione: "Direzione regionale Agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
+    telefono: "0755045104"
+    email: "gsaltalamacchia@regione.umbria.it"
+    pec: "direzioneagricoltura.regione@postacert.umbria.it"
+    nome_responsabile: "Luca Lucarelli"
+    telefono_responsabile: "0755045203"
+    email_responsabile: "lucalucarelli@regione.umbria.it"
+
+elencoprofessionisti:
+    descrizione_direzione: "Direzione regionale governo del territorio e paesaggio. Protezione civile. Infrastrutture e mobilità"
+    nome_ufficio: "Servizio Opere Pubbliche: Programmazione, progettazione e attuazione. Monitoraggio e Sicurezza"
+    indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
+    telefono: "0755042734"
+    email: "gmancini@regione.umbria.it"
+    pec: "direzioneambiente.regione@postacert.umbria.it"
+    nome_responsabile: "Stefania Rosi Bonci"
+    telefono_responsabile: "0755042738"
+    email_responsabile: "srosibonci@regione.umbria.it"
+
+tassaeserciziovenatorio:
+    descrizione_direzione: "Direzione regionale Agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
+    telefono: "0755045104"
+    email: "gsaltalamacchia@regione.umbria.it"
+    pec: "direzioneagricoltura.regione@postacert.umbria.it"
+    nome_responsabile: "Umberto Sergiacomi"
+    telefono_responsabile: "0755045002"
+    email_responsabile: "usergiacomi@regione.umbria.it"
+
+abilitazioneacconciatore:
+    descrizione_direzione: "Direzione regionale Attività produttive. Lavoro, Formazione e Istruzione"
+    nome_ufficio: "Servizio Sviluppo e competitività delle imprese"
+    indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
+    telefono: "0755045737"
+    email: "dtoccacelo@regione.umbria.it"
+    pec: "direzionesviluppo.regione@postacert.umbria.it"
+    nome_responsabile: "Graziella Ciotto"
+    telefono_responsabile: "0755045759"
+    email_responsabile: "gciotto@regione.umbria.it"

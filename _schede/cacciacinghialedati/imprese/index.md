@@ -4,8 +4,8 @@ object: cacciacinghialedati
 utenza: imprese
 tema: cacciapesca
 tipo: servizio
-title: Dati su caccia al cinghiale
+title: Caccia al cinghiale - Statistiche
 subtitle: caccia, venatorio, cacciatore, cinghiale, battuta
-status: BETA
+status: Livello3
 statusLink: /onboard
 ---

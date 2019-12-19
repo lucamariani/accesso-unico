@@ -1,0 +1,37 @@
+# A list of accordions
+#
+# Title: the title of the accordion
+# File: the file name where the content of this accordion is stored
+# Utenza: onditional visibility for profile
+# - entries without "utenza" key are visible for all profiles
+# - entries with "utenza" key are visible only for that profiles
+
+- title: "Cosa è"
+  file: "cosae.md"
+  utenza:
+    - imprese
+    - intermediari
+
+- title: "Tipologie di servizio"
+  file: "tipologieservizio.md"
+  utenza:
+    - imprese
+    - intermediari
+
+- title: "Chi può fare domanda"
+  file: "chi.md"
+  utenza:
+    - imprese
+    - intermediari
+
+- title: "Come fare domanda"
+  file: "comefaredomanda.md"
+  utenza:
+    - imprese
+    - intermediari
+
+- title: "Tempi e durata dell'iscrizione"
+  file: "tempi_durata.md"
+  utenza:
+    - imprese
+    - intermediari
