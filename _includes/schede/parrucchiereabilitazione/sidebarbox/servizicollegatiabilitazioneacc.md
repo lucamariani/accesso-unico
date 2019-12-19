@@ -1,2 +1,2 @@
 
-[Esercizio dell'attività di acconciatore](/accesso-unico/schede/parrucchiere/cittadini/index.html)
+[Esercizio dell'attività di acconciatore]({{site.baseurl}}/schede/parrucchiere/cittadini/index.html)
