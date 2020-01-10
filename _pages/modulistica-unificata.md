@@ -14,61 +14,61 @@ modulistica:
         denominazione: Certificazione preventiva sull'esistenza e qualita' dei vincoli
         atto: DD n.3971 del 30/04/2019
         release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/26-2.pdf
+        link: /docs/modulistica/26-2.pdf
 
       - nome: CILA
         denominazione: Comunicazione inizio lavori asseverata - CILA
         atto: DD n.3971 del 30/04/2019
         release: 3
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/27-3.pdf
+        link: /docs/modulistica/27-3.pdf
 
       - nome: Comunicazione fine lavori
         denominazione: Comunicazione fine lavori
         atto: DD n.3971 del 30/04/2019
         release: 3
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/28-3.pdf
+        link: /docs/modulistica/28-3.pdf
 
       - nome: Dichiarazione che tiene luogo dell'agibilità
         denominazione: Dichiarazione che tiene luogo dell'agibilità
         atto: DD n.3971 del 30/04/2019
         release: 3
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/29-3.pdf
+        link: /docs/modulistica/29-3.pdf
 
       - nome: Dichiarazione di conformità del piano attuativo
         denominazione: Dichiarazione di conformità del piano attuativo
         atto: DD n.3971 del 30/04/2019
         release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/30-2.pdf
+        link: /docs/modulistica/30-2.pdf
 
       - nome: Dichiarazione per l'agibilità
         denominazione: Dichiarazione per l'agibilità
         atto: DD n.3971 del 30/04/2019
         release: 3
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/31-3.pdf
+        link: /docs/modulistica/31-3.pdf
 
       - nome: Elaborati progettuali minimi necessari a corredo delle istanze per i titoli abitativi
         denominazione: Elaborati progettuali minimi necessari a corredo delle istanze di Permesso di costruire e di SCIA
         atto: DGR 700 del 20/06/2017
         release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/32.pdf
+        link: /docs/modulistica/32.pdf
 
       - nome: Modulo SCIA
         denominazione: Segnalazione certificata di inizio attività
         atto: DD n.3971 del 30/04/2019
-        release: 3    
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/33-3.pdf
+        release: 3
+        link: /docs/modulistica/33-3.pdf
 
       - nome: Permesso di costruire
         denominazione: Richiesta di permesso di costruire
         atto: DD n.3971 del 30/04/2019
         release: 3
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/34-3.pdf
+        link: /docs/modulistica/34-3.pdf
 
       - nome: Soggetti coinvolti
         denominazione: Soggetti coinvolti
         atto: DD n.3971 del 30/04/2019
         release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/35-2.pdf
+        link: /docs/modulistica/35-2.pdf
 
 
 
@@ -76,45 +76,45 @@ modulistica:
     documenti:
       - nome: Scheda anagrafica
         denominazione: Scheda anagrafica
-        atto: DD n.3971 del 30/04/2019
+        atto: DGR n.700 del 20/06/2017
         release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/01.pdf
+        link: /docs/modulistica/01.pdf
 
       - nome: Notifica Sanitaria
         denominazione: Notifica ai fini della registrazione
-        atto: DD n.3971 del 30/04/2019
+        atto: DD n.3621 del 16/04/2018
         release: 5
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/02.pdf
+        link: /docs/modulistica/02.pdf
 
       - nome: Acconciatore ed Estetisti
         denominazione: SCIA per l'esercizio dell'attivita' di acconciatore e/o estetista
-        atto: DD n.3971 del 30/04/2019
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/03.pdf
+        atto: DGR n.894 del 19/07/2019
+        release: 3
+        link: /docs/modulistica/3-3.pdf
 
       - nome: Agenzie di affari di competenza del Comune
         denominazione: Comunicazione per l'esercizio dell'attività delle agenzie di afffari di competenza del Comune
-        atto: DD n.3971 del 30/04/2019
+        atto: DGR n.274 del 26/03/2018
         release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/04.pdf
+        link: /docs/modulistica/04.pdf
 
       - nome: Apparecchi automatici
         denominazione: SCIA per l'esercizio di vendita mediante apparecchi automatici in altri esercizi commerciali già abilitati o in altre strutture e/o su area pubblica
-        atto: DD n.3971 del 30/04/2019
-        release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/05.pdf
+        atto: DGR n.1086 del 27/09/2019
+        release: 3
+        link: /docs/modulistica/5-3.pdf
 
       - nome: Autorimesse
         denominazione: SCIA per l'esercizio dell'attività di autorimessa
-        atto: DD n.3971 del 30/04/2019
+        atto: DGR n.1188 del 16/10/2017
         release: 2
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/06.pdf
+        link: /docs/modulistica/06.pdf
 
       - nome: Commercio all'ingrosso
         denominazione: Autorizzazione per il commercio all'ingrosso
-        atto: DD n.3971 del 30/04/2019
+        atto: DGR n.274 del 26/03/2018
         release: 1
-        link: http://www.umbriageo.regione.umbria.it/AccessoUnico/modulistica/07.pdf
+        link: /docs/modulistica/07.pdf
 
       - nome: Esercizio di vicinato e Medie strutture M1
         denominazione: SCIA per l'esercizio di vicinato e le medie strutture inferiori M1
