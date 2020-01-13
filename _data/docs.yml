@@ -361,3 +361,29 @@ docs:
     numero: 341
     tags:
         - elencoprofessionisti
+
+  - title: Deliberazione della Giunta Regionale 19 luglio 2019, n. 894
+    metaname: doc35
+    oggetto: Accordo Conferenza unificata del 17 aprile 2019, Repertorio n. 28/CU. Recepimento ed adeguamento da parte della Regione Umbria di moduli unificati e standardizzati per la presentazione delle segnalazioni, comunicazioni e istanze.
+    categoria: deliberazioni
+    tema: semplificazione
+    url: "/docs/modulistica/BUR_DGR894_2019.pdf"
+    anno: 2019
+    ente: Regione Umbria
+    numero: 894
+    tags:
+        - ModulisticaUnificata
+        - SUAPE
+
+  - title: Deliberazione della Giunta Regionale 27 settembre 2019, n. 1086
+    metaname: doc36
+    oggetto: Accordo Conferenza Unificata del 25 luglio 2019, Repertorio n. 73/CU. Recepimento ed adeguamento da parte della Regione Umbria di moduli unificati e standardizzati per la presentazione delle segnalazioni, comunicazioni e istanze.
+    categoria: deliberazioni
+    tema: semplificazione
+    url: "/docs/modulistica/BUR_DGR1086_2019.pdf"
+    anno: 2019
+    ente: Regione Umbria
+    numero: 1086
+    tags:
+        - ModulisticaUnificata
+        - SUAPE
