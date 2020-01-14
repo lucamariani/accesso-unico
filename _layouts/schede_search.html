@@ -162,7 +162,7 @@ layout: default
 
     {% for scheda in site.schede %}
       {% assign utenza = scheda.utenza %}
-      {% capture scheda-description %}{% include schede/{{scheda.object}}/description/{{utenza}}.md %}{% endcapture %}
+    {% capture scheda-description %}{% include_relative _schede/{{scheda.object}}/{{utenza}}/index.md %}{% endcapture %}
       "{{ scheda.object | append: utenza | slugify }}": {
         "title": "{{ scheda.title | xml_escape }}",
         "tema": "{{ scheda.tema | xml_escape }}",
@@ -170,7 +170,7 @@ layout: default
         "subtitle": "{{ scheda.subtitle | xml_escape }}",
         "url": "{{ scheda.url | xml_escape }}",
         "utenza": "{{ scheda.utenza | xml_escape }}",
-        "description": "{{ scheda-description | markdownify  | truncate: 155 | strip_newlines }}",
+        "description": "{{ scheda.description | markdownify  | truncate: 155 | strip_newlines }}",
         "status": "{{ scheda.status | xml_escape }}",
         "statusLink": "{{ scheda.statusLink | xml_escape }}",
         "date": "{{ scheda.data | date: '%d %b %Y' }}"
