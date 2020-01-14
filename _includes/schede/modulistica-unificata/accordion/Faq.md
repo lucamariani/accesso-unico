@@ -12,13 +12,7 @@ Si suggerisce dunque ai Comuni di verificare periodicamente che il modello in us
 <br>
 ##### 3. Come e con quale frequenza accertare se i moduli sono stati modificati?
 <br>
-La Regione provvede, a seguito di ogni modifica apportata ai moduli dalla Conferenza Unificata, ad assumere una deliberazione di adozione, che poi notifica ai Comuni. Inoltre nella pagina dedicata alla Modulistica Unificata è presente la Tabella dei moduli vigenti aggiornata all’ultima variazione. La periodicità dei controlli dovrebbe essere calibrata sulle scadenze delle Conferenza Unificata che per i rimanenti mesi dell'anno 2018 sono:
-<br>
-- 8 novembre 2018
-- 22 novembre 2018
-- 13 dicembre 2018
-- 20 dicembre 2018
-<br>
+La Regione provvede, a seguito di ogni modifica apportata ai moduli dalla Conferenza Unificata, ad assumere una deliberazione di adozione, che poi notifica ai Comuni. Inoltre nella pagina dedicata alla Modulistica Unificata è presente la Tabella dei moduli vigenti aggiornata all’ultima variazione.
 <br>
 
 ##### 4. E’ possibile modificare i moduli?
