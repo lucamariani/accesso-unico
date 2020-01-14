@@ -1,7 +1,9 @@
 /** Create lunr index **/
 var idx = lunr(function () {
+  // disable stemmer as it is the english stemmer
+  this.pipeline.remove(lunr.stemmer)
+
   this.ref('metaname');
-  //this.field('metaname');
   this.field('title', { boost: 10 });
   this.field('tema');
   this.field('subtitle');
@@ -14,17 +16,18 @@ var idx = lunr(function () {
   this.field('number');
   this.field('tags');
 
-  for (var key in window.searchschede) { // Add the data to lunr
-    this.add({
+  for (let key in window.searchschede) { // Add the data to lunr
+    let entry = {
       'metaname': key,
       'title': window.searchschede[key].title,
       'tema': window.searchschede[key].tema,
       'subtitle': window.searchschede[key].subtitle,
       'url': window.searchschede[key].url
-    });
+    }
+    this.add(entry);
   }
 
-  for (var doc_key in window.docs) { // Add the data to lunr
+  for (let doc_key in window.docs) { // Add the data to lunr
     this.add({
       'metaname': doc_key,
       'title': window.docs[doc_key].title,
@@ -39,25 +42,25 @@ var idx = lunr(function () {
     });
   }
 
-  for (var key in window.news) { // Add the data to lunr
+  for (let news_key in window.news) { // Add the data to lunr
     this.add({
-      'metaname': key,
-      'title': window.news[key].title,
-      'sutitle': window.news[key].subtitle,
-      'category': window.news[key].category,
-      'year': window.news[key].year,
-      'tags': window.news[key].tags
+      'metaname': news_key,
+      'title': window.news[news_key].title,
+      'subtitle': window.news[news_key].subtitle,
+      'category': window.news[news_key].category,
+      'year': window.news[news_key].year,
+      'tags': window.news[news_key].tags
     });
   }
 
 });
 
-var search_for = '';
+let search_for = '';
 
-var formSubmit = function() {
+const formSubmit = function() {
   search_for = $('#home-cerca').val();
-  var results = idx.search('*' + search_for + '*');
-  //console.log(results);
+
+  const results = idx.search('*' + search_for + '*');
   displayResults(results);
 }
 
@@ -76,10 +79,10 @@ var formSubmit = function() {
   $('#dialog-results-content').append(appendString);
 }
 */
-var addResultItems = function(label, itemArray, _baseurl) {
+const addResultItems = function(label, itemArray, _baseurl) {
   let appendString = '';
   const appendTo = '#' + label + '-result-list';
-  console.log('home_search.js: adding result list to #', appendTo)
+  // console.log('home_search.js: adding result list to #', appendTo)
   if ( itemArray.length > 0 ) {
     $.each(itemArray, function(key,item) {
       appendString += '<li class="u-textLeft u-text-xs"><a href="' + _baseurl + item.url + '">' + item.title + '</a></li>';
@@ -89,17 +92,17 @@ var addResultItems = function(label, itemArray, _baseurl) {
   $(appendTo).append(appendString);
 }
 
-var showResults = function() {
+const showResults = function() {
   $('#results-div').show();
   $('#no-results-div').hide();
 }
 
-var showNoResults = function() {
+const showNoResults = function() {
   $('#results-div').hide();
   $('#no-results-div').show();
 }
 
-var displayResults = function(results) {
+const displayResults = function(results) {
   // reset
   $('.search-listing').html('');
 
@@ -110,11 +113,11 @@ var displayResults = function(results) {
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
 
-      console.log('homesearch.js results: ', results)
+      // console.log('homesearch.js results: ', results)
 
       var key = results[i].ref;
 
-      console.log('homesearch.js key: ', key)
+      // console.log('homesearch.js key: ', key)
 
       if ( key in searchschede) {
         schedeResults.push(searchschede[key]);

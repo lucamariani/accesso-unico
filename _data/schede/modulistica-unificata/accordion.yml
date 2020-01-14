@@ -9,11 +9,22 @@
   file: "Obblighi.md"
   utenza:
     - pa
+    - cittadini
+    - imprese
+    - intermediari
+
 - title: "Risorse in rete"
   file: "risorse_rete.md"
   utenza:
     - pa
+    - cittadini
+    - imprese
+    - intermediari
+
 - title: "Faq"
   file: "Faq.md"
   utenza:
     - pa
+    - cittadini
+    - imprese
+    - intermediari
