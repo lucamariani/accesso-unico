@@ -3,7 +3,14 @@
   file: vaimodelli.md
   utenza:
     - pa
+    - cittadini
+    - imprese
+    - intermediari
+
 - title: Atti regionali di adozione della Modulistica
   file: normativa.md
   utenza:
     - pa
+    - cittadini
+    - imprese
+    - intermediari
