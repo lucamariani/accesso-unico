@@ -3,7 +3,7 @@ layout: dev
 permalink: /dev_doc
 ---
 
-# Documentazione Accesso Unico
+# Documentazione Accesso Unico riferita alla versione 2019 - agg. gen.2020
 
 ## Parametri di configurazione
 
@@ -30,7 +30,7 @@ Per creare una nuova scheda:
   > title: < *titolo scheda* >       
   > subtitle: < *sottotitolo scheda* >    
   > accordion_open: [ true, false ]    
-  > meta_description: < *descrizione per SEO* >    
+  > description: < *descrizione per SEO e  di scheda >    
   > data: < *data scheda* >    
   > status: < *stato scheda* >    
   > statusLink: < *link stato scheda* >    
@@ -43,7 +43,7 @@ Per creare una nuova scheda:
   > title: Cambio destinazione d'uso    
   > subtitle: SCIA    
   > accordion_open: true    
-  > meta_description: Il cambio destinazione d'uso e' questo    
+  > description: Il cambio destinazione d'uso e' questo    
   > data: 13/01/2018    
   > status: BETA    
   > statusLink: /onboard    
@@ -63,6 +63,7 @@ Per creare una nuova scheda:
   - cittadini
   - imprese
   - imprenditori
+  - pa
 
 3. creo una cartella dentro `"_data/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_data/schede/scia"` ) e all'interno di questa creo:
   - 3.1. un file `"accordion.yml"`
@@ -123,9 +124,7 @@ Per creare una nuova scheda:
 
 4. creare una cartella dentro `"_includes/schede"`, con lo stesso nome della cartella creata al punto 1 ( `"_includes/schede/scia"` ) e all'interno di questa creo due cartelle, `"accordion"` e `"sidebarbox"` ( `"_includes/schede/scia/accordion"`, `"_includes/schede/scia/sidebarbox"` )
 
-  - all'interno della cartella `"accordion"` creo:
-     - un file `description.md` dove scrivo la descrizione della scheda, ossia le scritte tra il sottotitolo e le accordion
-     -  i file contenenti i contenuti degli accordion, come li ho definiti al punto 3.1
+  - all'interno della cartella `"accordion"` creo i file contenenti i contenuti degli accordion, come li ho definiti al punto 3.1
 
      ~~~
      _includes/schede/scia/accordion/classificazione.md
