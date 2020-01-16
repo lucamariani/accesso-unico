@@ -53,8 +53,8 @@ scripts:
 
         <article class="Prose u-layout-prose">
 
-          {% capture scheda-description %}{% include schede/{{page.object}}/description/{{page.utenza}}.md %}{% endcapture %}
-          {{ scheda-description | markdownify }}
+          {{ page.description | markdownify }}
+
 
           {% include schede/accordion.html %}
 

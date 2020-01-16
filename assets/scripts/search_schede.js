@@ -5,6 +5,7 @@ var idx = lunr(function () {
   this.field('tema');
   this.field('tipo');
   this.field('subtitle');
+  this.field('description');
   this.field('utenza');
 
   for (var key in window.allschede) { // Add the data to lunr
@@ -14,6 +15,7 @@ var idx = lunr(function () {
       'tema': window.allschede[key].tema,
       'tipo': window.allschede[key].tipo,
       'subtitle': window.allschede[key].subtitle,
+      'description': window.allschede[key].description,
       'utenza': window.allschede[key].url,
       'version': window.allschede[key].version,
       'versionLink': window.allschede[key].versionLink
