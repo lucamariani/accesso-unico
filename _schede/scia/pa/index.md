@@ -1,13 +1,12 @@
 ---
 layout: scheda
 object: scia
-utenza: cittadini
+utenza: pa
 tema: edilizia
 tipo: pratica
 title: SCIA edilizia
-description: Titolo abilitativo che consente di iniziare i lavori il giorno stesso della presentazione al Comune di una dichiarazione con allegati tecnici
+description: Interventi subordinati alla SCIA, Requisiti, Controlli, Costi, Adempimenti dei tecnici, Istruttoria preliminare, Documenti, Iter
 subtitle: segnalazione certificata di inizio attività, titolo abilitativo, pratica edilizia
-accordion_open: false
 status: BETA
 statusLink: /onboard
 ---

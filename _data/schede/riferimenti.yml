@@ -1,7 +1,7 @@
 # riferimenti
 
 aua:
-  descrizione_direzione: "Direzione regionale agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+  descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
   nome_ufficio: "Servizio Autorizzazioni Ambientali (AIA e AUA)"
   indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
   telefono: "0755045164"
@@ -12,7 +12,7 @@ aua:
   email_responsabile: "crrosati@regione.umbria.it"
 
 acg:
-  descrizione_direzione: "Direzione regionale agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+  descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
   nome_ufficio: "Servizio Autorizzazioni Ambientali (AIA e AUA)"
   indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
   telefono: "0755045164"
@@ -23,7 +23,7 @@ acg:
   email_responsabile: "crrosati@regione.umbria.it"
 
 archiviosismica:
-  descrizione_direzione: "Direzione regionale Governo del territorio e paesaggio. Protezione civile. Infrastrutture e mobilità"
+  descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
   nome_ufficio: "Servizio Rischio sismico"
   indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
   telefono: "0755042776 - 0755044337"
@@ -34,7 +34,7 @@ archiviosismica:
   email_responsabile: "mbarluzzi@regione.umbria.it"
 
 battutecinghiale:
-    descrizione_direzione: "Direzione regionale Agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
     nome_ufficio: "Servizio Programmazione faunistica venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
     telefono: "0755045104"
@@ -45,7 +45,7 @@ battutecinghiale:
     email_responsabile: "usergiacomi@regione.umbria.it"
 
 cacciacinghialedati:
-    descrizione_direzione: "Direzione regionale Agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
     nome_ufficio: "Servizio Programmazione faunistica venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
     telefono: "0755045104"
@@ -56,7 +56,7 @@ cacciacinghialedati:
     email_responsabile: "usergiacomi@regione.umbria.it"
 
 abilitazioneattivitavenatoria:
-    descrizione_direzione: "Direzione regionale Agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
     nome_ufficio: "Servizio Programmazione faunistica venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
     telefono: "0755045104"
@@ -67,7 +67,7 @@ abilitazioneattivitavenatoria:
     email_responsabile: "lucalucarelli@regione.umbria.it"
 
 elencoprofessionisti:
-    descrizione_direzione: "Direzione regionale governo del territorio e paesaggio. Protezione civile. Infrastrutture e mobilità"
+    descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
     nome_ufficio: "Servizio Opere Pubbliche: Programmazione, progettazione e attuazione. Monitoraggio e Sicurezza"
     indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
     telefono: "0755042734"
@@ -78,7 +78,7 @@ elencoprofessionisti:
     email_responsabile: "srosibonci@regione.umbria.it"
 
 tassaeserciziovenatorio:
-    descrizione_direzione: "Direzione regionale Agricoltura, ambiente, energia, cultura, beni culturali e spettacolo"
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
     nome_ufficio: "Servizio Programmazione faunistica venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
     telefono: "0755045104"
@@ -89,7 +89,7 @@ tassaeserciziovenatorio:
     email_responsabile: "usergiacomi@regione.umbria.it"
 
 abilitazioneacconciatore:
-    descrizione_direzione: "Direzione regionale Attività produttive. Lavoro, Formazione e Istruzione"
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
     nome_ufficio: "Servizio Sviluppo e competitività delle imprese"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
     telefono: "0755045737"
