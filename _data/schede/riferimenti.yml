@@ -98,3 +98,25 @@ abilitazioneacconciatore:
     nome_responsabile: "Graziella Ciotto"
     telefono_responsabile: "0755045759"
     email_responsabile: "gciotto@regione.umbria.it"
+
+sportellisuape:
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
+    nome_ufficio: "Servizio Programmazione Strategica dello sviluppo della società dell’Informazione e della Amministrazione Digitale, Sistema Informativo Geografico e Semplificazione Amministrativa"
+    indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
+    telefono: "0755045710"
+    email: "lrossetti@regione.umbria.it"
+    pec: "areaprogrammazione.regione@postacert.umbria.it"
+    nome_responsabile: "Giovanni Gentili"
+    telefono_responsabile: "0755045929"
+    email_responsabile: "gentili@regione.umbria.it"
+
+modulistica-unificata:
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
+    nome_ufficio: "Servizio Programmazione Strategica dello sviluppo della società dell’Informazione e della Amministrazione Digitale, Sistema Informativo Geografico e Semplificazione Amministrativa"
+    indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
+    telefono: "0755045710"
+    email: "lrossetti@regione.umbria.it"
+    pec: "areaprogrammazione.regione@postacert.umbria.it"
+    nome_responsabile: "Giovanni Gentili"
+    telefono_responsabile: "0755045929"
+    email_responsabile: "gentili@regione.umbria.it"       
