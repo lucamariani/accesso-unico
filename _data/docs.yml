@@ -375,6 +375,7 @@ docs:
         - ModulisticaUnificata
         - SUAPE
 
+
   - title: Deliberazione della Giunta Regionale 27 settembre 2019, n. 1086
     metaname: doc36
     oggetto: Accordo Conferenza Unificata del 25 luglio 2019, Repertorio n. 73/CU. Recepimento ed adeguamento da parte della Regione Umbria di moduli unificati e standardizzati per la presentazione delle segnalazioni, comunicazioni e istanze.
@@ -385,5 +386,17 @@ docs:
     ente: Regione Umbria
     numero: 1086
     tags:
-        - ModulisticaUnificata
-        - SUAPE
+       - ModulisticaUnificata
+       - SUAPE
+
+  - title: Deliberazione della Giunta Regionale 26 febbraio 2020, n. 121
+    metaname: doc37
+    oggetto: Art. 21 della l.r. n. 3/2010 - Modifica della “Disciplina delle modalità di gestione e requisiti per l’iscrizione dei soggetti nell’Elenco regionale dei professionisti da invitare alle procedure negoziate per l’affidamento di servizi attinenti all’architettura e all’ingegneria di importo inferiore a centomila euro di cui alla legge regionale 21 gennaio 2010, n. 3 (Disciplina regionale dei lavori pubblici e norme in materia di regolarità contributiva per i lavori pubblici)” e ulteriori determinazioni.
+    categoria: deliberazioni
+    tema: operepubbliche
+    url: "/docs/modulistica/DGR121_2020.pdf"
+    anno: 2020
+    ente: Regione Umbria
+    numero: 121
+    tags:
+       - elencoprofessionisti

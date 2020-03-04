@@ -1,4 +1,5 @@
 Possono richiedere l'iscrizione nell'Elenco i soggetti:
+
 a) professionisti, singoli od associati;
 
 b) società tra professionisti;
