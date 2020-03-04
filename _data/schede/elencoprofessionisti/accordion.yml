@@ -35,3 +35,9 @@
   utenza:
     - imprese
     - intermediari
+
+- title: "Come si forma l'elenco"
+  file: "formazioneelenco.md"
+  utenza:
+    - imprese
+    - intermediari
