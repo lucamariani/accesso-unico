@@ -8,7 +8,7 @@ Per i **procedimenti superiori a 90 giorni**, l’Autorità competente (Regione)
 
 **Costi**
 
-Il soggetto richiedente è tenuto al versamento delle **spese istruttorie e diritti** complessivamente previsti, nelle misure già stabilite dalle disposizioni vigenti.
+Il soggetto richiedente è tenuto al versamento delle **[spese istruttorie e diritti](http://www.va.regione.umbria.it/documents/3852172/10456087/SPESE+ISTRUTTORIE/9fdb0792-df0d-4408-84a4-55a8e79752e3)** complessivamente previsti, nelle misure già stabilite dalle disposizioni vigenti.
 La **marca da bollo** è unica e va apposta solo sul modello unico d’istanza.
 
 **Durata e rinnovo**
