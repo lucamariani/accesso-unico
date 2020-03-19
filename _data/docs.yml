@@ -400,3 +400,27 @@ docs:
     numero: 121
     tags:
        - elencoprofessionisti
+
+  - title: Legge Regionale 21 gennaio 2010, n. 3
+    metaname: doc38
+    oggetto: Disciplina regionale dei lavori pubblici e norme in materia di regolarità contributiva per i lavori pubblici.
+    categoria: normativa
+    tema: operepubbliche
+    url: "http://leggi.crumbria.it/mostra_atto.php?id=42414&v=FI,SA,TE,IS,VE,RA,MM&m=5"
+    anno: 2010
+    ente: Regione Umbria
+    numero: 3
+    tags:
+       - elencoimprese
+
+  - title: Regolamento Regionale 5 dicembre 2014, n. 6
+    metaname: doc39
+    oggetto: Disciplina delle modalità di gestione e requisiti per l'iscrizione nell'Elenco regionale delle imprese da invitare alle procedure negoziate per l'affidamento di lavori pubblici di importo inferiore a un milione di euro di cui alla legge regionale 21 gennaio 2010, n. 3 (Disciplina regionale dei lavori pubblici e norme in materia di regolarità contributiva per i lavori pubblici).
+    categoria: regolamenti
+    tema: operepubbliche
+    url: "http://leggi.crumbria.it/mostra_atto_stampabile.php?file=reg2014-006.xml"
+    anno: 2014
+    ente: Regione Umbria
+    numero: 6
+    tags:
+       - elencoimprese
