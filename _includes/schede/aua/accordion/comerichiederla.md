@@ -1,10 +1,15 @@
-**La domanda** **va presentata allo Sportello unico per le attività produttive ed edilizie** (**SUAPE**) del Comune competente territorialmente che la trasmette alla Regione e ai soggetti competenti in materia ambientale che intervengono nei procedimenti sostituiti dalla stessa.
+**L’Autorità competente** ai fini del rilascio, rinnovo e aggiornamento dell’autorizzazione unica ambientale è la **Regione Umbria**.
 
-L'**Autorità competente** ai fini del rilascio, rinnovo e aggiornamento dell'autorizzazione unica ambientale è la **Regione Umbria**.
+**La domanda va presentata esclusivamente in modalità telematica allo Sportello unico per le attività produttive ed edilizie (SUAPE)** del Comune competente territorialmente che la trasmette alla Regione e ai soggetti competenti in materia ambientale che intervengono nei procedimenti sostituiti dalla stessa.
 
-Per i comuni aderenti al [**Portale regionale SUAPE_3.0**](https://suape.regione.umbria.it/suape-home/) è **obbligatorio presentare le istanze di AUA in modalità telematica**, accedendo alla pagina SUAPE del Comune interessato.
+Per i Comuni:
 
-**Per tutti gli altri Comuni** la domanda, firmata digitalmente, va trasmessa via PEC al SUAPE del Comune competente territorialmente, utilizzando la modulistica aggiornata presente nel box laterale “Modulistica”.
+•	**aderenti al SUAPE 3.0 si accede al portale dello Sportello unico per le attività produttive ed edilizie (SUAPE)** del Comune; il servizio online permette la compilazione e la trasmissione della domanda;
+
+
+•	**per tutti gli altri, si accede al servizio “Preparazione Pratiche” di Regione Umbria**.
+Completata la preparazione della pratica, la domanda va scaricata in locale, sottoscritta digitalmente e trasmessa via PEC al SUAPE del Comune competente.
+
 
 **Casi particolari**
 
