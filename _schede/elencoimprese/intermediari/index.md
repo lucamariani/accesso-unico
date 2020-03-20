@@ -3,7 +3,7 @@ layout: scheda
 object: elencoimprese
 utenza: intermediari
 tema: operepubbliche
-tipo: servizio
+tipo: pratica
 title: Elenco regionale delle imprese
 description: Elenco delle imprese da invitare alle procedure negoziate per l’affidamento di lavori pubblici di importo inferiore a un milione di euro
 subtitle: opere pubbliche, affidamento lavori pubblici, elenco, imprese
