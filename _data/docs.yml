@@ -375,6 +375,7 @@ docs:
         - ModulisticaUnificata
         - SUAPE
 
+
   - title: Deliberazione della Giunta Regionale 27 settembre 2019, n. 1086
     metaname: doc36
     oggetto: Accordo Conferenza Unificata del 25 luglio 2019, Repertorio n. 73/CU. Recepimento ed adeguamento da parte della Regione Umbria di moduli unificati e standardizzati per la presentazione delle segnalazioni, comunicazioni e istanze.
@@ -385,5 +386,41 @@ docs:
     ente: Regione Umbria
     numero: 1086
     tags:
-        - ModulisticaUnificata
-        - SUAPE
+       - ModulisticaUnificata
+       - SUAPE
+
+  - title: Deliberazione della Giunta Regionale 26 febbraio 2020, n. 121
+    metaname: doc37
+    oggetto: Art. 21 della l.r. n. 3/2010 - Modifica della “Disciplina delle modalità di gestione e requisiti per l’iscrizione dei soggetti nell’Elenco regionale dei professionisti da invitare alle procedure negoziate per l’affidamento di servizi attinenti all’architettura e all’ingegneria di importo inferiore a centomila euro di cui alla legge regionale 21 gennaio 2010, n. 3 (Disciplina regionale dei lavori pubblici e norme in materia di regolarità contributiva per i lavori pubblici)” e ulteriori determinazioni.
+    categoria: deliberazioni
+    tema: operepubbliche
+    url: "/docs/modulistica/DGR121_2020.pdf"
+    anno: 2020
+    ente: Regione Umbria
+    numero: 121
+    tags:
+       - elencoprofessionisti
+
+  - title: Legge Regionale 21 gennaio 2010, n. 3
+    metaname: doc38
+    oggetto: Disciplina regionale dei lavori pubblici e norme in materia di regolarità contributiva per i lavori pubblici.
+    categoria: normativa
+    tema: operepubbliche
+    url: "http://leggi.crumbria.it/mostra_atto.php?id=42414&v=FI,SA,TE,IS,VE,RA,MM&m=5"
+    anno: 2010
+    ente: Regione Umbria
+    numero: 3
+    tags:
+       - elencoimprese
+
+  - title: Regolamento Regionale 5 dicembre 2014, n. 6
+    metaname: doc39
+    oggetto: Disciplina delle modalità di gestione e requisiti per l'iscrizione nell'Elenco regionale delle imprese da invitare alle procedure negoziate per l'affidamento di lavori pubblici di importo inferiore a un milione di euro di cui alla legge regionale 21 gennaio 2010, n. 3 (Disciplina regionale dei lavori pubblici e norme in materia di regolarità contributiva per i lavori pubblici).
+    categoria: regolamenti
+    tema: operepubbliche
+    url: "http://leggi.crumbria.it/mostra_atto_stampabile.php?file=reg2014-006.xml"
+    anno: 2014
+    ente: Regione Umbria
+    numero: 6
+    tags:
+       - elencoimprese
