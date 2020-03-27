@@ -4,11 +4,11 @@ In **Umbria** la domanda va trasmessa:
 
 al **SUAPE del Comune interessato**
 
-per i **Comuni ricompresi nell'Allegato A – Enti Adeguati**, (Allegato alla D.G.R. n. 203/2010, come successivamente aggiornato con Determina Dirigenziale n. 3411 del 21/05/2015) (link all’allegato) ovvero in possesso dei requisiti di legge per l’esercizio delle funzioni amministrative delegate concernenti il rilascio dell’**autorizzazione paesaggistica** di cui all’art. 146 del D.Lgs. n. 42/2004.
+per i **Comuni ricompresi nell'[Allegato A – Enti Adeguati](/docs/modulistica/AllegatoA)**, (Allegato alla D.G.R. n. 203/2010, come successivamente aggiornato con Determina Dirigenziale n. 3411 del 21/05/2015) ovvero in possesso dei requisiti di legge per l’esercizio delle funzioni amministrative delegate concernenti il rilascio dell’**autorizzazione paesaggistica** di cui all’art. 146 del D.Lgs. n. 42/2004.
 
 alla **Regione Umbria**
 
--  per i **Comuni ricompresi nell’Allegato B - Enti non adeguati** (Allegato alla D.G.R. n. 203/2010, come successivamente aggiornato con Determina Dirigenziale n. 3411 del 21/05/2015) (link all’allegato) ovvero non in possesso dei requisiti di legge per l’esercizio delle funzioni amministrative delegate concernenti il rilascio dell’autorizzazione paesaggistica di cui all’art. 146 del D.Lgs. n. 42/2004;
+-  per i **Comuni ricompresi nell’[Allegato B - Enti non adeguati](/docs/modulistica/AllegatoB)** (Allegato alla D.G.R. n. 203/2010, come successivamente aggiornato con Determina Dirigenziale n. 3411 del 21/05/2015) ovvero non in possesso dei requisiti di legge per l’esercizio delle funzioni amministrative delegate concernenti il rilascio dell’autorizzazione paesaggistica di cui all’art. 146 del D.Lgs. n. 42/2004;
 
 -	per le seguenti **tipologie di opere**:
 

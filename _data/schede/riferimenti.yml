@@ -131,3 +131,14 @@ elencoimprese:
     nome_responsabile: "Stefania Rosi Bonci"
     telefono_responsabile: "0755042738"
     email_responsabile: "srosibonci@regione.umbria.it"
+
+autorizzazionepaesaggistica:
+    descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
+    nome_ufficio: "Servizio Pianificazione e Tutela paesaggistica "
+    indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
+    telefono: "0755042632"
+    email: "larcaleni@regione.umbria.it"
+    pec: "direzioneambiente.regione@postacert.umbria.it"
+    nome_responsabile: "Sabrina Scarabattoli"
+    telefono_responsabile: "0755042826"
+    email_responsabile: "sscarabattoli@regione.umbria.it"    

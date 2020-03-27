@@ -424,3 +424,39 @@ docs:
     numero: 6
     tags:
        - elencoimprese
+
+  - title: Decreto Legislativo 22 gennaio 2004, n. 42
+    metaname: doc40
+    oggetto: Codice dei beni culturali e del paesaggio, ai sensi dell'articolo 10 della legge 6 luglio 2002, n. 137.
+    categoria: normativa
+    tema: territorio
+    url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2004-01-22;42!vig="
+    anno: 2004
+    ente:
+    numero: 42
+    tags:
+       - autorizzazionepaesaggistica
+
+  - title: Deliberazione della Giunta Regionale 8 febbraio 2010, n. 203
+    metaname: doc41
+    oggetto: Approvazione degli elenchi degli Enti in possesso e non dei requisiti di legge per l’esercizio delle funzioni amministrative delegate concernenti il rilascio della autorizzazione paesaggistica ai sensi dell'art. 146 del Dlgs n.42 del 2004.
+    categoria: deliberazioni
+    tema: territorio
+    url: "/docs/modulistica/DGR203_2010.pdf"
+    anno: 2010
+    ente: Regione Umbria
+    numero: 203
+    tags:
+        - autorizzazionepaesaggistica
+
+  - title: Decreto del Presidente della Repubblica 13 febbraio 2017, n. 31
+    metaname: doc42
+    oggetto: Regolamento recante individuazione degli interventi esclusi dall'autorizzazione paesaggistica o sottoposti a procedura autorizzatoria semplificata.
+    categoria: regolamenti
+    tema: territorio
+    url: "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2017-02-13;31"
+    anno: 2017
+    ente:
+    numero: 31
+    tags:
+        - autorizzazionepaesaggistica

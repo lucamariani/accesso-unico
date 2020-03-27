@@ -14,6 +14,6 @@ A seconda del tipo di intervento che si intende effettuare nell’area individua
 
 •	**autorizzazione paesaggistica ordinaria**: va richiesta nel caso di interventi significativi, ed il procedimento ha tempi di rilascio inferiori o uguali a **120 giorni**
 
-•	**autorizzazione paesaggistica semplificata**: va richiesta per interventi di lieve entità indicati nell'elenco di cui all'allegato 1 del DPR 139 del 2010 ( link all’allegato).
+•	**autorizzazione paesaggistica semplificata**: va richiesta per interventi di lieve entità indicati nell'elenco di cui all'allegato 1 del [DPR 139 del 2010 ](https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2010-07-09;139).
 
 La richiesta è semplificata e i modelli per ottenerla sono unificati, con un’istruttoria che deve concludersi nel termine di **60 giorni**.
