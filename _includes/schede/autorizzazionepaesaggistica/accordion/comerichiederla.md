@@ -2,11 +2,11 @@ Dato che l’amministrazione preposta al rilascio dell’autorizzazione paesaggi
 
 In **Umbria** la domanda va trasmessa:
 
-al **SUAPE del Comune interessato**
+a. al **SUAPE del Comune interessato**
 
 per i **Comuni ricompresi nell'[Allegato A – Enti Adeguati](/docs/modulistica/AllegatoA)**, (Allegato alla D.G.R. n. 203/2010, come successivamente aggiornato con Determina Dirigenziale n. 3411 del 21/05/2015) ovvero in possesso dei requisiti di legge per l’esercizio delle funzioni amministrative delegate concernenti il rilascio dell’**autorizzazione paesaggistica** di cui all’art. 146 del D.Lgs. n. 42/2004.
 
-alla **Regione Umbria**
+b. alla **Regione Umbria**
 
 -  per i **Comuni ricompresi nell’[Allegato B - Enti non adeguati](/docs/modulistica/AllegatoB)** (Allegato alla D.G.R. n. 203/2010, come successivamente aggiornato con Determina Dirigenziale n. 3411 del 21/05/2015) ovvero non in possesso dei requisiti di legge per l’esercizio delle funzioni amministrative delegate concernenti il rilascio dell’autorizzazione paesaggistica di cui all’art. 146 del D.Lgs. n. 42/2004;
 
@@ -18,13 +18,11 @@ alla **Regione Umbria**
 
 L’Istanza, completa della relativa documentazione, va presentata a Regione Umbria secondo le seguenti modalità:
 
-utilizzando il **servizio online** che permette la compilazione e la trasmissione dell’istanza raggiungibile al seguente indirizzo: https://serviziinrete.regione.umbria.it
+1. utilizzando il **servizio online** che permette la compilazione e la trasmissione dell’istanza raggiungibile al seguente indirizzo: [https://serviziinrete.regione.umbria.it](https://serviziinrete.regione.umbria.it)
 
-trasmessa **via PEC** all’indirizzo:
+2. trasmessa **via PEC** all’indirizzo: direzioneambiente.regione@postacert.umbria.it
 
-direzioneambiente.regione@postacert.umbria.it
-
-**consegnata/spedita** all’Ufficio protocollo della Regione Umbria - Giunta Regionale. Direzione Regionale Governo del Territorio, Ambiente, Protezione civile.  ( occorre l’indirizzo completo )
+3. **consegnata/spedita** all’Ufficio protocollo della Regione Umbria - Giunta Regionale. Direzione Regionale Governo del Territorio, Ambiente, Protezione civile.  ( occorre l’indirizzo completo )
 
 ATTENZIONE:
 
