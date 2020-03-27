@@ -1,2 +1,2 @@
-Vai allo sportello Suape del Comune dove risiede l'impianto
-{% include comuniaua_select.html %}
+Scegli l'Ente a cui presentare la domanda
+{% include comuniautpaes_select.html %}
