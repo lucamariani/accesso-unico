@@ -43,7 +43,7 @@
   metaname: edilizia
   image: /assets/images/icons/rosso_edilizia.png
 
-- name: Territorio
+- name: Territorio Paesaggio
   color: purple
   metaname: territorio
   image: /assets/images/icons/rosso_territorio.png
