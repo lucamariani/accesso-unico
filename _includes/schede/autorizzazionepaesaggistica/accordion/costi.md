@@ -4,9 +4,12 @@ Per l’**Autorizzazione Paesaggistica ordinaria**, l’Autorità competente ado
 
 Per l’**Autorizzazione Paesaggistica semplificata**, l’Autorità competente adotta il provvedimento **entro 60 giorni** dal ricevimento dell’istanza.
 
+Per il **Provvedimento di Compatibilità Paesaggistica**, l’Autorità competente adotta il provvedimento **entro 180 giorni** dal ricevimento dell’istanza.
+
 **Costi**
 
-La **marca da bollo** è unica e va apposta solo sul modello unico d’istanza e solo nel caso in cui il richiedente non sia una pubblica amministrazione.
+Una **marca da bollo** per l’istanza e una per il provvedimento finale, fatta salvo la deroga prevista ai sensi dell’art. 16 – Tabella -  Allegato B al DPR n. 642 del 26 ottobre 1972 (per pubbliche amministrazioni)
+
 
 **Durata e rinnovo**
 

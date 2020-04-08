@@ -1,4 +1,4 @@
-Dato che l’amministrazione preposta al rilascio dell’autorizzazione paesaggistica è la **Regione oppure un ente** (Comune, Provincia) da questa **delegato**, occorre individuare l’Ente a cui presentare la domanda sulla base della **localizzazione dell’area** sottoposta a vincolo e della **tipologia di opere** che si intendono eseguire.
+Dato che le amministrazioni preposte al rilascio dell’autorizzazione paesaggistica possono essere la Regione oppure i Comuni sub-delegati, occorre innanzitutto individuare l’Ente competente a cui presentare la domanda, sulla base della localizzazione dell’intervento da realizzare e della tipologia di opere che si intendono eseguire, come previsto dall’art. 111 della l.r. 1/2015.
 
 In **Umbria** la domanda va trasmessa:
 
@@ -16,14 +16,13 @@ b. alla **Regione Umbria**
 
 2.	le opere indicate all’art. 110, comma 1 lett. a) della L.R. 1/2015 ossia opere delle Province e le infrastrutture energetiche relative alle opere di trasporto, la trasformazione e la distribuzione di energia elettrica con tensione non superiore a centocinquanta Kv ricadenti in più comuni, conferite precedentemente alle Province e riallocate in Regione a far data dal 01/12/2015.
 
-L’Istanza, completa della relativa documentazione, va presentata a Regione Umbria secondo le seguenti modalità:
+L’Istanza, completa della relativa documentazione, **va presentata a Regione Umbria** secondo le seguenti modalità:
 
 1. utilizzando il **servizio online** che permette la compilazione e la trasmissione dell’istanza raggiungibile al seguente indirizzo: [https://serviziinrete.regione.umbria.it](https://serviziinrete.regione.umbria.it)
 
 2. trasmessa **via PEC** all’indirizzo: direzioneambiente.regione@postacert.umbria.it
 
-3. **consegnata/spedita** all’Ufficio protocollo della Regione Umbria - Giunta Regionale. Direzione Regionale Governo del Territorio, Ambiente, Protezione civile.  ( occorre l’indirizzo completo )
 
 ATTENZIONE:
 
-E’ previsto un **periodo transitorio** di tre mesi a partire dal 20 dicembre 2019,  prolungato di ulteriori due mesi a causa dello stato di emergenza da COVID-19, nel quale sarà possibile presentare le istanze nelle diverse modalità, trascorso il quale sarà necessario **utilizzare esclusivamente il servizio online**.
+E’ previsto un **periodo transitorio** di tre mesi a partire dal 20 dicembre 2019,  prolungato di ulteriori due mesi a causa dello stato di emergenza da COVID-19, nel quale sarà possibile presentare le istanze nelle diverse modalità, trascorso il quale è **obbligatorio utilizzare esclusivamente il servizio online**.

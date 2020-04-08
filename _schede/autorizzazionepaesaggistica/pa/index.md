@@ -5,7 +5,7 @@ utenza: pa
 tema: territorio
 tipo: pratica
 title: Autorizzazione Paesaggistica
-description: Nelle aree vincolate, soggette a tutela paesaggistica, è necessario ottenere apposita autorizzazione prima di iniziare interventi di costruzione o modifica del paesaggio
+description: In aree sottoposte a tutela paesaggistica il progetto di interventi di modifica del paesaggio necessita di apposita autorizzazione, fatte salve alcune eccezioni
 subtitle: tutela paesaggistica, beni paesaggistici, vincoli, paesaggio
 status: Livello2,3
 statusLink: /onboard
