@@ -141,4 +141,15 @@ autorizzazionepaesaggistica:
     pec: "direzioneambiente.regione@postacert.umbria.it"
     nome_responsabile: "Sabrina Scarabattoli"
     telefono_responsabile: "0755042826"
-    email_responsabile: "sscarabattoli@regione.umbria.it"    
+    email_responsabile: "sscarabattoli@regione.umbria.it"
+
+mobilitavenatoria:
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
+    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
+    telefono: "0755045104"
+    email: "gsaltalamacchia@regione.umbria.it"
+    pec: "direzioneagricoltura.regione@postacert.umbria.it"
+    nome_responsabile: "Umberto Sergiacomi"
+    telefono_responsabile: "0755045002"
+    email_responsabile: "usergiacomi@regione.umbria.it"
