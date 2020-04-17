@@ -153,3 +153,14 @@ mobilitavenatoria:
     nome_responsabile: "Umberto Sergiacomi"
     telefono_responsabile: "0755045002"
     email_responsabile: "usergiacomi@regione.umbria.it"
+
+elencoesperti:
+    descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
+    nome_ufficio: "Servizio Pianificazione e Tutela paesaggistica "
+    indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
+    telefono: "0755042632"
+    email: "larcaleni@regione.umbria.it"
+    pec: "direzioneambiente.regione@postacert.umbria.it"
+    nome_responsabile: "Sabrina Scarabattoli"
+    telefono_responsabile: "0755042826"
+    email_responsabile: "sscarabattoli@regione.umbria.it"

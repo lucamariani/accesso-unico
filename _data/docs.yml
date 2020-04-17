@@ -106,6 +106,7 @@ docs:
     numero: 1
     tags:
         - SUAPE
+        - elencoesperti
 
   - title: Regolamento regionale 18 febbraio 2015, n. 2
     metaname: doc10
@@ -116,7 +117,9 @@ docs:
     anno: 2015
     ente: Regione Umbria
     numero: 2
-
+    tags:
+        - elencoesperti
+        
   - title: Regolamento regionale 5 dicembre 2014, n. 5
     metaname: doc11
     oggetto: Regolamento di attuazione di cui all' articolo 7 della legge regionale 17 settembre 2013, n. 16 (Norme in materia di prevenzione delle cadute dall'alto) per lo svolgimento delle attività nell'ambito dell'edilizia
