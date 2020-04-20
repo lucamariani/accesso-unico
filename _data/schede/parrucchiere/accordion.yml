@@ -9,9 +9,9 @@
 - title: "Introduzione"
   file: "introduzione.md"
   utenza:
-    - intermediari
-    - imprese
     - cittadini
+    - imprese
+    - intermediari
 
 - title: "Requisiti soggettivi"
   file: "requisitisogg.md"
@@ -21,8 +21,8 @@
 - title: "Chi può esercitare"
   file: "requisitisoggcittadino.md"
   utenza:
-    - imprese
     - cittadini
+    - imprese
 
 - title: "Requisiti oggettivi"
   file: "requisitiogg.md"
