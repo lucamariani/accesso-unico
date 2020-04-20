@@ -5,6 +5,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 
 - title: Documenti
@@ -13,6 +14,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: Faq
   file: faq.md
@@ -20,3 +22,4 @@
     - imprese
     - intermediari
     - pa
+    - cittadini

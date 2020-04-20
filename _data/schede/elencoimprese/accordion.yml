@@ -12,6 +12,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Categorie di lavori e importi"
   file: "categorielavoriimporti.md"
@@ -19,6 +20,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Chi può richiedere l'iscrizione"
   file: "chi.md"
@@ -26,6 +28,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Requisiti per richiedere l'iscrizione"
   file: "requisiti.md"
@@ -33,6 +36,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Come fare domanda"
   file: "comefaredomanda.md"
@@ -40,6 +44,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Tempi e durata dell'iscrizione"
   file: "tempi_durata.md"
@@ -47,6 +52,7 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Come si forma l'elenco"
   file: "formazioneelenco.md"
@@ -54,10 +60,12 @@
     - imprese
     - intermediari
     - pa
+    - cittadini
 
 - title: "Soggetti aggiudicatori che utilizzano l'elenco imprese"
   file: "soggettiaggiudicatori.md"
   utenza:
     - imprese
     - intermediari
-    - pa    
+    - pa
+    - cittadini
