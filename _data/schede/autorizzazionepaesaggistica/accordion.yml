@@ -8,32 +8,12 @@
 
 - title: "Cosa è"
   file: "cosae.md"
-  utenza:
-    - imprese
-    - intermediari
-    - pa
-    - cittadini
 
 - title: "Chi la può richiedere"
   file: "requisiti.md"
-  utenza:
-    - imprese
-    - intermediari
-    - pa
-    - cittadini
 
 - title: "Come presentare la domanda"
   file: "comerichiederla.md"
-  utenza:
-    - imprese
-    - intermediari
-    - pa
-    - cittadini
 
 - title: "Costi, Durata e Tempi di rilascio"
   file: "costi.md"
-  utenza:
-    - imprese
-    - intermediari
-    - pa
-    - cittadini
