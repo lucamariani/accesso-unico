@@ -1,7 +1,7 @@
 ---
 layout: scheda
-object: autpaesaggio
-utenza: pa
+object: autorizzazionepaesaggistica
+utenza: intermediari
 tema: territorio
 tipo: pratica
 title: Autorizzazione Paesaggistica
