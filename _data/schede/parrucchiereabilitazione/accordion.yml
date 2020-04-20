@@ -10,36 +10,23 @@
 - title: "Cosa è"
   file: "cosae.md"
   utenza:
-    - cittadini
-    - imprese
 
 - title: "Chi può sostenere l'esame finale"
   file: "modalitaaccesso.md"
   utenza:
-    - cittadini
-    - imprese
 
 - title: "Come fare richiesta"
   file: "modalitarichiesta.md"
   utenza:
-    - cittadini
-    - imprese
 
 - title: "Modalità di svolgimento dell'esame"
   file: "modalitaesame.md"
   utenza:
-    - cittadini
-    - imprese
 
 - title: "Rilascio dell'attestato"
   file: "rilascioattestato.md"
   utenza:
-    - cittadini
-    - imprese
-
 
 - title: "Costi"
   file: "costi.md"
   utenza:
-    - cittadini
-    - imprese
