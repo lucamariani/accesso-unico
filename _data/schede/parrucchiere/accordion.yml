@@ -8,6 +8,10 @@
 
 - title: "Introduzione"
   file: "introduzione.md"
+  utenza:
+    - intermediari
+    - imprese
+    - cittadini
 
 - title: "Requisiti soggettivi"
   file: "requisitisogg.md"
@@ -45,3 +49,7 @@
 
 - title: "Controlli"
   file: "controlli.md"
+  utenza:
+    - intermediari
+    - imprese
+    - cittadini
