@@ -1,6 +1,6 @@
 ---
 layout: scheda
-object: parrucchiereabilitazione
+object: estetistaabilitazione
 utenza: imprese
 tema: artigianato
 tipo: pratica
