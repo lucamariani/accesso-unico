@@ -2,7 +2,7 @@ Il proprietario, possessore o detentore a qualsiasi titolo di un bene che intend
 
 **Aree soggette a tutela paesaggistica**
 
-**Il Codice dei beni culturali e del paesaggio,** D.Lgs. n. 42/2004, individua i **beni paesaggistici** quali immobili e aree che costituiscono espressione dei valori storici, culturali, naturali, morfologici ed estetici del territorio, comprendono gli immobili e le aree  di notevole interesse pubblico di cui all’art. 136 (quali, ad esempio, le bellezze panoramiche), le aree tutelate per legge ( territori coperti da foreste e boschi, fiumi e relative fasce tutelate, territori contermini ai laghi, parchi e riserve nazionali e regionali, ecc.), ed infine gli eventuali immobili e le aree comunque sottoposte alla tutela dei piani paesaggistici.
+**Il Codice dei beni culturali e del paesaggio,** D.Lgs. n. 42/2004, individua i **beni paesaggistici** quali immobili e aree che costituiscono espressione dei valori storici, culturali, naturali, morfologici ed estetici del territorio, comprendono gli immobili e le aree  di notevole interesse pubblico di cui all’art. 136 (quali, ad esempio, le bellezze panoramiche), le aree tutelate per legge di cui all'art. 142 (territori coperti da foreste e boschi, fiumi e relative fasce tutelate, territori contermini ai laghi, parchi e riserve nazionali e regionali, ecc.), ed infine gli eventuali immobili e le aree comunque sottoposte alla tutela dei piani paesaggistici.
 
 Per consultare i **Beni paesaggistici della regione Umbria** vai al link:
 
@@ -18,4 +18,4 @@ A seconda del tipo di intervento che si intende effettuare nell’area individua
 
 Nel caso di opere realizzate **in assenza o in difformità da autorizzazione paesaggistica** che rientrino in determinate fattispecie va richiesto il rilascio di:
 
-• **provvedimento di compatibilità paesaggistica di cui all’art. 167 de D.lgs. n. 42/2004**: il procedimento si deve concludere entro **180 giorni**, previo **pagamento di sanzione pecuniaria nel caso di esito positivo**.
+• **accertamento di compatibilità paesaggistica di cui all’art. 167 de D.lgs. n. 42/2004**: il procedimento si deve concludere entro **180 giorni**, previo **pagamento di sanzione pecuniaria nel caso di esito positivo**.

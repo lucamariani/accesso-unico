@@ -4,7 +4,7 @@ Per l’**Autorizzazione Paesaggistica ordinaria**, l’Autorità competente ado
 
 Per l’**Autorizzazione Paesaggistica semplificata**, l’Autorità competente adotta il provvedimento **entro 60 giorni** dal ricevimento dell’istanza.
 
-Per il **Provvedimento di Compatibilità Paesaggistica**, l’Autorità competente adotta il provvedimento **entro 180 giorni** dal ricevimento dell’istanza.
+Per il **Accertamento di Compatibilità Paesaggistica**, l’Autorità competente adotta il provvedimento **entro 180 giorni** dal ricevimento dell’istanza.
 
 **Costi**
 
