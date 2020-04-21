@@ -156,7 +156,7 @@ mobilitavenatoria:
 
 elencoesperti:
     descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
-    nome_ufficio: "Servizio Pianificazione e Tutela paesaggistica "
+    nome_ufficio: "Servizio Pianificazione e Tutela paesaggistica"
     indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
     telefono: "0755042632"
     email: "larcaleni@regione.umbria.it"
@@ -164,3 +164,14 @@ elencoesperti:
     nome_responsabile: "Sabrina Scarabattoli"
     telefono_responsabile: "0755042826"
     email_responsabile: "sscarabattoli@regione.umbria.it"
+
+parrucchiereabilitazione:
+    descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
+    nome_ufficio: "Servizio Sviluppo e competitività delle imprese"
+    indirizzo: "Via M. Angeloni, 61 - 06124 Perugia"
+    telefono: "0755045737"
+    email: "dtoccacelo@regione.umbria.it"
+    pec: "direzionesviluppo.regione@postacert.umbria.it"
+    nome_responsabile: "Graziella Ciotto"
+    telefono_responsabile: "0755045759"
+    email_responsabile: "gciotto@regione.umbria.it"
