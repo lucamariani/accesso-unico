@@ -11,3 +11,9 @@
   utenza:
     - imprese
     - intermediari
+
+- title: Faq
+  file: faq.md
+  utenza:
+    - imprese
+    - intermediari

@@ -6,4 +6,6 @@ L'Elenco comprende i professionisti da invitare alle procedure negoziate per l'a
 
 L'Elenco viene **utilizzato obbligatoriamente** dai responsabili del procedimento degli **uffici regionali** che devono affidare servizi tecnici e **può essere utilizzato** anche dai responsabili unici del procedimento delle **altre amministrazioni pubbliche dell’Umbria** individuando i soggetti da invitare secondo propri criteri.
 
-Leggi [qui](http://www.regione.umbria.it/opere-pubbliche/quesiti-ricorrenti-faq) le **FAQ / Quesiti ricorrenti** curati dal servizio regionale competente
+Leggi qui le **FAQ / Quesiti ricorrenti** curati dal servizio regionale competente
+
+[http://www.regione.umbria.it/opere-pubbliche/quesiti-ricorrenti-faq](http://www.regione.umbria.it/opere-pubbliche/quesiti-ricorrenti-faq)

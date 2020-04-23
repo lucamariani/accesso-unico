@@ -41,3 +41,10 @@
   utenza:
     - imprese
     - intermediari
+
+- title: "Soggetti aggiudicatori che utilizzano l'elenco professionisti"
+  file: "soggettiaggiudicatori.md"
+  utenza:
+    - imprese
+    - intermediari
+       
