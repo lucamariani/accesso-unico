@@ -30,14 +30,6 @@
     - pa
     - cittadini
 
-- title: "Requisiti per richiedere l'iscrizione"
-  file: "requisiti.md"
-  utenza:
-    - imprese
-    - intermediari
-    - pa
-    - cittadini
-
 - title: "Come fare domanda"
   file: "comefaredomanda.md"
   utenza:
