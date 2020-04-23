@@ -46,14 +46,6 @@
     - pa
     - cittadini
 
-- title: "Come si forma l'elenco"
-  file: "formazioneelenco.md"
-  utenza:
-    - imprese
-    - intermediari
-    - pa
-    - cittadini
-
 - title: "Soggetti aggiudicatori che utilizzano l'elenco imprese"
   file: "soggettiaggiudicatori.md"
   utenza:
