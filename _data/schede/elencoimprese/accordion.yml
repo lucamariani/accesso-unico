@@ -12,7 +12,6 @@
     - imprese
     - intermediari
     - pa
-    - cittadini
 
 - title: "Categorie di lavori e importi"
   file: "categorielavoriimporti.md"
@@ -20,7 +19,6 @@
     - imprese
     - intermediari
     - pa
-    - cittadini
 
 - title: "Chi può fare domanda"
   file: "chi.md"
@@ -28,7 +26,6 @@
     - imprese
     - intermediari
     - pa
-    - cittadini
 
 - title: "Come fare domanda"
   file: "comefaredomanda.md"
@@ -36,7 +33,6 @@
     - imprese
     - intermediari
     - pa
-    - cittadini
 
 - title: "Tempi e durata dell'iscrizione"
   file: "tempi_durata.md"
@@ -44,7 +40,6 @@
     - imprese
     - intermediari
     - pa
-    - cittadini
 
 - title: "Soggetti aggiudicatori che utilizzano l'elenco imprese"
   file: "soggettiaggiudicatori.md"
@@ -52,4 +47,3 @@
     - imprese
     - intermediari
     - pa
-    - cittadini
