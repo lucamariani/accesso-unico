@@ -1,6 +1,6 @@
 ---
 layout: scheda
-object: parrucchiereabilitazione
+object: abilacconciatore
 utenza: intermediari
 tema: artigianato
 tipo: pratica

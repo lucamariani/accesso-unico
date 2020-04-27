@@ -1,7 +1,7 @@
 ---
 layout: scheda
-object: parrucchiereabilitazione
-utenza: cittadini
+object: abilacconciatore
+utenza: imprese
 tema: artigianato
 tipo: pratica
 title: Abilitazione per l’esercizio dell’attività di acconciatore
