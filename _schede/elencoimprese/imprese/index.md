@@ -9,4 +9,5 @@ description: Elenco delle imprese da invitare per l’affidamento di lavori pubb
 subtitle: opere pubbliche, affidamento lavori pubblici, elenco, imprese
 status: Livello3
 statusLink: /onboard
+evidenza: no
 ---

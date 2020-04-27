@@ -9,4 +9,5 @@ description: tipologie di cambio di destinazione d'uso, requisiti, fasi del proc
 subtitle: mutamento della destinazione di appartamenti, uffici, magazzini, negozi, garage, box, depositi etc..
 status: BETA
 statusLink: /onboard
+evidenza: no
 ---
