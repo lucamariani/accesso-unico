@@ -1,7 +1,7 @@
 ---
 layout: scheda
-object: elencoimprese
-utenza: imprese
+object: eri
+utenza: pa
 tema: operepubbliche
 tipo: pratica
 title: Elenco regionale delle imprese
