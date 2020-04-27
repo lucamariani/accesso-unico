@@ -1,7 +1,7 @@
 ---
 layout: scheda
-object: parrucchiere
-utenza: imprese
+object: acconciatore
+utenza: intermediari
 tema: artigianato
 tipo: pratica
 title: Esercizio dell’attività di acconciatore
