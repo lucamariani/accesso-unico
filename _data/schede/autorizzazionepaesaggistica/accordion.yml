@@ -22,10 +22,10 @@
 
 - title: "Come presentare la domanda"
   file: "comerichiederla.md"
-utenza:
-  - cittadini
-  - imprese
-  - intermediari
+  utenza:
+    - cittadini
+    - imprese
+    - intermediari
 
 - title: "Costi, Durata e Tempi di rilascio"
   file: "costi.md"
