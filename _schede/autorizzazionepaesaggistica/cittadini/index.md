@@ -1,7 +1,7 @@
 ---
 layout: scheda
-object: paesaggio
-utenza: intermediari
+object: autorizzazionepaesaggistica
+utenza: cittadini
 tema: territorio
 tipo: pratica
 title: Autorizzazione Paesaggistica
@@ -9,5 +9,5 @@ description: In aree sottoposte a tutela paesaggistica il progetto di interventi
 subtitle: tutela paesaggistica, beni paesaggistici, vincoli, paesaggio
 status: Livello2,3
 statusLink: /onboard
-evidenza: no
+evidenza: si
 ---
