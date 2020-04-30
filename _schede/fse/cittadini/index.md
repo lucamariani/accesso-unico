@@ -9,4 +9,5 @@ description: Strumento online che raccoglie la storia clinica e sanitaria di una
 subtitle: FSE, referti, prescrizioni mediche, vaccinazioni, storia clinica, stato di salute
 status: Livello4
 statusLink: /onboard
+evidenza: no
 ---

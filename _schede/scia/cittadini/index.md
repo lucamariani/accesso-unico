@@ -10,4 +10,5 @@ subtitle: segnalazione certificata di inizio attività, titolo abilitativo, prat
 accordion_open: false
 status: BETA
 statusLink: /onboard
+evidenza: no
 ---

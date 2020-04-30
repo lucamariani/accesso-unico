@@ -10,4 +10,5 @@ subtitle: sportello, edilizia, commercio, pratiche, comunale, attività produtti
 accordion_open: true
 status: BETA
 statusLink: /onboard
+evidenza: no
 ---
