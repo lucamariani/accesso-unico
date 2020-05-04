@@ -9,4 +9,5 @@ description: Consiste nella modifica della funzione e utilizzo a cui è adibito 
 subtitle: mutamento della destinazione di appartamenti, uffici, magazzini, negozi, garage, box, depositi etc..
 status: BETA
 statusLink: /onboard
+evidenza: no
 ---

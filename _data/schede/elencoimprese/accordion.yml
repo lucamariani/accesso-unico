@@ -20,15 +20,8 @@
     - intermediari
     - pa
 
-- title: "Chi può richiedere l'iscrizione"
+- title: "Chi può fare domanda"
   file: "chi.md"
-  utenza:
-    - imprese
-    - intermediari
-    - pa
-
-- title: "Requisiti per richiedere l'iscrizione"
-  file: "requisiti.md"
   utenza:
     - imprese
     - intermediari
@@ -48,16 +41,9 @@
     - intermediari
     - pa
 
-- title: "Come si forma l'elenco"
-  file: "formazioneelenco.md"
-  utenza:
-    - imprese
-    - intermediari
-    - pa
-
 - title: "Soggetti aggiudicatori che utilizzano l'elenco imprese"
   file: "soggettiaggiudicatori.md"
   utenza:
     - imprese
     - intermediari
-    - pa    
+    - pa

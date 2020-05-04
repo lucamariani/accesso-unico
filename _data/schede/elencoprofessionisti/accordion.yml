@@ -11,33 +11,46 @@
   utenza:
     - imprese
     - intermediari
+    - pa
 
 - title: "Tipologie di servizio"
   file: "tipologieservizio.md"
   utenza:
     - imprese
     - intermediari
+    - pa
 
 - title: "Chi può fare domanda"
   file: "chi.md"
   utenza:
     - imprese
     - intermediari
+    - pa
 
 - title: "Come fare domanda"
   file: "comefaredomanda.md"
   utenza:
     - imprese
     - intermediari
+    - pa
 
 - title: "Tempi e durata dell'iscrizione"
   file: "tempi_durata.md"
   utenza:
     - imprese
     - intermediari
+    - pa
 
 - title: "Come si forma l'elenco"
   file: "formazioneelenco.md"
   utenza:
     - imprese
     - intermediari
+    - pa
+
+- title: "Soggetti aggiudicatori che utilizzano l'elenco professionisti"
+  file: "soggettiaggiudicatori.md"
+  utenza:
+    - imprese
+    - intermediari
+    - pa

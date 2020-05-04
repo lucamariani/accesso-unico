@@ -33,7 +33,7 @@ var formSubmit = function() {
 }
 
 var getResultBox = function(item) {
-  console.log(item)
+  // console.log(item.utenza)
   var appendString = '';
 
   //var profileIcon = '<img onclick="profileTagClick(\'' + item.utenza + '\')" title="' + item.utenza + '" class="servizio-icon" src="' + baseurl + iconsurl + item.utenza+'.png">';
@@ -81,9 +81,7 @@ function addIcon(name, title) {
 }
 
 function displaySearchResults(results, utenza, theme, tipo) {
-  console.log('u: ' + utenza + ' | th: ' + theme + ' | ti: ' + tipo )
-  var result_text = ( results.length > 1 ? ' servizi trovati' : ' servizio trovato' )
-  $('#results-size').text(results.length + result_text)
+  console.log('u: ' + utenza + ' | th: ' + theme + ' | ti: ' + tipo )    
 
   var profileName = ( profiles[utenza] ? profiles[utenza].name : utenza );
   const utenzaIcon = 'cerchio_grigio_' + utenza;
@@ -101,20 +99,29 @@ function displaySearchResults(results, utenza, theme, tipo) {
   }
   $('#filter-text').html(filtersIcons)
 
-  var searchResults = $('#schede-results-list')
-  var store = window.allschede
+  const searchResults = $('#schede-results-list')
+  const store = window.allschede
 
   if (results.length) { // Are there any results?
-    var appendString = ''
+    let appendString = ''
+
+    // count the correct results' size
+    let filteredResultsCount = 0
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
       var key = results[i].ref
-      //console.log('key:' + key);
       var item = store[key]
-      //console.log(item);
-
-      appendString += getResultBox(item)
+    
+      // 29.04.2020 filter out wrong utenze
+      if(utenza.localeCompare(item.utenza) == 0)
+      {       
+        filteredResultsCount++
+        appendString += getResultBox(item)
+      }
     }
+
+    let result_text = ( filteredResultsCount > 1 ? ' servizi trovati' : ' servizio trovato' )
+    $('#results-size').text(filteredResultsCount + result_text)
 
     searchResults.html(appendString);
   } else {
@@ -178,7 +185,7 @@ $(function() {
     if ( tipo.indexOf('---') < 0 )
       search_pattern += ' +tipo:' + tipo;
 
-    // console.log('searching for ' + search_pattern);
+    console.log('---> searching for ' + search_pattern);
     var results = idx.search(search_pattern);
     // console.log(results);
     //hide search mask and show new search Button
