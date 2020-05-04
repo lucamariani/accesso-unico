@@ -9,4 +9,5 @@ description: Titolo abilitativo che consente di iniziare i lavori il giorno stes
 subtitle: segnalazione certificata di inizio attività, titolo abilitativo, pratica edilizia
 status: BETA
 statusLink: /onboard
+evidenza: no
 ---

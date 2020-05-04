@@ -9,4 +9,5 @@ description: Elenco dei professionisti per affidamenti di servizi di importo inf
 subtitle: opere pubbliche, affidamento diretto, servizi, architettura, ingegneria
 status: Livello3
 statusLink: /onboard
+evidenza: no
 ---
