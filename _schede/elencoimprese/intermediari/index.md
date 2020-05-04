@@ -1,6 +1,6 @@
 ---
 layout: scheda
-object: eri
+object: elencoimprese
 utenza: intermediari
 tema: operepubbliche
 tipo: pratica
