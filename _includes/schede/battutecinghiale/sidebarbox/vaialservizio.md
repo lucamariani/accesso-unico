@@ -1,5 +1,5 @@
-Sei un capo-squadra? [ENTRA IN IMMISSIONE VERBALI](1)	http://applicazioni.regione.umbria.it/caccia-battute)
+Sei un capo-squadra? [ENTRA IN IMMISSIONE VERBALI](http://applicazioni.regione.umbria.it/caccia-battute)
 <br>
 <br>
 
-Sei un ATC? [ENTRA IN GESTIONE STAGIONI](2)	http://applicazioni.regione.umbria.it/caccia-admin)
+Sei un ATC? [ENTRA IN GESTIONE STAGIONI](http://applicazioni.regione.umbria.it/caccia-admin)
