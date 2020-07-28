@@ -87,13 +87,13 @@
   url: "https://suape.regione.umbria.it/frontend/index/D279/SS"
 - name: Fabro
   metaname: fabro
-  url: "http://www.comune.fabro.tr.it/AreeTematiche.asp/D0701=85"
+  url: "https://suape.regione.umbria.it/frontend/index/D454/SS"
 - name: Ferentillo
   metaname: ferentillo
   url: "https://suape.regione.umbria.it/frontend/index/D538/SS"
 - name: Ficulle
   metaname: ficulle
-  url: "http://www.comune.ficulle.tr.it/it/sportello_unico_delle_attivita_produttive_ed_edilizia_suape.html"
+  url: "https://suape.regione.umbria.it/frontend/index/D570/SS"
 - name: Foligno
   metaname: foligno
   url: "https://suape.regione.umbria.it/frontend/index/D653/SS"
@@ -132,13 +132,13 @@
   url: "http://suap.pa.umbria.it/magione/Contenuti/default.aspx?alias=E805&software="
 - name: Marsciano
   metaname: marsciano
-  url: "http://suap.pa.umbria.it/marsciano/Contenuti/default.aspx?alias=E975&software="
+  url: "https://suape.regione.umbria.it/frontend/index/E975/SS"
 - name: Massa Martana
   metaname: massamartana
   url: "http://www.comune.massamartana.pg.it/Mediacenter/FE/media/modulistica-suape.html"
 - name: Monte Castello di Vibio
   metaname: montecastellodivibio
-  url: "http://pratiche.pa.umbria.it/montecastellodivibio/AreaRiservata/Contenuti/default.aspx?alias=F456&software=SS"
+  url: "https://suape.regione.umbria.it/frontend/index/F456/SS"
 - name: Monte Santa Maria Tiberina
   metaname: montesantamariatiberina
   url: "https://serviziinrete.regione.umbria.it"
@@ -165,7 +165,7 @@
   url: "https://serviziinrete.regione.umbria.it"
 - name: Montone
   metaname: montone
-  url: "https://www.comunemontone.it/modulistica.html"
+  url: "https://suape.regione.umbria.it/frontend/index/F685/SS"
 - name: Narni
   metaname: narni
   url: "https://suape.regione.umbria.it/frontend/index/F844/SS"
@@ -225,7 +225,7 @@
   url: "https://www.halleyweb.com/c054044/zf/index.php/suap"
 - name: San Venanzo
   metaname: sanvenanzo
-  url: "http://pratiche.pa.umbria.it/sanvenanzo/AreaRiservata/Contenuti/default.aspx?alias=I381&software=SS"
+  url: "https://suape.regione.umbria.it/frontend/index/I381/SS"
 - name: Santa Anatolia di Narco
   metaname: santaanatoliadinarco
   url: "https://comune.santanatoliadinarco.pg.it/modulistica"
