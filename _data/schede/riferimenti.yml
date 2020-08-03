@@ -1,8 +1,8 @@
 # riferimenti
 
 aua:
-  descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
-  nome_ufficio: "Servizio Autorizzazioni Ambientali (AIA e AUA)"
+  descrizione_direzione: "Direzione regionale governo del territorio, ambiente, protezione civile"
+  nome_ufficio: "Servizio Sostenibilità ambientale, Valutazioni ed Autorizzazioni ambientali"
   indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
   telefono: "0755045164"
   email: "amonsignori@regione.umbria.it"
@@ -12,8 +12,8 @@ aua:
   email_responsabile: "crrosati@regione.umbria.it"
 
 acg:
-  descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
-  nome_ufficio: "Servizio Autorizzazioni Ambientali (AIA e AUA)"
+  descrizione_direzione: "Direzione regionale governo del territorio, ambiente, protezione civile"
+  nome_ufficio: "Servizio Sostenibilità ambientale, Valutazioni ed Autorizzazioni ambientali"
   indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
   telefono: "0755045164"
   email: "amonsignori@regione.umbria.it"
@@ -23,11 +23,11 @@ acg:
   email_responsabile: "crrosati@regione.umbria.it"
 
 archiviosismica:
-  descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
-  nome_ufficio: "Servizio Rischio sismico"
+  descrizione_direzione: "Direzione regionale governo del territorio, ambiente, protezione civile"
+  nome_ufficio: "Servizio Rischio idrogeologico, idraulico e sismico, Difesa del suolo"
   indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-  telefono: "0755042776 - 0755044337"
-  email: "pgattini@regione.umbria.it"
+  telefono: "0755046485"
+  email: "scostantini@regione.umbria.it"
   pec: "direzioneterritorio@pec.regione.umbria.it"
   nome_responsabile: "Marco Barluzzi"
   telefono_responsabile: "0755042631 - 0755044338"
@@ -35,10 +35,10 @@ archiviosismica:
 
 battutecinghiale:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    nome_ufficio: "Servizio Foreste, Montagna, Sistemi naturalistici e Faunistica-venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-    telefono: "0755045104"
-    email: "gsaltalamacchia@regione.umbria.it"
+    telefono: "0755045053"
+    email: "fgrohmann@regione.umbria.it"
     pec: "direzioneagricoltura.regione@postacert.umbria.it"
     nome_responsabile: "Umberto Sergiacomi"
     telefono_responsabile: "0755045002"
@@ -46,10 +46,10 @@ battutecinghiale:
 
 cacciacinghialedati:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    nome_ufficio: "Servizio Foreste, Montagna, Sistemi naturalistici e Faunistica-venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-    telefono: "0755045104"
-    email: "gsaltalamacchia@regione.umbria.it"
+    telefono: "0755045053"
+    email: "fgrohmann@regione.umbria.it"
     pec: "direzioneagricoltura.regione@postacert.umbria.it"
     nome_responsabile: "Umberto Sergiacomi"
     telefono_responsabile: "0755045002"
@@ -57,21 +57,21 @@ cacciacinghialedati:
 
 abilitazioneattivitavenatoria:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    nome_ufficio: "Servizio Foreste, Montagna, Sistemi naturalistici e Faunistica-venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-    telefono: "0755045104"
-    email: "gsaltalamacchia@regione.umbria.it"
+    telefono: "0755045053"
+    email: "fgrohmann@regione.umbria.it"
     pec: "direzioneagricoltura.regione@postacert.umbria.it"
     nome_responsabile: "Luca Lucarelli"
     telefono_responsabile: "0755045203"
     email_responsabile: "lucalucarelli@regione.umbria.it"
 
 elencoprofessionisti:
-    descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
-    nome_ufficio: "Servizio Opere Pubbliche: Programmazione, progettazione e attuazione. Monitoraggio e Sicurezza"
+    descrizione_direzione: "Direzione regionale governo del territorio, ambiente, protezione civile"
+    nome_ufficio: "Servizio Opere e lavori pubblici, osservatorio contratti pubblici, ricostruzione post sisma"
     indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
-    telefono: "0755045946"
-    email: "sguerrini@regione.umbria.it"
+    telefono: "0755042776"
+    email: "pgattini@regione.umbria.it"
     pec: "direzioneambiente.regione@postacert.umbria.it"
     nome_responsabile: "Stefania Rosi Bonci"
     telefono_responsabile: "0755042738"
@@ -79,10 +79,10 @@ elencoprofessionisti:
 
 tassaeserciziovenatorio:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    nome_ufficio: "Servizio Foreste, Montagna, Sistemi naturalistici e Faunistica-venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-    telefono: "0755045104"
-    email: "gsaltalamacchia@regione.umbria.it"
+    telefono: "0755045053"
+    email: "fgrohmann@regione.umbria.it"
     pec: "direzioneagricoltura.regione@postacert.umbria.it"
     nome_responsabile: "Umberto Sergiacomi"
     telefono_responsabile: "0755045002"
@@ -90,10 +90,10 @@ tassaeserciziovenatorio:
 
 abilitazioneacconciatore:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Sviluppo e competitività delle imprese"
+    nome_ufficio: "Servizio Politiche industriali, Rapporti con le imprese multinazionali, Sviluppo delle Imprese, start up e creazione d'impresa, commercio e artigianato"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-    telefono: "0755045737"
-    email: "dtoccacelo@regione.umbria.it"
+    telefono: "0755046424"
+    email: "mandrielli@regione.umbria.it"
     pec: "direzionesviluppo.regione@postacert.umbria.it"
     nome_responsabile: "Graziella Ciotto"
     telefono_responsabile: "0755045759"
@@ -101,10 +101,10 @@ abilitazioneacconciatore:
 
 sportellisuape:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Programmazione Strategica dello sviluppo della società dell’Informazione e della Amministrazione Digitale, Sistema Informativo Geografico e Semplificazione Amministrativa"
+    nome_ufficio: "Servizio Transizione al digitale della PA, Semplificazione, Innovazione tecnologica, Transizione al digitale delle imprese, Agenda Digitale"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-    telefono: "0755045710"
-    email: "lrossetti@regione.umbria.it"
+    telefono: "0755045909"
+    email: "spaolini@regione.umbria.it"
     pec: "areaprogrammazione.regione@postacert.umbria.it"
     nome_responsabile: "Giovanni Gentili"
     telefono_responsabile: "0755045929"
@@ -112,32 +112,32 @@ sportellisuape:
 
 modulistica-unificata:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Programmazione Strategica dello sviluppo della società dell’Informazione e della Amministrazione Digitale, Sistema Informativo Geografico e Semplificazione Amministrativa"
+    nome_ufficio: "Servizio Transizione al digitale della PA, Semplificazione, Innovazione tecnologica, Transizione al digitale delle imprese, Agenda Digitale"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-    telefono: "0755045710"
-    email: "lrossetti@regione.umbria.it"
+    telefono: "0755045909"
+    email: "spaolini@regione.umbria.it"
     pec: "areaprogrammazione.regione@postacert.umbria.it"
     nome_responsabile: "Giovanni Gentili"
     telefono_responsabile: "0755045929"
     email_responsabile: "gentili@regione.umbria.it"
 
 elencoimprese:
-    descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
-    nome_ufficio: "Servizio Opere Pubbliche: Programmazione, progettazione e attuazione. Monitoraggio e Sicurezza"
+    descrizione_direzione: "Direzione regionale governo del territorio, ambiente, protezione civile"
+    nome_ufficio: "Servizio Opere e lavori pubblici, osservatorio contratti pubblici, ricostruzione post sisma"
     indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
-    telefono: "0755045946"
-    email: "sguerrini@regione.umbria.it"
+    telefono: "0755042776"
+    email: "pgattini@regione.umbria.it"
     pec: "direzioneambiente.regione@postacert.umbria.it"
     nome_responsabile: "Stefania Rosi Bonci"
     telefono_responsabile: "0755042738"
     email_responsabile: "srosibonci@regione.umbria.it"
 
 autorizzazionepaesaggistica:
-    descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
-    nome_ufficio: "Servizio Pianificazione e Tutela paesaggistica "
+    descrizione_direzione: "Direzione regionale governo del territorio, ambiente, protezione civile"
+    nome_ufficio: "Servizio Urbanistica, Riqualificazione urbana e Politiche della casa, tutela del paesaggio"
     indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
     telefono: "0755042632"
-    email: "larcaleni@regione.umbria.it"
+    email: "scostantini@regione.umbria.it"
     pec: "direzioneambiente.regione@postacert.umbria.it"
     nome_responsabile: "Sabrina Scarabattoli"
     telefono_responsabile: "0755042826"
@@ -145,21 +145,21 @@ autorizzazionepaesaggistica:
 
 mobilitavenatoria:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Programmazione faunistica venatoria"
+    nome_ufficio: "Servizio Foreste, Montagna, Sistemi naturalistici e Faunistica-venatoria"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
-    telefono: "0755045104"
-    email: "gsaltalamacchia@regione.umbria.it"
+    telefono: "0755045053"
+    email: "fgrohmann@regione.umbria.it"
     pec: "direzioneagricoltura.regione@postacert.umbria.it"
     nome_responsabile: "Umberto Sergiacomi"
     telefono_responsabile: "0755045002"
     email_responsabile: "usergiacomi@regione.umbria.it"
 
 elencoesperti:
-    descrizione_direzione: "Direzione regionale governo del territorio, ambiente e protezione civile"
-    nome_ufficio: "Servizio Pianificazione e Tutela paesaggistica"
+    descrizione_direzione: "Direzione regionale governo del territorio, ambiente, protezione civile"
+    nome_ufficio: "Servizio Urbanistica, Riqualificazione urbana e Politiche della casa, tutela del paesaggio"
     indirizzo: "Piazza Partigiani n. 1 - 06121 Perugia"
     telefono: "0755042632"
-    email: "larcaleni@regione.umbria.it"
+    email: "scostantini@regione.umbria.it"
     pec: "direzioneambiente.regione@postacert.umbria.it"
     nome_responsabile: "Sabrina Scarabattoli"
     telefono_responsabile: "0755042826"
@@ -167,10 +167,10 @@ elencoesperti:
 
 parrucchiereabilitazione:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
-    nome_ufficio: "Servizio Sviluppo e competitività delle imprese"
+    nome_ufficio: "Servizio Politiche industriali, Rapporti con le imprese multinazionali, Sviluppo delle Imprese, start up e creazione d'impresa, commercio e artigianato"
     indirizzo: "Via M. Angeloni, 61 - 06124 Perugia"
-    telefono: "0755045737"
-    email: "dtoccacelo@regione.umbria.it"
+    telefono: "0755046424"
+    email: "mandrielli@regione.umbria.it"
     pec: "direzionesviluppo.regione@postacert.umbria.it"
     nome_responsabile: "Graziella Ciotto"
     telefono_responsabile: "0755045759"
