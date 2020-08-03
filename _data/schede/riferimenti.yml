@@ -88,7 +88,7 @@ tassaeserciziovenatorio:
     telefono_responsabile: "0755045002"
     email_responsabile: "usergiacomi@regione.umbria.it"
 
-abilitazioneacconciatore:
+acconciatore:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
     nome_ufficio: "Servizio Politiche industriali, Rapporti con le imprese multinazionali, Sviluppo delle Imprese, start up e creazione d'impresa, commercio e artigianato"
     indirizzo: "Via M. Angeloni n. 61 - 06124 Perugia"
@@ -165,7 +165,7 @@ elencoesperti:
     telefono_responsabile: "0755042826"
     email_responsabile: "sscarabattoli@regione.umbria.it"
 
-parrucchiereabilitazione:
+abilacconciatore:
     descrizione_direzione: "Direzione regionale sviluppo economico, agricoltura, lavoro, istruzione, agenda digitale"
     nome_ufficio: "Servizio Politiche industriali, Rapporti con le imprese multinazionali, Sviluppo delle Imprese, start up e creazione d'impresa, commercio e artigianato"
     indirizzo: "Via M. Angeloni, 61 - 06124 Perugia"
