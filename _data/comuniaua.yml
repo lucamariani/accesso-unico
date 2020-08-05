@@ -84,13 +84,13 @@
   url: "https://suape.regione.umbria.it/frontend/index/D279/SS"
 - name: Fabro
   metaname: fabro
-  url: "https://suape.regione.umbria.it/sportelli"
+  url: "https://suape.regione.umbria.it/frontend/index/D454/SS"
 - name: Ferentillo
   metaname: ferentillo
   url: "https://suape.regione.umbria.it/frontend/index/D538/SS"
 - name: Ficulle
   metaname: ficulle
-  url: "https://suape.regione.umbria.it/sportelli"
+  url: "https://suape.regione.umbria.it/frontend/index/D570/SS"
 - name: Foligno
   metaname: foligno
   url: "https://suape.regione.umbria.it/frontend/index/D653/SS"
@@ -129,13 +129,13 @@
   url: "https://suape.regione.umbria.it/sportelli"
 - name: Marsciano
   metaname: marsciano
-  url: "https://suape.regione.umbria.it/sportelli"
+  url: "https://suape.regione.umbria.it/frontend/index/E975/SS"
 - name: Massa Martana
   metaname: massamartana
   url: "https://suape.regione.umbria.it/sportelli"
 - name: Monte Castello di Vibio
   metaname: montecastellodivibio
-  url: "https://suape.regione.umbria.it/sportelli"
+  url: "https://suape.regione.umbria.it/frontend/index/F456/SS"
 - name: Monte Santa Maria Tiberina
   metaname: montesantamariatiberina
   url: "https://suape.regione.umbria.it/sportelli"
@@ -162,7 +162,7 @@
   url: "https://suape.regione.umbria.it/sportelli"
 - name: Montone
   metaname: montone
-  url: "https://suape.regione.umbria.it/sportelli"
+  url: "https://suape.regione.umbria.it/frontend/index/F685/SS"
 - name: Narni
   metaname: narni
   url: "https://suape.regione.umbria.it/frontend/index/F844/SS"
@@ -222,7 +222,7 @@
   url: "https://suape.regione.umbria.it/sportelli"
 - name: San Venanzo
   metaname: sanvenanzo
-  url: "https://suape.regione.umbria.it/sportelli"
+  url: "https://suape.regione.umbria.it/frontend/index/I381/SS"
 - name: Santa Anatolia di Narco
   metaname: santaanatoliadinarco
   url: "https://suape.regione.umbria.it/sportelli"
