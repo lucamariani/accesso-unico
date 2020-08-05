@@ -25,4 +25,4 @@ L’Istanza, completa della relativa documentazione, **va presentata a Regione U
 
 ATTENZIONE:
 
-E’ previsto un **periodo transitorio** di tre mesi a partire dal 20 dicembre 2019,  prolungato di ulteriori due mesi a causa dello stato di emergenza da COVID-19, nel quale sarà possibile presentare le istanze nelle diverse modalità, trascorso il quale è **obbligatorio utilizzare esclusivamente il servizio online**.
+E’ previsto un **periodo transitorio** di tre mesi a partire dal 20 dicembre 2019, prolungato fino a nuova comunicazione a causa dello stato di emergenza da COVID-19, nel quale sarà possibile presentare le istanze nelle diverse modalità, trascorso il quale è **obbligatorio utilizzare esclusivamente il servizio online**.
